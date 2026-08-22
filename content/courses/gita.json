@@ -1,0 +1,1998 @@
+{
+ "slug": "gita",
+ "title": "The Gita, Chapter by Chapter",
+ "devanagari": "गीता",
+ "invocationMantra": "ॐ श्री कृष्णाय नमः",
+ "subtitle": "Eighteen chapters, one battlefield, and the question of how to act",
+ "invocation": {
+  "devanagari": "पार्थाय प्रतिबोधितां भगवता नारायणेन स्वयं<br/>व्यासेन ग्रथितां पुराणमुनिना मध्ये महाभारतम् ।<br/>अद्वैतामृतवर्षिणीं भगवतीमष्टादशाध्यायिनीम्<br/>अम्ब त्वामनुसन्दधामि भगवद्गीते भवद्वेषिणीम् ॥",
+  "translation": "\"O Bhagavad Gita — you through whom Partha was awakened by the Lord Narayana himself, whom the ancient sage Vyasa set down in the middle of the Mahabharata, showering the nectar of non-duality, divine mother of eighteen chapters, destroyer of the round of becoming: upon you I meditate.\" — the opening verse of the Gita Dhyanam, traditionally chanted before reading."
+ },
+ "sections": [
+  {
+   "id": "begin",
+   "part": null,
+   "label": "Orientation",
+   "title": "Before We Begin",
+   "subtitle": "The battlefield, the three lenses, and how to read a text that has been read for two thousand years",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Seven hundred verses. Two men in a chariot, stopped in the empty ground between two armies that are about to destroy each other. One of them will not fight. The other will spend the next eighteen chapters explaining why he must — and in the course of explaining, will hand the world one of the most examined arguments ever made about how a human being should act."
+    },
+    {
+     "type": "viz",
+     "name": "lenses",
+     "caption": "The same three lenses, applied to a text that has been read for two thousand years."
+    },
+    {
+     "type": "p",
+     "html": "That is the <strong>Bhagavad Gita</strong> — <em>bhagavad-gītā</em>, \"the song of the Blessed One.\" It is not a standalone scripture. It is an episode inside the <strong>Mahabharata</strong>, the enormous Sanskrit epic of roughly one hundred thousand verses that tells how a single royal family tore itself apart. The Gita is a conversation that happens on the morning of the war, and it lasts, in the story's own time, only as long as two armies are willing to stand still and wait."
+    },
+    {
+     "type": "h3",
+     "html": "The Family That Could Not Divide a Kingdom"
+    },
+    {
+     "type": "p",
+     "html": "You need only the bones of the epic. The Kuru dynasty has two branches. <strong>Dhritarashtra</strong>, blind from birth, has a hundred sons — the Kauravas, eldest of them <strong>Duryodhana</strong>. His late brother <strong>Pandu</strong> has five — the Pandavas: Yudhishthira, Bhima, <strong>Arjuna</strong>, Nakula and Sahadeva. The cousins grow up in one household and quarrel over one throne. Duryodhana rigs a dice game; the Pandavas lose their kingdom and their freedom, and their wife Draupadi is humiliated in the assembly hall while the elders sit silent. Thirteen years of exile follow. On their return Yudhishthira asks not for the kingdom but for five villages, and Duryodhana refuses to yield land enough to fit under the point of a needle."
+    },
+    {
+     "type": "p",
+     "html": "So both sides call in every ally they have, and the armies meet at <strong>Kurukshetra</strong>. Almost everyone Arjuna loves is standing on the other side: his grand-uncle Bhishma who raised him, his teacher Drona who made him the archer he is, cousins, friends, the men he grew up beside. This is the situation into which the Gita drops. It is not a philosophical seminar. It is a nervous breakdown on a battlefield, and the philosophy is the emergency response."
+    },
+    {
+     "type": "h3",
+     "html": "Who Is Arjuna? Who Is Krishna?"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Arjuna</strong> is the third Pandava and the finest archer alive — disciplined, celebrated, the man who never loses. He is also the one who thinks. The epic gives its collapse to its most competent character, which is precisely why it works: the Gita is not addressed to the weak but to the capable person who suddenly cannot see why any of it matters."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Krishna</strong> is a Yadava prince of Dvaraka, cousin and lifelong friend to Arjuna, and cousin also to the Kauravas. Approached by both sides before the war, he made an offer that tells you everything about him: one side could have his armies, the other could have him alone, unarmed, refusing to lift a weapon. Duryodhana took the armies. Arjuna took Krishna — who became his <em>sārathi</em>, his charioteer, holding the reins at the front of the vehicle while the archer stands behind. In the theology of the text he is far more than a cousin: he is an <em>avatāra</em> of Vishnu, and in the eleventh chapter he stops speaking as a friend and shows Arjuna what he actually is. Hold both. The Gita's force comes from the fact that the driver of the chariot turns out to be the ground of being — and is still, in chapter eighteen, your friend."
+    },
+    {
+     "type": "h3",
+     "html": "Where the Gita Sits"
+    },
+    {
+     "type": "p",
+     "html": "The Mahabharata is divided into eighteen books, called <em>parvans</em>. The sixth is the <strong>Bhishma Parva</strong>, the book of the first ten days of fighting. The Gita occupies eighteen chapters near the start of it — numbered 23 to 40 in the Pune critical edition, 25 to 42 in the older vulgate, which is your first small lesson in how texts actually reach us. It has been extracted, printed and taught on its own for centuries, but it was written to be read where it stands: as the thing that happens just before the arrows start."
+    },
+    {
+     "type": "h3",
+     "html": "The Three Lenses"
+    },
+    {
+     "type": "p",
+     "html": "One promise before we start. This course will never let one kind of truth wear another's clothes. Everything here belongs to exactly one of three registers, and you will always be told which:"
+    },
+    {
+     "type": "lenses",
+     "items": [
+      {
+       "kind": "s",
+       "title": "Scriptural / Mythological",
+       "html": "What the text actually says, on its own terms — Krishna's arguments, Arjuna's objections, the narrative of the epic around them. Taken seriously as what it is, without translating it into something else first."
+      },
+      {
+       "kind": "y",
+       "title": "Symbolic / Philosophical",
+       "html": "What the tradition and its commentators understand the text to <i>mean</i> — the chariot as the body, the war as the inner conflict, <em>karma-yoga</em> as a psychology of action. Read as a key is read: it opens the lock of experience, or it doesn't."
+      },
+      {
+       "kind": "h",
+       "title": "Historical / Scholarly",
+       "html": "What textual criticism, manuscript evidence and academic study can reasonably establish — when it was likely composed, how it was likely assembled, who has read it which way and why. True the way a verdict is true: beyond reasonable doubt, always appealable."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "These do not compete. A verse can be historically late, symbolically inexhaustible and devotionally alive at once. Collapse the lenses one way and you get fundamentalism — myth mistaken for a police report. Collapse them the other way and you get the flat cynicism that thinks calling something \"just a story\" is an argument. Keep them apart and you get understanding."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · How to Read This Course",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Eighteen chapters, eighteen sittings — that is the traditional pace, and it is a good one. Read one chapter section here, then read that chapter of the Gita itself in any translation you like, and notice where the translator has made a choice. Do not try to agree with the text on the first pass. The Gita survived two thousand years of argument because it rewards argument; readers who fought with it — Shankara, Ramanuja, Tilak, Gandhi — got more out of it than readers who nodded."
+      }
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Before you learn anything: write down, in one sentence, what you currently think the Gita is about. Most people write some version of \"do your duty without expecting results.\" Keep the paper. At the end of chapter eighteen, read it again — not to find out whether you were wrong, but to see how much larger the same sentence has become."
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Throughout, verse citations follow the standard chapter.verse numbering (2.47 = chapter two, verse forty-seven). Where editions genuinely differ — and in chapter thirteen they do — you will be told."
+    }
+   ]
+  },
+  {
+   "id": "context",
+   "part": "Part One · The Setting",
+   "label": "Stage 01 · Context",
+   "title": "The War Before the Verse",
+   "subtitle": "How eighteen days of war produced eighteen chapters of philosophy",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Every teaching has a situation that produced it, and the Gita is unusually honest about its own. Nothing in it is asked in the abstract. Arjuna is not curious about the nature of the self; he is standing between two armies with his bow slipping out of his hands, and the questions come out of him in the order that panic produces them."
+    },
+    {
+     "type": "h3",
+     "html": "Eighteen Days at Kurukshetra"
+    },
+    {
+     "type": "p",
+     "html": "The war lasts eighteen days. Bhishma commands the Kaurava army for ten of them and falls on a bed of arrows; Drona commands for five; Karna for two; Shalya for the last. Nearly everyone dies. The Pandavas win a kingdom emptied of the people they wanted to rule it with, and the epic spends its final books on the aftertaste — Yudhishthira's grief, Gandhari's curse, Krishna's own clan destroying itself in a drunken brawl, and the five brothers walking north into the Himalayas to die. The Gita sits inside that catastrophe like a still point. The epic is not triumphalist; it is one of world literature's longest arguments about the cost of being right."
+    },
+    {
+     "type": "h3",
+     "html": "The Blind King and the Man Given Sight"
+    },
+    {
+     "type": "p",
+     "html": "Now notice how the text reaches you, because it matters. <strong>Dhritarashtra</strong> is blind. He cannot watch the war his refusal to restrain his son has caused. So the sage <strong>Vyasa</strong> offers him the <em>divya-cakṣus</em>, the divine eye, to see the battle himself. He declines — he does not want to watch his sons die — and asks that the gift be given instead to <strong>Sanjaya</strong>, his charioteer and bard, who will sit beside him in the palace and narrate."
+    },
+    {
+     "type": "p",
+     "html": "So every word Krishna speaks reaches us at a distance. Sanjaya, sitting miles away, describes to a blind king what a god is saying to a warrior. And Sanjaya's narration is itself being recited by Vaishampayana to King Janamejaya, which is itself being recited by the bard Ugrashrava to a gathering of sages in the Naimisha forest. Four nested frames, and the Gita's very first word is spoken by a blind man asking what is happening."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The first verse of the Gita",
+     "sk": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।<br/>मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥",
+     "tr": "dharma-kṣetre kuru-kṣetre samavetā yuyutsavaḥ / māmakāḥ pāṇḍavāś caiva kim akurvata sañjaya",
+     "mn": "\"On the field of dharma, the field of the Kurus, gathered together and eager to fight — what did they do, my sons and the sons of Pandu, O Sanjaya?\"",
+     "src": "— Bhagavad Gita 1.1"
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Two names for one field",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The commentators have never let go of that opening line. The same ground is named twice in a single breath: <em>dharma-kṣetra</em>, the field of righteousness, and <em>kuru-kṣetra</em>, the field of the Kurus — the family field, the field of inheritance and grievance. Every place we are asked to act is both at once: a moral arena and a mess of history we did not choose. And note who is speaking. Dhritarashtra says <em>māmakāḥ</em> — \"mine\" — for one set of nephews and \"the sons of Pandu\" for the other. The war is already contained in that pronoun. A tradition-minded reader will also point out that the Gita opens on the word <em>dharma</em> and closes, seven hundred verses later, on the word <em>mama</em> — \"mine.\" <em>Dharma... mama.</em> My duty. The text is a bracket around a single phrase."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "How Old Is It?"
+    },
+    {
+     "type": "p",
+     "html": "Here we change lenses, and you should feel the gear-shift. Everything above is the story as the story tells itself. What follows is what evidence can support — which is less, and less precise, than either devotional or debunking accounts usually admit."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Dating the text",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The scholarly consensus, such as it is, places the Gita's core somewhere in the broad window of the <strong>2nd century BCE to the 2nd century CE</strong>. Some serious scholars argue for earlier — the 4th or 3rd century BCE; others for a somewhat later crystallisation. The Mahabharata as a whole is later still in its final form, generally described as having taken shape over roughly <strong>400 BCE to 400 CE</strong>, layered by many hands. The Gita therefore sits inside a text that was still growing around it."
+      },
+      {
+       "type": "p",
+       "html": "Why the vagueness? Because there is no external anchor. No inscription mentions the Gita in its first centuries. No datable manuscript survives from anywhere near its composition — Indian manuscript traditions on palm leaf and birch bark rarely preserve copies more than a few hundred years old, and our oldest Gita manuscripts postdate the text by a very long way. Dating is done indirectly: by language, by metre, by which philosophical vocabulary the text does and does not know, and by its relationship to Buddhist and early Samkhya thought."
+      },
+      {
+       "type": "p",
+       "html": "The honest sentence is this: <strong>we know the Gita is old; we do not know how old.</strong> Anyone who hands you a single year — 3102 BCE or 150 CE — is selling a certainty the evidence cannot buy. This does not make the text less serious. It makes the people who study it more so."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "What the Gita Is Made Of"
+    },
+    {
+     "type": "p",
+     "html": "The text is a weave of at least three earlier currents, and one pleasure of reading it closely is watching the seams. From <strong>Samkhya</strong> it takes the analysis of reality into <em>puruṣa</em> (consciousness) and <em>prakṛti</em> (matter-and-mind), and the three <em>guṇas</em>. From <strong>Yoga</strong> it takes discipline, breath, posture, the steadying of attention. From the <strong>Upanishads</strong> it takes the deathless self, <em>ātman</em>, and its relation to <em>brahman</em>. And then it does something none of its sources quite did: it fuses all three onto a personal God who can be loved, and insists the whole apparatus is meant to be used <em>in the middle of your life</em>, not after you have left it."
+    },
+    {
+     "type": "p",
+     "html": "That last move is the Gita's actual innovation, and it explains its afterlife. Renunciation was the prestige option in its world: the serious seeker left. The Gita says the serious seeker stays, does the work in front of him, and changes his relationship to it instead. Every reader who has had to be good inside a job, a family, a war, or a country has found the text waiting for them."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 01 · Arjuna Viṣāda Yoga",
+   "title": "Arjuna's Despair",
+   "subtitle": "The only scripture in the world that opens with its hero having a breakdown",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter one is almost entirely a list. Conches are named, warriors are named, formations are described, and then Arjuna asks Krishna to drive the chariot into the space between the armies so he can see who he has come to kill. He looks. And the chapter, which has been building like a war film, collapses inward into the body of one man."
+    },
+    {
+     "type": "p",
+     "html": "What Arjuna reports is a panic attack described with clinical accuracy: his limbs give way, his mouth dries, his body trembles, his hair stands on end, his skin burns, his mind reels, and <strong>Gandiva</strong> — the great bow, the instrument of his identity — slips from his hand. He cannot stand up. He does not say <em>I am afraid</em>; he says he can see no good in killing his own people, that victory would be worthless, that the destruction of a family destroys its ancient dharma and the survivors fall into chaos. Then he sits down on the floor of the chariot, in the middle of the battlefield, and puts his weapons away."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The chapter's last line",
+     "sk": "एवमुक्त्वार्जुनः सङ्ख्ये रथोपस्थ उपाविशत् ।<br/>विसृज्य सशरं चापं शोकसंविग्नमानसः ॥",
+     "tr": "evam uktvārjunaḥ saṅkhye rathopastha upāviśat / visṛjya saśaraṁ cāpaṁ śoka-saṁvigna-mānasaḥ",
+     "mn": "\"Having spoken thus, in the midst of the battle Arjuna sank down upon the seat of the chariot, casting away his bow and arrows, his mind overwhelmed with grief.\"",
+     "src": "— Bhagavad Gita 1.47 (1.46 in editions that count the speaker-lines differently)"
+    },
+    {
+     "type": "h3",
+     "html": "Why the Text Needs Him to Fall"
+    },
+    {
+     "type": "p",
+     "html": "Notice what the Gita has done structurally. It has spent an entire chapter establishing Arjuna's competence — the conches, the ranks, the reputation — before removing it. A teaching about detachment delivered to someone with nothing to lose would be cheap. Delivered to the best warrior on the field, at the moment his whole life's training arrives at an act he cannot perform, it costs something. The Gita's teacher does not begin until the student has genuinely run out."
+    },
+    {
+     "type": "p",
+     "html": "And Arjuna's argument is <em>good</em>. This is the part most summaries skip. He is not being cowardly and the text never says he is; his stated case is a moral one, made in the vocabulary of dharma itself — kin-slaying pollutes, family collapse corrupts the women, corrupted lineage ends the ancestral rites, and the whole social order unravels. He reasons his way to paralysis. That is why chapter two cannot answer him with sentiment. It has to go underneath the argument entirely."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · The chariot",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The image was already old when the Gita used it. The <strong>Katha Upanishad</strong> gives the classic version: the body is the chariot, the intellect (<em>buddhi</em>) is the charioteer, the mind is the reins, the senses are the horses, and the self is the passenger who owns the ride but does not drive it. The Gita puts Krishna in the driver's seat — which, read symbolically, is the whole teaching in one picture. The crisis is not that the horses are wild. The crisis is who is holding the reins. Arjuna's despair begins the moment he asks to be positioned where he can <em>see</em>, and it ends only when he agrees to let someone else steer."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The traditional name of the chapter is <em>viṣāda-yoga</em> — \"the yoga of despair.\" Sit with that construction. The tradition did not call it the chapter of Arjuna's failure. It called his collapse a <strong>yoga</strong>: a discipline, a joining, a legitimate way in. Whatever else the Gita is, it is a text that thinks breakdown can be a doorway rather than a disqualification."
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 02 · Sāṅkhya Yoga",
+   "title": "The Yoga of Discernment",
+   "subtitle": "The whole Gita in miniature — the deathless self, the discipline of action, and the mind that has stopped shaking",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "If you only ever read one chapter, read this one. Chapter two contains, in compressed form, nearly everything the remaining sixteen will unpack: the argument from the imperishable self, the doctrine of acting without attachment to results, the ladder by which desire becomes destruction, and the portrait of the person whose wisdom has become stable. Many scholars think it is also the oldest core of the text. Certainly it reads like the seed from which the rest grew."
+    },
+    {
+     "type": "p",
+     "html": "It opens with Krishna refusing to be kind. Arjuna says plainly that he will not fight, and calls Krishna his student, asking to be taught. Krishna's first words as a teacher are a rebuke: <em>aśocyān anvaśocas tvaṁ prajñā-vādāṁś ca bhāṣase</em> — \"you grieve for those who should not be grieved for, and you speak the language of wisdom while doing it\" (2.11). The wise, he says, mourn neither the living nor the dead. Then he begins."
+    },
+    {
+     "type": "h3",
+     "html": "The First Argument: What Cannot Be Killed"
+    },
+    {
+     "type": "p",
+     "html": "Krishna's opening move is metaphysical. There has never been a time when you were not, nor these kings; nor will any of us cease to be. As a person passes through childhood, youth and age within one body, so the embodied one passes into another body — and the steady are not disturbed by this. The self, <em>ātman</em>, is not a thing that happens to living beings; it is what is looking out of them."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The deathless self",
+     "sk": "न जायते म्रियते वा कदाचिन्<br/>नायं भूत्वा भविता वा न भूयः ।<br/>अजो नित्यः शाश्वतोऽयं पुराणो<br/>न हन्यते हन्यमाने शरीरे ॥",
+     "tr": "na jāyate mriyate vā kadācin / nāyaṁ bhūtvā bhavitā vā na bhūyaḥ / ajo nityaḥ śāśvato 'yaṁ purāṇo / na hanyate hanyamāne śarīre",
+     "mn": "\"It is never born and it never dies; having been, it will not cease to be. Unborn, eternal, everlasting, ancient — it is not slain when the body is slain.\"",
+     "src": "— Bhagavad Gita 2.20"
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · The four elements cannot touch it",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Three verses later comes the line every Sanskrit student learns early:"
+      },
+      {
+       "type": "verse",
+       "tag": "Sanskrit · 2.23",
+       "sk": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।<br/>न चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥",
+       "tr": "nainaṁ chindanti śastrāṇi nainaṁ dahati pāvakaḥ / na cainaṁ kledayanty āpo na śoṣayati mārutaḥ",
+       "mn": "\"Weapons do not cut it, fire does not burn it, water does not wet it, wind does not dry it.\"",
+       "src": "— Bhagavad Gita 2.23"
+      },
+      {
+       "type": "p",
+       "html": "Note the rhetorical precision of the list on a battlefield: the four things that destroy bodies in a war — the blade, the pyre, the flood, the exposure — are named one by one and declared powerless. The verse is not a general metaphysical statement. It is an answer aimed exactly at what Arjuna is afraid of."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "It is worth being honest about how this argument lands on a modern reader. Krishna is telling a man not to grieve killing because the essential person cannot be killed. If you do not already accept an imperishable self, the consolation does not transfer — and the text does not pretend otherwise. Krishna himself seems to know it is not enough, because he immediately changes tack: <em>even if</em> you think the self is repeatedly born and repeatedly dies, he says at 2.26, you still should not grieve, since what is born must die and what dies must be born. Two arguments, one metaphysical and one simply about the terms of existence, offered in sequence to a man who is not persuaded by either."
+    },
+    {
+     "type": "h3",
+     "html": "The Second Argument: The Famous One"
+    },
+    {
+     "type": "p",
+     "html": "From verse 39 the chapter turns, and Krishna announces that he has given Arjuna the reasoning of Samkhya and will now give him the reasoning of <em>yoga</em> — meaning, here, a discipline of action. What follows is the single most quoted verse in Hindu literature."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The verse everyone knows",
+     "sk": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।<br/>मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+     "tr": "karmaṇy evādhikāras te mā phaleṣu kadācana / mā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
+     "mn": "\"Your right is to action alone, never to its fruits. Do not let the fruits of action be your motive; and do not be attached to inaction either.\"",
+     "src": "— Bhagavad Gita 2.47"
+    },
+    {
+     "type": "p",
+     "html": "Read the fourth line, because it is the one that gets dropped. <em>Mā te saṅgo 'stv akarmaṇi</em> — do not be attached to inaction. The verse is not a licence for passivity or a spiritual excuse for not caring how things turn out. It is a precise instrument with two blades: one cuts the grip of outcomes on your motivation, the other cuts the temptation to withdraw. What is left is action performed at full strength with the anxiety removed from it. Krishna gives it a name in the next verse, and the name is a definition worth memorising: <em>samatvaṁ yoga ucyate</em> — \"evenness of mind is what is called yoga\" (2.48)."
+    },
+    {
+     "type": "h3",
+     "html": "The Ladder Down"
+    },
+    {
+     "type": "p",
+     "html": "The chapter closes with a portrait of the <em>sthita-prajña</em>, the one whose insight is steady — a figure Arjuna asks about directly at 2.54, in the Gita's first genuinely eager question. How does such a person speak, sit, walk? Krishna's answer runs to the end of the chapter, and inside it is a two-verse mechanism of psychological decay that has probably been quoted more often in Indian ethical writing than any other passage."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · How a person is destroyed",
+     "sk": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।<br/>सङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ॥<br/>क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।<br/>स्मृतिभ्रंशाद्बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥",
+     "tr": "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate / saṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate / krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ / smṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
+     "mn": "\"Dwelling on objects, a person becomes attached to them; from attachment desire is born; from desire, anger. From anger comes delusion; from delusion, confusion of memory; from confusion of memory, the destruction of discernment — and when discernment is destroyed, the person is lost.\"",
+     "src": "— Bhagavad Gita 2.62–63"
+    },
+    {
+     "type": "p",
+     "html": "Seven steps from idle attention to ruin, and each link is observable in an ordinary week. Note that the sequence begins with <em>dhyāyataḥ</em>, \"dwelling on\" — not with the object and not with the desire, but with the mind's decision to keep circling something. That is the point at which intervention is cheap. By the time you are at anger, the rest of the ladder is nearly automatic."
+    },
+    {
+     "type": "p",
+     "html": "And the chapter's closing image answers Arjuna's question about the steady person with something better than a rule. Desires enter such a person, Krishna says (2.70), as rivers enter the ocean — which is filled and yet unmoved, holding its own level. Not a person without desire. A person large enough that desire no longer determines the tide."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Test 2.47 against one real thing this week — a piece of work, a conversation, an application, a difficult message you have to send. Do it as well as you can and deliberately release the result before you know it. Then notice what happens to the quality of the doing. Most people report the same surprising thing: the work gets better, not worse. That observation is not proof of anything metaphysical, but it is data, and it is yours."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 03 · Karma Yoga",
+   "title": "The Yoga of Action",
+   "subtitle": "Nobody gets to stop — so the question is never whether to act, only how",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Arjuna opens chapter three with an entirely reasonable complaint. If understanding is better than action, he asks, why are you pushing me into this appalling deed? Krishna's answer sets the direction of the rest of the text: because nobody, not for a single instant, actually stops."
+    },
+    {
+     "type": "p",
+     "html": "No one can remain even for a moment without acting, Krishna says; everyone is made to act, helplessly, by the qualities born of nature (3.5). And the one who sits still while the mind runs after objects of sense is not a renunciate but a hypocrite — <em>mithyācāra</em> (3.6). Withdrawal is not an available option; it is only a differently packaged action, usually a worse one. The chapter therefore reframes Arjuna's entire question. He thinks he is choosing between fighting and not fighting. He is choosing between two kinds of doing."
+    },
+    {
+     "type": "h3",
+     "html": "Sacrifice as a Model of Everything"
+    },
+    {
+     "type": "p",
+     "html": "To explain how action can be done without binding, Krishna reaches for the oldest institution in his culture: <em>yajña</em>, Vedic sacrifice. Along with living beings, he says, the creator emitted sacrifice, and told them to prosper by it — you nourish the gods, the gods nourish you, and by that mutual nourishment all thrive (3.10–3.11). The world is a circulation. Whoever eats without contributing to the cycle is described bluntly as a thief (3.12)."
+    },
+    {
+     "type": "p",
+     "html": "This is a decisive move, made quietly. The Gita takes <em>sacrifice</em> — a technical ritual of fire, mantra and priests — and generalises it into a structure of consciousness. Any act done as offering rather than acquisition is a yajña. The kitchen, the desk and the battlefield are all altars, depending entirely on the direction the act is facing. Everything Karma Yoga becomes in later Indian thought is contained in that generalisation."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The chapter's hardest line",
+     "sk": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् ।<br/>स्वधर्मे निधनं श्रेयः परधर्मो भयावहः ॥",
+     "tr": "śreyān sva-dharmo viguṇaḥ para-dharmāt sv-anuṣṭhitāt / sva-dharme nidhanaṁ śreyaḥ para-dharmo bhayāvahaḥ",
+     "mn": "\"Better one's own duty imperfectly done than another's duty done well. Better to die in one's own duty; another's duty brings danger.\"",
+     "src": "— Bhagavad Gita 3.35"
+    },
+    {
+     "type": "p",
+     "html": "This verse has done enormous work in Indian history, in both directions. Read one way it is a liberating instruction against imitation: do your own work badly rather than someone else's brilliantly, because a borrowed life, however successful, has no traction on your actual situation. Read another way — and it was read this way for centuries — <em>svadharma</em> means the duty assigned by birth, and the verse becomes a defence of a caste order in which you should stay where you were placed. Both readings are genuinely in the text's reception history. Pretending otherwise, in either direction, is not honesty."
+    },
+    {
+     "type": "h3",
+     "html": "Janaka, and the Argument from Consequence"
+    },
+    {
+     "type": "p",
+     "html": "Krishna adds a second reason to act, and it is social rather than personal. Janaka and others attained perfection precisely through action (3.20); and beyond that, one should act for <em>loka-saṅgraha</em> — the holding-together of the world (3.20–3.25). Whatever a great person does, others do; the standard they set is the one the world follows (3.21). Krishna then applies it to himself: there is nothing in the three worlds he needs to obtain, nothing unattained he must attain — and still he works, because if he stopped, everything would follow him into collapse."
+    },
+    {
+     "type": "p",
+     "html": "So the fully liberated person keeps working, not from need but from position. This is the Gita's answer to the perennial suspicion that spiritual attainment is a form of quitting. The freer you get, the more of the world's weight you can carry without being crushed by it, and therefore the more of it you should carry."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · Turning an act into an offering",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The technique the chapter implies is small enough to actually do. Before one ordinary task today — cooking, answering email, a meeting you resent — pause for one breath and mentally hand the result away. Not \"I don't care how this goes,\" which is a lie, but \"this is offered.\" Then work at full effort. The Gita's claim is that these two things, total effort and released outcome, are compatible; most of us have never tested whether that is true, because we assume caring about the result is what generates the effort. The chapter says the anxiety and the effort are separable, and that the anxiety was never doing the work you thought it was."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter ends with Arjuna asking the question any honest reader has been holding: what is it that drives a person to do wrong, even against his own will, as if by force? Krishna names it in one word — <em>kāma</em>, desire, and its shadow anger, born of rajas, the great devourer, the great enemy here (3.37). Not a devil, not fate: an appetite lodged in the senses, the mind and the intellect, which veils knowledge as smoke veils fire, dust veils a mirror, the womb veils an embryo (3.38). Three images of concealment in ascending density — and the point of all three is that nothing has been destroyed. It has only been covered."
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 04 · Jñāna Karma Sannyāsa Yoga",
+   "title": "Knowledge, Action, and Renunciation",
+   "subtitle": "Krishna reveals that he has been here before — and defines action so strangely that it becomes stillness",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter four begins with a claim about transmission: this imperishable yoga was told to Vivasvat, who told Manu, who told Ikshvaku, and so it came down through the royal sages until it was lost by long lapse of time. Arjuna, sensibly, objects. Vivasvat was born long ago; you were born recently. How am I to understand that you taught it at the beginning?"
+    },
+    {
+     "type": "p",
+     "html": "Krishna's answer is the first moment in the Gita where he steps entirely out of the role of friend and charioteer. Many births of mine have passed, and of yours too; I know them all, you do not. Though unborn and imperishable, though lord of beings, he says, he takes birth through his own power, by his own <em>māyā</em> — and then comes the promise on which an entire theology rests."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The doctrine of avatāra",
+     "sk": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।<br/>अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥<br/>परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।<br/>धर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥",
+     "tr": "yadā yadā hi dharmasya glānir bhavati bhārata / abhyutthānam adharmasya tadātmānaṁ sṛjāmy aham / paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām / dharma-saṁsthāpanārthāya sambhavāmi yuge yuge",
+     "mn": "\"Whenever there is a decline of dharma, O Bharata, and a rising up of adharma, then I send forth myself. For the protection of the good, for the destruction of wrongdoers, for the firm establishing of dharma, I come into being age after age.\"",
+     "src": "— Bhagavad Gita 4.7–4.8"
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Where avatāra comes from",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "These two verses are the classical charter of the <em>avatāra</em> doctrine — the idea that Vishnu descends into the world in successive forms. Scholars generally regard the Gita as an early and important witness to that idea rather than its complete formulation: the standardised list of ten avataras, with Krishna in a fixed slot, belongs to later Puranic literature, not here. What the Gita gives is the principle and the reason, not the roster."
+      },
+      {
+       "type": "p",
+       "html": "A related historical note belongs with this chapter. At 4.13 Krishna says the fourfold order — <em>cāturvarṇya</em> — was created by him \"according to the distribution of qualities and actions\" (<em>guṇa-karma-vibhāgaśaḥ</em>). Commentators have fought over that phrase for a thousand years, because it can be read as grounding social class in innate quality and work rather than in birth, and reformers from the nineteenth century onward pressed exactly that reading. It can equally be read as divine sanction for the order as it stood. The Sanskrit permits both; the historical record shows both were used. Note also that Krishna's very next clause disowns authorship in the ordinary sense — \"know me to be the non-doer\" — which complicates any straightforward appeal to the verse as legislation."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Action in Inaction"
+    },
+    {
+     "type": "p",
+     "html": "The chapter's philosophical heart is a deliberate paradox. Even poets are confused about what action and inaction are, Krishna says; and then:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The paradox",
+     "sk": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।<br/>स बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥",
+     "tr": "karmaṇy akarma yaḥ paśyed akarmaṇi ca karma yaḥ / sa buddhimān manuṣyeṣu sa yuktaḥ kṛtsna-karma-kṛt",
+     "mn": "\"The one who sees inaction in action, and action in inaction — that one is wise among men, disciplined, and has done all that is to be done.\"",
+     "src": "— Bhagavad Gita 4.18"
+    },
+    {
+     "type": "p",
+     "html": "This is not wordplay. It is the recognition that the visible surface of behaviour tells you nothing about whether binding is occurring. A person can sit motionless in a cave and be furiously entangled; a person can conduct a war and be untouched. What determines the difference is the presence or absence of the sense of being the doer, grasping at a result. Krishna's own description of such a person is worth having: he has abandoned attachment to the fruits of action, is always content, dependent on nothing, and though fully engaged in work, he does nothing at all (4.20)."
+    },
+    {
+     "type": "p",
+     "html": "The rest of the chapter catalogues the many forms of <em>yajña</em> that seekers practise — offering the senses into the fires of restraint, offering breath into breath, offering wealth, austerity, study — and then ranks them: the sacrifice of knowledge is superior to any material sacrifice, because all action without exception is completed in knowledge (4.33). And it ends with the most quoted instruction in Indian pedagogy."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · How to learn",
+     "sk": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया ।<br/>उपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥",
+     "tr": "tad viddhi praṇipātena paripraśnena sevayā / upadekṣyanti te jñānaṁ jñāninas tattva-darśinaḥ",
+     "mn": "\"Know this by prostration, by inquiry, by service. Those who know, who see into the truth of things, will teach you knowledge.\"",
+     "src": "— Bhagavad Gita 4.34"
+    },
+    {
+     "type": "p",
+     "html": "Three conditions, and the middle one is the surprise. <em>Praṇipāta</em> — humility, the bowed head. <em>Sevā</em> — service, doing something useful for the person who teaches you. But between them sits <em>paripraśna</em>: persistent questioning, asking around a thing until it opens. The tradition did not ask for belief. It asked for humility <em>and</em> interrogation in the same gesture, which is a harder combination than either alone, and a fair description of what this entire course is trying to do."
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 05 · Karma Sannyāsa Yoga",
+   "title": "Renunciation and Action",
+   "subtitle": "Arjuna asks Krishna to finally pick one — and gets told the two were never different",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Arjuna is losing patience, and it is a relief to see it. You praise the renunciation of actions, he says, and then you praise yoga — tell me definitely which one is better (5.1). Any reader of the previous three chapters has wanted to ask exactly that. Krishna's reply is that both lead to the highest good, but that of the two, the yoga of action is the better — and then he spends the chapter dissolving the distinction Arjuna was asking about."
+    },
+    {
+     "type": "p",
+     "html": "The reason the question is malformed is that <em>sannyāsa</em> — renunciation — is being used in two senses. If it means giving up activity, it is a change of circumstance and does not touch the problem. If it means giving up the inner claim on results, it is identical with karma yoga and requires no change of circumstance at all. Krishna states it flatly: the one who neither hates nor craves is to be known as a permanent renunciate, free from the pairs of opposites, easily released from bondage (5.3). Children speak of Samkhya and yoga as different, he says; the learned do not. Whoever sees one sees both (5.4–5.5)."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The lotus leaf",
+     "sk": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।<br/>लिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥",
+     "tr": "brahmaṇy ādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ / lipyate na sa pāpena padma-patram ivāmbhasā",
+     "mn": "\"One who acts, placing all actions in Brahman and abandoning attachment, is not stained by evil — as a lotus leaf is untouched by water.\"",
+     "src": "— Bhagavad Gita 5.10"
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Why a lotus leaf, and not a stone",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The image is chosen with care, and it is not the image of invulnerability. A stone is unwetted because it is dense and closed. A lotus leaf is thin, alive, permeable to light, and it lies <em>on</em> the water, in continuous contact with it — and the water still beads and runs off. The tradition's ideal of non-attachment is the leaf, not the stone: maximum contact, minimum absorption. Anyone who has met the cold, armoured version of \"detachment\" that people sometimes bring back from spiritual books has met a stone claiming to be a leaf. The Gita's word for the leaf's quality is <em>anāsakti</em>, and Gandhi thought it so central that he named his entire commentary after it."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The City of Nine Gates"
+    },
+    {
+     "type": "p",
+     "html": "Krishna offers a striking image for the embodied self: renouncing all actions by the mind, the dweller sits happily in the city of nine gates — <em>nava-dvāre pure</em> — neither acting nor causing action (5.13). Nine gates: two eyes, two ears, two nostrils, the mouth, and the two lower openings. The body as a walled town with nine points of exchange with the world, and the self as its resident rather than its machinery. It is a picture of embodiment without identification — you live here; you are not the masonry."
+    },
+    {
+     "type": "p",
+     "html": "From this follows one of the Gita's most ethically radical verses, and one that sits in genuine tension with other parts of the text."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Equal vision",
+     "sk": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि ।<br/>शुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥",
+     "tr": "vidyā-vinaya-sampanne brāhmaṇe gavi hastini / śuni caiva śva-pāke ca paṇḍitāḥ sama-darśinaḥ",
+     "mn": "\"In a brahmin endowed with learning and humility, in a cow, in an elephant, and even in a dog and in an outcaste who cooks dog — the wise see the same.\"",
+     "src": "— Bhagavad Gita 5.18"
+    },
+    {
+     "type": "p",
+     "html": "The verse deliberately spans the full social and biological range its audience could imagine, from the most honoured human being to the most degraded, and asserts that the seeing that matters does not register the difference. It has been quoted by every Indian social reformer who worked inside the tradition rather than against it. It also sits, unresolved, beside 4.13's fourfold order and 9.32's ranking of who may reach the highest goal. The Gita is not systematically egalitarian, and it is not systematically hierarchical. It contains both, and the tradition's readers have had to choose which verse interprets which — which is exactly what a living text is."
+    },
+    {
+     "type": "p",
+     "html": "The chapter ends by turning toward meditation, and so hands off cleanly to chapter six: shutting out external contacts, fixing the gaze between the brows, balancing the breath, the sage who has made desire, fear and anger fall away is forever free (5.27–5.28). And the last verse gives the reason it works — knowing me as the enjoyer of sacrifices and austerities, the great lord of all worlds, the <em>friend of all beings</em>, one attains peace (5.29). <em>Suhṛdaṁ sarva-bhūtānām.</em> The universe, in the Gita's view, is not neutral toward you."
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 06 · Dhyāna Yoga",
+   "title": "The Yoga of Meditation",
+   "subtitle": "Posture, breath, the lamp in a windless place, and the kindest promise in the text",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter six is the Gita's practical manual, and the only place in it where you are told what to do with your body. Choose a clean spot, neither too high nor too low, spread cloth and grass; sit there, hold the body, head and neck erect and still, gaze steady, mind quiet, and practise. It is also, unexpectedly, the most tender chapter in the book — because it is the one that deals with failure."
+    },
+    {
+     "type": "p",
+     "html": "It opens by continuing chapter five's argument: the true renunciate is the one who does the work that must be done without depending on its fruit, not the one who has merely stopped lighting the ritual fire (6.1). Then it turns inward with a verse that has become a standing instruction in every Indian self-help tradition since."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Lift yourself by yourself",
+     "sk": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।<br/>आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥",
+     "tr": "uddhared ātmanātmānaṁ nātmānam avasādayet / ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+     "mn": "\"Let one lift oneself by oneself; let one not degrade oneself. For the self alone is the friend of the self, and the self alone is its enemy.\"",
+     "src": "— Bhagavad Gita 6.5"
+    },
+    {
+     "type": "p",
+     "html": "The Sanskrit is a deliberate hall of mirrors — <em>ātman</em> appears in nearly every position in both lines — and the ambiguity is the meaning. Which self lifts which? The next verse answers: the self is the friend of one who has conquered the self by the self, and hostile to the one who has not. There is no third party in this transaction. The Gita is unusual among devotional texts in insisting, right in the middle of a book about surrendering to God, that the work of self-mastery is not outsourced."
+    },
+    {
+     "type": "h3",
+     "html": "The Middle Way of the Body"
+    },
+    {
+     "type": "p",
+     "html": "The instructions are notably moderate, and the moderation is deliberate. Yoga is not for one who eats too much or eats nothing at all, sleeps too much or stays awake too long. For one whose food, recreation, effort, sleeping and waking are measured, yoga becomes the destroyer of sorrow (6.16–6.17). In a culture with a long and honoured tradition of extreme asceticism, this is a considered rejection of heroics. The person who tortures the body is not, by the Gita's lights, further along."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The classic simile for a steady mind",
+     "sk": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।<br/>योगिनो यतचित्तस्य युञ्जतो योगमात्मनः ॥",
+     "tr": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā / yogino yata-cittasya yuñjato yogam ātmanaḥ",
+     "mn": "\"As a lamp in a windless place does not flicker — that is the traditional simile for the yogi of controlled mind, practising union with the self.\"",
+     "src": "— Bhagavad Gita 6.19"
+    },
+    {
+     "type": "p",
+     "html": "And in this state the yogi sees the self in all beings and all beings in the self, seeing the same everywhere (6.29) — which the chapter then converts into an ethical criterion at 6.32 that is easy to skip past and very hard to live: the highest yogi is the one who, by analogy with the self, sees the same everywhere, <em>whether in pleasure or in pain</em>. Not the one who has the most refined internal states. The one whose regard for others' pain has become structurally identical to his regard for his own."
+    },
+    {
+     "type": "h3",
+     "html": "\"The Mind Is Restless, Krishna\""
+    },
+    {
+     "type": "p",
+     "html": "Then Arjuna interrupts with the most human line in the chapter. This yoga of evenness you describe — I do not see its steady foundation, because the mind is unsteady (6.33). The mind is restless, turbulent, powerful, obstinate; I think it as hard to hold as the wind (6.34). Krishna does not deny it. Without doubt, mighty-armed, the mind is hard to restrain and restless — <em>but</em>, he says, it is held by practice and by dispassion: <em>abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate</em> (6.35). Two words, one meaning repetition over time, the other meaning a loosened grip. No shortcut is offered, then or since."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · What the chapter actually asks",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Ten minutes. A clean spot, a steady seat, spine upright without strain, gaze soft or closed. Follow the breath. When the mind goes — and it will go, in seconds, and again in seconds — bring it back without commentary. Krishna's instruction at 6.26 is exactly this and nothing more elaborate: <em>wherever the restless, unsteady mind wanders off to, from there restrain it and bring it back under the control of the self.</em> Not \"stop it wandering.\" The wandering is assumed. The practice is the return, and the practice is the return again."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter closes with Arjuna's real fear, which is not about technique. What happens, he asks, to the one who tries this, fails, and dies unfulfilled — does he perish like a torn cloud, fallen from both worlds, with no ground under him at all (6.37–6.38)? Krishna's answer is the sentence that has kept a great many people practising:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Nothing good is wasted",
+     "sk": "पार्थ नैवेह नामुत्र विनाशस्तस्य विद्यते ।<br/>न हि कल्याणकृत्कश्चिद्दुर्गतिं तात गच्छति ॥",
+     "tr": "pārtha naiveha nāmutra vināśas tasya vidyate / na hi kalyāṇa-kṛt kaścid durgatiṁ tāta gacchati",
+     "mn": "\"O Partha, neither here nor hereafter is there destruction for him. No one who does good, my son, ever comes to a bad end.\"",
+     "src": "— Bhagavad Gita 6.40"
+    },
+    {
+     "type": "p",
+     "html": "Hear the word <em>tāta</em> — \"my son,\" \"dear one\" — from a cousin the same age, spoken on a battlefield. It is the only place in the Gita where Krishna talks like that. The unfinished practice, he goes on, is not lost: such a person is reborn in favourable circumstances and picks up the thread, drawn on by the practice of the previous life even against his will (6.43–6.44). Whatever you make of rebirth — and we look at it honestly in the final section — the psychological instruction is clear. Effort is cumulative. Nothing sincere is wasted. Begin again."
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 07 · Jñāna Vijñāna Yoga",
+   "title": "Knowledge and Realisation",
+   "subtitle": "The Gita changes key — from what you should do to who is holding the reins",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapters one through six are, broadly, about you: your duty, your action, your mind, your discipline. From chapter seven the subject changes. Krishna begins speaking about himself, and the remaining twelve chapters are increasingly the answer to a question Arjuna has not yet asked — <em>who exactly is talking to me?</em>"
+    },
+    {
+     "type": "p",
+     "html": "He begins with a distinction the chapter is named for. <em>Jñāna</em> is knowledge; <em>vijñāna</em> is the realisation of it, knowledge that has become experience — I will declare to you this knowledge together with its realisation, knowing which nothing further remains to be known here (7.2). Then a piece of honesty rare in a scripture: among thousands of people, scarcely one strives for perfection; and among those who strive and succeed, scarcely one knows me in truth (7.3). The Gita does not oversell its own accessibility. It will spend chapters nine and twelve making it far more accessible than this verse suggests — but it starts by admitting the difficulty."
+    },
+    {
+     "type": "h3",
+     "html": "The Lower and Higher Natures"
+    },
+    {
+     "type": "p",
+     "html": "Krishna divides his own nature into two. The lower, eightfold: earth, water, fire, air, ether, mind, intellect, and I-sense — the whole apparatus of the material and mental world. And the higher: the very life-principle by which this universe is sustained (7.4–7.5). All beings, he says, have their origin in these two. Then he says he is the origin of the whole world and its dissolution too, and gives the chapter's central image."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Gems on a thread",
+     "sk": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय ।<br/>मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥",
+     "tr": "mattaḥ parataraṁ nānyat kiñcid asti dhanañjaya / mayi sarvam idaṁ protaṁ sūtre maṇi-gaṇā iva",
+     "mn": "\"There is nothing whatever higher than me, O Dhananjaya. All this is strung upon me like clusters of gems upon a thread.\"",
+     "src": "— Bhagavad Gita 7.7"
+    },
+    {
+     "type": "p",
+     "html": "The simile repays a moment. The gems are what you see; the thread is what you do not. Remove the thread and the necklace is not damaged, it simply ceases to be a necklace — a heap of separate beautiful things with no relation. What Krishna claims to be is not the largest gem. He is the continuity, the fact that these things constitute an order at all. And the verses that follow apply it concretely and rather beautifully: I am the taste in water, the light in the moon and the sun, the sound in ether, the manliness in men, the pure fragrance of the earth, the brilliance in fire, the life in all beings, the austerity in ascetics (7.8–7.9). Not the water, the taste of it. Not the fire, its brightness. He is naming himself as the quality that makes each thing itself."
+    },
+    {
+     "type": "h3",
+     "html": "Four Kinds of People Who Turn Toward God"
+    },
+    {
+     "type": "p",
+     "html": "At 7.16 comes a classification that has shaped Indian devotional literature ever since. Four kinds of virtuous people worship me, Krishna says: <em>ārta</em>, the distressed; <em>jijñāsu</em>, the one who wants to know; <em>arthārthī</em>, the one who wants something; and <em>jñānī</em>, the one who knows. What is remarkable is that the list is not a rebuke. Three of the four come with an agenda — pain, curiosity, need — and all four are called virtuous. The tradition read this as permission: you do not have to purify your motive before you begin. You are allowed to arrive at the door for the wrong reason."
+    },
+    {
+     "type": "p",
+     "html": "Krishna does state a preference — of these, the one steadily established in knowledge is dearest, and he calls that person <em>his own self</em> (7.17–7.18). And then, at the end of a long road:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · At the end of many births",
+     "sk": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते ।<br/>वासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥",
+     "tr": "bahūnāṁ janmanām ante jñānavān māṁ prapadyate / vāsudevaḥ sarvam iti sa mahātmā su-durlabhaḥ",
+     "mn": "\"At the end of many births, the one who knows takes refuge in me, realising that Vasudeva is all. Such a great soul is very hard to find.\"",
+     "src": "— Bhagavad Gita 7.19"
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Which of the four are you? Be accurate rather than flattering — most sincere readers arrive as some mixture of <em>ārta</em> and <em>jijñāsu</em>, distress and curiosity, and are slightly ashamed of the first. The chapter says you need not be. But notice, too, what the fourth kind is not doing: the <em>jñānī</em> has no petition. Ask yourself honestly what you would still want from a practice if it were guaranteed to change nothing in your circumstances. Whatever remains in the answer is the part of you that is already past the transaction."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter ends by explaining why so few see it. Deluded by the pairs of opposites arising from desire and aversion, beings are born into confusion (7.27); and Krishna is veiled by his own <em>yoga-māyā</em>, so the world does not recognise him (7.25). Note the asymmetry the rest of the text depends on: he knows all beings, past, present and to come — <em>but no one knows me</em> (7.26). Chapter eleven is the moment that sentence stops being true, and Arjuna will wish it had stayed true."
+    }
+   ]
+  },
+  {
+   "id": "c8",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 08 · Akṣara Brahma Yoga",
+   "title": "The Imperishable Absolute",
+   "subtitle": "Cosmic time, the last thought, and the door out of the cycle",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Arjuna opens chapter eight with a burst of seven technical questions — what is Brahman, what is the self, what is action, what is the domain of the elements, of the divine, of sacrifice, and how are you to be known at the time of death? Krishna answers each in a compressed verse or two, and then settles on the last one, because it is the one that matters to a man who expects to die tomorrow."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The last thought",
+     "sk": "यं यं वापि स्मरन्भावं त्यजत्यन्ते कलेवरम् ।<br/>तं तमेवैति कौन्तेय सदा तद्भावभावितः ॥",
+     "tr": "yaṁ yaṁ vāpi smaran bhāvaṁ tyajaty ante kalevaram / taṁ tam evaiti kaunteya sadā tad-bhāva-bhāvitaḥ",
+     "mn": "\"Whatever state of being one remembers when one leaves the body at the end, to that very state one goes, O son of Kunti, having always been absorbed in it.\"",
+     "src": "— Bhagavad Gita 8.6"
+    },
+    {
+     "type": "p",
+     "html": "Read the last four words carefully, because they prevent the verse from being a superstition. <em>Sadā tad-bhāva-bhāvitaḥ</em>: \"always made-to-become by dwelling in that state.\" The final thought is not a lottery ticket you can buy at the last second; it is a summary. What surfaces when everything else is being stripped away is whatever has been rehearsed longest. Krishna's practical instruction follows immediately and is entirely consistent — therefore remember me <em>at all times</em>, and fight (8.7). Not \"remember me at the end.\" The end takes care of itself if the middle has been attended to."
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · Bhishma on the bed of arrows",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This chapter's teaching has a famous illustration a few books later in the same epic. Bhishma, the Kuru patriarch, falls on the tenth day of the war, pierced by so many of Arjuna's arrows that he never touches the ground — the shafts hold him above it. He had been granted the boon of choosing the hour of his own death, and he chooses to wait: the sun is in its southern course, and he will not go until it turns north. So he lies on that bed of arrows for weeks, conscious, and spends the time teaching — the long discourses on dharma and liberation that make up two of the Mahabharata's largest books. Read against 8.6 the scene is almost programmatic: the dying man's final months are filled entirely with the thing he wants to be dwelling in when he goes."
+      },
+      {
+       "type": "p",
+       "html": "The Gita itself distinguishes two departures at 8.24–8.26 — the bright path of fire, light, day and the northern course of the sun, from which there is no return, and the dark path of smoke, night and the southern course, from which one comes back. Historically, these two paths are inherited: they appear in the Upanishads before the Gita, as the <em>devayāna</em> and <em>pitṛyāna</em>, the way of the gods and the way of the ancestors. The Gita takes an older cosmological map and folds it into its own argument."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "A Day of Brahma"
+    },
+    {
+     "type": "p",
+     "html": "Then the chapter opens out into deep time, and the scale is worth pausing on."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Cosmic time",
+     "sk": "सहस्रयुगपर्यन्तमहर्यद्ब्रह्मणो विदुः ।<br/>रात्रिं युगसहस्रान्तां तेऽहोरात्रविदो जनाः ॥",
+     "tr": "sahasra-yuga-paryantam ahar yad brahmaṇo viduḥ / rātriṁ yuga-sahasrāntāṁ te 'ho-rātra-vido janāḥ",
+     "mn": "\"Those who know that a day of Brahma lasts a thousand ages, and that his night also ends after a thousand ages — those people know day and night.\"",
+     "src": "— Bhagavad Gita 8.17"
+    },
+    {
+     "type": "p",
+     "html": "At the coming of Brahma's day, all manifest beings stream out of the unmanifest; at the coming of his night, they dissolve back into it. The same multitude, helplessly, again and again (8.18–8.19). This is the Indian cosmological picture at its most characteristic: not one creation and one end, but respiration — a universe that breathes in and out over spans of time so long that human history does not register. And beyond even that periodic dissolution, Krishna says, there is another unmanifest, eternal, which is not destroyed when all beings are destroyed (8.20). That is the <em>akṣara</em>, the imperishable, that gives the chapter its name and is called the highest goal."
+    },
+    {
+     "type": "p",
+     "html": "It is worth naming the emotional function of a passage like this, because it is easy to read it as mere cosmological trivia. Arjuna is frozen by the enormity of what one day will do to his family. Chapter eight sets that day inside a duration in which entire universes are a single exhalation. This is either the coldest thing in the Gita or the most consoling, and different readers have honestly reported both."
+    }
+   ]
+  },
+  {
+   "id": "c9",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 09 · Rāja Vidyā Rāja Guhya Yoga",
+   "title": "The Royal Knowledge, the Royal Secret",
+   "subtitle": "The chapter where the door is thrown open to absolutely everyone",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter nine calls itself the king of knowledge and the king of secrets, and then reveals something that turns out to be less a secret than an invitation. It is the emotional centre of the Gita's devotional teaching, and it contains verses that were quietly revolutionary in their social setting."
+    },
+    {
+     "type": "p",
+     "html": "It begins with a paradox stated flatly. All this world is pervaded by me in unmanifest form; all beings dwell in me, and I do not dwell in them (9.4). And then, immediately: <em>and yet beings do not dwell in me</em> — behold my sovereign yoga (9.5). Commentators have worked on that contradiction for centuries. The most common reading: things depend on him as waves depend on the sea, but he is not contained by them or affected by them; the containment runs one way only. Krishna calls his own formulation an expression of <em>aiśvaram yogam</em>, sovereign mystery, rather than resolving it. The Gita is content to leave certain seams visible."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The promise",
+     "sk": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते ।<br/>तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥",
+     "tr": "ananyāś cintayanto māṁ ye janāḥ paryupāsate / teṣāṁ nityābhiyuktānāṁ yoga-kṣemaṁ vahāmy aham",
+     "mn": "\"Those who worship me with undivided attention, thinking of no other — for them, ever steadfast, I carry what they lack and preserve what they have.\"",
+     "src": "— Bhagavad Gita 9.22"
+    },
+    {
+     "type": "p",
+     "html": "<em>Yoga-kṣema</em> is a single compound with a concrete history: <em>yoga</em> here means acquisition, getting what one does not have; <em>kṣema</em> means safekeeping, holding what one has. It is the vocabulary of a householder, not a mystic. The verse promises the two things every anxious person actually wants, and the verb is <em>vahāmi</em> — \"I carry.\" It is recited at shop openings and before journeys across India, and one can see why."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · A leaf, a flower, a fruit, water",
+     "blocks": [
+      {
+       "type": "verse",
+       "tag": "Sanskrit · 9.26",
+       "sk": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति ।<br/>तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ॥",
+       "tr": "patraṁ puṣpaṁ phalaṁ toyaṁ yo me bhaktyā prayacchati / tad ahaṁ bhakty-upahṛtam aśnāmi prayatātmanaḥ",
+       "mn": "\"Whoever offers me with devotion a leaf, a flower, a fruit, or water — that offering of devotion, from one whose heart is pure, I accept.\"",
+       "src": "— Bhagavad Gita 9.26"
+      },
+      {
+       "type": "p",
+       "html": "Consider what this verse does to a religious economy built on expensive sacrifice. A leaf. Water. The four cheapest things on earth, available to anyone with hands, requiring no priest, no fire, no fee, no ritual qualification. The operative word is <em>bhaktyā</em> — \"with devotion\" — which is the only currency named, and it cannot be taxed. Krishna then generalises it in the next verse: whatever you do, whatever you eat, whatever you offer or give away, whatever austerity you practise, do it as an offering to me (9.27). The entire apparatus of religion is compressed into an orientation of attention, and then handed to everyone."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Even the Worst Person"
+    },
+    {
+     "type": "p",
+     "html": "At 9.29 Krishna says he is the same in all beings — none hateful to him, none dear — <em>but</em> those who worship him with devotion are in him and he in them. And then comes a verse that made the later devotional movements possible: <em>api cet su-durācāro bhajate mām ananya-bhāk</em> — even if a person of very bad conduct worships me with undivided heart, he is to be regarded as good, for he has rightly resolved (9.30). He swiftly becomes righteous and attains lasting peace; know for certain, Arjuna, that my devotee never perishes (9.31). Not \"will be forgiven eventually.\" <em>Is to be regarded as good</em>, now, by you."
+    },
+    {
+     "type": "p",
+     "html": "And then 9.32, which needs to be handled with both hands. Those who take refuge in me, Krishna says, <em>even if</em> they are of \"sinful birth\" — <em>pāpa-yonayaḥ</em> — women, vaishyas, and shudras, even they attain the highest goal. Read forward, this is the door being opened: the highest attainment is declared available to precisely the groups excluded from Vedic study and ritual, and the bhakti traditions of the following millennium walked through that door in enormous numbers. Read closely, the premise is demeaning: the categories are grouped under a phrase about inferior birth, women among them, and the concession is framed as remarkable. Both things are in the verse. Reformers have leaned on the first half; critics have pointed at the second; some traditional commentators have argued the phrase attaches only to the first category and not to the list. The historically honest statement is that the Gita is, on this question, a text of its time doing something unusual for its time — and that neither half of that sentence cancels the other."
+    },
+    {
+     "type": "p",
+     "html": "The chapter closes with the instruction that the whole devotional tradition took as its charter: fix your mind on me, be devoted to me, sacrifice to me, bow to me; so shall you come to me, having made me your highest goal (9.34). Krishna will repeat this sentence, almost word for word, as the final teaching of the entire book at 18.65 — which tells you that in the Gita's own architecture, this chapter is not a detour on the way to something more sophisticated. It is the destination."
+    }
+   ]
+  },
+  {
+   "id": "c10",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 10 · Vibhūti Yoga",
+   "title": "The Divine Glories",
+   "subtitle": "A catalogue of everything superlative, and the strange logic of a list",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Arjuna, now fully convinced and hungry, asks Krishna to describe his <em>vibhūtis</em> — his manifestations, his glories, the forms in which he pervades the world — because he cannot get enough of hearing it: there is no satiety in listening to your nectar (10.18). What follows is one of the great catalogues in world literature, and it works by a rule you can learn in one sentence: in every category of thing, Krishna is the one that most fully is what that category means."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The seed of the list",
+     "sk": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः ।<br/>अहमादिश्च मध्यं च भूतानामन्त एव च ॥",
+     "tr": "aham ātmā guḍākeśa sarva-bhūtāśaya-sthitaḥ / aham ādiś ca madhyaṁ ca bhūtānām anta eva ca",
+     "mn": "\"I am the Self, O Gudakesha, seated in the hearts of all beings. I am the beginning, the middle, and the very end of beings.\"",
+     "src": "— Bhagavad Gita 10.20"
+    },
+    {
+     "type": "p",
+     "html": "Then the list. Of the Adityas, Vishnu; of lights, the radiant sun; of the Vedas, the Sama Veda; of the gods, Indra; of the senses, the mind; of the Rudras, Shankara; of mountains, Meru; of bodies of water, the ocean; of trees, the ashvattha; of rivers, the Ganga; of weapons, the thunderbolt; of seasons, spring. Among the Pandavas — and he says this to Arjuna's face — <em>I am Dhananjaya</em>, which is Arjuna's own name (10.37). Among letters, he says at 10.33, I am the letter A."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Why the letter A",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<em>Akṣarāṇām akāro 'smi</em> — of syllables I am A. In Sanskrit this is not a boast about coming first alphabetically. The vowel <em>a</em> is the sound the open mouth makes when no articulation is added at all; every other sound is a modification of that basic voicing, and in the traditional grammatical analysis a consonant cannot even be pronounced without it. It is not the first thing in the series. It is what all the rest of the series is made of. The whole chapter's logic is contained in that one item: Krishna is not claiming to be the most impressive entry in each category, but the underlying capacity that makes the category possible."
+      },
+      {
+       "type": "p",
+       "html": "And a darker item in the same list, easy to miss: <em>I am death, the devourer of all</em> (10.34), sitting between \"the fame, the fortune, the speech, the memory\" and no more emphasis than any other line. Chapter eleven takes that half-verse and makes Arjuna look at it."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Why the List Cannot Be Finished"
+    },
+    {
+     "type": "p",
+     "html": "Krishna ends the catalogue by declaring it hopeless. There is no end to my divine manifestations; what I have declared is only a fraction, offered as illustration (10.40). Then the rule that makes the whole list unnecessary: whatever being is glorious, prosperous or powerful — <em>yad yad vibhūtimat sattvaṁ śrīmad ūrjitam eva vā</em> — know that it has sprung from a fragment of my splendour (10.41). And more bluntly still, in the chapter's last line: I stand supporting this entire world with a single fragment of myself (10.42)."
+    },
+    {
+     "type": "p",
+     "html": "There is a real theological choice being made here, and it is worth naming. The chapter could have said: God is beyond all these things, so look away from the world. Instead it says: look at whatever is most alive in each category and you are looking at a fragment. It is a training of attention outward rather than a withdrawal of it — which is why this chapter, more than the meditative ones, is the reason that Indian devotional poetry is so full of rivers, mountains, seasons, and animals. And it sets up chapter eleven perfectly: Arjuna has now heard the fragments described one by one, and he makes the mistake of asking to see them all at once."
+    }
+   ]
+  },
+  {
+   "id": "c11",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 11 · Viśvarūpa Darśana Yoga",
+   "title": "The Vision of the Cosmic Form",
+   "subtitle": "The chapter where a friend becomes a terror, and the war is revealed as already over",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "This is the hinge of the book, and unlike every other chapter it is not primarily an argument. It is an event. Arjuna, having heard about the glories, asks to see the form Krishna has been describing: if you think I can bear the sight of it, show me your imperishable self (11.4). Krishna agrees — behold my hundreds and thousands of forms, of many kinds, divine, of various colours and shapes — and then adds the line that should have warned him. <em>But you cannot see me with these eyes of yours. I give you a divine eye.</em>"
+    },
+    {
+     "type": "p",
+     "html": "The gift of the <em>divya-cakṣus</em> is the same gift Vyasa gave Sanjaya at the start of the epic. The Gita is quite precise about this: what Arjuna sees is not visible to the ordinary organ, and the perception has to be issued to him. Sanjaya, narrating in the palace, is seeing it through a version of the same faculty — which is why the chapter is one of the few places where the narrator stops reporting and starts exclaiming."
+    },
+    {
+     "type": "h3",
+     "html": "What He Sees"
+    },
+    {
+     "type": "p",
+     "html": "The description that follows is the most extraordinary sustained passage in the text. Arjuna sees the whole universe, with its manifold divisions, gathered into one place in the body of the god of gods. Countless mouths, eyes, arms, bellies; no beginning, no middle, no end; blazing with the radiance of a thousand suns; wearing garlands and celestial ornaments, holding uplifted weapons, facing every direction at once. The gods themselves are inside it, watching in astonishment."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · A thousand suns",
+     "sk": "दिवि सूर्यसहस्रस्य भवेद्युगपदुत्थिता ।<br/>यदि भाः सदृशी सा स्याद्भासस्तस्य महात्मनः ॥",
+     "tr": "divi sūrya-sahasrasya bhaved yugapad utthitā / yadi bhāḥ sadṛśī sā syād bhāsas tasya mahātmanaḥ",
+     "mn": "\"If the light of a thousand suns were to rise in the sky all at once, that radiance might resemble the splendour of that great being.\"",
+     "src": "— Bhagavad Gita 11.12"
+    },
+    {
+     "type": "p",
+     "html": "For a few verses Arjuna is in awe, and his awe is devotional — he bows, he praises, he calls Krishna the first of gods, the resting place of the universe. Then the vision changes, or rather he begins to see what was in it all along. The mouths are not only speaking. They have terrible tusks and they are burning like the fires of the end of time, and into them — he watches this happen — the warriors of both armies are rushing. Bhishma, Drona, Karna, the sons of Dhritarashtra along with the hosts of kings, are entering the flaming mouths, some caught between the teeth with their heads crushed. As rivers run toward the ocean, as moths fly into a blazing flame to their destruction, so these men are pouring into those mouths to be consumed."
+    },
+    {
+     "type": "p",
+     "html": "Arjuna's composure breaks completely. Tell me who you are, he says, you of terrible form; I bow to you, be gracious, I want to understand you, for I do not know what you are doing (11.31). And Krishna answers with the verse that has travelled further outside India than any other line of Sanskrit ever written."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The answer",
+     "sk": "कालोऽस्मि लोकक्षयकृत्प्रवृद्धो<br/>लोकान्समाहर्तुमिह प्रवृत्तः ।<br/>ऋतेऽपि त्वां न भविष्यन्ति सर्वे<br/>येऽवस्थिताः प्रत्यनीकेषु योधाः ॥",
+     "tr": "kālo 'smi loka-kṣaya-kṛt pravṛddho / lokān samāhartum iha pravṛttaḥ / ṛte 'pi tvāṁ na bhaviṣyanti sarve / ye 'vasthitāḥ pratyanīkeṣu yodhāḥ",
+     "mn": "\"I am Time, grown full and mighty, destroyer of worlds, set in motion here to gather the worlds in. Even without you, all these warriors arrayed in the opposing ranks shall cease to exist.\"",
+     "src": "— Bhagavad Gita 11.32"
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · The most famous mistranslation in the world",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "You have heard this verse. On 16 July 1945, at the Trinity test, the physicist J. Robert Oppenheimer — who had studied Sanskrit with Arthur Ryder at Berkeley and read the Gita in the original — later said that a line from this chapter came into his mind: \"Now I am become Death, the destroyer of worlds.\" It is one of the most quoted sentences of the twentieth century, and it is a loose rendering of the verse above."
+      },
+      {
+       "type": "p",
+       "html": "The word is <em>kāla</em> — <strong>Time</strong>. Krishna does not say \"I am Death.\" He says \"I am Time.\" Sanskrit will let you get to death from there, since <em>kāla</em> can mean the appointed hour and is a name of Yama; Oppenheimer's choice is defensible as poetry and he knew exactly what he was doing. But something essential is lost, and it is the whole point of the passage. \"I am Death\" is a boast of agency: I kill. \"I am Time\" is a statement about what was already true before anyone drew a bow. These men are not dying because Krishna is killing them or because Arjuna is; they are dying because they are in time, and time takes everything. That is precisely why the verse functions as an answer to Arjuna's despair rather than an aggravation of it. We will return to this in the final section, because it is the cleanest example in the whole course of how a small translation choice reroutes a text's meaning."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Be the Instrument"
+    },
+    {
+     "type": "p",
+     "html": "What Krishna says next is the practical conclusion of the entire vision, and it is the sentence the whole Gita has been walking toward."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Already slain",
+     "sk": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व<br/>जित्वा शत्रून्भुङ्क्ष्व राज्यं समृद्धम् ।<br/>मयैवैते निहताः पूर्वमेव<br/>निमित्तमात्रं भव सव्यसाचिन् ॥",
+     "tr": "tasmāt tvam uttiṣṭha yaśo labhasva / jitvā śatrūn bhuṅkṣva rājyaṁ samṛddham / mayaivaite nihatāḥ pūrvam eva / nimitta-mātraṁ bhava savyasācin",
+     "mn": "\"Therefore stand up and win glory. Conquer your enemies and enjoy a prosperous kingdom. By me alone they are already slain; be merely the occasion, O ambidextrous archer.\"",
+     "src": "— Bhagavad Gita 11.33"
+    },
+    {
+     "type": "p",
+     "html": "<em>Nimitta-mātraṁ bhava</em> — \"be merely the instrument,\" \"be only the occasion.\" This is the most consoling and the most disquieting phrase in the Gita, depending on who is holding it. Read in context, it completes the argument of chapter two: Arjuna's grief rested on a hidden assumption of authorship, that these deaths would be his doing, and the vision removes the assumption by showing him the deaths already accomplished. Read out of context, by someone who wants permission, it is a formula for evading responsibility for anything at all. Both readings have occurred in history. We will look squarely at the second in the section on reception."
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · The apology",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "What Arjuna does next is, humanly, the best moment in the book. Having seen the form that contains all worlds, he apologises for having been casual. Whatever I said rashly, thinking of you only as a friend — \"hey Krishna, hey Yadava, hey friend\" — not knowing your greatness, out of carelessness or affection; and however I treated you disrespectfully while playing, resting, sitting or eating, alone or in company: forgive me (11.41–11.42). Then he asks for something that no reader ever fails to understand. <em>Please put the other face back on.</em> Show me that same four-armed form; I want to see you crowned, with mace and discus — I wish to see you as you were (11.46)."
+      },
+      {
+       "type": "p",
+       "html": "And Krishna does. He resumes his gentle human form and comforts a frightened man: let your fear go, let a good mind return to you (11.49). Sanjaya, narrating from the palace, adds the detail that carries the whole emotional weight of the chapter — <em>Vasudeva, having spoken thus to Arjuna, showed him his own form again, and the great-souled one, becoming gentle once more, reassured the terrified one.</em> The friend comes back. The vision is not withdrawn as a punishment; it is withdrawn as a kindness."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter's last verses set up chapter twelve exactly. This form of mine is very hard to see, Krishna says; not by the Vedas, not by austerity, not by charity or sacrifice can it be seen as you have seen it — but by undivided devotion, <em>bhaktyā tv ananyayā</em>, it can be known and seen and entered (11.53–11.54). The most spectacular chapter in the Gita ends by saying that the spectacle was not the point, and that the door is a smaller and quieter one."
+    }
+   ]
+  },
+  {
+   "id": "c12",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 12 · Bhakti Yoga",
+   "title": "The Yoga of Devotion",
+   "subtitle": "Twenty verses, a staircase for those who cannot climb, and a portrait of the person God loves",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter twelve is the shortest chapter in the Gita and, for a very large number of readers across a very long time, the one they would keep if they could keep only one. It is twenty verses long. It contains no cosmology, no metaphysical demonstration and no battlefield. It answers a single question and then describes a single kind of person."
+    },
+    {
+     "type": "p",
+     "html": "Arjuna's question is sharp and, after chapter eleven, entirely earned. Those devotees who worship you, ever steadfast — and those who worship the imperishable, the unmanifest — which of them are better versed in yoga (12.1)? He is asking about two genuine paths that Indian thought had already produced: worship of a personal God with form, and contemplation of a formless absolute. He wants a ruling."
+    },
+    {
+     "type": "p",
+     "html": "Krishna's answer has two parts, and the first is direct: those who fix their minds on me and worship me with supreme faith, <em>them I consider the most perfectly established in yoga</em> (12.2). The second part is scrupulously fair to the other side: those who worship the imperishable, the indefinable, the unmanifest, the omnipresent, the unthinkable, the unchanging, the immovable, the eternal — restraining the senses, even-minded everywhere, rejoicing in the welfare of all beings — <em>they too attain me</em> (12.3–12.4). The path of the formless is not wrong. It works. It arrives."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Why the formless is harder",
+     "sk": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम् ।<br/>अव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते ॥",
+     "tr": "kleśo 'dhikataras teṣām avyaktāsakta-cetasām / avyaktā hi gatir duḥkhaṁ dehavadbhir avāpyate",
+     "mn": "\"Greater is the difficulty of those whose minds are set on the unmanifest; for the unmanifest goal is reached with pain by those who are embodied.\"",
+     "src": "— Bhagavad Gita 12.5"
+    },
+    {
+     "type": "p",
+     "html": "That verse is a piece of psychological realism, not a metaphysical demotion. <em>Dehavadbhiḥ</em> — \"by those possessing bodies.\" We are embodied creatures; our attention is shaped for faces, voices, forms, relationships. Asking such a creature to love an unthinkable absolute is asking it to work permanently against its own grain. It can be done — Krishna says so in the previous verse — but the toil is greater, and the Gita sees no virtue in unnecessary toil. This single verse is the philosophical foundation of the entire bhakti movement that swept India for the next thousand years."
+    },
+    {
+     "type": "h3",
+     "html": "The Staircase Down"
+    },
+    {
+     "type": "p",
+     "html": "What comes next is, in its quiet way, one of the kindest passages in religious literature — because it is written for people who cannot do what has just been recommended. Krishna gives a descending sequence of four options, and each rung assumes the previous one has failed."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>Fix your mind on me alone, place your intelligence in me</strong> — then you will dwell in me hereafter, no doubt of it (12.8). This is the direct route: sustained, absorbed attention.",
+      "<strong>If you cannot steady your thought on me, then seek to reach me by the yoga of repeated practice</strong> — <em>abhyāsa-yoga</em> (12.9). If you cannot hold it, train it. Repetition, daily, without drama.",
+      "<strong>If you are incapable even of practice, be intent on doing work for my sake</strong> (12.10). If the mind will not sit, use the hands. Do the work as offering, and you will still arrive.",
+      "<strong>If you are unable even to do that, then take refuge in my yoga and abandon the fruit of all action</strong>, self-controlled (12.11). If you cannot even orient the work, then at least let go of the results of it — the minimum viable practice, and still, the text says, sufficient."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Notice the structure. Almost every serious tradition tells you what the highest practice is. Very few tell you, in the same breath and without contempt, what to do when you cannot do it — and then what to do when you cannot do <em>that</em>. There is no scolding anywhere in the sequence. There is not even a suggestion that the fourth rung is shameful. And Krishna then reverses the entire hierarchy at 12.12 with a verse that ranks the rungs by result rather than by prestige:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The unexpected ranking",
+     "sk": "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते ।<br/>ध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम् ॥",
+     "tr": "śreyo hi jñānam abhyāsāj jñānād dhyānaṁ viśiṣyate / dhyānāt karma-phala-tyāgas tyāgāc chāntir anantaram",
+     "mn": "\"Better than practice is knowledge; better than knowledge is meditation; better than meditation is the renunciation of the fruits of action — from such renunciation, peace immediately follows.\"",
+     "src": "— Bhagavad Gita 12.12"
+    },
+    {
+     "type": "p",
+     "html": "The bottom rung of the staircase turns out to yield peace <em>immediately</em> — <em>anantaram</em>, without an interval. The thing offered to the person who could manage nothing else is the thing from which peace follows fastest. Whether Krishna means this as a reversal or as a description of what each stage naturally matures into, commentators have disagreed. What is not in dispute is the tone: nobody in this chapter is being left behind."
+    },
+    {
+     "type": "h3",
+     "html": "The Portrait"
+    },
+    {
+     "type": "p",
+     "html": "The last eight verses do something no other chapter does. They describe, in a single long sentence broken across many verses, the person who is dear to God — and the refrain <em>sa me priyaḥ</em>, \"he is dear to me,\" tolls through it like a bell, six times over. It is not a list of achievements. It is a list of qualities of relationship."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The one who is dear",
+     "sk": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।<br/>निर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥<br/>सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।<br/>मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥",
+     "tr": "adveṣṭā sarva-bhūtānāṁ maitraḥ karuṇa eva ca / nirmamo nirahaṅkāraḥ sama-duḥkha-sukhaḥ kṣamī / santuṣṭaḥ satataṁ yogī yatātmā dṛḍha-niścayaḥ / mayy-arpita-mano-buddhir yo mad-bhaktaḥ sa me priyaḥ",
+     "mn": "\"One who hates no being, who is friendly and compassionate, free from possessiveness and the sense of 'I', equal in pain and pleasure, patient; ever content, disciplined, self-restrained, of firm resolve, with mind and intellect given to me — that devotee of mine is dear to me.\"",
+     "src": "— Bhagavad Gita 12.13–12.14"
+    },
+    {
+     "type": "p",
+     "html": "The portrait continues for six more verses and it is worth reading slowly, because the qualities are almost entirely negative in form — a grammar of what such a person does <em>not</em> do. He is not agitated by the world and the world is not agitated by him (12.15). He is free of joy, impatience, fear and anxiety. He expects nothing, is pure, capable, impartial, untroubled, and has given up all undertakings begun for personal gain (12.16). He neither rejoices nor hates, neither grieves nor craves; he has renounced both good and bad fortune (12.17). Alike to friend and enemy, alike in honour and dishonour, in cold and heat, in pleasure and pain, free from attachment; the same in blame and praise, silent, content with whatever comes, homeless, of steady mind (12.18–12.19)."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · Reading the portrait as a diagnostic",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "These eight verses are traditionally used as a daily recitation, and there is a good reason for it: read as a checklist they are crushing, but read as a mirror they are precise. Take one line only — <em>alike in honour and dishonour</em>, say, or <em>free from the sense of mine</em> — and carry it through a single ordinary day, not trying to achieve it but simply noticing every occasion on which it is not true of you. That noticing is the practice. The Gita nowhere suggests these qualities are installed by decision. It says they are what a mind looks like once it has stopped negotiating with outcomes, which is a description of a result, not an instruction to fake one."
+      }
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The chapter's first quality is <em>adveṣṭā sarva-bhūtānām</em> — hating no being. Not loving all beings, which is a state most of us cannot manufacture; simply not hating any. Krishna puts it first, ahead of friendliness and compassion. Consider whether that ordering is an accident, or whether the text knows something about which of the three can actually be started today."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "And then the last verse, which closes the loop: those who follow this <em>dharmyāmṛta</em> — this immortal teaching of righteousness — as it has been declared, with faith, holding me as the supreme, those devotees are exceedingly dear to me (12.20). The chapter that began with a technical question about two contemplative paths ends with the word <em>priyāḥ</em>, \"dear.\" That, and not the burning mouths of chapter eleven, is where the Gita's devotional tradition made its home."
+    }
+   ]
+  },
+  {
+   "id": "c13",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 13 · Kṣetra Kṣetrajña Vibhāga Yoga",
+   "title": "The Field and the Knower of the Field",
+   "subtitle": "One distinction, drawn cleanly, that reorganises everything you thought you were",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "The last six chapters of the Gita form a distinct block: analytical, systematic, close to a philosophical textbook. Chapter thirteen opens it with a single distinction, and the distinction is the oldest tool in Indian philosophy — between what is known and the one who knows it."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The definition",
+     "sk": "इदं शरीरं कौन्तेय क्षेत्रमित्यभिधीयते ।<br/>एतद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः ॥",
+     "tr": "idaṁ śarīraṁ kaunteya kṣetram ity abhidhīyate / etad yo vetti taṁ prāhuḥ kṣetrajña iti tad-vidaḥ",
+     "mn": "\"This body, O son of Kunti, is called the field; the one who knows it, those who know such things call the knower of the field.\"",
+     "src": "— Bhagavad Gita 13.1 (13.2 in editions that open the chapter with Arjuna's question)"
+    },
+    {
+     "type": "note",
+     "html": "This is the one place where verse numbering genuinely diverges. Some editions — following Shankara, whose commentary does not treat it as part of the text — begin the chapter directly with Krishna's words; others include a preceding verse in which Arjuna asks about prakriti, purusha, the field and the knower. Hence the Gita is described as having 700 verses in some countings and 701 in others. It is a small thing, but it is a real and instructive one: even a text this carefully transmitted has seams."
+    },
+    {
+     "type": "p",
+     "html": "The word <em>kṣetra</em> means a field in the agricultural sense — ploughed ground, a place where things are sown and harvested. It is also the word in <em>dharma-kṣetre kuru-kṣetre</em>, the very first line of the Gita. Seven hundred verses after opening on a battlefield, the text tells you that the field in question was the body all along."
+    },
+    {
+     "type": "h3",
+     "html": "What Is In the Field"
+    },
+    {
+     "type": "p",
+     "html": "Krishna then inventories the field, and the inventory is longer than most readers expect. It includes the five elements, the I-sense, intellect, the unmanifest, the ten senses and the mind, the five objects of sense — and then, crucially: desire, hatred, pleasure, pain, the aggregate, awareness, and firmness (13.5–13.6). Your emotions are in the field. Your intelligence is in the field. Your sense of being a self is in the field. Everything you would ordinarily point to when saying \"me\" is on the side of the known, not the knower."
+    },
+    {
+     "type": "p",
+     "html": "This is the chapter's actual force, and it is easy to underestimate. The distinction is not between soul and body in the familiar Western arrangement, where the soul contains the personality. Here the personality is field. What remains as <em>kṣetrajña</em> is only the bare fact of knowing — and Krishna adds, at 13.2, that he himself is the knower of the field in all fields."
+    },
+    {
+     "type": "h3",
+     "html": "Knowledge as Character"
+    },
+    {
+     "type": "p",
+     "html": "Then something surprising happens. Krishna says he will describe <em>jñāna</em>, knowledge — and instead of describing a doctrine, he lists a set of behaviours: absence of pride, absence of pretence, non-violence, patience, uprightness, service of the teacher, purity, steadiness, self-control; dispassion toward objects of sense; absence of egotism; keeping in view the evils of birth, death, old age and disease; non-attachment, absence of clinging to son, wife and home; constant even-mindedness in the desirable and the undesirable; unwavering devotion; resort to solitary places; distaste for crowds; constancy in self-knowledge; and insight into the purpose of knowing the truth. All this, he says, is knowledge; anything contrary to it is ignorance (13.7–13.11)."
+    },
+    {
+     "type": "p",
+     "html": "So <em>jñāna</em> here is not information. It is a way of being that has become so ingrained that it constitutes perception. The Gita is claiming that character and cognition are not separable — that a proud, pretentious, violent, impatient person is not merely behaving badly but literally cannot see clearly. That claim is a considerable philosophical position, and it is stated in this chapter as if it were obvious."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · The seeing that is repeated",
+     "blocks": [
+      {
+       "type": "verse",
+       "tag": "Sanskrit · 13.27",
+       "sk": "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् ।<br/>विनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ॥",
+       "tr": "samaṁ sarveṣu bhūteṣu tiṣṭhantaṁ parameśvaram / vinaśyatsv avinaśyantaṁ yaḥ paśyati sa paśyati",
+       "mn": "\"Who sees the supreme lord standing equally in all beings, undying amid the dying — that one truly sees.\"",
+       "src": "— Bhagavad Gita 13.27 (13.28 in the alternative numbering)"
+      },
+      {
+       "type": "p",
+       "html": "<em>Yaḥ paśyati sa paśyati</em> — \"who sees, he sees.\" The Sanskrit repeats the verb, and the repetition is the argument: there is ordinary looking, which registers difference and decay, and there is seeing, which registers what does not vary. The verse does not ask you to stop noticing that things die. It asks you to notice the undying <em>within</em> the dying — <em>vinaśyatsu avinaśyantam</em>, a locative that keeps both terms in the same place at the same time. Nothing is denied. Something further is added."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter ends with three of the Gita's most compact images for how the knower relates to the field. As the one sun illumines this entire world, so the master of the field illumines the whole field (13.33). As all-pervading space is not defiled because of its subtlety, so the self, present everywhere in the body, is not defiled (13.32). And earlier, at 13.16: undivided, yet it seems to stand divided among beings. Light, space, and the illusion of division. The distinction drawn at the start of the chapter turns out to be a distinction that, correctly understood, dissolves."
+    }
+   ]
+  },
+  {
+   "id": "c14",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 14 · Guṇatraya Vibhāga Yoga",
+   "title": "The Three Strands of Nature",
+   "subtitle": "Brightness, restlessness and inertia — the Gita's model of every mood you have ever had",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter fourteen takes a piece of technical vocabulary from Samkhya and turns it into practical psychology. Everything made of <em>prakṛti</em> — nature, which for the Gita includes mind and personality — is woven of three <em>guṇas</em>. The word means a strand or fibre of a rope, and the metaphor matters: they are not three substances stacked, but three threads twisted together in every single thing."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The three that bind",
+     "sk": "सत्त्वं रजस्तम इति गुणाः प्रकृतिसम्भवाः ।<br/>निबध्नन्ति महाबाहो देहे देहिनमव्ययम् ॥",
+     "tr": "sattvaṁ rajas tama iti guṇāḥ prakṛti-sambhavāḥ / nibadhnanti mahā-bāho dehe dehinam avyayam",
+     "mn": "\"Sattva, rajas and tamas — these strands, born of nature, bind down in the body the imperishable dweller in the body, O mighty-armed one.\"",
+     "src": "— Bhagavad Gita 14.5"
+    },
+    {
+     "type": "p",
+     "html": "The essential and easily missed point is in the verb. All three <em>bind</em>. Sattva binds too. The Gita is not offering a ladder in which you climb to sattva and stop; it says explicitly that sattva binds by attachment to happiness and to knowledge (14.6), which is a subtler chain than the others but a chain nonetheless. The goal is not to become a good, calm, luminous person. It is to become free — which includes freedom from the pleasant states."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Guṇa",
+      "Nature",
+      "How it binds",
+      "How you recognise it"
+     ],
+     "rows": [
+      [
+       "<strong>Sattva</strong> <span class=\"dev\">सत्त्व</span>",
+       "Luminous, clear, healthy, weightless",
+       "By attachment to happiness and to knowing (14.6)",
+       "Understanding is bright; the senses are clear; one feels well and wants to keep feeling well"
+      ],
+      [
+       "<strong>Rajas</strong> <span class=\"dev\">रजस्</span>",
+       "Passionate, restless, born of craving and clinging",
+       "By attachment to activity — it makes you act (14.7)",
+       "Greed, initiative, unrest, longing, the inability to stop starting things"
+      ],
+      [
+       "<strong>Tamas</strong> <span class=\"dev\">तमस्</span>",
+       "Dark, heavy, born of ignorance",
+       "By negligence, indolence and sleep (14.8)",
+       "Fog, inertia, delusion, the postponement of everything"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Krishna's model is dynamic rather than typological, and this is what saves it from becoming a personality quiz. At 14.10 he says the three are constantly overpowering one another — sattva prevails by suppressing rajas and tamas, rajas by suppressing sattva and tamas, tamas by suppressing sattva and rajas. Nobody <em>is</em> a tamasic person. Everyone is a shifting proportion, hour by hour. What you can learn to read is which strand is currently on top, and the chapter gives you the signs: when the light of knowledge shines through all the gates of the body, know that sattva is dominant (14.11); greed, activity, the undertaking of works, restlessness and longing arise when rajas is dominant (14.12); darkness, inertia, negligence and delusion when tamas is (14.13)."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · Reading the weather",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This is the most immediately usable framework in the entire Gita, and it takes ten seconds. Three times today — morning, afternoon, evening — stop and ask which strand is currently running. Foggy, heavy, avoidant: tamas. Driven, scattered, itchy, six tabs open: rajas. Clear, unhurried, able to see the thing in front of you: sattva. Then note what you did in the previous hour — what you ate, what you read, whom you spoke to, how you slept — because the chapter's implicit claim is that these states are <em>caused</em> and therefore partly manageable. The practice is not to force sattva. It is simply to stop mistaking a passing quality of nature for a fact about who you are. \"I am a lazy person\" is a much heavier sentence than \"tamas is high today,\" and the second one is closer to what the text says is true."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Beyond the Three"
+    },
+    {
+     "type": "p",
+     "html": "Arjuna asks the natural question at 14.21: by what marks is a person recognised who has gone beyond the three? Krishna's answer rhymes with chapter twelve's portrait but is stranger. Such a person does not hate illumination, activity or delusion when they are present, nor long for them when absent (14.22). He sits like one indifferent, unshaken, thinking only \"the strands are operating\" (14.23). Alike in pleasure and pain, regarding a clod of earth, a stone and a piece of gold as the same; the same in blame and praise, honour and dishonour, toward friend and enemy; giving up all undertakings — he is said to have crossed beyond the strands (14.24–14.25)."
+    },
+    {
+     "type": "p",
+     "html": "The phrase to keep is <em>guṇā guṇeṣu vartante</em>, roughly \"the strands are simply operating among the strands\" — a sentence Krishna uses in a related form at 3.28. It is a description of watching one's own moods the way one watches weather: not suppressing them, not indulging them, and above all not signing one's name to them."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The way across",
+     "sk": "मां च योऽव्यभिचारेण भक्तियोगेन सेवते ।<br/>स गुणान्समतीत्यैतान्ब्रह्मभूयाय कल्पते ॥",
+     "tr": "māṁ ca yo 'vyabhicāreṇa bhakti-yogena sevate / sa guṇān samatītyaitān brahma-bhūyāya kalpate",
+     "mn": "\"And the one who serves me with unswerving devotion, going wholly beyond these strands, becomes fit for becoming Brahman.\"",
+     "src": "— Bhagavad Gita 14.26"
+    },
+    {
+     "type": "p",
+     "html": "It is a characteristic Gita ending. An entire chapter of impersonal Samkhya analysis — three strands, their signs, their destinations — resolves into a single verse of devotion. The way out of nature, in this text, is never a better management of nature. It is an orientation toward something that is not nature at all."
+    }
+   ]
+  },
+  {
+   "id": "c15",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 15 · Puruṣottama Yoga",
+   "title": "The Supreme Person",
+   "subtitle": "An upside-down tree, an axe, and a fragment of God walking around inside you",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter fifteen is twenty verses long and contains three of the most concentrated images in the Gita. In many Vaishnava households it is recited before meals, which means that of all the chapters this is the one most often spoken aloud by people who are not studying it. It opens with a tree growing the wrong way up."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The inverted tree",
+     "sk": "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् ।<br/>छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित् ॥",
+     "tr": "ūrdhva-mūlam adhaḥ-śākham aśvatthaṁ prāhur avyayam / chandāṁsi yasya parṇāni yas taṁ veda sa veda-vit",
+     "mn": "\"They speak of an imperishable ashvattha tree with its roots above and its branches below, whose leaves are the Vedic hymns. One who knows it knows the Vedas.\"",
+     "src": "— Bhagavad Gita 15.1"
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Why the tree is upside down",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The <em>aśvattha</em> is the pipal, the sacred fig — the longest-lived, most spreading, most obviously permanent tree in the Indian landscape. Its name is often glossed as <em>śvaḥ</em> (\"tomorrow\") plus a negation: that which will not last until tomorrow. The Gita takes the emblem of permanence and names it impermanence, then inverts it: roots above, branches below."
+      },
+      {
+       "type": "p",
+       "html": "The inversion is doing precise philosophical work. A tree's roots are where it draws from and where it is anchored. To say the roots are <em>above</em> is to say that this whole visible world is not self-supporting — that it is fed from a source that is not in it, and that everything you can see is the foliage of something you cannot. The branches spreading downward, nourished by the strands, with roots reaching further down into the human world as actions (15.2), are the ordinary consequences we live among. And then Krishna gives the instruction that shocks readers who expect gentleness from a devotional text: this firmly rooted tree is to be cut down with the strong axe of non-attachment — <em>asaṅga-śastreṇa dṛḍhena chittvā</em> (15.3). Not pruned. Felled."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "A Fragment of the Divine"
+    },
+    {
+     "type": "p",
+     "html": "The second image is the most intimate claim in the entire text about what a human being is."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · A fragment of the divine",
+     "sk": "ममैवांशो जीवलोके जीवभूतः सनातनः ।<br/>मनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ॥",
+     "tr": "mamaivāṁśo jīva-loke jīva-bhūtaḥ sanātanaḥ / manaḥ-ṣaṣṭhānīndriyāṇi prakṛti-sthāni karṣati",
+     "mn": "\"An eternal fragment of my own self, having become a living being in the world of the living, draws to itself the senses, of which the mind is the sixth, abiding in nature.\"",
+     "src": "— Bhagavad Gita 15.7"
+    },
+    {
+     "type": "p",
+     "html": "<em>Mamaivāṁśaḥ</em> — \"a portion of me alone.\" This single word became one of the great battlegrounds of Indian philosophy, and you can predict the positions. For Ramanuja it is decisive evidence that the individual self is a real, distinct part of God, related as body to soul — the whole of Vishishtadvaita hangs on the reality of the part. For Shankara, who cannot admit that the partless absolute has parts, <em>aṁśa</em> must be understood figuratively, as one speaks of a reflection of the sun in water being a portion of the sun. Same word, two entire systems. We will lay them side by side shortly."
+    },
+    {
+     "type": "p",
+     "html": "The following verse gives one of the Gita's most vivid pictures of transmigration: when the lord takes up a body and when he leaves it, he carries these along as the wind carries scents from their places (15.8). The image is exact — a smell has no shape and leaves no mark on the air it crosses, yet it is unmistakably itself and it arrives somewhere. Whatever one makes of the doctrine, the metaphor is a good one for what the text is trying to describe: continuity without substance."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Seated in every heart",
+     "sk": "सर्वस्य चाहं हृदि सन्निविष्टो<br/>मत्तः स्मृतिर्ज्ञानमपोहनं च ।<br/>वेदैश्च सर्वैरहमेव वेद्यो<br/>वेदान्तकृद्वेदविदेव चाहम् ॥",
+     "tr": "sarvasya cāhaṁ hṛdi sanniviṣṭo / mattaḥ smṛtir jñānam apohanaṁ ca / vedaiś ca sarvair aham eva vedyo / vedānta-kṛd veda-vid eva cāham",
+     "mn": "\"And I am seated in the hearts of all; from me come memory, knowledge, and their removal. I alone am that which is to be known by all the Vedas; I am the author of Vedanta and the knower of the Vedas.\"",
+     "src": "— Bhagavad Gita 15.15"
+    },
+    {
+     "type": "p",
+     "html": "Note the third item in that list: <em>apohana</em>, removal, forgetting. Memory and knowledge come from him, and so does their loss. The Gita does not portray forgetting as a malfunction outside the divine economy — a striking thing to say, and a source of considerable discomfort for readers who want a clean account of why anyone is deluded in the first place. The text does not supply one."
+    },
+    {
+     "type": "p",
+     "html": "The chapter closes by naming its own title. There are two <em>puruṣas</em> in the world, the perishable and the imperishable — all beings are the perishable, the unchanging is called the imperishable (15.16). But there is another, the highest, called the supreme self, who entering the three worlds sustains them (15.17). Because he transcends the perishable and is higher even than the imperishable, he is celebrated in the world and in the Veda as <em>Puruṣottama</em>, the Supreme Person (15.18). It is one of the Gita's boldest moves: not content with the Upanishadic pair of changing world and unchanging absolute, it posits a third term above both — and that third term is the one driving Arjuna's chariot."
+    }
+   ]
+  },
+  {
+   "id": "c16",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 16 · Daivāsura Sampad Vibhāga Yoga",
+   "title": "The Divine and the Demonic",
+   "subtitle": "The Gita's least comfortable chapter, and the three gates it tells you to shut",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Chapter sixteen divides human dispositions into two kinds, and it does not hedge. It is the chapter modern readers most often skip, and it is worth not skipping — partly because it contains one of the most quoted verses in the book, and partly because reading it carefully shows what kind of division the text is actually making."
+    },
+    {
+     "type": "p",
+     "html": "The <em>daivī sampad</em>, the divine endowment, is a list of twenty-six qualities running over three verses: fearlessness, purity of being, steadfastness in knowledge and yoga, giving, self-control, sacrifice, study, austerity, uprightness; non-violence, truth, absence of anger, renunciation, peace, absence of slander, compassion toward beings, freedom from covetousness, gentleness, modesty, absence of fickleness; vigour, patience, fortitude, purity, absence of malice and absence of excessive pride (16.1–16.3)."
+    },
+    {
+     "type": "p",
+     "html": "The <em>āsurī sampad</em>, the demonic endowment, gets six words at 16.4 — ostentation, arrogance, conceit, anger, harshness and ignorance — and then thirteen verses of description, which tells you where the author's energy was. And the description is not what a modern reader expects. The demonic here are not sadists. They are people with a particular relationship to reality: they do not know what should be done or what should be refrained from; there is no purity in them, nor good conduct, nor truth (16.7). They say the world is without truth, without foundation, without a governing order, arisen from mutual union, with desire as its only cause (16.8)."
+    },
+    {
+     "type": "h3",
+     "html": "The Monologue"
+    },
+    {
+     "type": "p",
+     "html": "Then the Gita does something no other part of it does. It quotes the inner speech of such a person directly, and the ventriloquism is uncomfortably good. <em>This I have gained today; this desire I shall obtain. This wealth is mine, and that too shall be mine hereafter. That enemy has been slain by me, and I shall slay others also. I am the lord, I am the enjoyer, I am successful, powerful and happy. I am wealthy and well-born — who else is equal to me? I shall sacrifice, I shall give, I shall rejoice</em> (16.13–16.15). Bewildered by many thoughts, entangled in a net of delusion, addicted to the gratification of desires, they fall into a foul hell (16.16)."
+    },
+    {
+     "type": "p",
+     "html": "That monologue is a portrait of ordinary ambitious consciousness slightly amplified, and every reader who has ever kept a private ledger of gains and rivals will recognise it. The Gita's diagnosis is not cruelty but a specific structure of thought: an unbroken first person, a future full of acquisitions, and other people appearing only as obstacles or audience."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The three gates",
+     "sk": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः ।<br/>कामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ॥",
+     "tr": "tri-vidhaṁ narakasyedaṁ dvāraṁ nāśanam ātmanaḥ / kāmaḥ krodhas tathā lobhas tasmād etat trayaṁ tyajet",
+     "mn": "\"Threefold is this gate of hell, destructive of the self: desire, anger and greed. Therefore one should abandon these three.\"",
+     "src": "— Bhagavad Gita 16.21"
+    },
+    {
+     "type": "p",
+     "html": "It is a tidy verse and it has been carried in Indian memory for two thousand years, but read it against chapter two and you will see it is not a new teaching — it is the ladder of 2.62–63 compressed into a warning. Desire, then anger, then the ruin. Greed is added as the third because it is desire that has become a settled habit rather than an episode. And note the phrase <em>nāśanam ātmanaḥ</em>: the gate is destructive <em>of the self</em>. The damage the Gita is most concerned with here is not the damage such a person does to others, real as that is. It is what the structure does to the person inside it."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The obvious misuse of this chapter is to read it as a classification of other people. Nothing in the text supports that use, and the chapter's own placement resists it: it sits between a chapter about the divine fragment in every living being and a chapter about the varieties of faith, both of which cut against tidy sorting. Read it instead as a description of two directions a single mind moves in. Then take the monologue at 16.13–15 and ask, without flinching, which of those sentences you have actually said to yourself this month. The chapter becomes far more useful — and far more unsettling — the moment it stops being about someone else."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter's final verses point somewhere less dramatic than hell. Having shut the three gates, a person works for the welfare of the self and reaches the highest goal (16.22); the one who discards the injunction of scripture and acts by the impulse of desire attains neither perfection nor happiness (16.23). Therefore, Krishna concludes, let scripture be your authority in determining what should and should not be done (16.24). It is among the most conservative statements in the Gita, and it sits two chapters from <em>sarva-dharmān parityajya</em> — \"abandon all dharmas.\" The text contains both. Any account reporting only one of those verses is telling you about the commentator rather than the book."
+    }
+   ]
+  },
+  {
+   "id": "c17",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 17 · Śraddhātraya Vibhāga Yoga",
+   "title": "The Threefold Faith",
+   "subtitle": "You are what you trust — and a warning about how this chapter gets used",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Arjuna asks a question at the start of chapter seventeen that follows directly from the one just before it: what about people who worship with faith but set aside scriptural injunction — what is their condition (17.1)? It is a good question, and Krishna's answer refuses the binary the previous chapter seemed to set up. Faith itself, he says, is of three kinds, according to each person's nature."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · You are your faith",
+     "sk": "सत्त्वानुरूपा सर्वस्य श्रद्धा भवति भारत ।<br/>श्रद्धामयोऽयं पुरुषो यो यच्छ्रद्धः स एव सः ॥",
+     "tr": "sattvānurūpā sarvasya śraddhā bhavati bhārata / śraddhāmayo 'yaṁ puruṣo yo yac-chraddhaḥ sa eva saḥ",
+     "mn": "\"The faith of each person accords with their nature, O Bharata. This person is made of faith: as a person's faith is, so indeed is that person.\"",
+     "src": "— Bhagavad Gita 17.3"
+    },
+    {
+     "type": "p",
+     "html": "<em>Yo yac-chraddhaḥ sa eva saḥ</em> — \"of whatever faith one is, that one is.\" It is one of the most compressed sentences in the text and one of the most far-reaching. <em>Śraddhā</em> is a weaker word than the English \"faith\" in one respect and a much stronger one in another: it does not mean assent to propositions, it means what you place your weight on. What you actually trust — not what you say you believe — determines the shape of everything else you do. The chapter's whole taxonomy follows from that. It classifies not people's doctrines but the direction of their trust."
+    },
+    {
+     "type": "p",
+     "html": "Krishna then applies the threefold scheme to worship, food, sacrifice, austerity and giving in turn. Sattvic people worship the gods; rajasic, the powers of wealth and force; tamasic, ghosts and spirits (17.4). Sattvic food promotes long life and strength; rajasic food is bitter, sour, salty, very hot and burning, producing pain; tamasic food is stale, putrid, left over and unclean (17.8–17.10). Giving is sattvic when given because it should be given, to a worthy person who can make no return; rajasic when given grudgingly or for a return; tamasic when given at the wrong time and place, without respect (17.20–17.22)."
+    },
+    {
+     "type": "h3",
+     "html": "The Austerity of Speech"
+    },
+    {
+     "type": "p",
+     "html": "Buried in the middle of this taxonomy is a verse that deserves to be far better known than it is. Austerity, <em>tapas</em>, is analysed as threefold by domain — of the body, of speech, and of the mind — and the definition of the second is remarkable."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · What to do with a mouth",
+     "sk": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् ।<br/>स्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ॥",
+     "tr": "anudvega-karaṁ vākyaṁ satyaṁ priya-hitaṁ ca yat / svādhyāyābhyasanaṁ caiva vāṅ-mayaṁ tapa ucyate",
+     "mn": "\"Speech that causes no agitation, that is truthful, pleasant and beneficial, together with the regular practice of study — that is called the austerity of speech.\"",
+     "src": "— Bhagavad Gita 17.15"
+    },
+    {
+     "type": "p",
+     "html": "Four conditions, and they are hard to satisfy simultaneously on purpose: it must not agitate, it must be true, it must be pleasant, and it must be beneficial. Drop truth and you get flattery; drop pleasantness and you get the familiar brutality that congratulates itself on honesty; drop benefit and you get accurate, agreeable gossip. Indian ethical literature returned to this verse constantly, and the reason is obvious to anyone who has tried to hold all four for a single conversation."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · How this chapter gets misused",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "A caution belongs here, because chapter seventeen is the source of an entire modern industry. The threefold classification of food is regularly presented today — in wellness writing, in commercial yoga, and sometimes in dietary moralism with a sharp social edge — as an ancient nutritional science. The text does not support that weight. It is four verses long; it does not mention specific foods by name; and its categories are qualitative and moral rather than empirical. Whether a particular diet has particular physiological effects is a question for nutrition science, which has its own methods and its own answers; whether a food is <em>sāttvika</em> is a claim in a classificatory scheme built to illustrate a general point about the three strands."
+      },
+      {
+       "type": "p",
+       "html": "Keeping the lenses separate here is not pedantry. When a symbolic taxonomy is presented as clinical evidence, two things happen: the science gets muddled, and the text gets diminished into a health manual. The Gita's actual claim in this chapter is much more interesting than a diet — it is that everything a person does, right down to what they eat and how they speak, has a quality that can be read, and that these qualities cohere into a life."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The chapter ends by introducing the threefold designation of Brahman — <em>oṁ tat sat</em> — used from ancient times, and by giving each syllable a function: <em>oṁ</em> begins acts of sacrifice, giving and austerity; <em>tat</em> is spoken by those seeking liberation, without desire for reward; <em>sat</em> is used for what is real and what is good, and for any action done for a worthy purpose (17.23–17.27). And the last verse is uncompromising: whatever is offered, given or performed without faith is called <em>asat</em>, unreal — it is nothing here and nothing hereafter (17.28). The chapter that began by asking whether faith outside the rules counts ends by saying that ritual correctness without faith counts for nothing at all."
+    }
+   ]
+  },
+  {
+   "id": "c18",
+   "part": "Part Two · The Eighteen Chapters",
+   "label": "Chapter 18 · Mokṣa Sannyāsa Yoga",
+   "title": "Liberation and Renunciation",
+   "subtitle": "The longest chapter, the last word, and the moment Krishna hands the decision back",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Seventy-eight verses, the longest chapter in the Gita, and it functions as both summary and conclusion. It restates nearly every major theme in the compressed vocabulary of the last six chapters, and then, in its final movement, does something the previous seventeen chapters have not prepared you for. It stops arguing."
+    },
+    {
+     "type": "p",
+     "html": "Arjuna's opening question is a request for a definition he has been owed since chapter five: I wish to know the truth about renunciation, <em>sannyāsa</em>, and about relinquishment, <em>tyāga</em>, separately (18.1). Krishna gives it. Sannyāsa is the giving up of actions done from desire; tyāga is the abandonment of the fruit of all actions (18.2). And then he takes a position: sacrifice, giving and austerity should <em>not</em> be given up but performed, for they purify the wise — yet even these should be done abandoning attachment and fruits, and this, he says, is his definite and highest view (18.5–18.6)."
+    },
+    {
+     "type": "p",
+     "html": "That is the Gita's final ruling on the question it has circled since chapter three, and its precision matters. Renunciation is redefined as an internal operation performed on a full life, not an external subtraction from it. The threefold analysis follows: abandoning a required duty out of delusion is tamasic; abandoning something because it is troublesome is rajasic and yields no fruit of relinquishment at all; performing a required action because it must be done, having abandoned attachment and fruit, is sattvic (18.7–18.9)."
+    },
+    {
+     "type": "h3",
+     "html": "Five Factors, and the Deflation of the Doer"
+    },
+    {
+     "type": "p",
+     "html": "Then comes an argument that is easy to read past and is one of the strongest things in the book. Every action whatsoever, Krishna says, has five causes: the body as its seat, the doer, the various instruments, the various kinds of movement, and <em>daiva</em> — destiny, the divine, the unaccounted factor (18.13–18.15). Therefore whoever, through an untrained understanding, sees himself as the sole agent — <em>kevalaṁ tu yaḥ paśyaty akṛta-buddhitvāt</em> — that person does not see (18.16)."
+    },
+    {
+     "type": "p",
+     "html": "This is not a denial of responsibility; the whole chapter instructs a man who must choose. It is a deflation of a specific illusion — that any act has a single author. Every outcome is co-produced by circumstance, instrument, effort, the body you happen to have, and a residue nobody can trace. Held honestly, this dissolves both the arrogance of success and the crushing self-blame of failure, which is close to what the Gita means by equanimity."
+    },
+    {
+     "type": "p",
+     "html": "The middle of the chapter is systematic: knowledge, action, agent, understanding, firmness and happiness are each divided into sattvic, rajasic and tamasic forms. Read verse by verse it yields extraordinary things — the sattvic happiness at 18.37 that is <em>like poison at first and like nectar at the end</em>, set against the rajasic happiness of 18.38 that is nectar first and poison after."
+    },
+    {
+     "type": "p",
+     "html": "The chapter also returns to <em>svadharma</em>, restating 3.35 almost word for word at 18.47 and adding at 18.48 that one should not abandon the work one is born to, even if it is flawed, for all undertakings are covered by defect as fire is covered by smoke. The historical weight of these verses is real, and the next section addresses it directly. What must be said here is that the argument at this point is not primarily sociological — it is an argument against the fantasy of the clean life, the belief that some other position would have let you act without compromise."
+    },
+    {
+     "type": "h3",
+     "html": "The Last Movement"
+    },
+    {
+     "type": "p",
+     "html": "From verse 55 the register changes and the philosophy gives way to something more direct. At 18.59 Krishna calls the self-driven life an illusion: if, clinging to egotism, you think \"I will not fight,\" your resolve is in vain — nature will compel you. Then the image of the machine."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The lord in the heart",
+     "sk": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति ।<br/>भ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया ॥",
+     "tr": "īśvaraḥ sarva-bhūtānāṁ hṛd-deśe 'rjuna tiṣṭhati / bhrāmayan sarva-bhūtāni yantrārūḍhāni māyayā",
+     "mn": "\"The Lord dwells in the heart of all beings, O Arjuna, causing all beings to revolve by his power, as though mounted on a machine.\"",
+     "src": "— Bhagavad Gita 18.61"
+    },
+    {
+     "type": "p",
+     "html": "<em>Yantra</em> — a device, a contrivance, a mechanism. It is a bleak image if you stop there, and the Gita does not stop there. The very next verse gives the way out, and it is not escape from the machine but a change of relation to what turns it: take refuge in him alone with your whole being; by his grace you will attain supreme peace and the eternal abode (18.62)."
+    },
+    {
+     "type": "p",
+     "html": "And then, having spent seventeen chapters and sixty-three verses making a case, Krishna says this:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The freedom clause",
+     "sk": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया ।<br/>विमृश्यैतदशेषेण यथेच्छसि तथा कुरु ॥",
+     "tr": "iti te jñānam ākhyātaṁ guhyād guhyataraṁ mayā / vimṛśyaitad aśeṣeṇa yathecchasi tathā kuru",
+     "mn": "\"Thus has knowledge more secret than all secrets been declared to you by me. Reflect on it fully, and then do as you wish.\"",
+     "src": "— Bhagavad Gita 18.63"
+    },
+    {
+     "type": "p",
+     "html": "<em>Yathecchasi tathā kuru.</em> Do as you wish. It is spoken by the being who has just shown Arjuna the destruction of all the worlds inside his own mouth, and who has told him that these men are already dead. And what he says is: consider it completely, and then decide for yourself. Whatever else the Gita is, it is a text in which God argues, and does not compel — and the tradition has never stopped noticing that the freedom clause comes <em>before</em> the final teaching, not after it."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · The verse called the last",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Krishna then says he will speak once more, because Arjuna is dear to him (18.64), and restates chapter nine's instruction — fix your mind on me, be devoted to me, sacrifice to me, bow to me (18.65). And then the verse that the Shrivaishnava tradition calls the <em>carama śloka</em>, the final verse, and treats as the seal of the entire teaching:"
+      },
+      {
+       "type": "verse",
+       "tag": "Sanskrit · 18.66",
+       "sk": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।<br/>अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+       "tr": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja / ahaṁ tvāṁ sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+       "mn": "\"Abandoning all dharmas, come to me alone for refuge. I shall free you from all evils; do not grieve.\"",
+       "src": "— Bhagavad Gita 18.66"
+      },
+      {
+       "type": "p",
+       "html": "Every commentator has had to account for it, and their accounts diverge sharply. For Shankara, the abandoning of all dharmas is the renunciation of all action by one qualified for knowledge, and refuge is taken in the self. For Ramanuja, it is <em>prapatti</em> — total surrender, the means for those who cannot sustain the disciplines, and it is the highest teaching precisely because it asks for nothing but arrival. Others read <em>sarva-dharmān parityajya</em> as a modifier of how one should act rather than a licence to stop: give up the sense of ownership over your duties, not the duties. The Sanskrit sustains all of these. And the last two words are the tenderest in the poem — <em>mā śucaḥ</em>, do not grieve, which is the answer to the grief that stopped the chariot in chapter one."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Arjuna's Answer"
+    },
+    {
+     "type": "p",
+     "html": "Then Krishna asks a question that no reader expects, and it is the last thing he says to Arjuna in the Gita: has this been heard by you with a concentrated mind, and is your delusion born of ignorance destroyed (18.72)? He asks. He does not assume. And Arjuna, who has not spoken since verse one of this chapter, gives the answer that the entire seven hundred verses were for."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The student replies",
+     "sk": "नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत ।<br/>स्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव ॥",
+     "tr": "naṣṭo mohaḥ smṛtir labdhā tvat-prasādān mayācyuta / sthito 'smi gata-sandehaḥ kariṣye vacanaṁ tava",
+     "mn": "\"My delusion is destroyed and I have regained memory through your grace, O Achyuta. I stand firm, my doubt gone. I will do what you say.\"",
+     "src": "— Bhagavad Gita 18.73"
+    },
+    {
+     "type": "p",
+     "html": "The word to hold is <em>smṛtir labdhā</em> — \"memory regained.\" Not \"I have been taught something new.\" Recovered. The Gita describes its own result as remembering rather than learning, which is a claim about where the knowledge was located all along. And then, having stood up: <em>kariṣye vacanaṁ tava</em>, I will do as you say. The man who sat down in 1.47 stands up in 18.73, and the book is the distance between those two lines."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Notice what the Gita does not give Arjuna. It does not remove the war, spare his teachers, or promise that he will feel good afterwards — and he does not, as the rest of the epic makes painfully clear. What he is given is the ability to act without being torn in half. Ask yourself whether that is what you have been wanting from a spiritual practice, or whether you have been quietly hoping for the other thing: for the situation to change instead of your relation to it. The Gita is very clear about which of those it is offering."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Sanjaya closes. He tells Dhritarashtra that he has heard this wondrous dialogue with his hair standing on end, and that as often as he recalls that most marvellous form of Hari he is filled with astonishment and rejoices again and again (18.74–18.77). And then, in the last verse of the Gita, the narrator states his own conclusion — a private opinion, offered to a blind king whose sons are about to die."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The final verse",
+     "sk": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः ।<br/>तत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ॥",
+     "tr": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanur-dharaḥ / tatra śrīr vijayo bhūtir dhruvā nītir matir mama",
+     "mn": "\"Wherever there is Krishna, lord of yoga, and wherever there is Partha the archer — there, I am convinced, are fortune, victory, prosperity, and steadfast right conduct.\"",
+     "src": "— Bhagavad Gita 18.78"
+    },
+    {
+     "type": "p",
+     "html": "The last word of the Gita is <em>mama</em>: \"mine.\" It is Sanjaya's opinion, marked as an opinion — even at the end of a divine revelation, the text hands you a human being saying what he personally thinks. And the two figures he names are not God alone: they are God <em>and</em> the archer, the source and the one who has to draw the bow. The Gita will not let either stand on the field without the other."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "commentary",
+   "part": "Part Three · The Long Argument",
+   "label": "Stage 20 · Reception",
+   "title": "Two Thousand Years of Argument",
+   "subtitle": "Shankara, Ramanuja, Madhva, Tilak, Gandhi — the same text, read five ways",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "No Indian text has been commented on more than the Gita, and the commentaries do not agree. This is not a scandal to be explained away; it is the single most interesting fact about the book. Seven hundred verses have carried an absolute non-dualist, a qualified non-dualist, a strict dualist, a nationalist revolutionary and a pacifist — each of whom read the text closely, in Sanskrit, and concluded that it taught what they taught."
+    },
+    {
+     "type": "p",
+     "html": "There is a structural reason for this. The Gita is a <em>samuccaya</em>, a gathering: it holds Samkhya analysis, Yoga discipline, Upanishadic non-dualism and personal devotion, and never fully subordinates any of them to the others. It also keeps declaring different things supreme in different chapters. A commentator must therefore decide which verses are the teaching and which are the preparation — and that decision, made before the commentary begins, determines everything that follows."
+    },
+    {
+     "type": "h3",
+     "html": "The Same Text, Five Ways"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Reader",
+      "School and date",
+      "What the Gita centrally teaches",
+      "The decisive move"
+     ],
+     "rows": [
+      [
+       "<strong>Śaṅkara</strong> <span class=\"dev\">शङ्कर</span>",
+       "Advaita Vedanta; c. 8th century CE. His <em>Gītā Bhāṣya</em> is the earliest surviving full commentary we have.",
+       "<strong>Knowledge alone liberates.</strong> Brahman alone is real; the self is not part of Brahman but identical with it. Action purifies the mind and makes knowledge possible, but no amount of action produces liberation, because liberation is not something produced.",
+       "He rejects <em>jñāna-karma-samuccaya</em> — the combination of knowledge and action as joint means. Karma yoga is preparatory. Devotion is a support for the not-yet-qualified. Read 18.66 as the renunciation of all action by one ripe for knowledge."
+      ],
+      [
+       "<strong>Rāmānuja</strong> <span class=\"dev\">रामानुज</span>",
+       "Vishishtadvaita — qualified non-dualism; 11th–12th century CE.",
+       "<strong>Loving surrender to a personal God.</strong> Selves and matter are entirely real; they form the <em>body</em> of Brahman, who is Vishnu-Narayana. Unity is real and difference is real, because a body is genuinely one with its soul and genuinely not identical to it.",
+       "He makes 18.66 the <em>carama śloka</em>, the crowning verse: <em>prapatti</em>, total surrender, as the supreme and universally available means. Knowledge and action lead into devotion, not past it. 15.7's \"a fragment of me\" is read literally, and the system is built on it."
+      ],
+      [
+       "<strong>Madhva</strong> <span class=\"dev\">मध्व</span>",
+       "Dvaita — dualism; 13th century CE. Wrote both a <em>Gītā Bhāṣya</em> and a <em>Gītā Tātparya</em>.",
+       "<strong>Eternal difference, eternal dependence.</strong> God and the soul are permanently distinct and always will be. Liberation is not merger but the soul's full realisation of its own nature in unbroken relation to Vishnu, who alone is independent.",
+       "Every verse suggesting identity is read as a statement of dependence, not sameness. Grace, not attainment, is decisive; and Madhva accepts a hierarchy among souls that other schools reject. Where Shankara reads \"you are that,\" Madhva reads \"you belong to that.\""
+      ],
+      [
+       "<strong>B. G. Tilak</strong>",
+       "Nationalist and scholar; <em>Gītā Rahasya</em>, written in Mandalay prison 1910–11, published 1915.",
+       "<strong>Energetic action in the world.</strong> The Gita's whole purpose, he argued, is to get a man who has stopped to start again — and the traditional commentators, by making renunciation or contemplation the goal, had inverted the book's plain intention.",
+       "He reads the text as a unity whose conclusion is <em>karma yoga</em>, and treats the metaphysics as its foundation rather than its point. Duty includes public and political duty. The Gita is thereby made available as a text for national struggle."
+      ],
+      [
+       "<strong>M. K. Gandhi</strong>",
+       "<em>Anāsakti Yoga</em>, from discourses at Sabarmati Ashram, published 1929 in Gujarati.",
+       "<strong>Non-attachment, and therefore non-violence.</strong> The Gita's key word is <em>anāsakti</em>; a person genuinely free of attachment, ego and desire for fruits cannot, he argued, do violence — so the text's own logic drives toward ahimsa.",
+       "He reads the battlefield <em>allegorically</em>: Kurukshetra is the human heart and the Kauravas and Pandavas are the impulses contending within it. This lets 18.66 be read as an instruction in self-surrender rather than in fighting a war."
+      ]
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Gandhi's reading is a minority position",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This needs saying plainly, because Gandhi's reading is so influential outside India that many readers assume it is the standard one. It is not. The overwhelming majority of traditional commentators — Shankara, Ramanuja and Madhva included — take the war as narratively real and take Krishna's instruction to Arjuna to fight as an instruction to fight. Academic scholarship generally reads the Gita in its epic setting, addressing the concrete problem of a kshatriya's duty in an actual war. The text itself supplies no allegorical key: nowhere does Krishna say the armies are impulses."
+      },
+      {
+       "type": "p",
+       "html": "Gandhi knew this. He did not claim to be recovering the author's intention so much as reading the text by its own highest light, and he said openly that he found in it what he had brought to it. Allegorical readings of the war are not unique to him — some earlier Indian commentators had made similar moves — but as a general interpretive stance it remains a minority one. The honest description is that Gandhi's Gita is a serious, deliberate, brilliantly argued <em>reading</em>, and not the consensus meaning of the text."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Twentieth-Century Problem"
+    },
+    {
+     "type": "p",
+     "html": "And here is the difficulty that no honest account of the Gita can walk past. This is a text in which God tells a reluctant man to fight, tells him that the people he will kill are already dead, and tells him to be merely the instrument. Those verses exist. They are not marginal, and they cannot be dissolved by pointing at 12.13's non-hatred, because the same book contains both."
+    },
+    {
+     "type": "p",
+     "html": "In the Indian freedom struggle the Gita became, for a generation of revolutionaries, a text of action. Aurobindo Ghose — tried in the Alipore Bomb Case of 1908–09 and later author of the influential <em>Essays on the Gita</em> — read it as a summons, and colonial officials came to treat a copy found among a suspect's possessions as a datum. Tilak's <em>Gītā Rahasya</em> made the case explicitly. And the same text has been claimed since by people committing political murder — including, in his statement to the court, the man who shot Gandhi. One book, read as authority by the apostle of nonviolence and by his assassin."
+    },
+    {
+     "type": "p",
+     "html": "Two conclusions are available and only one of them is honest. The dishonest one is that the text \"really\" means whichever of these the reader prefers, and the other reading is a distortion. The honest one is that the Gita is genuinely capable of both, that its central instruction — act without attachment to results — is a formal principle that does not by itself specify which acts, and that the moral weight therefore falls back onto the reader in a way the text does not relieve. <em>Nimitta-mātraṁ bhava</em> can be the end of egotism or the end of conscience, and the difference is not decided in chapter eleven. It is decided by the person holding the book."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect · Ambedkar's objection",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The sharpest modern criticism came from <strong>B. R. Ambedkar</strong>, the jurist and architect of the Indian constitution, who was born into an untouchable community and who wrote about the Gita with none of the reverence its admirers assume. In his unfinished essays on the text he argued that it is not a book of philosophy at all but a defence — a philosophical justification offered on behalf of a threatened order, defending the killing prescribed by dharma against Buddhist objections to violence, and defending the fourfold varna order by grounding it in innate quality. His reading of 4.13 and 18.41–44 is unsparing."
+      },
+      {
+       "type": "p",
+       "html": "You do not have to agree with him. But a course with an honesty standard cannot present the Gita's reception as a friendly disagreement among admirers. Some of the most careful Indian readers of this text concluded that its social teaching was harmful, and they argued from the verses, not from ignorance of them. Sit with that alongside 5.18 and 9.32 and you have the actual shape of the problem."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "How the Gita Became a World Book"
+    },
+    {
+     "type": "p",
+     "html": "One more piece of history, and it changes how you should read the phrase \"the Hindu Bible\" — a phrase you will see often and should distrust."
+    },
+    {
+     "type": "timeline",
+     "items": [
+      {
+       "when": "c. 8th c. CE",
+       "what": "Shankara's Gītā Bhāṣya",
+       "html": "The earliest surviving complete commentary. Its very existence tells us the Gita was already authoritative enough to require one."
+      },
+      {
+       "when": "c. 1290 CE",
+       "what": "Jñāneśvarī",
+       "html": "Jnaneshvar's commentary in Marathi — one of the first great renderings of the Gita into a spoken regional language, and a foundation text of Marathi literature. The Gita leaves the exclusive custody of Sanskrit."
+      },
+      {
+       "when": "1785",
+       "what": "Charles Wilkins' English translation",
+       "html": "The first translation into a European language, sponsored by Warren Hastings of the East India Company. From here the Gita enters the West — read by Wilhelm von Humboldt, by Emerson, and by Thoreau, who mentions it in <em>Walden</em>."
+      },
+      {
+       "when": "1900–1950",
+       "what": "The Gita as national text",
+       "html": "Tilak, Aurobindo, Gandhi and Vinoba Bhave each produce major commentaries. The Gita is read in prisons, quoted in courtrooms, and made a symbol of Indian self-understanding under colonial rule."
+      },
+      {
+       "when": "1985 · 2014",
+       "what": "The reception itself becomes a subject",
+       "html": "Eric J. Sharpe's <em>The Universal Gita</em> and Richard H. Davis's <em>The Bhagavad Gita: A Biography</em> trace how the text acquired its modern status — and show that its position as <em>the</em> representative Hindu scripture is substantially a development of the last two centuries."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "That last point is worth holding precisely. The Gita is genuinely ancient, genuinely central to several theological traditions, and genuinely was commented on by the greatest Indian philosophers for over a thousand years. <em>And</em> its modern role as the single portable summary of Hinduism — the book put in hotel drawers and sworn on in courts — owes a great deal to colonial translation, to European enthusiasm for a Hindu text shaped like a scripture, and to twentieth-century Indian nationalism. Both halves are true. Neither cancels the other."
+    },
+    {
+     "type": "p",
+     "html": "There are more voices than the five in the table, and each is worth meeting: <strong>Abhinavagupta</strong>'s <em>Gītārthasaṅgraha</em> reads the text through Kashmir Shaiva non-dualism; <strong>Aurobindo</strong>'s <em>Essays on the Gita</em> reads it as an evolution of consciousness; <strong>Vinoba Bhave</strong>'s <em>Talks on the Gita</em>, given to fellow prisoners, may be the warmest commentary ever written on it. The list does not close — which is, in the end, the only durable definition of a classic."
+    }
+   ]
+  },
+  {
+   "id": "science",
+   "part": "Part Four · The Honest Ending",
+   "label": "Stage 21 · Evidence",
+   "title": "What Science Actually Says",
+   "subtitle": "The Gita's claims, tested honestly",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Now the hardest section to write well, because there are two easy ways to fail it. One is to announce that the Gita anticipated quantum mechanics, which is false and insults the text by making it a bad physics paper. The other is to sweep the whole thing aside as pre-scientific, which is lazy and misses that some of its claims are perfectly testable and have in fact held up. What follows sorts the Gita's claims into three honest categories."
+    },
+    {
+     "type": "viz",
+     "name": "canon",
+     "caption": "Where the Gita sits: Smriti — remembered — inside the Mahabharata, not Shruti."
+    },
+    {
+     "type": "p",
+     "html": "Before the grid, one clarification that governs all of it. Most of the Gita is not the kind of thing science tests. Metaphysical claims about an imperishable self, theological claims about who is driving the chariot, and normative claims about how one should live are not empirical hypotheses, and treating them as failed ones is a category error. What <em>is</em> testable is a narrow band: the psychological claims about what happens to a person who acts and attends in certain ways. Narrow, but not empty."
+    },
+    {
+     "type": "honesty",
+     "items": [
+      {
+       "verdict": "corroborated",
+       "claim": "Loosening the grip of outcomes on the mind reduces distress — and does not reduce performance.",
+       "html": "This is the Gita's central psychological claim (2.47) and it converges, strikingly, with two well-supported bodies of clinical research. The first is work on <strong>cognitive reappraisal</strong> in the emotion-regulation literature associated with James Gross and colleagues: changing how you construe a situation reliably reduces negative affect, and does so at lower cost than expressive suppression, which reduces the outward signs of emotion while leaving or worsening the internal state. The Gita's instruction is a reappraisal strategy, not a suppression strategy — it asks you to change what the outcome means to you, not to pretend you feel nothing. The second is <strong>Acceptance and Commitment Therapy</strong> (Steven C. Hayes and colleagues), whose core construct, psychological flexibility, is almost a paraphrase of karma yoga: act on your values while allowing unwanted internal experience to be present, rather than making action conditional on feeling right first. ACT has meta-analytic support for anxiety, depression and chronic pain.<br><br><strong>What this does and does not license.</strong> It shows that the Gita identified a real mechanism of the mind and described it accurately enough that clinicians rediscovering it two millennia later arrived at a recognisably similar instruction. It does <em>not</em> show that the Gita is validated as a whole, that its metaphysics follows, or that reading it produces the effect — no clinical trial has tested \"reading the Bhagavad Gita\" against a control. The corroboration is of a psychological observation, and it should be stated exactly that narrowly."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "Sustained contemplative practice alters emotional reactivity.",
+       "html": "The Gita's sixth chapter prescribes seated, repeated attention-training and predicts a specific outcome: steadiness, reduced reactivity, evenness across pleasant and unpleasant events (6.7–6.9, 6.19). Meditation research broadly supports the direction of that prediction while deflating its magnitude. The most careful synthesis remains the systematic review and meta-analysis by <strong>Goyal and colleagues, published in JAMA Internal Medicine in 2014</strong>, which found <em>moderate</em> evidence that mindfulness meditation programmes improve anxiety, depression and pain, low evidence for improvements in stress and quality of life, and no evidence that meditation programmes outperformed active comparators such as exercise or medication. Laboratory work on long-term practitioners — including studies from Richard Davidson's group at Wisconsin — has found differences in emotional reactivity and recovery, though with the well-known caveats attaching to small, self-selected expert samples.<br><br>So: real, replicated, modest, and not unique to this tradition. That is a more useful result than either the enthusiasts' version or the dismissers' version, and it is what the evidence supports."
+      },
+      {
+       "verdict": "open",
+       "claim": "There is an imperishable self that survives the death of the body and is reborn.",
+       "html": "This is the Gita's foundational metaphysical claim (2.20, 2.22, 15.8) and the ground of Krishna's first argument to Arjuna. It is <strong>not falsifiable</strong>, and that should be said without either apology or sneering. The atman is defined as that which no instrument can cut, burn, wet or dry — which is to say, defined as undetectable by any physical procedure. No experiment can be designed whose negative result would count against it, because the claim is constructed so that physical absence is exactly what it predicts. Science is silent here not because it looked and found nothing, but because there is nothing for its methods to grip.<br><br>The nearest thing to an empirical programme was <strong>Ian Stevenson</strong>'s decades of collected cases at the University of Virginia, in which young children reported memories apparently corresponding to deceased individuals. The work exists, it was published, and it was pursued seriously over a long career. It has not been accepted as evidence by the wider scientific community, on grounds that are methodological rather than ideological: reliance on retrospective interviews conducted after families had already made the connection, the difficulty of excluding ordinary transmission of information, and the absence of prospective controlled designs. The honest verdict is <em>open and probably permanently open</em> — a question that the Gita answers, that many people answer for themselves, and that the empirical method is not equipped to settle either way."
+      },
+      {
+       "verdict": "open",
+       "claim": "The Gita is the unified composition of a single author.",
+       "html": "Genuinely contested, and among specialists it has been contested for over a century. The case for <strong>layered composition</strong> rests on real features of the text: shifts of doctrine and terminology between chapters, passages that read as self-contained treatises, and the awkwardness of a seven-hundred-verse philosophical discourse inserted between two armies. <strong>Richard Garbe</strong> proposed that an originally theistic Samkhya-Yoga text was later overlaid with Vedantic material. <strong>Rudolf Otto</strong>, in <em>Die Urgestalt der Bhagavad-Gītā</em> (1934), reconstructed a short original epic core with later doctrinal tracts interpolated into it. More recent textual-layer analyses, such as those of <strong>Mislav Ježić</strong>, have argued for identifiable strata on linguistic and doctrinal grounds.<br><br>The case for <strong>unity</strong> is equally serious. <strong>Franklin Edgerton</strong>, whose Harvard translation remains standard, argued that the Gita's inconsistencies are the inconsistencies of a single mind working with inherited and incompletely reconciled materials, and that dissecting it into strata says more about the scholar's tidiness than the text's history. Many readers add a literary argument: the book has a shape — despair, teaching, vision, surrender, decision — that composite texts rarely acquire by accident.<br><br>What would settle it is manuscript evidence from close to the period of composition, and there is none. What we do have is a reminder that the transmitted text was not perfectly stable: <strong>F. Otto Schrader</strong>'s study of the <em>Kashmir recension</em> (1930) documents a version with variant and additional verses, and the chapter-thirteen numbering divergence you met earlier is another small seam. The variation is minor in extent — this is a well-transmitted text by any standard — but it is not zero, and it is honest to say so."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Gita describes modern physics — the Big Bang, relativity, quantum mechanics.",
+       "html": "It does not, and the claim damages both parties. The Gita's cosmology is <strong>Samkhya</strong>: purusha and prakriti, the three gunas, and cyclic dissolution and re-emanation over immense periods (8.17–8.19). This is a coherent and sophisticated metaphysical scheme. It is not physics. It contains no quantitative statements, no derivations, no measurements and no predictions that could be checked against an observation — which is precisely what a physical theory is made of.<br><br>The retrofitting usually works by matching vocabulary to vocabulary: cosmic cycles resemble oscillating-universe models, the cosmic form of chapter eleven resembles a description of nuclear fire, the gunas resemble fundamental particles. But resemblance after the fact is not prediction, and the procedure is unfalsifiable — it can be run on any sufficiently poetic text, and has been, on many. Note also that oscillating-universe cosmologies are not the current cosmological consensus, which means the enthusiast who anchored the Gita to them in 1980 has now anchored it to a model the field has moved away from. That is the standing risk of borrowing prestige from a science that keeps changing: you inherit its corrections. The Gita does not need the loan."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "\"Now I am become Death, the destroyer of worlds\" is an accurate translation of Gita 11.32.",
+       "html": "It is not, and this is the most instructive translation error in the world. The verse reads <em>kālo 'smi loka-kṣaya-kṛt pravṛddho lokān samāhartum iha pravṛttaḥ</em>. The word is <strong><em>kāla</em> — Time.</strong> Krishna says \"I am Time, grown mighty, engaged here in gathering in the worlds.\" He does not say \"I am Death.\"<br><br>Oppenheimer's rendering is not ignorant — he had studied Sanskrit with Arthur Ryder at Berkeley and read the Gita in the original — and it is defensible as poetry, since <em>kāla</em> carries the sense of the appointed hour and is used as a name of Yama, the lord of death. But look at what the substitution costs. <strong>\"I am Death\" is a claim of agency</strong>: it says <em>I kill</em>, which is exactly the guilt Arjuna is drowning in and exactly what the verse is trying to dissolve. <strong>\"I am Time\" is a statement about a condition</strong>: these men are not dying because anyone chooses it, but because they exist in time, and time takes everything — which is why the next verse can say they are <em>already slain</em> and Arjuna need only be the occasion. Change Time to Death and the verse stops being an answer to Arjuna's despair and becomes a boast. The most famous sentence ever taken from Sanskrit is, in its most famous form, a reversal of the argument it comes from.<br><br>One further honesty about the quotation itself. Oppenheimer's account of the words coming to him at the Trinity test is from a <strong>televised interview in 1965</strong>, two decades after the event; there is no contemporaneous record of him saying it at the time, and his brother Frank recalled that what was actually said at the site was \"It worked.\" The line is a genuine recollection of a genuine reader of the Gita, and it is also a memory reconstructed long afterwards. Both things are true, and it costs nothing to say so."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Gita was composed at Kurukshetra in 3102 BCE, roughly five thousand years ago.",
+       "html": "The date comes from the traditional reckoning of the start of the Kali Yuga, and it is a theological chronology rather than a historical one. No line of evidence supports it. The Sanskrit of the Gita is classical rather than Vedic; its philosophical vocabulary presupposes developments — early Samkhya, the Upanishadic <em>ātman-brahman</em> discussion, an established ascetic-renunciant milieu — that are themselves later than the second millennium BCE; and the epic it sits inside is dated by every standard method to a span running roughly from the fourth century BCE to the fourth century CE.<br><br>Whether the Mahabharata preserves a memory of some actual conflict among clans in the Ganges plain is a separate and much more open question, and archaeologists have taken it seriously. But a dim historical kernel, if there is one, is not the same as a datable dictation of a philosophical text on a specific morning. The honest position remains the one stated at the start of this course: the Gita's core most likely belongs to the window between roughly the 2nd century BCE and the 2nd century CE, the window is wide because the evidence is indirect, and the width should be reported rather than hidden."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "What This Section Is For"
+    },
+    {
+     "type": "p",
+     "html": "You may have noticed that the corroborated items are modest and the contradicted items are all claims made <em>on the Gita's behalf</em> rather than claims made by it. That pattern is the point of the exercise. The Gita does not claim to be physics, or a dated historical document. Those claims were added later by admirers who thought the text needed reinforcement from a discipline with more prestige, and every one of them makes the book smaller."
+    },
+    {
+     "type": "p",
+     "html": "What survives the test is a set of precise observations about the human mind under pressure — that dwelling on an object produces attachment, that attachment produces craving and craving produces anger, that grasping at outcomes corrodes the work and the worker both, and that attention can be trained by repetition and loosening rather than by force. Those observations were made by someone watching people very carefully, a very long time ago, and they have held. That is a considerable thing to be able to say about any two-thousand-year-old text, and it is enough."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "part": "Part Four · The Honest Ending",
+   "label": "Stage 22 · Closing",
+   "title": "What Remains",
+   "subtitle": "Stand up and fight — and what that has meant to everyone who read it",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Eighteen chapters, and the instruction at the end of them is the same one that was there at the beginning: <em>stand up</em>. Nothing in Arjuna's situation has changed. The armies are still there. The teachers he loves are still on the other side. The war will still cost him everything it was always going to cost, and the epic will spend its remaining books showing you the bill."
+    },
+    {
+     "type": "p",
+     "html": "What changed is the man. He sat down torn in half, and he stands up whole — not comforted, not exempted, not promised a good outcome, but able to act. That is the entire transaction the Gita offers, and it has never pretended to offer more."
+    },
+    {
+     "type": "h3",
+     "html": "Everyone Who Has Had to Stand Up"
+    },
+    {
+     "type": "p",
+     "html": "This is why the text kept finding readers who were not warriors. Because almost nobody, in the end, gets to act from a clean position. You act inside a family you did not choose, a history you inherited, a job with compromises built into it, a country whose past is not innocent. The choice is never between a right action with no cost and a wrong one; it is between acting inside the mess and calling your paralysis a principle. Chapter one is a portrait of the second option, drawn with great sympathy and no agreement."
+    },
+    {
+     "type": "p",
+     "html": "And the readers came: a prisoner in Mandalay writing a commentary by lamplight; a lawyer in South Africa who found in it the word <em>anāsakti</em> and built a movement on it; a physicist in a desert at dawn reaching for the only language large enough for what he had just done; a jurist who read it against the grain and told the truth as he saw it; and a great many people you will never hear about, reading twenty verses before work. They did not agree about what it meant. Every one of them found in it something that let them go on."
+    },
+    {
+     "type": "p",
+     "html": "Hold, too, what this course has tried to keep separate. The war is scripture — a story told about a family that destroyed itself. The chariot is symbol — a picture of what it is like to have a mind and a body and to be carried by both. The dating is history — provisional, contested, appealable. And the instruction to act without clutching at the result is a claim about the mind that you can test this afternoon. Four registers, one book. The Gita is diminished by being flattened into any one of them, and it has survived precisely because it refuses to be."
+    },
+    {
+     "type": "p",
+     "html": "So we end where the tradition ends, with the verse you have already met once — met, this time, not as a doctrine that commentators fight over but as the last thing one friend says to another before an unbearable day."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The final teaching",
+     "sk": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।<br/>अहं त्वां सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+     "tr": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja / ahaṁ tvāṁ sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+     "mn": "\"Abandoning all dharmas, come to me alone for refuge. I shall free you from all evils; do not grieve.\"",
+     "src": "— Bhagavad Gita 18.66"
+    },
+    {
+     "type": "p",
+     "html": "<em>Mā śucaḥ.</em> Do not grieve. Two words, and they are the last instruction in seven hundred verses of argument — after the metaphysics, the cosmology, the three strands, the burning mouths of Time. The book that begins with a man weeping ends by telling him he may stop."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect · The paper from the beginning",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Find the sentence you wrote before chapter one, the one about what you thought the Gita was about. Read it now. If it said something like \"do your duty without expecting results,\" you were not wrong — and you now know what stands behind each of those words: what a duty is when five factors produce every act; what doing means when action and inaction are not what they appear; what a result is to someone who has seen a thousand suns; and what expecting costs, step by step, from dwelling to attachment to craving to anger to ruin.<br><br>Then put the paper down and go do the thing you have been avoiding. That is the only closing exercise this text has ever set."
+      }
+     ]
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Closing invocation",
+     "sk": "ॐ श्री कृष्णाय नमः ॥",
+     "tr": "oṁ śrī kṛṣṇāya namaḥ",
+     "mn": "\"Om, salutations to the blessed Krishna.\"",
+     "src": "— traditional"
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  }
+ ]
+}

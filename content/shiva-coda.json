@@ -1,0 +1,286 @@
+[
+ {
+  "id": "s26",
+  "part": "Part Nine · The Honest Ending",
+  "label": "Stage 26 · Evidence",
+  "title": "What Science Actually Says",
+  "subtitle": "The claims of this tradition, tested honestly — corroborated, open, and contradicted",
+  "blocks": [
+   {
+    "type": "p",
+    "lead": true,
+    "html": "Every course on this site ends here, and if you read only one stage, let it be this one. For twenty-five stages we have been <em>inside</em> the tradition — what it says, what it means, how it is practised. Now we step outside and ask a different question in a different voice: <strong>what can actually be shown?</strong> Not what is beautiful. Not what is meaningful. What survives contact with evidence."
+   },
+   {
+    "type": "p",
+    "html": "Most writing about Hinduism fails here, in one of two directions. One camp inflates: the Vedas held quantum mechanics, the sages flew aircraft, the yugas encode the age of the cosmos. The other deflates: it is all myth, therefore all nothing. These look like opposites and are the same error — both assume that unless a tradition is science, it is worthless. Nobody can trust you about what a tradition gets right unless you are exact about what it gets wrong."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "<strong>Name the finding.</strong> “Studies show” is a rumour about evidence, not evidence. Where a result exists you get the researcher, the field and roughly when; where I can only describe the state of a field, I say so, and I invent nothing.",
+     "<strong>“No evidence for” is not “evidence against.”</strong> Collapsing the two is the commonest dishonesty in this territory, committed by believers and sceptics alike.",
+     "<strong>A practice can work while its explanation is wrong.</strong> Willow bark relieved fever long before salicylic acid was isolated, and every theory offered meanwhile was mistaken. Both halves stay true at once.",
+     "<strong>The tradition does not need the win.</strong> If a claim fails, it fails. Shiva is not made smaller by the Earth being 4.54 billion years old."
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "The Verdicts"
+   },
+   {
+    "type": "honesty",
+    "items": [
+     {
+      "verdict": "corroborated",
+      "claim": "Chanting a mantra measurably changes the body’s autonomic rhythms.",
+      "html": "In a 2001 <em>BMJ</em> study, Luciano Bernardi and colleagues measured breathing, heart rate and blood pressure while volunteers recited the Latin rosary and a Tibetan mantra. Both slowed respiration to almost exactly <strong>six breaths a minute</strong> — near 0.1 Hz, the resonant frequency of the cardiovascular system — and baroreflex sensitivity rose sharply. Paced breathing at that rate is a well-established way to shift autonomic balance. The effect is real. Note that the rosary produced it too."
+     },
+     {
+      "verdict": "corroborated",
+      "claim": "Meditation programmes produce modest but genuine improvement in anxiety, depression and pain.",
+      "html": "The meta-analysis led by Madhav Goyal in <em>JAMA Internal Medicine</em> (2014) narrowed thousands of studies to 47 trials with active control groups and found <strong>moderate-strength evidence</strong> for anxiety, depression and pain, with effect sizes around 0.3 — comparable to what antidepressants achieve in similar trials, not superior to exercise or therapy, and insufficient for most other outcomes tested. Meaningful, unspectacular, replicated."
+     },
+     {
+      "verdict": "corroborated",
+      "claim": "Long-term meditators show measurable differences in attention.",
+      "html": "Reduced <em>attentional blink</em> after intensive retreat (Heleen Slagter and colleagues, <em>PLoS Biology</em>, 2007) and improved sustained vigilance on demanding perceptual tasks (the Shamatha Project at the University of California, Davis, from 2010) are among the sturdier findings in this field. Small self-selected samples limit how far they generalise, but the effects were predicted in advance and have held up better than most."
+     },
+     {
+      "verdict": "corroborated",
+      "claim": "The Rigveda has been transmitted orally, with extraordinary fidelity, for roughly three thousand years.",
+      "html": "A documented phenomenon that astonishes philologists. The Vedic schools built redundant recitation formats — <em>pada</em> (word by word), <em>krama</em> (overlapping pairs), and the interlocking <em>jaṭā</em> and <em>ghana</em> permutations — which work as error-detecting codes: a corruption cannot survive all of them. Pitch accent long dead in speech is still preserved. Schools separated for centuries agree to a degree textual critics meet nowhere else in antiquity; UNESCO inscribed Vedic chanting on its intangible heritage list in 2008. <strong>This establishes that the words are old and nearly unchanged — nothing about whether their content is true.</strong>"
+     },
+     {
+      "verdict": "corroborated",
+      "claim": "Shiva worship is genuinely ancient and has been practised continuously for millennia.",
+      "html": "The chain is solid: Rudra hymns in the Rigveda (c. 1500–1200 BCE); the Śatarudrīya of the Yajurveda, where <em>namaḥ śivāya</em> already appears; the Śvetāśvatara Upaniṣad; Pāṇini on the devotees of Śiva; the Gudimallam liṅgam, usually dated to the last two or three centuries BCE; Kuṣāṇa coinage with bull and trident. Three thousand years of unbroken practice is a real and rare thing. Ten thousand years, or an unbroken line from the Indus cities, is not evidenced."
+     },
+     {
+      "verdict": "open",
+      "claim": "Consciousness is fundamental; the universe is awareness recognising itself.",
+      "html": "<em>Caitanyam ātmā</em> — “consciousness is the self” (Śiva Sūtras 1.1) — is <strong>unfalsifiable</strong>: no observation could count against it, since any observation is already an event in awareness. So nobody may say neuroscience has confirmed Kashmir Shaivism; that is a category error dressed as a compliment. But unfalsifiable is neither an insult nor a synonym for false — the <em>hard problem of consciousness</em> that David Chalmers named in 1995 is unsolved, and panpsychism is a live minority position in professional philosophy today."
+     },
+     {
+      "verdict": "open",
+      "claim": "The Indus Valley “Paśupati seal” depicts a proto-Shiva.",
+      "html": "John Marshall proposed it in his 1931 Mohenjo-daro report, reading seal M-304 as a horned, possibly three-faced figure seated yogically among animals. The objections stand unanswered: Doris Srinivasan argued in the mid-1970s that the head is bovine rather than three-faced and the posture common across the ancient Near East; Asko Parpola proposes a different lineage; even the ithyphallic reading is contested. And <strong>the Indus script is undeciphered</strong>, so the seal cannot be made to say what it is. Suggestive, unproven, unrefuted."
+     },
+     {
+      "verdict": "open",
+      "claim": "The Rigveda dates to c. 1500–1200 BCE.",
+      "html": "The <em>range</em> is well supported; the precision never will be. The language is archaic relative to Old Avestan; the Mitanni treaty documents in Anatolia, c. 1380 BCE, invoke Indra, Mitra, Varuṇa and the Nāsatyas in Indo-Aryan forms; the text knows the horse and the spoked-wheel chariot but not iron. Claims of five or ten thousand years come from the “out of India” school and are not accepted in mainstream Indo-European linguistics; the ancient-DNA study led by Vagheesh Narasimhan in <em>Science</em> (2019) finds steppe-derived ancestry entering South Asia in the second millennium BCE — though genetics constrains people, not texts."
+     },
+     {
+      "verdict": "open",
+      "claim": "The specific sounds of Sanskrit mantras do something other syllables cannot.",
+      "html": "<strong>Untested rather than tested and failed</strong>, and the distinction matters. The one controlled comparison available points the other way: in Bernardi’s study the rosary and the mantra had the same autonomic effect, suggesting the active ingredient is the phrase’s tempo and length, not its phonology. I can find no controlled work testing Sanskrit phonemes against matched syllables at equal tempo. No evidence for, none against, and no honest way to assert it. When told that “science has proven the frequency of Om,” ask which study."
+     },
+     {
+      "verdict": "contradicted",
+      "claim": "The yuga chronology is literal history — 4.32-million-year cycles, the world billions of years into a scheme of repeating dissolutions.",
+      "html": "As chronology this is false, and not marginally. Radiometric dating puts the Earth at about 4.54 billion years — the figure established by Clair Patterson’s lead-isotope work in 1956 — and microwave-background data from the Planck mission put the universe at about 13.8 billion. Modern humans go back roughly 300,000 years (the Jebel Irhoud fossils from Morocco, redated in 2017, about 315,000), agriculture about 12,000, cities about 6,000. There is no room for human societies spread across a 4.32-million-year cycle, nor for a Kali Yuga beginning in 3102 BCE after a Dvāpara age of the Mahābhārata’s scale. The developed yuga arithmetic is also <strong>not Vedic</strong>: it takes shape in the epic and Purāṇic period."
+     },
+     {
+      "verdict": "contradicted",
+      "claim": "Puranic cosmology is a literal description of the solar system.",
+      "html": "The disc-shaped Bhū-maṇḍala with Meru at the centre, seven ring-continents divided by oceans of salt, sugarcane juice, wine, ghee, milk, curd and water, the sun’s chariot circling Meru — nothing in geodesy or planetary science is compatible with any of it. What deserves to be better known is that <strong>Indian mathematical astronomy rejected it too</strong>: Āryabhaṭa (499 CE) used a spherical earth, explained eclipses as shadows rather than as Rāhu, and argued that the earth rotates; Brahmagupta (628 CE) kept the sphere and the shadows while rejecting the rotation. The dispute was internal, and it ran for a thousand years."
+     },
+     {
+      "verdict": "contradicted",
+      "claim": "Ancient India had aircraft and nuclear weapons, described in the epics.",
+      "html": "The aviation claim rests on the <em>Vaimānika Śāstra</em>, which is not ancient: it was produced between about 1918 and 1923, dictated by Pandit Subbaraya Shastry, who described it as psychically revealed, and appeared in English only in 1973. In 1974 aeronautical engineers at the Indian Institute of Science, led by H. S. Mukunda, analysed its machines and concluded they could not have flown. The nuclear claim is worse founded: vitrified ruins and radioactive skeletons at Mohenjo-daro appear in no archaeological report, and George Dales showed in 1964 that the scattered skeletons come from different levels and periods, not from one massacre."
+     },
+     {
+      "verdict": "contradicted",
+      "claim": "The Rigveda encodes the speed of light.",
+      "html": "The claim rests on a line from Sāyaṇa’s commentary — written in the <strong>fourteenth century CE</strong>, some 2,700 years after the hymn — glossing Rigveda 1.50.4 on the sun crossing so many <em>yojanas</em> in half a <em>nimeṣa</em>. It yields the speed of light only if you choose modern values for both units <em>after</em> knowing the answer you want, and both varied widely by region and period. Fit enough free parameters after the fact and any text will yield any constant. That is curve-fitting on a poem, not discovery."
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "Corroborated · What the Chant Does to the Body"
+   },
+   {
+    "type": "p",
+    "html": "Take the strongest result first, because it is genuinely good. Steady recitation imposes a breathing rate: inhale, deliver the phrase on the exhale, inhale again. For phrases of traditional length that lands near six breaths a minute, close to the resonant frequency of the cardiovascular system. Blood pressure already oscillates near 0.1 Hz on its own — these are Mayer waves — and when the breath matches, heart rate, pressure and respiration fall into phase, heart-rate variability swings wide, and baroreflex sensitivity climbs. A practice designed centuries ago without instruments reliably drives a state we can now record, and it does so through the <em>structure</em> of the practice rather than through belief."
+   },
+   {
+    "type": "p",
+    "html": "Now the same result cutting the other way. Bernardi’s volunteers got an identical effect from the Latin rosary: the mechanism appears to be the breath, not the Sanskrit. The wider meditation literature has the same shape — real, modest, far smaller than the headlines. The claim that meditation “rewires the brain” has had a hard decade: the early structural findings (Sara Lazar and colleagues, 2005; Britta Hölzel and colleagues, 2011) were genuine but small, and a large preregistered randomised trial published in <em>Science Advances</em> in 2022 found no detectable structural change from the standard eight-week course. In 2018 fifteen researchers writing in <em>Perspectives on Psychological Science</em> catalogued the field’s methodological problems — loose definitions, missing controls, small self-selected samples. The true effect is probably a fraction of the advertised one. A fraction is not zero."
+   },
+   {
+    "type": "h3",
+    "html": "Corroborated · The Most Accurate Oral Transmission We Know Of"
+   },
+   {
+    "type": "p",
+    "html": "Of everything in this course, the claim I find most astonishing under testing is not metaphysical at all. A text of over a thousand hymns was carried three thousand years in memory, by people with no manuscript to consult, and arrived essentially intact. The Vedic schools solved the problem the way an engineer would, with redundancy: the <em>pada</em> text isolating each word, <em>krama</em> reciting overlapping pairs, and the <em>jaṭā</em> and <em>ghana</em> patterns running each short sequence forwards, backwards and forwards again in fixed permutations. A slip surviving one format is caught by another. And history ran the experiment for us: schools separated for centuries recite texts that agree to a degree scholars do not encounter elsewhere in the ancient world, where the Homeric poems and the Hebrew Bible both show substantial variation."
+   },
+   {
+    "type": "p",
+    "html": "Exactly one thing follows, and it is worth having precisely: the words are old and nearly unaltered. It does not follow that they are true, or of non-human origin, or right about the cosmos — a perfectly preserved statement is still just a statement. But when you chant the Śrī Rudram you are almost certainly making a sequence of sounds people made in the same order three millennia ago, and that is a fact about the world rather than a devotional claim."
+   },
+   {
+    "type": "h3",
+    "html": "Open · Three Questions Genuinely Unsettled"
+   },
+   {
+    "type": "p",
+    "html": "<strong>Consciousness.</strong> That awareness is not produced by matter but is what there is cannot be tested, because every possible test happens inside awareness. That makes it unfalsifiable — hear this as a description of the claim’s logical form, not a slur. Mathematics is unfalsifiable; so are the ethical premises you live by, and the assumption that an external world exists at all. Such claims are not empty, only outside the jurisdiction of experiment. And the problem the Shaivas are worrying at is live: the hard problem has no accepted solution, and recent large adversarial tests of the leading scientific theories of consciousness produced results that fit no single theory cleanly. Not confirmed, not refuted — more than the debunkers grant, and less than the enthusiasts want."
+   },
+   {
+    "type": "p",
+    "html": "<strong>The Paśupati seal.</strong> Marshall’s reading is not absurd; a seated horned figure among animals is genuinely suggestive, and the Indus cities certainly had religion. But Srinivasan’s critique has never been answered, and the script that would settle it remains unread. Devotional writing states the identification as fact; sceptical writing states its refutation as fact. Both claim knowledge nobody has."
+   },
+   {
+    "type": "p",
+    "html": "<strong>The date of the Rigveda.</strong> The range is solid and the precision is not. Linguistic archaism, the Mitanni treaty gods and a material world of chariots without iron converge on roughly 1500–1200 BCE for the family books, and that range is not seriously contested in the field. What is contested — by a nationalist school, not by working Indo-Europeanists — is whether the text is many millennia older. No independent line of evidence supports the earlier dates; several support the standard range."
+   },
+   {
+    "type": "h3",
+    "html": "Contradicted · The Clock, the Map and the Weapons"
+   },
+   {
+    "type": "p",
+    "html": "Now the plain refusals, because a coda carrying only good news would be worthless. <strong>The yuga chronology is not history.</strong> A literal 4.32-million-year cycle populated by human societies, ending in a Kali Yuga that began in 3102 BCE, is contradicted by radiometric dating, cosmology, palaeontology and archaeology at once. You will sometimes be told that the 4.32 billion years of a day of Brahmā “matches” the age of the Earth. It does not: in the Purāṇic scheme that number is a recurring day-length rather than an age, and hundreds of such days have already elapsed. One number pulled from a scheme containing dozens, then matched to a modern figure, is a coincidence being asked to work as a proof."
+   },
+   {
+    "type": "p",
+    "html": "<strong>Purāṇic cosmology is not the solar system.</strong> Ring-continents, an ocean of ghee, Meru at the axis, the sun’s chariot — no reinterpretation rescues this as astronomy. The genuinely interesting fact, which almost nobody on either side of the argument seems to know, is that <strong>Indian astronomers said so themselves.</strong> Āryabhaṭa in 499 CE used a spherical earth, explained eclipses by shadow rather than by Rāhu swallowing the sun, and held that the heavens appear to turn because the earth rotates. The disagreement between the mathematicians and the Purāṇas was open, sustained and internal. Correcting Purāṇic geography is not an outsider’s verdict imposed on the tradition; it is a position the tradition itself has held for fifteen hundred years."
+   },
+   {
+    "type": "p",
+    "html": "<strong>There were no ancient aircraft and no ancient nuclear weapons.</strong> This deserves bluntness, because it is repeated constantly and it is simply false. The <em>Vaimānika Śāstra</em> dates to about 1918–1923, and the engineers who analysed its designs in 1974 concluded the craft could not have flown. The radioactive skeletons of Mohenjo-daro are an invention of twentieth-century popular writing. The Rigveda does not encode the speed of light. And the <em>astras</em> of the Mahābhārata are weapons in a moral universe: read the passages and you find curses, penance and the ruin of a lineage — not engineering."
+   },
+   {
+    "type": "p",
+    "html": "And there is a cost to the inflated claims that their defenders never count. India’s real scientific record is extraordinary and specific — Pāṇini’s <em>Aṣṭādhyāyī</em>, a complete generative grammar in some four thousand ordered rules from around the fourth century BCE; Brahmagupta’s rules of 628 CE for zero and negative numbers; the Kerala school deriving infinite series for π and the sine two and a half centuries before Newton. The worst consequence of “the Vedas knew quantum physics” is that it teaches an audience to file Pāṇini under the same heading."
+   },
+   {
+    "type": "box",
+    "variant": "symbolic",
+    "tag": "Symbolic Lens · What the Yuga Numbers Are For",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "If the yuga arithmetic is not chronology, what is it? Look at what it <em>does</em> to the person who holds it: it sets your empire, your grievance and your century against a background so vast that they fall to their true size, which is roughly nothing. It performs that superbly. The Purāṇas are not bad astronomy — they are excellent contemplative instruments, later mistaken for astronomy, mostly by moderns who had learned to think that only the astronomical register is real."
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "The Cyclic Universe — An Intuition, Not an Anticipation"
+   },
+   {
+    "type": "p",
+    "html": "Here I must be most careful, because this is where the strongest honest case for the tradition sits and exactly where overselling begins. Carl Sagan observed in <em>Cosmos</em> that Hindu cosmology was the only religious cosmology whose time scales were of the same order as those of modern scientific cosmology — billions of years, worlds destroyed and reborn, no absolute beginning. That is fair; almost every other pre-modern cosmology gave the world a few thousand years and a single creation. And cyclic models do exist in contemporary physics. Roger Penrose’s conformal cyclic cosmology (<em>Cycles of Time</em>, 2010), the ekpyrotic and cyclic models of Paul Steinhardt, Neil Turok and colleagues from 2001, and the “big bounce” of loop quantum cosmology are real, published, mathematically specified programmes by serious physicists."
+   },
+   {
+    "type": "p",
+    "html": "And now the part that must be said clearly: <strong>none of this is evidence that the Purāṇas anticipated modern cosmology.</strong> Four reasons, each sufficient alone. First, these are <em>minority</em> positions: the standard model is inflationary ΛCDM with a single hot beginning 13.8 billion years ago, supported by the microwave background, primordial element abundances and the expansion history — while cyclic models still face the entropy objection Richard Tolman raised against oscillating universes in the 1930s, were made harder rather than easier by the 1998 discovery of accelerating expansion, and Penrose’s claim to have found traces of previous aeons in the microwave background was checked by independent groups on the same data, who found the features consistent with chance. Second, these models are motivated entirely by internal problems in physics — singularities, initial conditions, entropy — and by no text. Third, resemblance in shape is not derivation: you cannot extract a single parameter, prediction or equation of Penrose’s model from the Purāṇas, and if the Purāṇas could not have been used to <em>predict</em> the theory, they did not anticipate it. Fourth, cycles were a common human guess — the Stoics taught periodic conflagration and rebirth, and the word <em>ekpyrotic</em> is borrowed straight from their <em>ekpyrōsis</em>. Retrodiction is cheap; that is why prediction is the standard."
+   },
+   {
+    "type": "p",
+    "html": "What survives that subtraction is not nothing, but it has to be stated in the right register. The intuition that reality is rhythmic rather than linear — that things arise, persist and dissolve, and that dissolution is a phase and not a catastrophe — is true of very nearly every system we can actually observe: stars, seasons, cells, species, the breath in your body right now. That is a claim about the texture of existence, and a good one. It is not a claim about the Friedmann equations. Shiva’s dance is a picture of how being behaves, and it should be praised for what it is rather than dressed up as something it is not."
+   },
+   {
+    "type": "box",
+    "variant": "historical",
+    "tag": "Historical Lens · The Category Error Runs Both Ways",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "So: the classical Shiva was assembled over roughly three thousand years, the yuga chronology is not chronology, Purāṇic geography is not geography, and several famous claims about ancient technology are modern inventions. All of that is true, and a mature devotee should be able to say it without flinching."
+     },
+     {
+      "type": "p",
+      "html": "And none of it settles whether the tradition is worth anything, because that was never a scientific question. We do not conclude that the <em>Iliad</em> is worthless because the underworld is not where it says, or discard Greek tragedy over its meteorology. A religious tradition is a technology for a different set of problems: how to hold attention, how to bear loss, how to meet death, how to organise a life around something larger than appetite. Judge it — rigorously, and it can fail — against <em>those</em> questions."
+     },
+     {
+      "type": "p",
+      "html": "So the error runs in both directions, and it is the same error. The apologist who needs the Purāṇas to be physics and the debunker who thinks their failure as physics is the last word have agreed that only one kind of truth counts. Refuse that premise and both positions dissolve. What remains is a tradition historically late in its classical form, wrong about the age of the earth, unfalsifiable about consciousness, measurably effective in some of its practices, and — quite separately — among the most sophisticated bodies of reflection on impermanence any culture has produced. Every clause is true at once. Holding them together without letting any one bully the others is the whole discipline of this course."
+     }
+    ]
+   },
+   {
+    "type": "box",
+    "variant": "reflect",
+    "tag": "Reflect",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "Which column was hardest to read? If it was the contradicted one, notice what you were leaning on. If it was the corroborated one, notice that too — some readers are unsettled by the tradition getting something <em>right</em>, because it means the question was open after all."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "s27",
+  "part": "Part Nine · The Honest Ending",
+  "label": "Stage 27 · Closing",
+  "title": "What Remains",
+  "subtitle": "The end of the course, and the beginning of the practice",
+  "blocks": [
+   {
+    "type": "p",
+    "lead": true,
+    "html": "At the very beginning, before you had learned anything, I asked you to write down what draws you to Shiva. Go and find that page now. Read it before you read the rest of this."
+   },
+   {
+    "type": "p",
+    "html": "I do not know what it says. It might be a sentence about a photograph of Nataraja, or about a death, or about a chant heard through a doorway, or about something you could not name. Whatever it is, read it as though a stranger wrote it — because in a small way one did."
+   },
+   {
+    "type": "p",
+    "html": "Now notice the distance. Not to measure your progress; there is no progress to measure. Notice it because that distance is the only honest record of what these stages did. Some of you will find that everything you wrote is still true and now has a vocabulary. Some will find that the thing which drew you has quietly been replaced by something else, and that you never saw the substitution happen. Both are good. The one to watch for is the third: nothing moved, and you have collected words. If that is what you find, the remedy is not more reading. It is the mala, forty days, one line in a notebook after each sitting."
+   },
+   {
+    "type": "h3",
+    "html": "What You Are Left With"
+   },
+   {
+    "type": "p",
+    "html": "A course can hand you three things. It can give you <strong>information</strong> — names, dates, the meaning of the crescent and the ash — and that is the least of it, and the first to go. It can give you <strong>a way of holding things</strong>: the three lenses, kept apart, so that you are never again forced to choose between a devotion that has to lie and an honesty that has to sneer. That is worth more, and it will outlast the details. And it can point at <strong>the thing itself</strong>, which no course contains — the silence that was there before the first stage and is here now, entirely unimpressed by everything you have learned about it."
+   },
+   {
+    "type": "p",
+    "html": "Everything true in these stages was pointing there. The stillness at the centre of the dance. The witness that does not blink. The syllable that dissolves into the silence after it. You did not acquire it here; it was never absent. That is the whole claim, and the tradition made it in six lines a thousand years ago — at the end of the same hymn with which this course began."
+   },
+   {
+    "type": "verse",
+    "tag": "Sanskrit · The Closing Verse",
+    "sk": "अहं निर्विकल्पो निराकाररूपो<br/>विभुत्वाच्च सर्वत्र सर्वेन्द्रियाणाम् ।<br/>न चासङ्गतं नैव मुक्तिर्न मेयः<br/>चिदानन्दरूपः शिवोऽहं शिवोऽहम् ॥",
+    "tr": "ahaṁ nirvikalpo nirākāra-rūpo / vibhutvāc ca sarvatra sarvendriyāṇām / na cāsaṅgataṁ naiva muktir na meyaḥ / cidānanda-rūpaḥ śivo'haṁ śivo'ham",
+    "mn": "\"I am without division and without form; being all-pervading, I am everywhere, underlying every sense. I am not bound, nor am I liberated, nor can I be measured. I am consciousness and bliss. I am Shiva. I am Shiva.\"",
+    "src": "— Nirvāṇa Ṣaṭkam (Ātma Ṣaṭkam), final verse, attributed to Adi Shankaracharya. Readings of this verse differ slightly between recensions."
+   },
+   {
+    "type": "p",
+    "html": "Notice where the hymn ends. Not in attainment — <em>naiva muktiḥ</em>, “not liberated.” Even liberation is refused, because liberation would imply that something had once been bound. The course opened with this hymn telling you what you are not; it closes with the same hymn refusing the last thing you might have hoped to become. What is left when even that is set down is what the tradition means by the name Shiva."
+   },
+   {
+    "type": "box",
+    "variant": "practice",
+    "tag": "Practice · The Only Assignment That Matters",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "Close this page. Sit for ten minutes tomorrow morning, at whatever hour you actually wake, in whatever room you actually have. One mala, or ten quiet minutes, or a single sincere <em>Oṁ Namaḥ Śivāya</em> — the size does not matter; the recurrence does. Then do it again the day after. That is the entire practice, and it is not a smaller thing than this course. It is the thing this course was about."
+     }
+    ]
+   },
+   {
+    "type": "divider",
+    "html": "॥ ॐ ॥"
+   },
+   {
+    "type": "p",
+    "html": "The reading ends here. The rest of it does not have a page. <em>Oṁ Namaḥ Śivāya.</em>"
+   }
+  ]
+ }
+]
