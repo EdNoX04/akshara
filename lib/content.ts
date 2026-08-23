@@ -79,8 +79,13 @@ export const COURSE_META: Record<string, { blurb: string; order: number }> = {
     blurb:
       "Who Shiva is, what every symbol on his body means, the great legends, Kashmir Shaivism, mantra, the twelve Jyotirlingas — and an honest look at what the evidence supports.",
   },
-  gita: {
+  vedas: {
     order: 2,
+    blurb:
+      "The four Samhitas and what they actually contain — fire, dawn, storm and doubt. The recitation system that carried them three thousand years, and an even-handed account of the origins question.",
+  },
+  gita: {
+    order: 3,
     blurb:
       "Eighteen chapters, verse by verse, on a battlefield where a man refuses to fight. Two thousand years of argument about what it means — Shankara to Gandhi — laid side by side.",
   },

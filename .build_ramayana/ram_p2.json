@@ -1,0 +1,285 @@
+[
+ {
+  "id": "bala",
+  "part": "Part Two · The Seven Books",
+  "label": "Book One · Bālakāṇḍa",
+  "title": "Bāla Kāṇḍa — The Book of Childhood",
+  "subtitle": "A childless king, a bowl of payasam, a bow nobody can lift, and a wedding",
+  "blocks": [
+   {
+    "type": "p",
+    "lead": true,
+    "html": "Everything in this book is preparation. A dynasty needs an heir; a boy needs a teacher; a hero needs weapons; a marriage needs a test. By the last page Rāma is grown, trained, armed and married, and none of the trouble has started. Read it as an overture — and read it, as scholars do, with one eyebrow raised, because this is one of the two books that most specialists think was added to an already-finished poem."
+   },
+   {
+    "type": "h3",
+    "html": "The Sacrifice for Sons"
+   },
+   {
+    "type": "p",
+    "html": "Daśaratha rules Kosala from Ayodhyā on the river Sarayū. He has three chief queens — <strong>Kausalyā</strong>, <strong>Kaikeyī</strong> and <strong>Sumitrā</strong> — and no son. On the advice of his ministers he performs the <em>aśvamedha</em> and then a <em>putrakāmeṣṭi</em>, a sacrifice for the desire of sons, with the sage Ṛṣyaśṛṅga officiating. From the fire rises a being who hands the king a vessel of <em>pāyasa</em>, divine rice-pudding, to be shared among the queens."
+   },
+   {
+    "type": "p",
+    "html": "Kausalyā's son is <strong>Rāma</strong>. Kaikeyī's is <strong>Bharata</strong>. Sumitrā, who receives her portion in two parts, bears twins — <strong>Lakṣmaṇa</strong> and <strong>Śatrughna</strong>. And a fact that will matter later: Lakṣmaṇa attaches himself to Rāma from infancy and Śatrughna to Bharata, so the four brothers are two pairs. The text says plainly that Rāma is Viṣṇu, descended at the request of the gods, because Rāvaṇa has a boon that makes him invulnerable to gods and demons — but not to men or animals. So the god comes down as a man, and his army will be made of animals. The entire mechanism of the epic is set up in this one sentence of the first book."
+   },
+   {
+    "type": "h3",
+    "html": "Viśvāmitra Takes the Boys"
+   },
+   {
+    "type": "p",
+    "html": "The sage Viśvāmitra arrives and asks Daśaratha for something outrageous: lend me your eldest son, a boy, to guard my sacrifice from demons. Daśaratha nearly refuses — offers his whole army instead — and gives in only when his family priest Vasiṣṭha tells him to. Rāma and Lakṣmaṇa go with the sage into the wilderness, and their education begins."
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "<strong>Tāṭakā</strong> — a yakṣī turned rākṣasī who has laid a forest waste. Rāma hesitates to kill a woman; Viśvāmitra tells him a king protects his people first. He kills her. It is the first of the epic's moral knots, and the first time Rāma acts against an instinct because a duty overrides it.",
+     "<strong>The weapons</strong> — Viśvāmitra transmits to him the great <em>astras</em>, mantra-borne weapons, and their recall formulas.",
+     "<strong>Mārīca and Subāhu</strong> — the two demons who defile the sacrifice. Subāhu is killed; Mārīca is flung a hundred leagues out to sea and survives, which is a load-bearing detail. He will return in Book Three as a golden deer.",
+     "<strong>Ahalyā</strong> — on the road to Mithilā they pass a deserted hermitage where Ahalyā, wife of the sage Gautama, has been lying under her husband's curse after Indra came to her in Gautama's form. Rāma's arrival releases her. The exact nature of the curse varies by recension and by later telling — turned to stone is the popular version, made invisible and unfed is closer to the older text — and so does the question of her guilt, which later poets treat far more harshly, and later reformers far more sympathetically, than the epic itself does."
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "The Bow"
+   },
+   {
+    "type": "p",
+    "html": "In Mithilā, King <strong>Janaka</strong> keeps an enormous bow of Śiva, an heirloom no one can string. He has a daughter, <strong>Sītā</strong>, whom he did not father: she came out of the earth as he was ploughing a sacrificial field, and he has vowed she will marry the man who can bend the bow. Rāma lifts it, strings it, and it snaps in two with a sound like thunder."
+   },
+   {
+    "type": "p",
+    "html": "The four brothers are married in a single ceremony — Rāma to Sītā, Lakṣmaṇa to <strong>Ūrmilā</strong>, Bharata to <strong>Māṇḍavī</strong>, Śatrughna to <strong>Śrutakīrti</strong>. On the road home the party is stopped by <strong>Paraśurāma</strong>, the axe-bearing Bhārgava, furious at the breaking of Śiva's bow. Rāma takes the bow of Viṣṇu from him, strings that one too, and Paraśurāma's power passes out of him. The book closes with the wedding party arriving home."
+   },
+   {
+    "type": "box",
+    "variant": "symbolic",
+    "tag": "Symbolic Lens · Two births, two natures",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "Look at how the two central figures enter the world. Rāma is born from fire — from a sacrifice, into a palace, into a lineage, into a set of obligations. Sītā is found in a furrow — she has no lineage at all, and her name means \"furrow.\" She is a daughter of the earth in the plainest sense the language allows."
+     },
+     {
+      "type": "p",
+      "html": "The tradition reads this as more than a charming origin. Rāma belongs to <em>dharma</em> — to the vertical world of duty, kingship, inheritance, the word given and kept. Sītā belongs to the earth — to the horizontal world of what simply <em>is</em>, what bears, what endures, what does not argue. Almost every tragedy in the poem is the collision of those two orders. And when Sītā leaves at the very end, she does not die and she does not ascend. She goes back down into the ground she came from, which is the one place the vertical world cannot follow her."
+     }
+    ]
+   },
+   {
+    "type": "box",
+    "variant": "historical",
+    "tag": "Historical Lens · Why this book is suspect",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "The Bāla Kāṇḍa is one of the two books that most textual scholars regard as added later to a core of Books Two to Six. Several kinds of evidence point the same way: the book is loosely episodic where the core is tightly plotted, it is full of self-contained sage-tales (the descent of the Gaṅgā, the churning of the ocean, the story of Viśvāmitra's own transformation) that could be lifted out without damaging the story, its language shows features scholars read as later, and — most significantly — it is here, along with Book Seven, that Rāma's identity as Viṣṇu is stated openly and repeatedly, where the core books largely present him as a man."
+     },
+     {
+      "type": "p",
+      "html": "This does not make the Bāla Kāṇḍa false, unimportant, or unloved. It has been part of the poem for something like two thousand years and it contains some of the best-known material in it. It means only that the poem grew, and that we can see the seams. We will take this up properly at Book Seven, where the stakes are much higher."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ayodhya",
+  "part": "Part Two · The Seven Books",
+  "label": "Book Two · Ayodhyākāṇḍa",
+  "title": "Ayodhyā Kāṇḍa — The Book of the Promise",
+  "subtitle": "Rāma is exiled for fourteen years, and he has done nothing wrong. That is the point.",
+  "blocks": [
+   {
+    "type": "p",
+    "lead": true,
+    "html": "This is the greatest book of the poem, and the one that most repays slow reading. Nothing supernatural decides anything. There is no demon, no curse operating in the present, no battle. There is an old man who once made a promise, a woman who is persuaded to collect on it, and a son who obeys. The entire catastrophe of the Rāmāyaṇa is set in motion by <strong>words that were spoken and cannot be unspoken</strong>, and the poem stares at that fact for sixty chapters without blinking."
+   },
+   {
+    "type": "h3",
+    "html": "The Consecration"
+   },
+   {
+    "type": "p",
+    "html": "Daśaratha is old. He announces to his assembled court that he will consecrate Rāma as <em>yuvarāja</em>, crown prince, and the city goes into a fever of preparation — flags, water-jars, garlands, the whole apparatus of a coronation being readied overnight. Bharata is away, at his maternal grandfather's house. The text does not say Daśaratha timed it that way. It also does not say he didn't. It is one of many places where the poem simply lays a fact down and steps back."
+   },
+   {
+    "type": "h3",
+    "html": "Mantharā"
+   },
+   {
+    "type": "p",
+    "html": "Kaikeyī's servant <strong>Mantharā</strong> — described as hunchbacked, and treated by the poem with a cruelty about her body that modern readers rightly notice — sees the decorations from a terrace and understands instantly what Kaikeyī has not. She goes to her mistress."
+   },
+   {
+    "type": "p",
+    "html": "Kaikeyī's first reaction is joy. She is delighted; she offers Mantharā a jewel for bringing the news. This detail is essential and is usually forgotten: <strong>Kaikeyī loves Rāma.</strong> The text is explicit that she has treated him as her own, and Rāma is described as fonder of her than of his own mother. The villain of the Ramayana begins the scene happy for the hero."
+   },
+   {
+    "type": "p",
+    "html": "Mantharā then makes an argument, and it is a good one. A king's son who is not king is not safe. When Rāma rules, Kausalyā becomes queen mother and Kaikeyī becomes nothing. Bharata will live on his brother's sufferance, or be exiled, or worse — brothers have done worse. Kaikeyī resists, twice, at length. Then she gives way. What breaks her is not ambition for herself. It is fear for her son."
+   },
+   {
+    "type": "h3",
+    "html": "The Two Boons"
+   },
+   {
+    "type": "p",
+    "html": "Long ago, in a war between gods and demons, Kaikeyī went with Daśaratha to the battlefield and saved his life. He granted her two boons; she never named them, and kept them in reserve. Now she goes into the \"chamber of anger,\" strips off her ornaments, lies on the bare floor, and waits."
+   },
+   {
+    "type": "p",
+    "html": "Daśaratha finds her there and promises, before he knows what he is promising, that he will give her anything she asks — swearing it by Rāma himself. Then she asks."
+   },
+   {
+    "type": "list",
+    "ordered": true,
+    "items": [
+     "That <strong>Bharata</strong> be consecrated in Rāma's place.",
+     "That <strong>Rāma</strong> go into the Daṇḍaka forest, dressed in bark and deerskin, as an ascetic, for <strong>fourteen years</strong>."
+    ]
+   },
+   {
+    "type": "p",
+    "html": "Daśaratha collapses. He argues, weeps, offers her the whole kingdom, threatens, begs at her feet, calls her every name he can find, and asks her to spare him and take everything else. She does not move. And here is the thing to understand: <strong>he could refuse.</strong> Nothing physical prevents him. He is the king. What prevents him is that he is a man of the House of Raghu, and men of that house do not break their word, and if he breaks it he will not be himself any more. He chooses to be destroyed rather than to be a liar. Tulsīdās, writing five centuries ago in Awadhi, put the principle in a single line that half of North India can still quote."
+   },
+   {
+    "type": "verse",
+    "tag": "Awadhi · The law of the House of Raghu",
+    "sk": "रघुकुल रीति सदा चलि आई ।<br/>प्रान जाहुँ बरु बचनु न जाई ॥",
+    "tr": "raghukula rīti sadā cali āī / prāna jāhu˘ baru bacanu na jāī",
+    "mn": "\"This has always been the way of the House of Raghu: let life go, but let the given word not go.\"",
+    "src": "— Tulsīdās, Rāmcaritmānas, Ayodhyā Kāṇḍa"
+   },
+   {
+    "type": "box",
+    "variant": "scripture",
+    "tag": "Scriptural Lens · What Rāma is actually guilty of",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "Nothing. This is worth stating flatly because so many retellings, films and school summaries blur it. Rāma commits no offence, is accused of none, and is not punished. He is not the object of the boon at all in any moral sense — he is the collateral damage of a promise made decades earlier to somebody else in a completely different context."
+     },
+     {
+      "type": "p",
+      "html": "Compare the Mahābhārata, where the exile of the Pāṇḍavas follows a gambling match they entered into, lost, and were bound by. That is a wager. This is not even that. Rāma's fourteen years in the forest have no cause in anything he did, and the poem never once suggests otherwise. It is a story about a man ruined by other people keeping their promises."
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "Rāma Hears It"
+   },
+   {
+    "type": "p",
+    "html": "Sumantra the charioteer is sent to bring Rāma. Daśaratha cannot speak. Kaikeyī tells him herself, plainly. And Rāma's response is the most extraordinary thing in the book: he is not angry, not for a moment, and he does not argue. He says he will go, at once, and asks only that Bharata be told to care for their father. He is more concerned to reassure Kaikeyī that he bears her no ill will than to establish that he has been wronged."
+   },
+   {
+    "type": "p",
+    "html": "Modern readers often find this inhuman, and it is worth being precise about what the poem is doing. Rāma's obedience is not passivity — he is being shown as a man for whom the given word of his father simply <em>is</em> reality, in the way gravity is reality, so that resistance would not be brave but incoherent. Whether that is an ideal or a pathology is one of the arguments the poem has generated for two millennia, and both readings have long, serious traditions behind them."
+   },
+   {
+    "type": "h3",
+    "html": "Sītā's Argument"
+   },
+   {
+    "type": "p",
+    "html": "Rāma tells Sītā to stay in Ayodhyā, serve his parents, and wait. She refuses, and her refusal is the first great speech of a character who will spend the rest of the epic being spoken about. She argues on several fronts at once: that a wife's place is with her husband, that the forest with him is a palace and the palace without him a wilderness, that she was told by fortune-tellers in childhood that she would live in the forest, and — when he lists the horrors of forest life in gruesome detail to frighten her — that he is being cruel and that if he leaves her behind she will not survive it. She wins."
+   },
+   {
+    "type": "p",
+    "html": "Lakṣmaṇa simply refuses to be left, and is not really argued with at all. His wife Ūrmilā, who stays behind for fourteen years, gets almost nothing in Vālmīki — a silence that later poets, especially in Hindi and Bengali, have gone back to fill. Maithilīśaraṇ Gupta's Hindi poem <em>Sāket</em> (1931) is the best-known example: it gives the story to Ūrmilā, the woman left behind, and made her a figure of modern Hindi literature."
+   },
+   {
+    "type": "h3",
+    "html": "The Road Out"
+   },
+   {
+    "type": "p",
+    "html": "The three of them put on bark. The city tries to follow them and Rāma slips away by night. At Śṛṅgaverapura the tribal chief <strong>Guha</strong>, a Niṣāda — the same word the epic used for the hunter who shot the crane — receives them as a friend and ferries them across the Gaṅgā. They visit the ashram of <strong>Bharadvāja</strong> at the confluence and settle at <strong>Citrakūṭa</strong>. Sumantra is sent home with the empty chariot, which is one of the poem's most desolate images: a royal charioteer driving back alone."
+   },
+   {
+    "type": "h3",
+    "html": "The Death of Daśaratha"
+   },
+   {
+    "type": "p",
+    "html": "Daśaratha does not survive it. And on the last night of his life he tells Kausalyā a story he has never told anyone, because he now understands it."
+   },
+   {
+    "type": "box",
+    "variant": "story",
+    "tag": "Story · The blind couple's son",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "As a young man, Daśaratha had a skill: he could shoot by sound alone. Hunting at night by a river, he heard what he took for an elephant filling its trunk, and loosed. The cry that came back was human. He had shot a boy who had come to fetch water for his aged parents, both blind, whom he carried on a yoke and cared for. The boy asked him to go and tell them."
+     },
+     {
+      "type": "p",
+      "html": "The father heard him out, and then pronounced the only sentence he had left to pronounce: <em>as I now die of grief for a son, so will you.</em> Daśaratha had carried that curse all his life without understanding when it would land."
+     },
+     {
+      "type": "p",
+      "html": "Note what the poem is doing here. It has just spent forty chapters showing us a purely human catastrophe — vanity, fear, a hasty promise, an old man's weakness. And then it quietly supplies a second explanation underneath the first, in which everything was already determined decades ago by a moment of carelessness with a bow. The Rāmāyaṇa refuses to choose between the psychological account and the karmic one. It hands you both and lets them stand."
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "Bharata"
+   },
+   {
+    "type": "p",
+    "html": "Bharata is fetched home and told what his mother has won for him. His reaction is total repudiation — he denounces Kaikeyī in terms so violent that Kausalyā, of all people, has to calm him. He performs his father's funeral rites, refuses the throne, and marches to Citrakūṭa with the army, the ministers, the queens and half the city, to bring Rāma back."
+   },
+   {
+    "type": "p",
+    "html": "The confrontation at Citrakūṭa is one of the great debates in Sanskrit literature, and it is worth knowing that it is a real argument with real positions:"
+   },
+   {
+    "type": "list",
+    "ordered": false,
+    "items": [
+     "<strong>Bharata:</strong> the command was extracted under duress and is void; the man who gave it is dead; the kingdom is yours by right and by the people's will; come back.",
+     "<strong>Rāma:</strong> a father's word does not lapse when the father dies — it becomes more binding, not less. To take the throne now would be to make my father a liar posthumously.",
+     "<strong>Jābāli</strong>, one of the court brahmins, then makes the most startling speech in the book: a frankly materialist argument that there is no next world, that ancestral offerings feed nobody, that a man has no father in any deep sense — a body producing a body — and that Rāma should therefore stop sacrificing a real kingdom to an abstraction. Rāma rejects it with real heat, and Vasiṣṭha steps in to say Jābāli did not mean it, that he argued that way only to move Rāma. Whether that retraction is convincing is a question readers have been chewing on for a very long time. What is undeniable is that the epic gives an unbelieving position its own voice, at length, and lets it be heard.",
+     "<strong>The resolution:</strong> Bharata takes Rāma's sandals, sets them on the throne, and rules as their regent from <strong>Nandigrāma</strong> outside the city, living himself as an ascetic, refusing to enter Ayodhyā or to sit on the seat."
+    ]
+   },
+   {
+    "type": "box",
+    "variant": "symbolic",
+    "tag": "Symbolic Lens · The empty sandals",
+    "blocks": [
+     {
+      "type": "p",
+      "html": "The image of the <em>pādukā</em> on the throne is one of the most quoted in Indian political thought, and it is doing something precise. Authority is present and its holder is absent; the regent has all the power and none of the title; he governs for fourteen years in the name of a man who is not there and might not return."
+     },
+     {
+      "type": "p",
+      "html": "Traditional commentary treats Bharata, not Rāma, as the moral summit of this book. Rāma renounces a kingdom he was about to receive. Bharata renounces a kingdom he has actually been handed, that everyone is urging him to take, and that his own mother destroyed a family to get for him. He gets nothing for it — no exile to be admired for, no adventure, no epic to be the hero of. Fourteen years of administration on someone else's behalf, in a hut, outside the gates."
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "html": "What This Book Is Really About"
+   },
+   {
+    "type": "p",
+    "html": "The Ayodhyā Kāṇḍa is a laboratory for a single question: <strong>what happens when dharma conflicts with dharma?</strong> Not right against wrong — anyone can do that. Daśaratha's duty as a king (to install the best heir, and to protect the realm from a succession he knows is wrong) collides head-on with his duty as a man of his word. Rāma's duty as a son collides with his duty to a kingdom that wants him. Bharata's duty to obey his father collides with his refusal to profit from a crime. Kaikeyī's duty as a mother — and the epic does present it as a mother's love, not simple malice — collides with everything else."
+   },
+   {
+    "type": "p",
+    "html": "The poem's answer, insofar as it gives one, is that in such a collision somebody must be destroyed, and that the measure of a person is which duty they choose to be destroyed by. That is a tragic conception of ethics, and it is much harsher and much more interesting than the sanitised version in which Rāma is simply obedient and Kaikeyī is simply wicked."
+   },
+   {
+    "type": "note",
+    "html": "A textual footnote worth carrying: Vālmīki gives Kaikeyī no supernatural excuse. Tulsīdās does — in the Rāmcaritmānas the gods, needing the exile to happen so that the demon-killing can happen, prompt Sarasvatī to sit on Mantharā's tongue and twist her speech. That single change alters the moral architecture completely: in Vālmīki two women make choices and a family is destroyed; in Tulsīdās heaven arranges a necessary evil. Neither is the \"real\" Ramayana. They are two different books about two different universes."
+   }
+  ]
+ }
+]

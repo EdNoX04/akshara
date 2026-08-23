@@ -1,0 +1,2340 @@
+{
+ "slug": "vedas",
+ "title": "The Four Vedas",
+ "devanagari": "वेद",
+ "invocationMantra": "ॐ भूर्भुवः स्वः",
+ "subtitle": "The oldest continuously recited texts on earth, and what they actually contain",
+ "invocation": {
+  "devanagari": "ॐ भूर्भुवः स्वः ।<br/>तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि ।<br/>धियो यो नः प्रचोदयात् ॥",
+  "translation": "<em>oṁ bhūr bhuvaḥ svaḥ | tat savitur vareṇyaṁ bhargo devasya dhīmahi | dhiyo yo naḥ pracodayāt ||</em><br/>\"We contemplate that desirable radiance of the god Savitṛ; may he impel our thoughts.\" — the Gāyatrī, Ṛgveda 3.62.10, with the three utterances that traditionally precede it."
+ },
+ "sections": [
+  {
+   "id": "begin",
+   "part": null,
+   "label": "Orientation",
+   "title": "Before We Begin",
+   "subtitle": "What the Vedas actually are — and why almost everyone who reveres them has never read a page",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Let me begin with something uncomfortable, because if I do not say it now, everything that follows will be misunderstood. Most people who revere the Vedas have never read them. Not a chapter, not a hymn, not a line — beyond the Gayatri, which they may recite daily without ever having seen it in its own context, sitting quietly in the middle of the third book among verses about horses and rivers and the price of a good priest."
+    },
+    {
+     "type": "viz",
+     "name": "lenses",
+     "caption": "The three lenses overlap but are never merged — that separation is the whole method."
+    },
+    {
+     "type": "p",
+     "html": "This is not an accusation. It is a description of a very old situation. For most of their existence the Vedas were not <em>readable</em> at all — they were not books to be opened but sounds to be received, from a teacher, in a specific order, under conditions the tradition guarded carefully. The idea that one might sit alone with a printed Rigveda and browse it is barely two centuries old, and it would have struck a Vedic reciter as roughly equivalent to eating a meal photographed by someone else."
+    },
+    {
+     "type": "p",
+     "html": "But the consequence is real. An enormous amount of what is confidently said about the Vedas — in temples, in books, in speeches, on the internet — describes a text that does not exist. So before we go anywhere, let us clear the ground."
+    },
+    {
+     "type": "h3",
+     "html": "Four Things That Will Surprise You"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>\"Veda\" is not the name of a book. It is the name of a library.</strong> The four Vedas together comprise thousands of pages across dozens of separate works composed over roughly a thousand years, in a language that changes noticeably from the beginning to the end. Saying \"it says in the Vedas\" is a little like saying \"it says in the Library of Congress.\"",
+      "<strong>The oldest and largest layer is not philosophy.</strong> The Rigveda is a collection of hymns of praise addressed to gods — overwhelmingly to fire, to storm, to dawn, to a pressed and filtered plant juice that made the poets feel enormous. It is full of cattle, chariots, rivers, dice, frogs, weapons, and requests for wealth. The great philosophical questions — What is the self? What is real? — belong mainly to the <em>last</em> layer of the Vedic corpus, the Upanishads, composed many centuries later.",
+      "<strong>The gods you know are mostly not the gods here.</strong> Shiva, Vishnu, Devi, Ganesha, Krishna, Rama — the deities who fill Hindu life today — are either absent from the Rigveda, or present as minor figures with a few hymns each. The dominant god by a wide margin is <strong>Indra</strong>, a thunderbolt-wielding warrior who drinks prodigiously and kills a serpent. Very few people worship Indra today.",
+      "<strong>The most famous single hymn ends by saying nobody knows.</strong> The Rigveda's creation hymn — which we will read in full — walks up to the origin of everything and then declines to claim knowledge of it, including on behalf of God. It is, on any honest reading, one of the most remarkable things any ancient civilisation produced."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "None of this diminishes the Vedas. It relocates them. What you will find in this course is stranger, older and considerably more interesting than the polite abstraction people usually have in mind — a body of poetry composed by named families of singers, in a cold-mornings-and-open-fires world of herders and horse-drivers, preserved afterwards by the most extraordinary feat of memory in the human record."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · A Note on Scale",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The Rigveda alone contains <strong>1,028 hymns</strong> arranged in ten books (<em>maṇḍalas</em>), amounting to roughly 10,600 verses. The other three Vedas add their own Samhitas; then each Veda carries its own Brahmanas, Aranyakas and Upanishads. The whole corpus in translation runs to many thousands of pages. Nobody — including the most learned traditional reciters, who typically specialise in one branch of one Veda — has all of it."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Three Lenses"
+    },
+    {
+     "type": "p",
+     "html": "One promise before we start, and it is the whole method of this library. There are three completely different ways of speaking truthfully about a text like this, and I will never let one impersonate another."
+    },
+    {
+     "type": "lenses",
+     "items": [
+      {
+       "kind": "s",
+       "title": "Scriptural",
+       "html": "What the hymns actually say, on their own terms, in their own idiom. Not what we wish they said, not a modernised paraphrase — the verse as it stands, with its gods and its cattle and its unresolved questions intact."
+      },
+      {
+       "kind": "y",
+       "title": "Symbolic / Philosophical",
+       "html": "What the tradition has understood these words to <i>mean</i> — the readings of the ritualists, the Upanishadic sages, Sāyaṇa, the Vedanta commentators, the modern teachers. A reading is not a forgery. But a reading is also not the text."
+      },
+      {
+       "kind": "h",
+       "title": "Historical / Scholarly",
+       "html": "What linguistics, archaeology, philology and, recently, genetics can actually establish about when these hymns were composed, by whom, in what language, and how they travelled to us. Probabilistic, revisable, and stated with its error bars showing."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The failure mode on one side is to smuggle history into scripture — <em>the Vedas contain the speed of light</em>. The failure mode on the other side is to smuggle contempt into history — <em>it is only a collection of primitive fire-worship</em>. Both are the same mistake in different clothes: both assume the text has to be a science paper to be worth anything. It does not. It is one of the great works of world literature, and it does not require our sponsorship."
+    },
+    {
+     "type": "h3",
+     "html": "How This Course Moves"
+    },
+    {
+     "type": "p",
+     "html": "We will go in five movements. First, the <strong>shape of the corpus</strong> — the four Vedas and, far more importantly, the four <em>layers</em> that each of them has, which is the single fact that makes the whole library suddenly legible. Then we go <strong>inside the Rigveda</strong>: its gods, three or four of its most famous hymns read closely, and the strange vanished plant at the centre of its ritual. Then <strong>how it survived</strong> — the recitation system, which is genuinely astonishing and fully documented, and the fire rituals, one of which was filmed in Kerala in 1975. Then <strong>history</strong>: when, where, and the question of origins, handled carefully and without a thumb on the scale. And then the <strong>honest ending</strong>, where we test the loud modern claims against the evidence, and finish quietly."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The First Line of the Rigveda",
+     "sk": "अग्निमीळे पुरोहितं यज्ञस्य देवमृत्विजम् ।<br/>होतारं रत्नधातमम् ॥",
+     "tr": "agnim īḷe purohitaṁ yajñasya devam ṛtvijam | hotāraṁ ratnadhātamam ||",
+     "mn": "\"I praise Agni, placed in front, the god who is the priest of the sacrifice, the invoker, the greatest giver of treasure.\"",
+     "src": "— Rigveda 1.1.1"
+    },
+    {
+     "type": "p",
+     "html": "That is where the oldest text in the corpus begins: not with a metaphysical proposition, but with a man praising a fire. Hold that image. Everything else in this library grows out of it — including, eventually, the sentence <em>tat tvam asi</em>, \"you are that.\""
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Before you read on, write one sentence: what do you currently believe the Vedas contain? Be honest, and be specific — not \"ancient wisdom\" but an actual claim. Keep the page. We will return to it at the end, and the distance between the two answers is the only real measure of what this course did."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fourfold",
+   "part": "Part One · The Shape of the Corpus",
+   "label": "Chapter 01 · The Corpus",
+   "title": "The Four",
+   "subtitle": "Verse, melody, formula, and everything else — why there are four Vedas and what each is actually for",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "The four Vedas are not four books on four subjects. They are four <em>functions</em> at a single event. Imagine a large ritual: a fire has been laid, offerings prepared, patrons and priests assembled. One priest speaks the verses of invocation. Another sings — actually sings, with melody and extended vowels. A third mutters the operational formulas as he physically handles the ladle and the grain. That is three of the four Vedas, and they are three job descriptions before they are three anthologies."
+    },
+    {
+     "type": "p",
+     "html": "The word <em>veda</em> (वेद) comes from the root <em>vid</em>, \"to know\" — the same root that gives Latin <em>vidēre</em>, English <em>wit</em>, and, at a distance, <em>vision</em>. It means knowledge; specifically, in this context, the knowledge that is heard. The tradition's own term for the corpus is <em>śruti</em> (श्रुति), \"that which was heard\" — as distinct from <em>smṛti</em> (स्मृति), \"that which was remembered,\" the vast later category that holds the epics, the Puranas, the law books and almost everything else people usually mean when they say \"Hindu scripture.\""
+    },
+    {
+     "type": "note",
+     "html": "This distinction matters more than any other piece of vocabulary in Hinduism. The Bhagavad Gita is not in the Vedas. The Ramayana is not in the Vedas. The stories of Ganesha and the elephant head, of Shiva and the poison, of Krishna and the butter — none of them are in the Vedas. They are smṛti, and they are magnificent, and they are a different thing."
+    },
+    {
+     "type": "h3",
+     "html": "The Fourfold Division"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Veda",
+      "What it is",
+      "Its priest",
+      "Scale and character"
+     ],
+     "rows": [
+      [
+       "<strong>Ṛgveda</strong> <span class=\"dev\">ऋग्वेद</span><br/><em>ṛc</em> = verse of praise",
+       "The anthology of hymns. The oldest and the source: nearly everything in the other three is drawn from it or built around it.",
+       "The <em>hotṛ</em> — the invoker, who recites the verse aloud",
+       "1,028 hymns in 10 books, c. 10,600 verses. Poetry: dense, allusive, metrically strict, often difficult even for specialists."
+      ],
+      [
+       "<strong>Sāmaveda</strong> <span class=\"dev\">सामवेद</span><br/><em>sāman</em> = melody",
+       "The same verses set to music. It is a songbook: the text is largely borrowed, the <i>tune</i> is the content.",
+       "The <em>udgātṛ</em> — the chanter, who sings",
+       "1,875 verses in the standard recension, of which only around 75 are not found in the Rigveda. Its true substance is the melodic notation, which cannot be printed adequately."
+      ],
+      [
+       "<strong>Yajurveda</strong> <span class=\"dev\">यजुर्वेद</span><br/><em>yajus</em> = sacrificial formula",
+       "The working manual: the words spoken while performing each physical action, plus prose explaining the actions.",
+       "The <em>adhvaryu</em> — the officiant who does the handling",
+       "Two great branches: the \"Black\" (Kṛṣṇa) Yajurveda, which mixes mantra and commentary together, and the \"White\" (Śukla), which keeps them separate."
+      ],
+      [
+       "<strong>Atharvaveda</strong> <span class=\"dev\">अथर्ववेद</span><br/>after the Atharvan priests",
+       "Everything the other three leave out: healing, protection, love-charms, curses, kingship rites, house-building, and some of the corpus's most striking speculative poetry.",
+       "Associated with the <em>brahman</em> priest, the silent supervisor — though the connection is later and looser",
+       "About 730 hymns and some 6,000 verses in 20 books. Roughly a sixth is shared with the Rigveda. Language somewhat later; register far more domestic."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Rigveda: The Source"
+    },
+    {
+     "type": "p",
+     "html": "The Rigveda is the anchor of everything. Its ten <em>maṇḍalas</em> are not arranged by subject but by authorship and, roughly, by age. Books two through seven are the <strong>family books</strong>: each is attributed to a particular lineage of poet-priests — Gṛtsamada, Viśvāmitra, Vāmadeva, Atri, Bharadvāja, Vasiṣṭha. These are considered the oldest core. Book nine is entirely devoted to Soma in the act of being pressed and filtered. Books one and ten are generally held to be the latest additions, and book ten in particular contains the corpus's most philosophically adventurous material."
+    },
+    {
+     "type": "p",
+     "html": "So the corpus even internally has a chronology, and it is visible in the language itself. A specialist can read a Rigvedic hymn and place it earlier or later on grammatical evidence alone — the way an English reader can tell Chaucer from Shakespeare from Dickens without being told."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · What a Hymn Looks Like",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Here is Indra, the Rigveda's dominant god, in the opening of what may be its most famous narrative hymn. Note that this is not allegory and not philosophy. It is a battle report."
+      },
+      {
+       "type": "verse",
+       "tag": "Sanskrit · The Slaying of Vṛtra",
+       "sk": "इन्द्रस्य नु वीर्याणि प्र वोचं यानि चकार प्रथमानि वज्री ।<br/>अहन्नहिमन्वपस्ततर्द प्र वक्षणा अभिनत्पर्वतानाम् ॥",
+       "tr": "indrasya nu vīryāṇi pra vocaṁ yāni cakāra prathamāni vajrī |<br/>ahann ahim anv apas tatarda pra vakṣaṇā abhinat parvatānām ||",
+       "mn": "\"Now I will proclaim the heroic deeds of Indra, the first that the thunderbolt-wielder performed. He slew the serpent; he bored out the waters; he split open the bellies of the mountains.\"",
+       "src": "— Rigveda 1.32.1"
+      },
+      {
+       "type": "p",
+       "html": "A god kills a dragon and the rivers are released. Later tradition will read this as the freeing of consciousness from obstruction, and that reading has real depth. But the verse itself is a hymn of triumph, sung by people who needed rain."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Samaveda: Where the Text Is Not the Point"
+    },
+    {
+     "type": "p",
+     "html": "The Samaveda is the most misunderstood of the four, because in print it looks like a redundant abridgement of the Rigveda. Open a translation and you find verses you have already read, in a different order, many of them addressed to Soma or Indra. It seems like a duplicate."
+    },
+    {
+     "type": "p",
+     "html": "It is not a duplicate, because the printed text is not the Samaveda. The Samaveda is the <em>sāman</em> — the melody into which the verse is dissolved. In actual chanting, a Rigvedic line is stretched, syllables are drawn out, meaningless syllables called <em>stobha</em> (हा, हो, ओ, इ and others) are inserted as musical filler, and the verbal text can become almost unrecognisable. The Sanskrit word for the practice makes the priority clear: the verse in its spoken form is <em>ṛc</em>; the same verse dissolved into song is <em>sāman</em>. The tradition says the sāman \"rests upon\" the ṛc."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The First Verse of the Samaveda",
+     "sk": "अग्न आ याहि वीतये गृणानो हव्यदातये ।<br/>नि होता सत्सि बर्हिषि ॥",
+     "tr": "agna ā yāhi vītaye gṛṇāno havyadātaye | ni hotā satsi barhiṣi ||",
+     "mn": "\"Agni, come to the feast; praised, come to receive our offering. Sit down as the invoking priest upon the sacred grass.\"",
+     "src": "— Samaveda 1.1, which is Rigveda 6.16.10"
+    },
+    {
+     "type": "p",
+     "html": "This matters for anyone thinking about Indian music: the Samaveda is the oldest surviving evidence of a musical tradition in South Asia, and possibly the oldest continuously transmitted melodic system anywhere. Its notation — marked pitches, expanded from the three-tone recitation of the other Vedas — sits at the historical root of the Indian scale, though exactly how the classical <em>rāga</em> system descends from it is something specialists still argue over."
+    },
+    {
+     "type": "h3",
+     "html": "The Yajurveda: The Instruction Manual"
+    },
+    {
+     "type": "p",
+     "html": "If the Rigveda is poetry and the Samaveda is music, the Yajurveda is procedure. Its verses are frequently short, functional, tied to a physical act: as the adhvaryu priest takes up the ladle, he says the formula for taking up the ladle. As he touches the water, the formula for touching water. Whole passages read like the stage directions of an enormously elaborate play in which every gesture has a line attached to it."
+    },
+    {
+     "type": "p",
+     "html": "There are two great branches, and the difference between them is one of editorial style. The <strong>Black</strong> (<em>Kṛṣṇa</em>) Yajurveda — surviving principally in the Taittirīya, Maitrāyaṇī and Kaṭha recensions — interleaves the mantras with prose passages of explanation and justification, so that formula and commentary are braided together. The <strong>White</strong> (<em>Śukla</em>) Yajurveda — the Vājasaneyi Saṁhitā, in its Mādhyandina and Kāṇva recensions — separates them, keeping the mantras clean and putting all the prose into a separate and colossal Brahmana. The traditional explanation of the colours is a story about a quarrel between teachers; the scholarly explanation is that they represent two different editorial decisions about how to package the same working material."
+    },
+    {
+     "type": "p",
+     "html": "The Yajurveda also matters for a reason that has nothing to do with ritual: two of the most important texts in later Hinduism sit inside it. The Śatarudrīya, the great litany to Rudra where the phrase <em>namaḥ śivāya</em> first appears, is part of the Black Yajurveda; and the fortieth and final chapter of the White Yajurveda's Samhita <em>is</em> the Isha Upanishad. The oldest ritual manual in the corpus ends in an Upanishad. That is not an accident, and it anticipates the next chapter."
+    },
+    {
+     "type": "h3",
+     "html": "The Atharvaveda: The Everyday"
+    },
+    {
+     "type": "p",
+     "html": "And then there is the fourth, which for a long time was not counted as one. Early Vedic texts speak of the <em>trayī vidyā</em> — the \"threefold knowledge\" — meaning ṛc, sāman and yajus only. The Atharvaveda's acceptance as the fourth Veda came later and, one senses from the record, with some reluctance."
+    },
+    {
+     "type": "p",
+     "html": "The reason is its content. Where the Rigveda addresses gods on behalf of a community at a formal sacrifice, the Atharvaveda addresses the problems of an actual household on an actual Tuesday. There are hymns against fever. Hymns to make hair grow. Hymns to close a wound, to expel a worm, to counteract poison, to protect a pregnancy, to bring a woman to love a man, to bring a man to love a woman, to ruin a rival, to send a curse back to the person who sent it, to secure the loyalty of an assembly, to make a house stand firm."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Healing.</strong> The Atharvaveda is the oldest layer of Indian medicine — the taproot from which Ayurveda later grew, and Ayurveda's own tradition acknowledges this by classing itself as an <em>upaveda</em> of the Atharvaveda. Hymns name plants, describe symptoms, and address diseases directly as entities to be expelled. Book six, for instance, contains a famous sequence addressing <em>takman</em>, a fever whose described pattern of recurrence has led many scholars to identify it with malaria.",
+      "<strong>Love and rivalry.</strong> Charms to attract, charms to retain, charms to remove a rival wife, charms to induce sleep in a whole household so that a lover may come. The corpus is entirely unembarrassed.",
+      "<strong>Sorcery and counter-sorcery.</strong> There are curses here, and they are not metaphorical. There are also a great many spells for turning a curse back, which tells you what the ambient anxiety was.",
+      "<strong>Kingship and state.</strong> Rites for consecrating a king, for securing an army's victory, for the stability of a realm.",
+      "<strong>Speculation.</strong> And then, without warning, some of the most abstract poetry in the whole Vedic corpus — hymns to Time (<em>Kāla</em>), to the cosmic pillar (<em>Skambha</em>), to breath (<em>Prāṇa</em>), to the leftover of the sacrifice (<em>Ucchiṣṭa</em>) treated as the ground of being. These sit a few pages away from a spell for toothache, and the juxtaposition is the honest face of the text."
+     ]
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · From the Hymn to the Earth",
+     "sk": "सत्यं बृहदृतमुग्रं दीक्षा तपो ब्रह्म यज्ञः पृथिवीं धारयन्ति ।<br/>सा नो भूतस्य भव्यस्य पत्न्युरुं लोकं पृथिवी नः कृणोतु ॥",
+     "tr": "satyaṁ bṛhad ṛtam ugraṁ dīkṣā tapo brahma yajñaḥ pṛthivīṁ dhārayanti |<br/>sā no bhūtasya bhavyasya patny uruṁ lokaṁ pṛthivī naḥ kṛṇotu ||",
+     "mn": "\"Truth, greatness, cosmic order, force, consecration, ascetic heat, sacred formulation, sacrifice — these uphold the earth. May she, mistress of what has been and what is to be, make wide room for us.\"",
+     "src": "— Atharvaveda 12.1.1, the opening of the Pṛthivī Sūkta (Śaunaka recension)"
+    },
+    {
+     "type": "p",
+     "html": "The Pṛthivī Sūkta runs to sixty-three verses and is the longest sustained hymn to the earth in the corpus. It has been quoted a great deal in the last few decades in environmental contexts, sometimes accurately and sometimes not; what it plainly is, is a hymn of belonging to a place — its dust, its rock, its fragrance, its rivers, its people speaking different languages. That is a real and moving thing without needing to be turned into a modern ecological manifesto."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Hymn of Concord",
+     "sk": "सहृदयं सांमनस्यमविद्वेषं कृणोमि वः ।<br/>अन्यो अन्यमभि हर्यत वत्सं जातमिवाघ्न्या ॥",
+     "tr": "sahṛdayaṁ sāṁmanasyam avidveṣaṁ kṛṇomi vaḥ |<br/>anyo anyam abhi haryata vatsaṁ jātam ivāghnyā ||",
+     "mn": "\"I make for you one heart, one mind, freedom from hatred. Delight in one another as a cow delights in her newborn calf.\"",
+     "src": "— Atharvaveda 3.30.1"
+    },
+    {
+     "type": "h3",
+     "html": "Branches: Why There Is No Single Text"
+    },
+    {
+     "type": "p",
+     "html": "One further complication, and it is important, because it undercuts a habit of speech almost everyone has. Each Veda was transmitted not as one text but through multiple <em>śākhās</em> — \"branches,\" schools, each with its own recension differing in wording, arrangement, and sometimes in content."
+    },
+    {
+     "type": "p",
+     "html": "The grammarian Patañjali, writing around the second century BCE, gives numbers for how many branches existed in his time: twenty-one for the Rigveda, a hundred and one for the Yajurveda, a thousand for the Samaveda, nine for the Atharvaveda. Whether those figures are exact or conventional, the picture is clear — the corpus was once far more various than what reached us."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Veda",
+      "Branches that survive as living or fully recorded traditions"
+     ],
+     "rows": [
+      [
+       "Ṛgveda",
+       "Śākala, essentially complete; Bāṣkala, partially known"
+      ],
+      [
+       "Sāmaveda",
+       "Kauthuma, Rāṇāyanīya, Jaiminīya (the last preserving a notably distinct melodic tradition in parts of the south)"
+      ],
+      [
+       "Yajurveda",
+       "Black: Taittirīya, Maitrāyaṇī, Kaṭha, Kapiṣṭhala (fragmentary). White: Mādhyandina, Kāṇva"
+      ],
+      [
+       "Atharvaveda",
+       "Śaunaka, the standard text; Paippalāda, long thought lost and recovered in the twentieth century, largely from manuscripts in Odisha"
+      ]
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · A Recovered Veda",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The Paippalāda recension of the Atharvaveda is a genuine scholarly adventure story. For most of the modern period it was known only from a single damaged birch-bark manuscript from Kashmir, so corrupt that early editors could do little with it. In the second half of the twentieth century, palm-leaf manuscripts of the tradition were located in Odisha, and critical editing of the text has proceeded book by book since. It is a reminder that the Vedic corpus is not a closed file: material can still come back."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "So when someone says \"the Vedas say,\" the honest response is a set of questions. Which Veda? Which layer of it — the hymns, the ritual prose, or the philosophy? Which branch? And translated by whom? None of these questions are hostile. They are simply what it takes to say anything true about a library."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "layers",
+   "part": "Part One · The Shape of the Corpus",
+   "label": "Chapter 02 · The Corpus",
+   "title": "The Four Layers",
+   "subtitle": "Samhita, Brahmana, Aranyaka, Upanishad — the one fact that makes the entire corpus legible",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "If you take one thing from this course, take this chapter. There is a single structural fact about the Vedic corpus which, once seen, reorganises everything — the relationship of ritual to philosophy, of Veda to Vedanta, of the fire in the courtyard to the Self in the heart. It is not hidden and it is not controversial. It is simply not taught, because most popular writing about the Vedas skips straight to the conclusions."
+    },
+    {
+     "type": "viz",
+     "name": "canon",
+     "caption": "Where the four Vedas sit in the corpus as a whole."
+    },
+    {
+     "type": "p",
+     "html": "Here it is. <strong>Each of the four Vedas is not one text but four strata, composed in sequence over centuries, moving steadily from outward ritual to inward inquiry.</strong>"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Layer",
+      "What it contains",
+      "Its question",
+      "Roughly when"
+     ],
+     "rows": [
+      [
+       "<strong>Saṁhitā</strong> <span class=\"dev\">संहिता</span><br/>\"collection\"",
+       "The hymns and formulas themselves — the mantras. This is \"the Veda\" in the narrowest sense.",
+       "<em>What do we say to the gods?</em>",
+       "The oldest layer. For the Rigveda, conventionally c. 1500–1000 BCE"
+      ],
+      [
+       "<strong>Brāhmaṇa</strong> <span class=\"dev\">ब्राह्मण</span><br/>\"explanation of the sacred formulation\"",
+       "Long prose works explaining the ritual: how each act is performed, why, what it accomplishes, what myths lie behind it. The Śatapatha Brāhmaṇa alone is enormous.",
+       "<em>What are we doing, and what does each act mean?</em>",
+       "c. 900–600 BCE"
+      ],
+      [
+       "<strong>Āraṇyaka</strong> <span class=\"dev\">आरण्यक</span><br/>\"of the forest\"",
+       "Transitional texts, associated with dangerous or secret rites and with study away from the settlement. Ritual begins to be internalised — performed mentally rather than physically.",
+       "<em>What if the sacrifice happened inside the person?</em>",
+       "c. 800–500 BCE"
+      ],
+      [
+       "<strong>Upaniṣad</strong> <span class=\"dev\">उपनिषद्</span><br/>\"sitting down near\"",
+       "Dialogues and teachings on the self (<em>ātman</em>), the ground of being (<em>brahman</em>), death, rebirth, and liberation. The ritual is now almost entirely a metaphor.",
+       "<em>Who is the one performing anything at all?</em>",
+       "The earliest c. 700–500 BCE; the tradition continues for centuries after"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Read that table again, slowly, and watch what happens across it. The sequence begins with a man praising fire out loud in a field. It ends with a man asking who is doing the praising. The corpus does not switch subjects at any point; it turns its attention progressively inward until the outward act has become entirely symbolic."
+    },
+    {
+     "type": "h3",
+     "html": "Why This Fact Resolves So Much"
+    },
+    {
+     "type": "p",
+     "html": "Consider some of the confusions this immediately dissolves."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>\"The Upanishads are separate from the Vedas.\"</strong> They are not. Each Upanishad is <em>attached to</em> a specific Veda through a specific branch. The Bṛhadāraṇyaka is the concluding portion of the Śatapatha Brāhmaṇa of the White Yajurveda. The Chāndogya belongs to the Samaveda. The Aitareya sits inside the Aitareya Āraṇyaka of the Rigveda. The Muṇḍaka, Praśna and Māṇḍūkya belong to the Atharvaveda. They are the last floor of the same building.",
+      "<strong>\"Vedanta means the philosophy of the Vedas.\"</strong> Closer than most, but the word is more literal than that: <em>vedānta</em> means \"the end of the Veda\" — end in both senses, the final portion and the culmination. Vedanta is the philosophical school built on the Upanishads specifically, i.e., on layer four.",
+      "<strong>\"The Vedas teach that the Self is Brahman.\"</strong> The <em>Upanishads</em> teach that. The Samhitas do not — they are not asking that question. This matters because people frequently attribute Upanishadic metaphysics to hymns composed perhaps seven or eight centuries earlier, which is like attributing quantum mechanics to Aristotle because both are physics.",
+      "<strong>\"Hinduism is ritualistic\" versus \"Hinduism is mystical.\"</strong> Both are true of different layers of the same corpus, and the corpus itself contains the argument between them. The Upanishads openly criticise ritualism — the Muṇḍaka Upaniṣad compares sacrifices to \"leaky boats\" — while remaining part of the ritual tradition's own literature. The critique is in-house."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · The Sacrifice Moves Inside",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Watch the same act at four altitudes. In the Samhita, the priest pours clarified butter into a fire and says a verse: the offering goes up as smoke and reaches the gods. In the Brahmana, the pouring is explained: this act corresponds to that cosmic act, the altar corresponds to the year, the fire to the sun. In the Aranyaka, the correspondence starts to do the work by itself — the ritual can be performed in the mind, and it still counts. In the Upanishad, the fire is the digestive heat in the body, the offering is the breath, and the whole cosmos is a sacrifice that is happening continuously without anyone needing to light anything."
+      },
+      {
+       "type": "p",
+       "html": "This is what the tradition means by the movement from <em>karma-kāṇḍa</em> (the action-portion) to <em>jñāna-kāṇḍa</em> (the knowledge-portion). It is not a rejection. It is a relocation of the same structure into the interior of a person."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Layer One: The Samhita"
+    },
+    {
+     "type": "p",
+     "html": "We have met this already. It is the metrical, memorised, accented core: 1,028 hymns for the Rigveda, the melodic collections of the Samaveda, the formula-and-prose of the Yajurveda, the domestic and speculative material of the Atharvaveda. This is the layer that is chanted, and the layer that the preservation system we will study in Part Three was built to protect."
+    },
+    {
+     "type": "h3",
+     "html": "Layer Two: The Brahmanas"
+    },
+    {
+     "type": "p",
+     "html": "The Brahmanas are the least read and, in some ways, the strangest part of the corpus. They are prose, sometimes long-winded, obsessively concerned with correspondences — this brick equals this month, this chant equals this breath, this animal equals this direction. To a modern reader they can seem like an infinite regress of ritual bookkeeping."
+    },
+    {
+     "type": "p",
+     "html": "But they are also where Indian prose begins, where a great many myths appear for the first time, and where the intellectual habit that will later produce the Upanishads is formed. The habit is this: <strong>everything corresponds to something</strong>. The technical term is <em>bandhu</em> — connection, kinship, hidden equivalence. The Brahmanas spend centuries training a culture to look for the hidden equivalence between an act, a word, a body and a cosmos. When someone finally proposes that the hidden equivalence at the bottom of all of them is between the self and the whole — <em>ayam ātmā brahma</em> — the ground has already been fully prepared."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Aitareya</strong> and <strong>Kauṣītaki</strong> Brāhmaṇas — Rigveda",
+      "<strong>Pañcaviṁśa</strong> (Tāṇḍya) and <strong>Jaiminīya</strong> Brāhmaṇas — Samaveda, the latter a treasure-house of narrative",
+      "<strong>Taittirīya</strong> Brāhmaṇa — Black Yajurveda",
+      "<strong>Śatapatha</strong> Brāhmaṇa — White Yajurveda; the largest and most influential of them all, containing the flood story of Manu and the fish, and the detailed account of the fire-altar we will look at in Part Three",
+      "<strong>Gopatha</strong> Brāhmaṇa — Atharvaveda, and considerably later than the rest"
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Layer Three: The Aranyakas"
+    },
+    {
+     "type": "p",
+     "html": "The name means \"belonging to the wilderness,\" and the traditional explanation is that this material was to be studied outside the village. Two reasons are offered: some of the rites treated here were considered too potent to be recited among ordinary households, and some of the teaching was for those who had withdrawn from settled life."
+    },
+    {
+     "type": "p",
+     "html": "The Aranyakas are short, transitional, and easy to overlook — but they are where the decisive move is made. The Aitareya Āraṇyaka discusses the ritual and then begins asking about the nature of the person within it. The Taittirīya Āraṇyaka contains the famous Śikṣā material on pronunciation and, in its later portion, the Taittirīya Upaniṣad. This is the hinge of the corpus: the point where doing turns into knowing."
+    },
+    {
+     "type": "h3",
+     "html": "Layer Four: The Upanishads"
+    },
+    {
+     "type": "p",
+     "html": "The word <em>upaniṣad</em> is traditionally parsed as <em>upa</em> (near) + <em>ni</em> (down) + <em>sad</em> (to sit): the teaching received while sitting down close to a teacher, in a small group, often with an explicit warning that it is not for everyone. The form is characteristically <strong>dialogue</strong> — a student asks, a teacher answers, and quite often the teacher is not a priest at all. In the Upanishads we meet a king teaching brahmins, a boy of uncertain parentage admitted for his honesty, a woman named Gārgī cross-examining the greatest sage of the age until he tells her that if she asks one more question her head will fall off."
+    },
+    {
+     "type": "p",
+     "html": "There are many Upanishads — a traditional list counts 108, and later works kept being written in the genre for centuries. But a core group of ten to thirteen, quoted and commented upon by the classical Vedanta teachers, forms the philosophical bedrock: Īśa, Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya, Aitareya, Chāndogya, Bṛhadāraṇyaka, and usually also Śvetāśvatara, Kauṣītaki and Maitrī."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · A Prayer from the Bṛhadāraṇyaka",
+     "sk": "असतो मा सद्गमय ।<br/>तमसो मा ज्योतिर्गमय ।<br/>मृत्योर्मा अमृतं गमय ॥",
+     "tr": "asato mā sad gamaya | tamaso mā jyotir gamaya | mṛtyor mā amṛtaṁ gamaya ||",
+     "mn": "\"From the unreal lead me to the real. From darkness lead me to light. From death lead me to what does not die.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 1.3.28"
+    },
+    {
+     "type": "p",
+     "html": "Notice something about where that verse sits. It occurs in the middle of a passage about a chant — a discussion of the <em>udgītha</em>, the sung syllable, and how the gods used it to overcome the demons. The most beloved prayer in Hinduism is embedded in a technical discussion of ritual singing. That is the layered corpus in a single specimen: the mystical line and the liturgical machinery are the same paragraph."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · The Four Great Sayings",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Later Vedanta identified one <em>mahāvākya</em> — \"great utterance\" — from each of the four Vedas, one per Upanishad, one per layer-four text. They are the compressed statement of the whole corpus's final position:"
+      },
+      {
+       "type": "table",
+       "head": [
+        "Saying",
+        "Meaning",
+        "Source",
+        "Veda"
+       ],
+       "rows": [
+        [
+         "<span class=\"dev\">प्रज्ञानं ब्रह्म</span><br/><em>prajñānaṁ brahma</em>",
+         "\"Consciousness is Brahman\"",
+         "Aitareya Upaniṣad 3.3",
+         "Ṛgveda"
+        ],
+        [
+         "<span class=\"dev\">अहं ब्रह्मास्मि</span><br/><em>ahaṁ brahmāsmi</em>",
+         "\"I am Brahman\"",
+         "Bṛhadāraṇyaka Upaniṣad 1.4.10",
+         "Yajurveda"
+        ],
+        [
+         "<span class=\"dev\">तत्त्वमसि</span><br/><em>tat tvam asi</em>",
+         "\"You are that\"",
+         "Chāndogya Upaniṣad 6.8.7",
+         "Sāmaveda"
+        ],
+        [
+         "<span class=\"dev\">अयमात्मा ब्रह्म</span><br/><em>ayam ātmā brahma</em>",
+         "\"This self is Brahman\"",
+         "Māṇḍūkya Upaniṣad 2",
+         "Atharvaveda"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "html": "Four sentences. That is what a thousand years of fire ritual eventually condensed into — and the tradition kept both, the fire and the sentence, which is the most interesting thing about it."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "One Honest Caution About the Neatness"
+    },
+    {
+     "type": "p",
+     "html": "The four-layer scheme is real and it is the standard framework in both traditional and academic study. But it is a scheme, and the material resists it at the edges. The boundary between a late Brahmana and an early Aranyaka is not sharp; the boundary between an Aranyaka and its Upanishad is often just a chapter break. Some Upanishads are demonstrably very late — composed in the medieval period and attached to the Atharvaveda, which functioned as something of an open annexe. And the layers are not uniformly distributed: some branches preserve all four, some only fragments."
+    },
+    {
+     "type": "p",
+     "html": "So hold the model the way you would hold any good map — as an accurate representation of the terrain's shape that will not survive being walked on literally. The point stands regardless: <strong>the Vedic corpus moves, over roughly a millennium, from the hymn to the rite to the symbol to the self.</strong> Everything else in this course is detail hung on that frame."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Notice that the tradition did not delete the earlier layers when it arrived at the later ones. The Upanishads say the sacrifice is inward — and the fire rituals continued anyway, and are still performed. What does it tell you about a civilisation that it kept the outgrown floor of the building standing, and went on using it?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gods",
+   "part": "Part Two · Inside the Rigveda",
+   "label": "Chapter 03 · The Rigveda",
+   "title": "The Gods of the Hymns",
+   "subtitle": "Indra, Agni, Soma, Varuna, Ushas, Rudra — and the honest news that the great gods of Hinduism are not here",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Open the Rigveda expecting the Hindu pantheon and you will feel as though you have walked into the wrong building. The gods here are mostly not the gods of the temple. They are older, wilder, and organised around a completely different set of concerns: weather, fire, light, war, cattle, intoxication, and the terrifying reliability of the natural order."
+    },
+    {
+     "type": "p",
+     "html": "There is a traditional count of <strong>thirty-three</strong> gods, given in the hymns themselves — eleven of earth, eleven of the atmosphere, eleven of heaven, in one common arrangement. But the count is not the interesting thing. What is interesting is the distribution: a handful of deities absorb the overwhelming majority of the hymns, and they are not the ones you would guess."
+    },
+    {
+     "type": "table",
+     "head": [
+      "God",
+      "Domain",
+      "Share of the Rigveda",
+      "Later career"
+     ],
+     "rows": [
+      [
+       "<strong>Indra</strong> <span class=\"dev\">इन्द्र</span>",
+       "Storm, thunderbolt, war, the breaking of obstruction",
+       "Around a quarter of all hymns — roughly 250. By far the most invoked.",
+       "Steep decline. Becomes a king of gods who is repeatedly humbled in the Puranas; almost no living cult today."
+      ],
+      [
+       "<strong>Agni</strong> <span class=\"dev\">अग्नि</span>",
+       "Fire, the sacrificial flame, the messenger between worlds",
+       "Roughly 200 hymns — second only to Indra, and first in position: the Rigveda opens with him.",
+       "Survives everywhere as ritual fire and as witness at weddings, but not as a personal deity of devotion."
+      ],
+      [
+       "<strong>Soma</strong> <span class=\"dev\">सोम</span>",
+       "The pressed plant, its juice, and the god who is that juice",
+       "All 114 hymns of Maṇḍala 9, plus others — well over a hundred.",
+       "The plant is lost; the name migrates to the moon. As a deity, effectively gone."
+      ],
+      [
+       "<strong>Varuṇa</strong> <span class=\"dev\">वरुण</span>",
+       "Cosmic order (<em>ṛta</em>), oath, sin and forgiveness, the waters",
+       "Around a dozen hymns to him alone, plus many shared with Mitra — but morally the weightiest presence in the text.",
+       "Demoted to a god of the sea and of rain; a minor figure in later Hinduism."
+      ],
+      [
+       "<strong>Uṣas</strong> <span class=\"dev\">उषस्</span>",
+       "Dawn",
+       "Around twenty hymns — and among the most beautiful poetry in the corpus.",
+       "Essentially disappears as a cult; her hour survives in the Brahmamuhūrta and in the Gayatri's address to the sun."
+      ],
+      [
+       "<strong>Rudra</strong> <span class=\"dev\">रुद्र</span>",
+       "The howler: storm, fever, arrows, healing, wild places",
+       "Around three hymns. A marginal, feared figure.",
+       "Becomes Śiva — Mahādeva, one of the two great gods of the later tradition. The single most dramatic promotion in the record."
+      ],
+      [
+       "<strong>Viṣṇu</strong> <span class=\"dev\">विष्णु</span>",
+       "The three strides that measure out space; an ally of Indra",
+       "Around five or six hymns. Junior partner.",
+       "Becomes the other great god — with Krishna and Rama as his avatars, the object of the largest devotional traditions in India."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Sit with the last two rows for a moment, because the honest statement of the situation is startling. <strong>The two supreme gods of classical Hinduism are, in the Rigveda, minor.</strong> Rudra has about three hymns. Vishnu has about five. Between them they receive perhaps one percent of a text in which Indra receives a quarter. Devi as the great Goddess of the Purāṇas is not there at all in that form. Ganesha is not there. Krishna is not there. Rama is not there."
+    },
+    {
+     "type": "p",
+     "html": "This is not a debunking. It is simply what the document says, and it is one of the most important facts about Hindu history: <strong>the religion visibly grew</strong>. Deities rose, deities fell, and the tradition kept the older texts anyway rather than editing them to match the newer theology. Very few religious traditions have preserved such clear evidence of their own transformation, and the fact that Hinduism did is a mark of confidence, not embarrassment."
+    },
+    {
+     "type": "h3",
+     "html": "Indra — The One Who Broke the Obstruction"
+    },
+    {
+     "type": "p",
+     "html": "Indra is the god of the thunderbolt (<em>vajra</em>), fashioned for him by the craftsman Tvaṣṭṛ. He is enormous, hungry, and loud. He drinks soma in quantities that the hymns treat as heroic rather than shameful — three lakes of it, in one image — and then does the deed on which his entire reputation rests."
+    },
+    {
+     "type": "p",
+     "html": "The deed is the killing of <strong>Vṛtra</strong>, whose name means \"the encloser\" or \"obstruction.\" Vṛtra is a serpent lying upon the mountains, holding the waters imprisoned. Indra, fortified with soma, splits him open, and the waters run free — seven rivers released, the sun found, the dawn revealed, the world set going. The hymn we opened with, Rigveda 1.32, tells it at length and with real narrative force."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · What the Serpent Is",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The Vṛtra myth has carried at least three readings across three thousand years, and all of them are defensible on their own level. The <strong>meteorological</strong> reading: this is the monsoon — the clouds held back, the storm that breaks them, the rivers filling. The <strong>historical</strong> reading, favoured by many philologists: this is also a memory of dam-breaking, of the freeing of blocked waters, and of conflict over water rights among mobile herders. And the <strong>yogic</strong> reading, which the later tradition developed and which Sri Aurobindo argued for at length in his <em>Secret of the Veda</em> (1914–16): Vṛtra is the constriction in the human being, and the released waters are the freed energies of consciousness."
+      },
+      {
+       "type": "p",
+       "html": "The editorial rule of this library requires me to add: the third reading is a <em>reading</em>. It is philosophically serious and has changed lives. It is not what a historian would say the composer meant, and Aurobindo himself knew he was arguing against the philological consensus. Both facts can be stated without either one destroying the other."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Agni — The Mouth of the Gods"
+    },
+    {
+     "type": "p",
+     "html": "Agni is fire, and fire is the whole technology of Vedic religion. There is no image, no temple, no idol in the Rigvedic world; there is a fire, correctly built, into which offerings are placed. Agni consumes them and carries them, as smoke, upward. He is therefore called the <em>mouth</em> of the gods and the <em>messenger</em> (<em>dūta</em>) who travels between worlds, and also the <em>purohita</em> — the one placed in front, the household priest — which is exactly the word the first line of the Rigveda uses."
+    },
+    {
+     "type": "p",
+     "html": "Agni is also the most intimate of the great gods, because he is domestic. He lives in the house. He is present at birth, at marriage, at death. He is described as newborn each morning and as immensely ancient; as the child of the two fire-sticks that produce him by friction; as hidden in the waters, in plants, in wood, in the sun. He is, in the Vedic imagination, one substance appearing in many places — an idea the corpus will eventually push much further."
+    },
+    {
+     "type": "p",
+     "html": "This is why Agni outlives his own cult. Every Hindu wedding still circles a fire; every cremation is still an offering to him. He stopped being a god people prayed to and became the medium through which everything else is done — a stranger kind of survival than devotion."
+    },
+    {
+     "type": "h3",
+     "html": "Varuṇa — The Moral Weight of the Text"
+    },
+    {
+     "type": "p",
+     "html": "If Indra is the biggest presence in the Rigveda, Varuṇa is the deepest. He is the guardian of <strong><em>ṛta</em></strong> (ऋत) — a word usually translated \"cosmic order\" or \"truth,\" and the single most important concept in Vedic thought. Ṛta is the pattern by which the rivers run downhill, the sun rises in the correct place, the seasons follow one another, and a promise binds the one who makes it. It is one order covering physics and ethics without distinguishing them. The later word <em>dharma</em> is its heir."
+    },
+    {
+     "type": "p",
+     "html": "Varuṇa watches. His spies go through the world; he knows the flight of birds and the paths of ships; he counts the blinking of every eye. And crucially, uniquely in the Rigveda, the hymns to him have a tone that appears almost nowhere else in the corpus: <strong>guilt</strong>. Elsewhere the poets ask for cattle and victory. To Varuṇa they confess."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · To Varuṇa",
+     "sk": "मो षु वरुण मृन्मयं गृहं राजन्नहं गमम् ।<br/>मृळा सुक्षत्र मृळय ॥",
+     "tr": "mo ṣu varuṇa mṛnmayaṁ gṛhaṁ rājann ahaṁ gamam | mṛḷā sukṣatra mṛḷaya ||",
+     "mn": "\"Let me not go down yet, King Varuṇa, to the house of clay. Have mercy, mighty lord, have mercy.\"",
+     "src": "— Rigveda 7.89.1"
+    },
+    {
+     "type": "p",
+     "html": "The hymn continues by admitting that the poet has broken the law, and pleading that it was through carelessness rather than defiance — thirst, a slip of the mind, a fault committed \"not by our own will.\" There are readers who find in these hymns the closest thing in the Rigveda to what a later age would call conscience. It is worth noticing that this god, of all of them, is the one whose star falls furthest. By the classical period Varuṇa is a somewhat dull deity of the sea."
+    },
+    {
+     "type": "h3",
+     "html": "Uṣas — The Dawn"
+    },
+    {
+     "type": "p",
+     "html": "The Ushas hymns are, by broad agreement among translators, the finest poetry in the Rigveda. She is a young woman, she is a dancer, she is a herdswoman driving out the cattle of light; she uncovers her breast like a woman going to her lover; she is born again each morning and yet has been doing this since before anyone was alive, and the hymns feel the weight of that — she wears away the lives of mortals as she goes, and the poets say so plainly."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Coming of Dawn",
+     "sk": "इदं श्रेष्ठं ज्योतिषां ज्योतिरागाच्चित्रः प्रकेतो अजनिष्ट विभ्वा ।<br/>यथा प्रसूता सवितुः सवायँ एवा रात्र्युषसे योनिमारैक् ॥",
+     "tr": "idaṁ śreṣṭhaṁ jyotiṣāṁ jyotir āgāc citraḥ praketo ajaniṣṭa vibhvā |<br/>yathā prasūtā savituḥ savāyaṁ evā rātry uṣase yonim āraik ||",
+     "mn": "\"This best of lights has come, the light of lights; a bright, far-reaching beacon has been born. As she is sent forth at Savitṛ's impulsion, so has Night yielded her place to Dawn.\"",
+     "src": "— Rigveda 1.113.1"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Dawn Rousing the World",
+     "sk": "उपो रुरुचे युवतिर्न योषा विश्वं जीवं प्रसुवन्ती चरायै ।<br/>अभूदग्निः समिधे मानुषाणामकर्ज्योतिर्बाधमाना तमांसि ॥",
+     "tr": "upo ruruce yuvatir na yoṣā viśvaṁ jīvaṁ prasuvantī carāyai |<br/>abhūd agniḥ samidhe mānuṣāṇām akar jyotir bādhamānā tamāṁsi ||",
+     "mn": "\"She has shone near, like a young woman, urging every living thing to move. Agni has come to be kindled by men; she has made light, driving back the darkness.\"",
+     "src": "— Rigveda 7.77.1"
+    },
+    {
+     "type": "p",
+     "html": "Two details worth keeping. First, the word for dawn, <em>uṣas</em>, is cognate with Greek <em>Eos</em>, Latin <em>Aurora</em> and English <em>east</em> — the same goddess, under the same name, appears across the Indo-European world, and philologists reconstruct her as one of the very few deities securely attributable to the shared ancestral tradition. Second, notice what Dawn does in the second verse: she causes men to kindle the fire. Vedic religion is a religion of the early morning. The great daily rite happens at first light, and it is not incidental that the corpus's most famous single verse, the Gayatri, is addressed to the sun at that hour."
+    },
+    {
+     "type": "h3",
+     "html": "Rudra — The Small Door That Opened"
+    },
+    {
+     "type": "p",
+     "html": "Rudra receives about three hymns of his own. He is not one of the great powers of the text. But he is memorable, because the way he is addressed is unlike the way anyone else is addressed: with fear, and with careful negotiation."
+    },
+    {
+     "type": "p",
+     "html": "He carries a bow and arrows and shoots disease. He is asked, repeatedly, to aim elsewhere — not at our children, not at our cattle, not at our men. He is the father of the Maruts, the violent storm-troop. He lives outside, in the wild. He is also, in the same breath, called a healer — the best of physicians, holder of a thousand remedies. Storm gods who bring both plague and cure are common; what is uncommon is what happened to this one afterwards."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · To Rudra",
+     "sk": "आ ते पितर्मरुतां सुम्नमेतु मा नः सूर्यस्य संदृशो युयोथाः ।<br/>अभि नो वीरो अर्वति क्षमेत प्र जायेमहि रुद्र प्रजाभिः ॥",
+     "tr": "ā te pitar marutāṁ sumnam etu mā naḥ sūryasya saṁdṛśo yuyothāḥ |<br/>abhi no vīro arvati kṣameta pra jāyemahi rudra prajābhiḥ ||",
+     "mn": "\"Father of the Maruts, let your kindness come to us; do not cut us off from the sight of the sun. May our man prevail over the horseman; may we increase, O Rudra, in offspring.\"",
+     "src": "— Rigveda 2.33.1"
+    },
+    {
+     "type": "p",
+     "html": "\"Do not cut us off from the sight of the sun\" means <em>do not kill us</em>. That is the register. And yet the word <em>śiva</em> — \"auspicious, kindly\" — is used of Rudra in the Vedic corpus as a propitiating epithet, and by the time of the Śatarudrīya in the Yajurveda, Rudra has expanded into something enormous: lord of thieves and of soldiers, of the mountains and of the fields, of everything high and everything low, addressed with the formula <em>namaḥ śivāya</em>. From about three hymns in the Rigveda to Mahādeva. If you want a single case study in how a religion changes while insisting it has not, this is it."
+    },
+    {
+     "type": "h3",
+     "html": "Viṣṇu — The Three Strides"
+    },
+    {
+     "type": "p",
+     "html": "Vishnu's Rigvedic identity rests almost entirely on one act: he takes three strides, and with them measures out the whole of space. Two strides are visible to men; the third is set down in a place beyond sight, which the hymns call his highest step — a phrase that later Vaishnava theology will make the name of the supreme abode."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Strides of Viṣṇu",
+     "sk": "विष्णोर्नु कं वीर्याणि प्र वोचं यः पार्थिवानि विममे रजांसि ।<br/>यो अस्कभायदुत्तरं सधस्थं विचक्रमाणस्त्रेधोरुगायः ॥",
+     "tr": "viṣṇor nu kaṁ vīryāṇi pra vocaṁ yaḥ pārthivāni vimame rajāṁsi |<br/>yo askabhāyad uttaraṁ sadhasthaṁ vicakramāṇas tredhorugāyaḥ ||",
+     "mn": "\"Now I will proclaim the heroic deeds of Viṣṇu, who measured out the earthly realms, who propped up the upper dwelling place, striding wide, three times.\"",
+     "src": "— Rigveda 1.154.1"
+    },
+    {
+     "type": "note",
+     "html": "Compare this opening word for word with Rigveda 1.32.1, quoted earlier: <em>indrasya nu vīryāṇi pra vocaṁ</em> — \"now I will proclaim the heroic deeds of Indra.\" The formula is identical. In the Rigveda, Vishnu's praise is modelled on Indra's, and he frequently appears as Indra's helper in the Vṛtra fight. The relationship will be exactly reversed within a thousand years."
+    },
+    {
+     "type": "h3",
+     "html": "The Others"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Mitra</strong> — contract, alliance, the binding force of agreement; almost always paired with Varuṇa as Mitrā-Varuṇā. His name is the same as Iranian <em>Mithra</em>, and the parallel is one of the clearest links between the two traditions.",
+      "<strong>The Aśvins</strong> (Nāsatyas) — twin horsemen, physicians of the gods, rescuers of those in peril, particularly associated with dawn and with improbable acts of healing. They will appear again in Part Four, in a treaty carved in Anatolia.",
+      "<strong>Sūrya</strong> and <strong>Savitṛ</strong> — the sun as visible disc and the sun as impelling power. The Gayatri is addressed to Savitṛ, not to Sūrya, which is why it asks to be <em>impelled</em>.",
+      "<strong>The Maruts</strong> — a troop of young storm gods, sons of Rudra, glittering with weapons and moving as one; they are described more vividly than almost anything else in the text.",
+      "<strong>Sarasvatī</strong> — a river, and a goddess of the river, praised as the mightiest of streams. Her later transformation into the goddess of speech, learning and music is already latent here in her association with inspired utterance. Her identification with a specific geographical river will occupy us at some length in Part Four.",
+      "<strong>Yama</strong> — the first man to die, and therefore king of the dead; his name and role are shared with Iranian <em>Yima</em>.",
+      "<strong>Aditi</strong> — \"boundlessness,\" mother of the Ādityas, one of the corpus's genuinely mysterious figures, described in one hymn as everything that has been and will be.",
+      "<strong>Vāc</strong> — Speech herself, who in Rigveda 10.125 speaks in the first person and declares that she moves with all the gods, that she bends the bow for Rudra, that whomever she loves she makes formidable. It is one of the most confident first-person declarations of divinity in ancient literature, and it is spoken by a goddess who is language."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Henotheism",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "One structural feature of the Rigveda has puzzled readers since Europeans first encountered it. Whichever god is being addressed at the moment tends to be described as supreme — greatest, first, creator of all, the one on whom everything depends. Then the next hymn says the same of a different god."
+      },
+      {
+       "type": "p",
+       "html": "Max Müller, in the nineteenth century, coined the term <strong>henotheism</strong> (also <em>kathenotheism</em>) for this: not monotheism, not quite polytheism, but the practice of addressing one god at a time as though he were all of them. Later scholars have quarrelled with the label — some think it imposes a European framework of religious evolution, others think it accurately names something real in the text. Either way the phenomenon is there on the page, and it makes a certain later development legible: when Rigveda 1.164.46 says <em>ekaṁ sad viprā bahudhā vadanti</em>, \"the real is one, the wise speak of it in many ways,\" it is not a sudden intrusion of philosophy. It is the text drawing the obvious conclusion from its own habit."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "hymns",
+   "part": "Part Two · Inside the Rigveda",
+   "label": "Chapter 04 · The Rigveda",
+   "title": "Four Hymns, Read Closely",
+   "subtitle": "The creation hymn that ends in doubt, the hymn that made the varnas, the dawn, and a ruined gambler",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "General description only takes you so far. In this chapter we stop summarising and read — four hymns, in some cases entire, each one famous for a different reason. The first is the most philosophically remarkable text in the corpus. The second is the most historically consequential. The third is the most beautiful. The fourth is there because the Rigveda is not only a religious book, and any honest course has to show you that."
+    },
+    {
+     "type": "h3",
+     "html": "I. The Nāsadīya Sūkta — Rigveda 10.129"
+    },
+    {
+     "type": "p",
+     "html": "Seven verses, in the tenth and latest book. It is called the Nāsadīya after its opening words, <em>nāsad āsīt</em>, \"there was no non-being.\" It is a creation hymn that refuses to complete itself, and I know of nothing else quite like it in the literature of the ancient world."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 1",
+     "sk": "नासदासीन्नो सदासीत्तदानीं नासीद्रजो नो व्योमा परो यत् ।<br/>किमावरीवः कुह कस्य शर्मन्नम्भः किमासीद्गहनं गभीरम् ॥",
+     "tr": "nāsad āsīn no sad āsīt tadānīṁ nāsīd rajo no vyomā paro yat |<br/>kim āvarīvaḥ kuha kasya śarmann ambhaḥ kim āsīd gahanaṁ gabhīram ||",
+     "mn": "\"There was then neither non-being nor being. There was no air, nor the heaven beyond it. What stirred? Where? In whose keeping? Was there water, unfathomably deep?\"",
+     "src": "— Rigveda 10.129.1"
+    },
+    {
+     "type": "p",
+     "html": "It begins by negating the most basic distinction available — being and non-being — and then asks four questions in a row. Not rhetorical questions with implied answers. Genuine ones. The hymn's method is established in its first breath: it will describe the origin as a set of things that were <em>not</em> the case, and it will keep asking."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 2",
+     "sk": "न मृत्युरासीदमृतं न तर्हि न रात्र्या अह्न आसीत्प्रकेतः ।<br/>आनीदवातं स्वधया तदेकं तस्माद्धान्यन्न परः किं चनास ॥",
+     "tr": "na mṛtyur āsīd amṛtaṁ na tarhi na rātryā ahna āsīt praketaḥ |<br/>ānīd avātaṁ svadhayā tad ekaṁ tasmād dhānyan na paraḥ kiṁ canāsa ||",
+     "mn": "\"There was then neither death nor deathlessness; no sign of night or day. That One breathed, windless, by its own impulse. Other than that there was nothing at all beyond.\"",
+     "src": "— Rigveda 10.129.2"
+    },
+    {
+     "type": "p",
+     "html": "<em>ānīd avātam</em> — \"it breathed without wind.\" Two words, and they are among the most quoted in Sanskrit. Breathing is the sign of life, but breathing requires air, and there was no air. The poet gives us a paradox and does not resolve it. And note the grammar of what is there: <em>tad ekam</em>, \"that One\" — neuter, impersonal, unnamed. Not a god. Not a he. A something, singular, breathing on its own account."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 3",
+     "sk": "तम आसीत्तमसा गूळ्हमग्रेऽप्रकेतं सलिलं सर्वमा इदम् ।<br/>तुच्छ्येनाभ्वपिहितं यदासीत्तपसस्तन्महिनाजायतैकम् ॥",
+     "tr": "tama āsīt tamasā gūḷham agre 'praketaṁ salilaṁ sarvam ā idam |<br/>tucchyenābhv apihitaṁ yad āsīt tapasas tan mahinājāyataikam ||",
+     "mn": "\"In the beginning there was darkness hidden by darkness; all this was an undistinguished flood. That which was coming to be, covered over by emptiness — that One was born by the power of heat.\"",
+     "src": "— Rigveda 10.129.3"
+    },
+    {
+     "type": "p",
+     "html": "The word doing the work here is <strong><em>tapas</em></strong> (तपस्) — literally heat, and by extension the heat generated by ascetic effort, which becomes one of the master concepts of Indian religion. In this hymn, the first thing to arise does so not by command, not by craftsmanship, not by copulation, but by <em>heat</em>. The universe incubates."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 4",
+     "sk": "कामस्तदग्रे समवर्तताधि मनसो रेतः प्रथमं यदासीत् ।<br/>सतो बन्धुमसति निरविन्दन्हृदि प्रतीष्या कवयो मनीषा ॥",
+     "tr": "kāmas tad agre sam avartatādhi manaso retaḥ prathamaṁ yad āsīt |<br/>sato bandhum asati nir avindan hṛdi pratīṣyā kavayo manīṣā ||",
+     "mn": "\"Desire came upon that in the beginning — desire, which was the first seed of mind. Searching in their hearts with wisdom, the poets found the bond of being in non-being.\"",
+     "src": "— Rigveda 10.129.4"
+    },
+    {
+     "type": "p",
+     "html": "<em>Kāma</em> — desire — as the first movement of anything at all, and as the seed of <em>manas</em>, mind. And then the extraordinary second half: it was the <strong>poets</strong>, <em>kavayaḥ</em>, who found this out, and they found it by searching <em>in their own hearts</em>. The hymn is telling you its epistemology. This is not revelation delivered from outside. It is introspection, offered as such."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 5",
+     "sk": "तिरश्चीनो विततो रश्मिरेषामधः स्विदासीदुपरि स्विदासीत् ।<br/>रेतोधा आसन्महिमान आसन्त्स्वधा अवस्तात्प्रयतिः परस्तात् ॥",
+     "tr": "tiraścīno vitato raśmir eṣām adhaḥ svid āsīd upari svid āsīt |<br/>retodhā āsan mahimāna āsan svadhā avastāt prayatiḥ parastāt ||",
+     "mn": "\"Their cord was stretched across — was there a below? was there an above? There were seed-placers, there were powers; impulse below, striving above.\"",
+     "src": "— Rigveda 10.129.5"
+    },
+    {
+     "type": "note",
+     "html": "Verse five is genuinely obscure, and translators differ sharply on it. I give a fairly literal rendering; treat any confident interpretation of this verse — including mine — with suspicion. Some of the Rigveda is difficult because it is ancient, and some of it was difficult on the day it was composed."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 6",
+     "sk": "को अद्धा वेद क इह प्र वोचत्कुत आजाता कुत इयं विसृष्टिः ।<br/>अर्वाग्देवा अस्य विसर्जनेनाथा को वेद यत आबभूव ॥",
+     "tr": "ko addhā veda ka iha pra vocat kuta ājātā kuta iyaṁ visṛṣṭiḥ |<br/>arvāg devā asya visarjanenāthā ko veda yata ābabhūva ||",
+     "mn": "\"Who truly knows? Who here can declare it? Whence was it born, whence this creation? The gods came after the creating of this world — so who knows from what it came to be?\"",
+     "src": "— Rigveda 10.129.6"
+    },
+    {
+     "type": "p",
+     "html": "Read that third line again, because it is doing something radical. <strong><em>arvāg devā asya visarjanena</em></strong> — the gods are <em>on this side of</em> creation. They came afterwards. They are part of the universe, not prior to it, and therefore they are not witnesses to its origin either. In one clause the hymn removes the entire pantheon from the position of authority on the question it is asking. This is composed by a priest, inside a religion of sacrifice to those gods, and it is preserved by that religion for three thousand years without anyone deleting it."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse 7 — the last",
+     "sk": "इयं विसृष्टिर्यत आबभूव यदि वा दधे यदि वा न ।<br/>यो अस्याध्यक्षः परमे व्योमन्त्सो अङ्ग वेद यदि वा न वेद ॥",
+     "tr": "iyaṁ visṛṣṭir yata ābabhūva yadi vā dadhe yadi vā na |<br/>yo asyādhyakṣaḥ parame vyoman so aṅga veda yadi vā na veda ||",
+     "mn": "\"Whence this creation came to be, whether it was established or whether it was not — he who watches over it from the highest heaven, he surely knows. Or perhaps he does not know.\"",
+     "src": "— Rigveda 10.129.7"
+    },
+    {
+     "type": "p",
+     "html": "<em>yadi vā na veda.</em> \"Or perhaps he does not know.\" That is the last clause of the hymn. Not a devotional flourish, not a resolution — a final withholding, applied to the highest possible authority. The overseer in the highest heaven may not know how any of this happened."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · What This Verse Is Not",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Two misreadings circulate, and both should be set aside. It is <strong>not atheism</strong>: the hymn assumes an overseer and a highest heaven, and its doubt is directed at what can be known, not at what exists. And it is <strong>not modern scepticism</strong> in fancy dress; the poet is not performing an Enlightenment gesture, and reading him as an early empiricist flatters us more than him."
+      },
+      {
+       "type": "p",
+       "html": "What it is, is a religious text that has looked steadily at the limit of its own knowledge and declined to lie about where that limit falls. The tradition's own name for the composer of a hymn like this is <em>ṛṣi</em> — seer. This seer's report is that at the far edge, the seeing stops. There is a reason this hymn has been quoted more than any other in the corpus by scientists, philosophers and poets alike, and the reason is not that it agrees with them. It is that it models the one intellectual virtue everyone claims to want."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "II. The Puruṣa Sūkta — Rigveda 10.90"
+    },
+    {
+     "type": "p",
+     "html": "Also in the tenth book. Sixteen verses. It is one of the most influential passages ever composed in any language, and I am going to tell you exactly why, without softening any part of it."
+    },
+    {
+     "type": "p",
+     "html": "The hymn describes a cosmic Person, <em>Puruṣa</em>, of immeasurable size, who is sacrificed by the gods, and from whose dismembered body the universe is made: from his mind the moon, from his eye the sun, from his breath the wind, from his navel the atmosphere, from his head the sky, from his feet the earth."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Cosmic Person",
+     "sk": "सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात् ।<br/>स भूमिं विश्वतो वृत्वात्यतिष्ठद्दशाङ्गुलम् ॥",
+     "tr": "sahasraśīrṣā puruṣaḥ sahasrākṣaḥ sahasrapāt |<br/>sa bhūmiṁ viśvato vṛtvātyatiṣṭhad daśāṅgulam ||",
+     "mn": "\"The Person has a thousand heads, a thousand eyes, a thousand feet. Having covered the earth on every side, he extended beyond it by ten fingers' breadth.\"",
+     "src": "— Rigveda 10.90.1"
+    },
+    {
+     "type": "p",
+     "html": "\"By ten fingers' breadth\" — the image is of something that fills everything and then exceeds it slightly, which is a very strange and very effective way of saying that the whole of what exists does not exhaust the source. Now the verse that changed Indian history."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Verse of the Four Orders",
+     "sk": "ब्राह्मणोऽस्य मुखमासीद्बाहू राजन्यः कृतः ।<br/>ऊरू तदस्य यद्वैश्यः पद्भ्यां शूद्रो अजायत ॥",
+     "tr": "brāhmaṇo 'sya mukham āsīd bāhū rājanyaḥ kṛtaḥ |<br/>ūrū tad asya yad vaiśyaḥ padbhyāṁ śūdro ajāyata ||",
+     "mn": "\"The brāhmaṇa was his mouth; of his arms was made the rājanya. His thighs became the vaiśya; from his feet the śūdra was born.\"",
+     "src": "— Rigveda 10.90.12"
+    },
+    {
+     "type": "p",
+     "html": "This is the earliest passage in Indian literature naming the four <em>varṇas</em> together. Everything the later tradition built on the fourfold order — every law book, every commentary, every justification offered across two and a half millennia — traces back through a long chain of citation to these two lines. Here are the honest observations to make about them, and I am going to make all of them."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>It is a late hymn.</strong> Rigveda 10.90 sits in the tenth maṇḍala, which is by consensus among the latest strata of the text, and its language shows features that mark it as later than the family books. Whatever the four-order scheme is, it is not present in the oldest layer of the Rigveda. It arrives near the end.",
+      "<strong>The word <em>śūdra</em> occurs nowhere else in the Rigveda.</strong> Not once in the other 1,027 hymns. That is a remarkable fact about a term that would go on to organise the lives of hundreds of millions of people.",
+      "<strong>The hymn does not state that the orders are hereditary.</strong> It says the four came from four parts of a body. It says nothing about birth determining membership, nothing about endogamy, nothing about pollution, nothing about untouchability — the entire apparatus that the word \"caste\" summons for a modern reader is absent here and develops in the later dharma literature over many centuries. What the verse plainly does is rank them by bodily position, and the tradition read it that way from early on.",
+      "<strong>Its later use is enormous and it has been fiercely contested from within India.</strong> B. R. Ambedkar, in <em>Who Were the Shudras?</em> (1946), argued that the Puruṣa Sūkta is a late interpolation designed to give the varna order divine sanction, and rejected its authority outright. That argument is part of the record and belongs in any honest account of the hymn.",
+      "<strong>Symbolically, the traditional reading is not about rank at all.</strong> Commentators have long read the four parts as functions of one indivisible body — a society that speaks, defends, provides and supports, no part of which can be removed. This reading is genuinely present in the tradition, and it is genuinely also true that it coexisted for two thousand years with a social order the reading does not describe."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Keeping the Registers Apart",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This is the hardest passage in this course to handle under the three-lens rule, and it is worth naming why. Under the <strong>scriptural</strong> lens, 10.90.12 says what it says. Under the <strong>symbolic</strong> lens, there is a real interpretive tradition reading the body as organic interdependence. Under the <strong>historical</strong> lens, the verse is late, isolated in its vocabulary, and was subsequently used to underwrite a system of hereditary hierarchy whose consequences are not a matter of interpretation."
+      },
+      {
+       "type": "p",
+       "html": "The dishonest moves are to collapse these. To say \"it is only a metaphor, therefore caste has nothing to do with scripture\" is to use the symbolic lens to erase history. To say \"this proves the Vedas are nothing but a caste manual\" is to use one late hymn to characterise a corpus of eleven hundred, most of which are about fire and rain. Hold all three. That is the whole discipline."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "One more thing about the Puruṣa Sūkta, which is easy to miss and philosophically important. In verse 16 the hymn says that the gods sacrificed the sacrifice with the sacrifice — <em>yajñena yajñam ayajanta devāḥ</em>. The universe is made <em>by</em> a sacrifice, <em>of</em> the victim who is also everything, performed <em>by</em> gods who are themselves parts of him. It is a closed loop with no outside. The hymn is also, for this reason, the point at which Vedic ritual becomes cosmology: the fire in your courtyard is a small local instance of the act that made the world. Every Brahmana in the corpus is an elaboration of that idea, and the Puruṣa Sūkta is still recited today in temple liturgy across India, more than any other Rigvedic hymn except the Gayatri."
+    },
+    {
+     "type": "h3",
+     "html": "III. The Hymns to Dawn"
+    },
+    {
+     "type": "p",
+     "html": "After the weight of those two, it is worth remembering what most of the Rigveda is actually like. The Uṣas cycle — chiefly Rigveda 1.48, 1.92, 1.113, 3.61, 6.64, 7.75–81 — is where the corpus is most purely a work of poetry."
+    },
+    {
+     "type": "p",
+     "html": "The images repeat and vary like a musician working a theme. Dawn is a dancer who has put on her ornaments. She is a woman rising from her bath. She is a cow-herd releasing the cattle of light from their pen. She drives away her sister Night without hostility. She is <em>duhitā divaḥ</em>, daughter of heaven. She opens the doors of the sky. She has been seen by generations who are all now dead, and she will be seen by generations not yet born, and each morning she is entirely new."
+    },
+    {
+     "type": "p",
+     "html": "That last thought is where the Ushas hymns become something more than description. The poets are perfectly aware that the dawn's eternal youth is measured against their own decline. She wears away the lifetimes of mortals, one at a time, the way a gambler sweeps up stakes. The most joyful poetry in the Rigveda contains, without comment and without consolation, the plainest statement in it of human transience."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · The Hour the Text Was Made For",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Once, and it need only be once: get up before first light. Go outside, or to a window facing east. Do not take a device. Watch the sky change colour with nothing else happening, for as long as it takes. Somewhere in the middle of it, say the Gayatri if you know it, or simply the line <em>idaṁ śreṣṭhaṁ jyotiṣāṁ jyotir āgāt</em> — \"this best of lights has come.\" Everything in this chapter was composed at that hour by people who were awake for it every single day. The text will not fully open to you until you have been."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "IV. The Gambler's Lament — Rigveda 10.34"
+    },
+    {
+     "type": "p",
+     "html": "And now something else entirely, because the Rigveda is not only a book of hymns and any honest introduction has to admit it. Rigveda 10.34 is fourteen verses spoken in the voice of a man ruined by dice."
+    },
+    {
+     "type": "p",
+     "html": "He describes the dice themselves — brown nuts of the <em>vibhīdaka</em> tree, rolling on the board — with a lover's precision and hatred. They tempt him. They have no hands and yet they overpower a man who has hands. His wife has not driven him away and has never been angry with him, and he has ruined her anyway; her mother hates him; nobody will lend him anything; his mother-in-law's house is shut. He resolves to stop. He knows he will not. And then, at the end, a voice — the god Savitṛ's counsel, reported by the speaker:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Advice",
+     "sk": "अक्षैर्मा दीव्यः कृषिमित्कृषस्व वित्ते रमस्व बहु मन्यमानः ।<br/>तत्र गावः कितव तत्र जाया तन्मे वि चष्टे सवितायमर्यः ॥",
+     "tr": "akṣair mā dīvyaḥ kṛṣim it kṛṣasva vitte ramasva bahu manyamānaḥ |<br/>tatra gāvaḥ kitava tatra jāyā tan me vi caṣṭe savitāyam aryaḥ ||",
+     "mn": "\"Do not play with dice; plough your own field. Take pleasure in what you have, and think it much. There are your cattle, gambler; there is your wife. This is what the noble Savitṛ shows me.\"",
+     "src": "— Rigveda 10.34.13"
+    },
+    {
+     "type": "p",
+     "html": "Three thousand years, and the psychology has not moved an inch. This hymn is in the same book as the Nāsadīya. The corpus that asks whether even God knows how the universe began also contains a man explaining that he cannot stop gambling and that his mother-in-law will not open the door to him."
+    },
+    {
+     "type": "p",
+     "html": "Keep both in view. A library that contains only its own summit is a monument; a library that contains the summit and the ruined gambler and the frogs croaking at the start of the rains — Rigveda 7.103, which compares them, deadpan, to brahmins chanting around the soma bowl — is a civilisation talking to itself. That is what you are actually reading."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "soma",
+   "part": "Part Two · Inside the Rigveda",
+   "label": "Chapter 05 · The Rigveda",
+   "title": "Soma",
+   "subtitle": "An entire book of the Rigveda is addressed to a plant, and nobody knows which plant it was",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Maṇḍala 9 of the Rigveda contains 114 hymns, and every one of them is addressed to the same thing: Soma, in the act of being pressed, strained and poured. No other book in the corpus is organised around a single deity in this way. And the deity in question is, quite literally, a drink."
+    },
+    {
+     "type": "p",
+     "html": "The word <em>soma</em> (सोम) comes from the root <em>su</em>, \"to press.\" It means the pressed thing. The hymns describe the process with obsessive attention: stalks are soaked in water, crushed between stones, the juice runs through a filter of sheep's wool, is mixed with water, milk, curd or barley, and is offered and drunk. The technical vocabulary is enormous. And out of this entirely practical operation — a bunch of men crushing plants with rocks at dawn — the poets build some of the most exhilarated language in the corpus."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Opening of Maṇḍala 9",
+     "sk": "स्वादिष्ठया मदिष्ठया पवस्व सोम धारया ।<br/>इन्द्राय पातवे सुतः ॥",
+     "tr": "svādiṣṭhayā madiṣṭhayā pavasva soma dhārayā | indrāya pātave sutaḥ ||",
+     "mn": "\"Flow clear, Soma, in your sweetest and most exhilarating stream — pressed out for Indra to drink.\"",
+     "src": "— Rigveda 9.1.1"
+    },
+    {
+     "type": "p",
+     "html": "<em>Madiṣṭhayā</em>: the superlative of <em>mada</em>, intoxication, exhilaration, rapture. The text is not coy about this. Soma is a substance that does something to you, and the something it does is described in terms of expansion, brightness, strength, and the collapse of ordinary limits."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · What It Was Like",
+     "sk": "अपाम सोममृता अभूमागन्म ज्योतिरविदाम देवान् ।<br/>किं नूनमस्मान्कृणवदरातिः किमु धूर्तिरमृत मर्त्यस्य ॥",
+     "tr": "apāma somam amṛtā abhūmāganma jyotir avidāma devān |<br/>kiṁ nūnam asmān kṛṇavad arātiḥ kim u dhūrtir amṛta martyasya ||",
+     "mn": "\"We have drunk the soma; we have become immortal; we have gone to the light; we have found the gods. What now can hostility do to us — what, O immortal one, the malice of any mortal?\"",
+     "src": "— Rigveda 8.48.3"
+    },
+    {
+     "type": "p",
+     "html": "This is one of the most quoted verses in the Rigveda, and it is worth noticing precisely what it claims. Not that soma will grant immortality later, as a reward. That the drinkers <em>have become</em> immortal, now, in the middle of the ritual. The state is present tense. Whatever the drink was, its effect included a felt certainty of deathlessness."
+    },
+    {
+     "type": "p",
+     "html": "Rigveda 10.119 goes further: spoken in the first person by someone who has drunk, it asks as a refrain whether he has drunk soma, and reports that he could pick up the earth and set it down elsewhere, that the five peoples are nothing to him, that one of his wings is in the sky and the other trailing below. Then the refrain again."
+    },
+    {
+     "type": "h3",
+     "html": "What Was It?"
+    },
+    {
+     "type": "p",
+     "html": "Nobody knows. This is not a rhetorical set-up; it is the state of the field. The plant that was the physical centre of the oldest surviving Indo-Aryan religion cannot be identified with confidence, and the ritual tradition itself lost it — later ritual manuals already discuss permitted substitutes, and the fire rituals performed in India today use a substitute creeper, because the original is gone."
+    },
+    {
+     "type": "p",
+     "html": "What the hymns give us are constraints. Any candidate has to fit them, and the constraints are more restrictive than they first appear."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>It has stalks or shoots</strong> (<em>aṁśu</em>) that are crushed. The hymns speak constantly of pressing stalks. They do not describe leaves, flowers, fruit, seeds or roots as the source.",
+      "<strong>It yields juice by crushing</strong> between stones, immediately, without fermentation. There is no brewing period; the drink is pressed and drunk within the same ritual.",
+      "<strong>It is tawny, ruddy or golden</strong> — <em>hari</em>, <em>babhru</em>, <em>aruṇa</em> are the colour words used.",
+      "<strong>It comes from mountains</strong>, and one specific mountain, Mūjavat, is named as a source — which means it was already in some degree an imported or traded commodity.",
+      "<strong>It is fiercely stimulating</strong>, producing energy, wakefulness, expansiveness and the sense of enlargement described above.",
+      "<strong>It does not, in the hymns, clearly produce hallucinations.</strong> This is the constraint most often ignored. The descriptions are of power, brilliance, elation and immortality — not of visions of other worlds, encounters with entities, or the dissolution of the senses that classic psychedelics reliably produce."
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Candidates"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Proposal",
+      "Case for",
+      "Case against"
+     ],
+     "rows": [
+      [
+       "<strong>Ephedra</strong> <em>(Ephedra spp.)</em> — a leafless, jointed, stalky shrub of Central Asian and Iranian highlands",
+       "It is <em>stalks</em> — the plant is essentially green stems, which fits <em>aṁśu</em> better than any rival. It grows in mountains. It contains ephedrine, a powerful stimulant producing exactly the wakeful, expansive, fatigue-abolishing state described. Decisively, the Iranian branch of the same tradition uses ephedra for <em>haoma</em> today, and <em>haoma</em> and <em>soma</em> are the same word and the same ritual.",
+       "Ephedrine is a stimulant, not a visionary drug, and some readers find the hymns' language too extreme for caffeine's more energetic cousin. The identification also cannot be proved for the Rigvedic period itself."
+      ],
+      [
+       "<strong>Fly agaric</strong> <em>(Amanita muscaria)</em> — the red-and-white mushroom",
+       "Proposed at book length by R. Gordon Wasson in <em>Soma: Divine Mushroom of Immortality</em> (1968), which made the whole question famous. Wasson pointed to the plant's absence of leaves and roots in the hymns, its ruddy colour, and to a passage he read as describing the ritual drinking of urine — a known way of recycling the mushroom's active compounds, attested in Siberian practice.",
+       "A mushroom is not <em>stalks</em> pressed between stones. It does not grow where the hymns say soma grows. The urine reading of Rigveda 9.74.4 is contested and most Vedicists do not accept it. And the Iranian parallel points away from mushrooms entirely."
+      ],
+      [
+       "<strong>Syrian rue</strong> <em>(Peganum harmala)</em>",
+       "Argued by David Flattery and Martin Schwartz in <em>Haoma and Harmaline</em> (1989), primarily from the Iranian side. It contains harmala alkaloids with genuine psychoactive effects and has ritual use across the region.",
+       "Again the plant part is wrong — the seeds are the active portion, not pressed stalks — and the fit with the Vedic descriptions is loose."
+      ],
+      [
+       "<strong>Cannabis, opium, or a compound preparation</strong>",
+       "Both plants were available in the region and both have long ritual histories.",
+       "Neither matches the pressing procedure or the described effects well, and neither has substantial support among Vedic specialists."
+      ]
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · The Archaeological Angle",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "There is an archaeological strand to this, and it needs care. Excavating the Bronze Age sites of the Bactria–Margiana Archaeological Complex in Turkmenistan — Togolok, Gonur — <strong>Viktor Sarianidi</strong> reported finding, in what he interpreted as ritual rooms, residues he identified as ephedra, and in some reports cannabis and poppy. This was widely taken as physical evidence for a proto-soma/haoma cult in exactly the right place at roughly the right time."
+      },
+      {
+       "type": "p",
+       "html": "It has not gone unchallenged. Subsequent analyses by other researchers questioned the botanical identifications, with at least one study of samples from the sites failing to confirm ephedra and suggesting millet remains instead. The honest position is that the BMAC sites are highly suggestive of a ritual involving pressed plants in the right region and period, and that the specific identification of what was pressed remains unsettled."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "How It Was Lost"
+    },
+    {
+     "type": "p",
+     "html": "The loss is itself informative. If Vedic-speaking communities were moving from the north-west into the plains of the Punjab and the Ganga–Yamuna region, then a mountain plant from Mūjavat would become progressively harder to obtain — a supply chain lengthening until it broke. And that is roughly what the textual record shows: the ritual literature increasingly discusses substitutes, ranks acceptable alternatives, and eventually treats the substitute as normal."
+    },
+    {
+     "type": "p",
+     "html": "In the fire rituals performed in Kerala and elsewhere in the twentieth and twenty-first centuries, the plant used is a leafless, jointed creeper — locally <em>somalatā</em>, botanically usually identified as a species of <em>Sarcostemma</em> or <em>Cynanchum</em>. It is pressed exactly as the texts prescribe. It has, so far as anyone reports, no intoxicating effect whatsoever. The procedure has been preserved perfectly and the pharmacology has evaporated entirely, which is a rather exact image of what a ritual tradition is capable of."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Soma as the Moon, and as the Self",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The name did not disappear; it migrated. By the classical period <em>Soma</em> is the moon — waxing as the gods drink, waning as they consume it, and refilled. The plant that gave immortality became the cup in the sky that is drained and refilled forever. Later still, in tantric and yogic literature, <em>soma</em> or <em>amṛta</em> becomes an inner secretion, a nectar said to drip from a point in the head, which the practitioner learns to conserve rather than lose."
+      },
+      {
+       "type": "p",
+       "html": "Three soma: a plant, a planet, a physiological metaphor. The tradition kept the word and changed its referent twice, each time in the direction of interiority — the same movement we watched in the four layers. And to be exact under the historical lens: the yogic soma is a much later development and no evidence connects it to the Rigvedic drink except the name."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "There is a temptation to find this deflating: the sacred drink was a stimulant, the mystery is pharmacology. Resist it, because it gets the direction of the astonishment backwards. What the Rigveda records is a community that took a substance which made them feel enormous, and then spent a hundred and fourteen hymns turning that feeling into a god, a cosmology, and some of the most technically accomplished poetry of the Bronze Age. The chemistry explains the sensation. It does not explain Maṇḍala 9."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "oral",
+   "part": "Part Three · How It Survived",
+   "label": "Chapter 06 · Transmission",
+   "title": "The Memory Machine",
+   "subtitle": "How a text three thousand years old reached us through mouths, with error-correction built into the recitation",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "This chapter is about the single most extraordinary thing in this whole subject, and it is not a matter of faith. It is documented, examinable, and still being performed. The Vedic tradition solved the problem of transmitting a large body of text across three thousand years without writing — and it solved it by inventing, in effect, error-detecting codes, roughly three millennia before information theory gave them a name."
+    },
+    {
+     "type": "p",
+     "html": "Begin with the size of the problem. The Rigveda alone is over ten thousand verses. The transmission had to preserve not only the words but the exact sequence, the exact vowel lengths, and the <em>pitch</em> of each syllable — and it had to do this across generations of teenage boys sitting with teachers in scattered villages, with no reference copy to check against, for a hundred generations."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · The Manuscript Gap",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Here is the fact that makes the achievement unavoidable. The Rigveda is generally dated to roughly the second millennium BCE. The oldest surviving manuscripts of it are from around the fourteenth century CE — a gap of some three thousand years. Birch bark and palm leaf do not last in the Indian climate; nothing older has survived, and there is no reason to think much older ever existed, because for most of that period the text was deliberately <em>not</em> a written object."
+      },
+      {
+       "type": "p",
+       "html": "The manuscripts that do survive matter — a collection of thirty Rigveda manuscripts held at the Bhandarkar Oriental Research Institute in Pune was inscribed on UNESCO's Memory of the World Register in 2007 — but they are the tail end of the story, not its spine. The spine was people."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The First Move: Take the Text Apart"
+    },
+    {
+     "type": "p",
+     "html": "Sanskrit runs its words together. The rules of <em>sandhi</em> fuse the end of one word into the beginning of the next, so that a recited line is a continuous stream of sound in which word boundaries are audibly erased. This is a problem for memorisation, because a learner who mishears where one word ends can carry the error forward invisibly."
+    },
+    {
+     "type": "p",
+     "html": "So the tradition produced a second version of the entire text. The ordinary continuous recitation is the <strong>saṁhitā-pāṭha</strong>. Alongside it was created the <strong>pada-pāṭha</strong> — the word-text — in which every word is separated out, sandhi undone, compounds analysed into their parts. For the Rigveda this is traditionally credited to <strong>Śākalya</strong>, and it is an act of grammatical analysis of a very high order: to produce it, someone had to work out, for the entire text, exactly which underlying words each fused sound represented."
+    },
+    {
+     "type": "p",
+     "html": "With two versions of the text in existence, any discrepancy between them is detectable. That is already redundancy. But it was only the beginning."
+    },
+    {
+     "type": "h3",
+     "html": "The Second Move: Permute It"
+    },
+    {
+     "type": "p",
+     "html": "From the pada-pāṭha, the schools generated a series of increasingly elaborate recitation formats in which the words of the text are recited in fixed permutations. Let the words of a line be numbered 1, 2, 3, 4. Then:"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Format",
+      "Pattern",
+      "What it looks like"
+     ],
+     "rows": [
+      [
+       "<strong>Saṁhitā-pāṭha</strong> <span class=\"dev\">संहितापाठ</span>",
+       "1 2 3 4",
+       "Continuous, with all sandhi applied. The form used in ritual."
+      ],
+      [
+       "<strong>Pada-pāṭha</strong> <span class=\"dev\">पदपाठ</span>",
+       "1 · 2 · 3 · 4",
+       "Word by word, each isolated, sandhi resolved."
+      ],
+      [
+       "<strong>Krama-pāṭha</strong> <span class=\"dev\">क्रमपाठ</span>",
+       "12, 23, 34, …",
+       "Overlapping pairs. Every word is recited twice, once as the second element of a pair and once as the first."
+      ],
+      [
+       "<strong>Jaṭā-pāṭha</strong> <span class=\"dev\">जटापाठ</span> — \"braid\"",
+       "12 21 12, 23 32 23, 34 43 34, …",
+       "Each pair forward, backward, forward again. Every word is now recited six times, in three different orders."
+      ],
+      [
+       "<strong>Ghana-pāṭha</strong> <span class=\"dev\">घनपाठ</span> — \"dense\"",
+       "12 21 123 321 123, 23 32 234 432 234, …",
+       "The most demanding of the standard formats. A reciter who has mastered it earns the title <em>ghanapāṭhī</em>, still used as an honorific today."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "There are eight of these elaborated formats in the traditional list — <em>jaṭā, mālā, śikhā, rekhā, dhvaja, daṇḍa, ratha, ghana</em> — collectively called the <em>vikṛti</em> or \"modified\" recitations, all built on top of the krama. Most reciters learn some; the ghana is the summit."
+    },
+    {
+     "type": "h3",
+     "html": "Why This Is an Error-Detecting Code"
+    },
+    {
+     "type": "p",
+     "html": "Now consider what these permutations actually accomplish, because it is not simply repetition for its own sake. Suppose a word is corrupted — misremembered, substituted, or dropped."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Ordering errors become impossible to hide.</strong> In the krama, each word appears in two different pairs, bound to the word before and the word after. Move a word and you break two pairs at once, in two different recitations, in ways that do not sound right to a trained ear.",
+      "<strong>Substitution errors propagate visibly.</strong> A wrong word in the jaṭā or ghana has to be produced correctly-wrongly six or more times, in forward and reverse order, each time in a different phonetic environment with different sandhi consequences. A slip does not survive; a deliberate change would have to be executed consistently across every format.",
+      "<strong>Reversal breaks the crutch of meaning.</strong> This is the deep point. Ordinary memorisation leans on sense: you remember the next word partly because it makes sense there. Reciting backwards removes that support entirely, so the reciter must hold the <em>sound sequence itself</em>, independent of meaning. That is precisely what you want if your goal is to transmit a text whose meaning may drift while its sound must not.",
+      "<strong>Metre supplies an independent check.</strong> Vedic verse is strictly metrical — the gāyatrī of 24 syllables, the anuṣṭubh of 32, the triṣṭubh of 44, the jagatī of 48, and others. A dropped or added syllable breaks the count. Metre is a parity bit.",
+      "<strong>Accent supplies another.</strong> Each syllable carries a fixed pitch, and the accent pattern is grammatically determined. An error in a word frequently produces an error in accent, which a trained ear catches immediately."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Put these together and you have a system with layered, independent redundancy — sound, sequence, permutation, metre, pitch — where a corruption must satisfy all of them simultaneously to pass undetected. This is exactly the logic of a checksum. Nobody in the Vedic schools was thinking in those terms, and it would be a distortion to say they invented information theory. What they did was solve a specific engineering problem with a solution whose structure we can now recognise, and the recognition runs from us to them, not from them to us."
+    },
+    {
+     "type": "h3",
+     "html": "The Accent: A Sound Preserved After Its Death"
+    },
+    {
+     "type": "p",
+     "html": "Of everything in this chapter, this is the detail that most impresses linguists. Vedic Sanskrit had a <strong>pitch accent</strong>: syllables were distinguished not by stress but by musical tone. The tradition names three levels — <em>udātta</em> (raised), <em>anudātta</em> (not raised), and <em>svarita</em> (the falling or moving tone that follows an udātta). The accent was meaningful: it could distinguish otherwise identical words, and it interacts systematically with grammar."
+    },
+    {
+     "type": "p",
+     "html": "Then, over the centuries, the accent <strong>died</strong>. Classical Sanskrit — the language of Kālidāsa, of the philosophical commentaries, of every Sanskrit text most people have read — is not a pitch-accent language. The distinction ceased to operate in ordinary speech."
+    },
+    {
+     "type": "p",
+     "html": "The reciters kept it anyway. They went on reproducing, syllable by syllable, a tonal pattern that had no function in any language they spoke, because the pattern was part of the text and the text was to be preserved exactly. When manuscripts eventually were written, they carried notation for it: in the standard Rigvedic system, the udātta is left unmarked, the anudātta is marked with a small horizontal stroke below the syllable, the svarita with a vertical stroke above. And when comparative philologists in the nineteenth century reconstructed the accent system of Proto-Indo-European, the preserved Vedic accent turned out to correspond, in a great many words, to the accent independently reconstructed from ancient Greek."
+    },
+    {
+     "type": "note",
+     "html": "Consider what that correspondence means. Two traditions, separated by thousands of miles and thousands of years, preserved the tone of the same inherited words closely enough that modern linguists can line them up. On the Indian side, the preservation was done by human beings speaking aloud, most of whom had no idea the accent had ever been a living feature of speech."
+    },
+    {
+     "type": "h3",
+     "html": "The Six Limbs"
+    },
+    {
+     "type": "p",
+     "html": "Around the recitation, the tradition built an entire scholarly apparatus, the six <strong><em>vedāṅgas</em></strong> — \"limbs of the Veda\" — each a discipline dedicated to protecting or applying the text."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Limb",
+      "Discipline",
+      "What it does for the text"
+     ],
+     "rows": [
+      [
+       "<strong>Śikṣā</strong> <span class=\"dev\">शिक्षा</span>",
+       "Phonetics",
+       "Specifies the exact articulation of every sound: place in the mouth, effort, duration, pitch. The <em>Prātiśākhya</em> treatises do this for each individual branch, in obsessive detail."
+      ],
+      [
+       "<strong>Chandas</strong> <span class=\"dev\">छन्दस्</span>",
+       "Metre",
+       "Catalogues the metres and their syllable counts — the parity check described above."
+      ],
+      [
+       "<strong>Vyākaraṇa</strong> <span class=\"dev\">व्याकरण</span>",
+       "Grammar",
+       "Culminates in Pāṇini's <em>Aṣṭādhyāyī</em>, roughly the fourth century BCE: about four thousand rules generating the whole language, with a formal apparatus of metarules, abbreviation and ordered application that twentieth-century linguists found startlingly modern. Leonard Bloomfield called it one of the greatest monuments of human intelligence."
+      ],
+      [
+       "<strong>Nirukta</strong> <span class=\"dev\">निरुक्त</span>",
+       "Etymology and glossary",
+       "Yāska's <em>Nirukta</em> explains obscure Vedic words. Its existence proves something important: by Yāska's time, well before the Common Era, parts of the Rigveda were <em>already</em> hard to understand and needed a dictionary."
+      ],
+      [
+       "<strong>Jyotiṣa</strong> <span class=\"dev\">ज्योतिष</span>",
+       "Calendrical astronomy",
+       "Fixes the timing of rites: which day, which lunar mansion, which season."
+      ],
+      [
+       "<strong>Kalpa</strong> <span class=\"dev\">कल्प</span>",
+       "Ritual procedure",
+       "The Śrauta, Gṛhya and Śulba Sūtras — manuals for public ritual, domestic ritual, and altar construction respectively."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "That fourth entry deserves a pause. <strong>Yāska needed to write a glossary.</strong> The Nirukta exists because Vedic Sanskrit had become archaic — the reciters were transmitting the sound perfectly while the sense was slipping away from them. Sāyaṇa, writing his great commentary in the fourteenth century CE, is doing the same job two thousand years further on. The preservation of the words and the understanding of the words are two different projects, and only the first one succeeded completely."
+    },
+    {
+     "type": "h3",
+     "html": "Why They Refused to Write It Down"
+    },
+    {
+     "type": "p",
+     "html": "Writing was available in India from at least the third century BCE — the Ashokan inscriptions are unambiguous — and India produced a colossal written literature. The Veda was, for a very long time, deliberately excluded from it."
+    },
+    {
+     "type": "p",
+     "html": "The reasons given in the tradition are partly about purity and partly about pedagogy. Later dharma literature disparages learning the Veda from a written text; the transmission is supposed to run from a teacher's mouth to a student's ear, with the teacher correcting pronunciation, pitch and rhythm in real time. Whatever one makes of the ritual rationale, the pedagogical instinct was sound: a written text cannot tell you that your svarita is flat. Foreign observers noticed the practice — al-Bīrūnī, writing about India in the eleventh century, remarked on the brahmins' reliance on memory rather than books for the Veda."
+    },
+    {
+     "type": "p",
+     "html": "The result is a peculiar inversion of everything we assume about textual history. Normally, older manuscripts are better. Here, the <em>manuscripts are the derivative copies</em>, and the living recitation is closer to the source."
+    },
+    {
+     "type": "h3",
+     "html": "How Well Did It Work?"
+    },
+    {
+     "type": "p",
+     "html": "This is a testable question, and it has been tested. When nineteenth- and twentieth-century editors collected recitations and manuscripts of the Rigveda from schools separated by the whole width of the subcontinent — Maharashtra, Kerala, Tamil Nadu, Varanasi, Odisha — communities with no contact for many centuries, they found agreement of a kind textual critics simply do not encounter elsewhere in ancient literature."
+    },
+    {
+     "type": "p",
+     "html": "To put it in perspective: editing a Greek or Latin classic means building a family tree of manuscripts and printing an apparatus at the foot of every page recording where the witnesses disagree. Editing the Rigveda Samhita involves remarkably few disputed points across ten thousand verses. Different <em>branches</em> genuinely differ — Śākala and Bāṣkala are not identical, and the Atharvaveda's two recensions differ substantially. But within a branch, the fidelity is of a different order from anything the manuscript traditions of the Mediterranean achieved."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · What UNESCO Recognised",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "In 2003, the <strong>Tradition of Vedic Chanting</strong> was proclaimed by UNESCO among the Masterpieces of the Oral and Intangible Heritage of Humanity; in <strong>2008</strong> it was incorporated into the Representative List of the Intangible Cultural Heritage of Humanity. The listing describes the tradition of chanting itself — the recitation formats, the phonetic precision, the teacher-to-student transmission — as the heritage item, which is exactly right. The thing being protected is not a book. It is a practice."
+      },
+      {
+       "type": "p",
+       "html": "The listing also notes what conservationists usually note: the tradition is under pressure. The number of families maintaining full recitation of a branch, particularly of the rarer śākhās, has fallen sharply, and some branches known to have existed are now irrecoverably gone."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Exact Limit of What This Proves"
+    },
+    {
+     "type": "p",
+     "html": "And now the sentence this whole chapter has been building towards, because it is the place where honest admiration and dishonest inflation part company."
+    },
+    {
+     "type": "p",
+     "html": "<strong>The oral tradition establishes that the words are old and nearly unchanged. It establishes nothing whatsoever about whether what the words say is true.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "These are not adjacent claims that shade into each other. They are unrelated. A perfectly transmitted text is a perfectly transmitted text; fidelity is a property of the copying process, not of the content. If a community had preserved with equal precision a hymn asserting that the earth rests on the back of a turtle, the transmission would be equally astonishing and the turtle would be equally absent."
+    },
+    {
+     "type": "p",
+     "html": "You will encounter the elision constantly. Someone describes the recitation system accurately and impressively, and then concludes — with a small rhetorical step that is not argued for — that therefore the Vedas' claims about the cosmos must be taken seriously as knowledge. The first half is true and the second does not follow from it. Notice the step when it happens. You can hold the astonishment and refuse the inference; in fact, doing both at once is the mark of having actually understood what you were told."
+    },
+    {
+     "type": "p",
+     "html": "What the fidelity does give us is enormous in its own right. It means that when a linguist analyses the Rigveda, she is analysing genuinely archaic language and not a medieval reconstruction. It means comparative Indo-European philology has, in the Rigveda, something close to a direct recording of a second-millennium-BCE dialect. It means the hymns' picture of a society — its animals, its technologies, its rivers, its anxieties — is evidence about that society rather than about the concerns of later copyists. For historians of language and of religion, that is an almost unreasonable gift. It is simply a different gift from the one people often claim."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · Hear It Once",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Recordings of ghana-pāṭha recitation are not hard to find. Listen to two minutes of one, without following a text, and simply attend to what is happening: the same small group of words turning over and over, forward and backward and forward, in a steady rhythm, with the pitch moving in a pattern the reciter did not invent and cannot alter. It sounds nothing like reading. It sounds like a machine made of a person. Then remember that the person on the recording learned it from someone who learned it from someone, and follow that chain back as far as you can bear to."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "ritual",
+   "part": "Part Three · How It Survived",
+   "label": "Chapter 07 · Transmission",
+   "title": "The Fire Rituals",
+   "subtitle": "Śrauta ritual, the piling of the altar, and the Iron Age ceremony that was filmed in Kerala in 1975",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "The Vedas are libretto. They were composed for a performance, and for most of their history the performance was the point — the hymns existed to be used at specific moments in a sequence of physical actions involving fire, plants, milk, grain, animals, bricks and a great many people. To read the Vedas without any picture of the ritual is to read the words of an opera and imagine you have heard it."
+    },
+    {
+     "type": "p",
+     "html": "So this chapter is about what was actually done. And it ends somewhere remarkable: with a twelve-day ceremony described in a text of around the eighth century BCE, performed in a Kerala village in April 1975 in front of cameras, and published in two volumes by a scholar who then spent the rest of his career arguing about what it meant."
+    },
+    {
+     "type": "h3",
+     "html": "Two Kinds of Ritual"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "<strong>Śrauta</strong> <span class=\"dev\">श्रौत</span>",
+      "<strong>Gṛhya</strong> <span class=\"dev\">गृह्य</span>"
+     ],
+     "rows": [
+      [
+       "Based on",
+       "<em>Śruti</em> — the Vedic texts directly",
+       "<em>Smṛti</em> and custom, codified in the Gṛhya Sūtras"
+      ],
+      [
+       "Fires",
+       "Three sacred fires, maintained continuously",
+       "One domestic fire"
+      ],
+      [
+       "Performers",
+       "A patron (<em>yajamāna</em>) and his wife, plus professional priests — up to sixteen or seventeen for the largest rites",
+       "The householder himself, sometimes with a single priest"
+      ],
+      [
+       "Scale",
+       "From a few minutes daily to ceremonies lasting weeks or, in some prescriptions, a year or more",
+       "Minutes to a day"
+      ],
+      [
+       "Survival today",
+       "Rare — a small number of families and communities, notably in Kerala, Andhra Pradesh, Telangana, Tamil Nadu, Karnataka and Maharashtra",
+       "Universal. Almost every Hindu life still passes through several"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "It is the second column most people actually encounter. A Hindu wedding is a gṛhya rite of great antiquity: the couple circling the fire, the seven steps (<em>saptapadī</em>), the pointing out of the pole star as an image of constancy. The sacred thread ceremony (<em>upanayana</em>) is a boy receiving the Gayatri from a teacher — the initiation into Vedic study itself. Cremation rites are Vedic. The Vedas survived not only in the recitation schools but because they were embedded in the machinery of ordinary life."
+    },
+    {
+     "type": "h3",
+     "html": "The Three Fires"
+    },
+    {
+     "type": "p",
+     "html": "Śrauta ritual is organised around three fires, each with its own shape, position and function. The <strong>gārhapatya</strong>, the householder's fire, is round and set to the west; it is the perpetual hearth from which the others are kindled. The <strong>āhavanīya</strong>, the offering fire, is square and set to the east; this is where oblations to the gods are made. The <strong>dakṣiṇāgni</strong>, the southern fire, is semicircular, and is associated with the ancestors and with rites that face the direction of the dead."
+    },
+    {
+     "type": "p",
+     "html": "A man who has established these fires has assumed a lifelong obligation — the fires must not go out. His entire domestic and religious identity is reorganised around them. The technical term for such a person is <em>āhitāgni</em>, \"one who has set up the fires,\" and it remains a title of great respect in the communities that still maintain the practice."
+    },
+    {
+     "type": "h3",
+     "html": "The Repertoire"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Agnihotra</strong> — the smallest and most frequent: an offering of milk into the fire at dawn and at dusk, every day, for life. A few minutes. The daily minimum of the śrauta system, and the one still most widely kept.",
+      "<strong>Darśapūrṇamāsa</strong> — the new-moon and full-moon offerings, twice monthly, of cakes and grain.",
+      "<strong>Cāturmāsya</strong> — seasonal rites performed at four-month intervals.",
+      "<strong>Paśubandha</strong> — the animal offering, historically a goat; the animal element of Vedic ritual has been contested within Hinduism for well over two thousand years and is now generally replaced by substitutes where the rites are performed at all.",
+      "<strong>Agniṣṭoma</strong> — the model soma sacrifice: five days, involving the pressing of soma three times on the final day. It is the template from which the more elaborate soma rites are extensions.",
+      "<strong>Vājapeya, Rājasūya, Aśvamedha</strong> — royal rites: the drink of strength, the consecration of a king, and the horse sacrifice, in which a horse was released to wander for a year accompanied by an army, and the territory it crossed unopposed was claimed. These required a state to perform them, and they ended when the states that performed them ended.",
+      "<strong>Agnicayana</strong> <span class=\"dev\">अग्निचयन</span> — \"the piling of the fire.\" The most complex of all, and the one we are going to look at closely."
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Agnicayana: Building a Bird Out of Bricks"
+    },
+    {
+     "type": "p",
+     "html": "The agnicayana is a soma ritual with an additional and enormous component: the construction, over many days, of a large altar made of fired bricks, laid in five layers, in the shape of a <strong>bird with outstretched wings</strong> — usually a <em>śyena</em>, a falcon or eagle, oriented eastward as though about to fly. The books six through ten of the Śatapatha Brāhmaṇa are largely given to explaining it."
+    },
+    {
+     "type": "p",
+     "html": "Every brick is placed with its own mantra. The bricks are named. The layers correspond to the worlds, the seasons, the parts of the year; the Śatapatha builds an elaborate numerical architecture of correspondences, most famously between the bricks of the altar and the 10,800 <em>muhūrtas</em> the tradition counts in a year. The altar is Prajāpati, the creator, who exhausted and dismembered himself in producing the worlds and is here reassembled, piece by piece, by the sacrificers. Building the altar restores the creator. That is the theology, stated as plainly as the text states it."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Geometry from an Altar",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The altars had to be built to exact specifications — precise areas, precise shapes, and, in the prescribed variants, transformations that preserve area while changing shape: turn a square altar into a circular one of the same area, or enlarge an altar by a stated fraction without altering its proportions. Doing this correctly is a mathematical problem, and the manuals that address it are the <strong>Śulbasūtras</strong> — \"the rules of the cord\" — attached to the Kalpa limb of the Vedāṅgas and attributed to Baudhāyana, Āpastamba, Kātyāyana and Mānava."
+      },
+      {
+       "type": "p",
+       "html": "They contain, among other things, a general statement of the relation between the diagonal of a rectangle and its sides — the proposition that in Europe carries Pythagoras's name — stated as a rule of practice, along with constructions for combining and transforming areas and a strikingly good approximation to the square root of two."
+      },
+      {
+       "type": "verse",
+       "tag": "Sanskrit · The Rule of the Diagonal",
+       "sk": "दीर्घचतुरश्रस्याक्ष्णया रज्जुः पार्श्वमानी तिर्यङ्मानी च<br/>यत्पृथग्भूते कुरुतस्तदुभयं करोति ॥",
+       "tr": "dīrgha-caturaśrasyākṣṇayā rajjuḥ pārśvamānī tiryaṅmānī ca yat pṛthagbhūte kurutas tad ubhayaṁ karoti",
+       "mn": "\"The rope stretched along the diagonal of a rectangle produces an area equal to that produced by the vertical and horizontal sides together.\"",
+       "src": "— Baudhāyana Śulbasūtra"
+      },
+      {
+       "type": "p",
+       "html": "Two honest notes. First, this is genuine, important, early mathematics, generally dated to somewhere around the eighth to sixth centuries BCE — plausibly earlier than Pythagoras, and independent of him. Second, it is stated as a construction rule rather than as a proved theorem, which is a real difference from the Greek tradition and not a deficiency to be argued away. Both things are true and neither needs the other to be false."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Panjal, Kerala, April 1975"
+    },
+    {
+     "type": "p",
+     "html": "By the middle of the twentieth century the agnicayana had become extremely rare. The Nambudiri brahmins of Kerala were among the very few communities still maintaining the śrauta tradition at that level of complexity, in a form that had been transmitted within their community with unusual conservatism — Kerala's relative isolation had preserved a great deal that had been lost elsewhere."
+    },
+    {
+     "type": "p",
+     "html": "In April 1975, in the village of <strong>Panjal</strong> in Thrissur district, a twelve-day agnicayana was performed. It was organised with the involvement of the Dutch-American scholar <strong>Frits Staal</strong>, then at the University of California, Berkeley, together with the anthropological filmmaker <strong>Robert Gardner</strong> of Harvard's Film Study Center and the photographer Adelaide de Menil. It was recorded on film, on tape, and in photographs, and documented in detail by a team of scholars and by the participating priests themselves."
+    },
+    {
+     "type": "p",
+     "html": "The outputs were two: the film <em>Altar of Fire</em> (1976), and the two-volume study <em>AGNI: The Vedic Ritual of the Fire Altar</em> (1983), edited by Staal — which contains the full text of the rite, transcriptions, musical notation of the chants, photographs of every stage, and essays by both Western scholars and Nambudiri participants."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "The bird-shaped altar was built to specification, of over a thousand bricks, in five layers, over the course of the ceremony.",
+      "Soma was pressed — using the substitute creeper discussed in the previous chapter, since the original plant is unidentified.",
+      "The chants were recorded, including Sāmavedic melodies of the Jaiminīya tradition that exist nowhere else and that some researchers have argued preserve archaic musical features.",
+      "The animal offerings prescribed by the texts were <strong>not</strong> carried out with live animals. Substitutes made of rice paste were used instead, following objections raised in advance. This is worth stating plainly: the event was not an unmodified reproduction of an ancient rite, and its organisers did not claim it was.",
+      "At the end, as the texts prescribe, the enclosure and the altar were burned."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · What Was Actually Being Watched",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Try to hold the layers of the moment. In a field in Kerala, men are laying bricks in a pattern specified in a prose text composed perhaps twenty-six centuries earlier, reciting formulas from a collection older than that, in a language nobody has spoken conversationally for two thousand years, with a pitch accent that died out of ordinary speech before the Buddha. A few metres away, a camera crew from Harvard is filming it in colour. Neither party finds the other's presence strange enough to stop."
+      },
+      {
+       "type": "p",
+       "html": "This is as close as anyone has come to a controlled observation of Iron Age religion. Not a reconstruction by scholars from a manual — a performance by a community that had never stopped, being observed. Whatever one thinks of the ethics of the arrangement, and there was criticism at the time about the degree of outside involvement in bringing the rite about, the documentary record it produced is unique and irreplaceable."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Staal's Argument, and Why It Provoked People"
+    },
+    {
+     "type": "p",
+     "html": "Staal drew a conclusion from what he had watched, and published it in 1979 in the journal <em>Numen</em> under the deliberately provocative title <strong>\"The Meaninglessness of Ritual.\"</strong> His thesis: ritual is <em>pure activity</em>. It is governed by rules of enormous complexity and precision, and those rules are self-contained — they do not refer to anything outside themselves. Ritual, on this account, is to be understood the way one understands syntax: as a formal system, not as a code for hidden meanings. The participants perform it because it is to be performed, and the meanings supplied by theologians are secondary decorations attached afterwards."
+    },
+    {
+     "type": "p",
+     "html": "It is a serious argument, and seriously contested. Critics reply that Vedic ritual is drenched in stated meaning — the Brahmanas do almost nothing but explain what each act signifies — and that a scholar who declares the participants' own explanations epiphenomenal has awarded himself a strange authority over them. Others find in it a real insight into why ritual is so stable: a practice held together by rules rather than beliefs can survive the total replacement of the beliefs, which is what the Vedic tradition demonstrates."
+    },
+    {
+     "type": "p",
+     "html": "I will not adjudicate it for you. What matters for this course is that the argument exists, that it arose from direct observation of a living rite, and that it is an open question in the study of religion rather than a settled one."
+    },
+    {
+     "type": "h3",
+     "html": "What Still Happens"
+    },
+    {
+     "type": "p",
+     "html": "Śrauta ritual did not end in 1975. Agnicayanas and other soma sacrifices have been performed in Kerala and elsewhere in the decades since, some documented on video by the communities themselves, and agnihotra is still maintained daily by families in several regions. The number of practitioners is small, and specialists who work with these communities describe the tradition as fragile."
+    },
+    {
+     "type": "p",
+     "html": "The register in which to hold this is worth being clear about. As a <strong>historical</strong> phenomenon, these are the last living practitioners of a continuous Iron Age liturgical tradition, and their loss would be irreversible in the way the loss of a language is irreversible. As a <strong>scriptural</strong> matter, they are performing what the texts prescribe. As a matter of <strong>meaning</strong>, whether anything is accomplished by the rite is a question the tradition and Frits Staal answer differently, and on which the evidence is silent."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · From the Litany to Rudra",
+     "sk": "नमः शिवाय च शिवतराय च ॥",
+     "tr": "namaḥ śivāya ca śivatarāya ca",
+     "mn": "\"Homage to the kindly one, and to the still kindlier.\"",
+     "src": "— Śatarudrīya, Taittirīya Saṁhitā (Kṛṣṇa Yajurveda), book 4"
+    },
+    {
+     "type": "p",
+     "html": "That line is chanted in temples across India every day, by millions of people, most of whom have never heard the word <em>agnicayana</em>. It comes out of the ritual literature of exactly this world — the fires, the bricks, the priests, the falcon-shaped altar. The Veda reaches modern life mostly like this: in fragments, detached from their machinery, doing new work."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "history",
+   "part": "Part Four · History",
+   "label": "Chapter 08 · History",
+   "title": "When, Where, and the Question of Origins",
+   "subtitle": "Dating the hymns, the Iranian and Anatolian evidence, and the origins debate handled without a thumb on the scale",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "This chapter is entirely under the historical lens, and I want to be exact about what that means before we start. Historical claims are probabilistic, evidence-based and revisable. They are not superior to the tradition's own account of itself; they are answering a different question. The tradition holds that the Veda is <em>apauruṣeya</em> — not of human authorship, without beginning, <em>seen</em> rather than composed by the ṛṣis, who are receivers and not authors. That is a theological position and the historical lens has nothing to say about it, because it is not the kind of claim evidence bears on. What follows is about a separate question: when were these sounds first uttered by people whose descendants we can trace, and where were those people standing?"
+    },
+    {
+     "type": "h3",
+     "html": "Why There Is No Date on the Cover"
+    },
+    {
+     "type": "p",
+     "html": "You cannot carbon-date the Rigveda. There is no object. The text was not a physical artefact for its first two or three thousand years, and the manuscripts that survive are medieval. So every date attached to the Vedas is inferred, and it is worth understanding the tools of the inference, because they are the reason the mainstream range is as wide as it is — and the reason it is a range and not a year."
+    },
+    {
+     "type": "h4",
+     "html": "Tool one: what the text knows and does not know"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "The Rigveda knows the <strong>horse</strong> and the <strong>spoked-wheel chariot</strong> intimately — chariot racing is a recurring image, and the vocabulary of chariotry is elaborate. The spoked wheel is an attested technology from around the early second millennium BCE; the light chariot does not exist before it.",
+      "The Rigveda knows <em>ayas</em>, metal — but the term in the Rigveda most plausibly refers to copper or bronze. Words unambiguously denoting <strong>iron</strong> (the \"dark metal\") appear in the <em>later</em> Vedic texts, not in the Rigveda. Iron becomes widespread in northern India in roughly the early first millennium BCE. This is one of the firmer upper bounds.",
+      "The Rigveda knows <strong>barley</strong> (<em>yava</em>) and does not know <strong>rice</strong>. Rice appears in later Vedic literature and becomes central to ritual there. Barley to rice is a real agricultural and geographical shift, and the corpus records it in sequence.",
+      "The Rigveda does not describe <strong>cities</strong> of the kind the Indus Valley built, does not describe writing, and does not describe the sea trade, standardised weights, or civic layout that characterise the mature Harappan world.",
+      "Later Vedic texts do know all of these things, and know a different geography — further east, along the Ganga and Yamuna. The corpus contains its own internal record of movement."
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "Tool two: the language itself"
+    },
+    {
+     "type": "p",
+     "html": "This is the strongest tool, and the least visible to non-specialists. Languages change at a rate that is not constant but is also not arbitrary, and the relationships between related languages can be established by regular sound correspondences with a precision comparable to any historical science."
+    },
+    {
+     "type": "p",
+     "html": "Rigvedic Sanskrit is demonstrably more archaic than Classical Sanskrit: it keeps grammatical categories the later language lost — the subjunctive, a far richer infinitival system, the pitch accent. Within the Rigveda itself, the family books (2–7) are older in language than books 1, 9 and 10. This is not taken on authority; it is the ordinary work of historical linguistics."
+    },
+    {
+     "type": "h3",
+     "html": "The Iranian Mirror"
+    },
+    {
+     "type": "p",
+     "html": "Now the piece of evidence that does the most work in this entire subject, and which is not widely known outside specialist circles. <strong>The closest relative of Vedic Sanskrit is the language of the oldest Zoroastrian scripture.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "Old Avestan — the language of the Gāthās attributed to Zarathustra — and Rigvedic Sanskrit are so close that they are best described as two dialects of a single ancestral language that had only recently separated. Regular sound correspondences convert one into the other: Vedic <em>s</em> corresponds to Avestan <em>h</em>. Apply that one rule and watch what happens."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Vedic",
+      "Avestan",
+      "What it is"
+     ],
+     "rows": [
+      [
+       "<em>soma</em> <span class=\"dev\">सोम</span>",
+       "<em>haoma</em>",
+       "The pressed ritual plant — the same rite, the same word"
+      ],
+      [
+       "<em>sindhu</em> <span class=\"dev\">सिन्धु</span>",
+       "<em>hindu</em>",
+       "The river. The Persian form of this word, via Greek, gives us <i>India</i> and <i>Hindu</i>"
+      ],
+      [
+       "<em>asura</em> <span class=\"dev\">असुर</span>",
+       "<em>ahura</em>",
+       "Lord. In Iran, Ahura Mazdā is God; in later India, <i>asura</i> becomes the word for a demon"
+      ],
+      [
+       "<em>yajña</em> <span class=\"dev\">यज्ञ</span>",
+       "<em>yasna</em>",
+       "The sacrifice — and the name of the principal Zoroastrian liturgy"
+      ],
+      [
+       "<em>hotṛ</em> <span class=\"dev\">होतृ</span>",
+       "<em>zaotar</em>",
+       "The invoking priest, in both traditions"
+      ],
+      [
+       "<em>ṛta</em> <span class=\"dev\">ऋत</span>",
+       "<em>aša</em>",
+       "Truth and cosmic order — the central ethical concept of both religions"
+      ],
+      [
+       "<em>Mitra</em> <span class=\"dev\">मित्र</span>",
+       "<em>Mithra</em>",
+       "The god of contract"
+      ],
+      [
+       "<em>Yama</em> <span class=\"dev\">यम</span>",
+       "<em>Yima</em>",
+       "The first man, and lord of the dead"
+      ],
+      [
+       "<em>atharvan</em> <span class=\"dev\">अथर्वन्</span>",
+       "<em>āθravan</em>",
+       "A class of fire-priest — the name behind the Atharvaveda"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "This is not a list of resemblances. It is a systematic correspondence covering the language, the pantheon, the priesthood, the ritual and the ethical vocabulary — which means the Vedic and the Zoroastrian traditions are two branches of one thing, separated somewhere and drifting apart. Notably, some terms invert: <em>daēva</em>, cognate with Vedic <em>deva</em>, means demon in Avestan, while <em>ahura</em> means God — a mirror-image of the later Indian situation. Older scholarship read this as evidence of a religious schism; most specialists now treat the causes as unresolved. The correspondence itself is not in doubt by anyone."
+    },
+    {
+     "type": "h3",
+     "html": "The Letter from Anatolia"
+    },
+    {
+     "type": "p",
+     "html": "And then there is the piece of evidence that comes with an external date attached, which is why it matters so much."
+    },
+    {
+     "type": "p",
+     "html": "In the second millennium BCE there was a kingdom called <strong>Mitanni</strong> in northern Syria and northern Iraq. Its population spoke Hurrian, a language unrelated to Sanskrit. But its ruling elite bore names, and worshipped gods, and used technical terms, that are unmistakably <em>Indo-Aryan</em>."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "A treaty between the Hittite king Šuppiluliuma and the Mitanni ruler Šattiwaza, recovered from the Hittite archives at Boğazköy and dated to around <strong>1380 BCE</strong>, calls upon a list of divine witnesses that includes — in cuneiform, in a Hurrian-language document, in Syria — <strong>Mitra, Varuṇa, Indra and the Nāsatyas</strong>. Four gods of the Rigveda, invoked as a group, in a dated diplomatic document a very long way from the Punjab.",
+      "A manual on the training of chariot horses, written by a Mitanni horse-master named <strong>Kikkuli</strong>, uses technical numerals for the number of laps: <em>aika-</em>, <em>tera-</em>, <em>panza-</em>, <em>satta-</em>, <em>na-</em> — one, three, five, seven, nine. Compare Sanskrit <em>eka, tri, pañca, sapta, nava</em>.",
+      "That first numeral is doing decisive work. <em>Aika</em> corresponds to Sanskrit <em>eka</em>, \"one\" — and specifically <em>not</em> to the Iranian form <em>aiva</em>. The Mitanni terms are therefore Indo-Aryan rather than Iranian, meaning the two branches had already separated before this material reached Syria."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "So by about 1380 BCE — a date fixed by Near Eastern chronology, which is independent of anything Indian — Indo-Aryan gods with recognisably Vedic names and a specialised Indo-Aryan chariot vocabulary were present among an elite in Syria. This is the hardest external anchor the subject has."
+    },
+    {
+     "type": "h3",
+     "html": "A Timeline"
+    },
+    {
+     "type": "timeline",
+     "items": [
+      {
+       "when": "c. 4500–3500 BCE",
+       "what": "Proto-Indo-European",
+       "html": "The reconstructed ancestral language of a family stretching from Ireland to Bengal. The mainstream position places its homeland in the Pontic–Caspian steppe. Its reconstructed vocabulary includes wheel, axle and yoke — so the language cannot be much older than wheeled transport."
+      },
+      {
+       "when": "c. 2600–1900 BCE",
+       "what": "The mature Indus (Harappan) civilisation",
+       "html": "Great cities at Mohenjo-daro, Harappa, Dholavira and Rakhigarhi; standardised weights, drainage, seals, long-distance trade. Its script is undeciphered, so its language is unknown."
+      },
+      {
+       "when": "c. 2100–1800 BCE",
+       "what": "Sintashta and Andronovo, Central Asian steppe",
+       "html": "Cultures associated with the Indo-Iranian branch. Sintashta burials contain the earliest known spoked-wheel chariots, with horse sacrifice and a ritual repertoire resembling what the Vedic and Avestan texts describe."
+      },
+      {
+       "when": "c. 1900 BCE onward",
+       "what": "The Indus cities decline",
+       "html": "Urban centres shrink or are abandoned; population shifts eastward and to smaller settlements. Explanations centre on hydrological and monsoon change and disrupted trade. There is no destruction horizon attributable to invaders."
+      },
+      {
+       "when": "c. 2000–1500 BCE",
+       "what": "The Bactria–Margiana complex, and movement south",
+       "html": "Indo-Iranian speakers move south through Central Asia, interacting with the settled BMAC cultures — a region from which Vedic Sanskrit is argued to have picked up a layer of non-Indo-European loanwords."
+      },
+      {
+       "when": "c. 1500–1200 BCE",
+       "what": "The core Rigveda is composed",
+       "html": "The family books, in the region of the Sapta Sindhu — the seven rivers of the greater Punjab. This is the conventional range and the one most specialists use. It is a range, not a date, and its edges are soft."
+      },
+      {
+       "when": "c. 1380 BCE",
+       "what": "The Mitanni treaty",
+       "html": "Mitra, Varuṇa, Indra and the Nāsatyas invoked in a Hittite–Mitanni treaty in Anatolia. Externally dated."
+      },
+      {
+       "when": "c. 1200–1000 BCE",
+       "what": "Books 1, 9 and 10; the collection is arranged",
+       "html": "The latest maṇḍalas — including the Nāsadīya and the Puruṣa Sūkta — are composed, and the Rigveda is fixed in the order we have it."
+      },
+      {
+       "when": "c. 1200–900 BCE",
+       "what": "Eastward, into the Doab",
+       "html": "The Yajurveda, Samaveda and Atharvaveda Samhitas take shape. Iron comes into use, rice becomes central, and the geography of the texts shifts to the Ganga–Yamuna region. The Kuru realm consolidates, and is argued to be where the corpus was first systematically organised."
+      },
+      {
+       "when": "c. 900–600 BCE",
+       "what": "The Brahmanas",
+       "html": "The great ritual prose, including the Śatapatha. The śrauta system reaches its full elaboration; the Śulbasūtra geometry develops alongside it."
+      },
+      {
+       "when": "c. 700–500 BCE",
+       "what": "The earliest Upanishads",
+       "html": "Bṛhadāraṇyaka and Chāndogya, then the others. The corpus turns inward. The Buddha and Mahāvīra arrive within a century or two, into an intellectual world these texts had already opened."
+      },
+      {
+       "when": "c. 500–350 BCE",
+       "what": "Pāṇini",
+       "html": "The Aṣṭādhyāyī fixes the description of the language. Yāska's Nirukta, roughly of this era, shows that the Rigveda already required a glossary."
+      },
+      {
+       "when": "3rd century BCE",
+       "what": "Writing is abundant — and the Veda stays oral",
+       "html": "The Ashokan inscriptions show literacy in routine administration. The Vedic corpus goes on being transmitted by mouth for centuries more, by deliberate policy."
+      },
+      {
+       "when": "14th century CE",
+       "what": "Sāyaṇa, and the oldest surviving manuscripts",
+       "html": "Sāyaṇa, under Vijayanagara patronage, produces the commentary on the Rigveda that remains standard. The earliest Rigveda manuscripts we possess date from around this period."
+      },
+      {
+       "when": "1786",
+       "what": "Sir William Jones names the family",
+       "html": "In an address to the Asiatic Society in Calcutta, Jones observes that Sanskrit bears to Greek and Latin \"a stronger affinity… than could possibly have been produced by accident,\" and proposes a common source. Comparative Indo-European linguistics begins here."
+      },
+      {
+       "when": "1849–1874",
+       "what": "The Rigveda in print",
+       "html": "Max Müller publishes the first complete edition with Sāyaṇa's commentary, in six volumes. For the first time the text can be read by anyone who can read Sanskrit."
+      },
+      {
+       "when": "1921–1922",
+       "what": "Harappa and Mohenjo-daro",
+       "html": "Excavation reveals a Bronze Age urban civilisation nobody had suspected — and creates the question that has occupied the field ever since: what, if anything, connects those cities to these hymns?"
+      },
+      {
+       "when": "2019",
+       "what": "Ancient DNA enters the argument",
+       "html": "Narasimhan and colleagues publish a large ancient-genome study in <em>Science</em>, adding an independent line of evidence to a question argued for two centuries on linguistic and archaeological grounds alone."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Origins Question"
+    },
+    {
+     "type": "p",
+     "html": "Now the part of this subject that generates more heat than all the rest of it combined. I am going to set it out carefully, state the mainstream position and its evidence, state the dissenting position and its main claims fairly, and then say honestly why most specialists do not accept the dissent. I am not going to be rude about anybody, and I am going to be clear about what the evidence does and does not establish — including where it establishes considerably less than partisans on either side would like."
+    },
+    {
+     "type": "h4",
+     "html": "The mainstream position, stated precisely"
+    },
+    {
+     "type": "p",
+     "html": "<strong>The Indo-Aryan languages arrived in South Asia from outside it, most probably via Central Asia, in the second millennium BCE.</strong> The Indo-Aryan branch descends from Indo-Iranian, which descends from Proto-Indo-European, whose speakers are generally located in the Pontic–Caspian steppe. The evidence is of three kinds:"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>Comparative linguistics.</strong> Sanskrit is one branch of a family with roughly ten other branches — Iranian, Greek, Italic, Celtic, Germanic, Balto-Slavic, Armenian, Anatolian, Tocharian, Albanian — every one of which is located outside South Asia. The standard principle for locating a language family's origin is that it lies where the deepest diversity is, and the diversity is not in India. The reconstructed proto-vocabulary contains terms for the wheel, the axle and wool, which dates the parent language to after these things existed. And Vedic Sanskrit itself contains a layer of loanwords from non-Indo-European sources, along with features such as retroflex consonants that are typical of South Asia and unusual in the wider family — the signature of an incoming language absorbing what it met.",
+      "<strong>Archaeology.</strong> The Sintashta–Andronovo horizon of the Central Asian steppe shows chariots, horses, and burial and sacrificial practices that correspond closely to what the Vedic and Avestan texts describe, in the right period, in a position from which movement south is straightforward.",
+      "<strong>Ancient DNA.</strong> The 2019 <em>Science</em> paper led by Vagheesh Narasimhan, analysing hundreds of ancient genomes from Central and South Asia, found that steppe-pastoralist-related ancestry entered South Asia in the second millennium BCE. Individuals associated with the Indus civilisation lacked it. Modern South Asian populations are modelled as mixtures that include it. A companion study of an individual from Rakhigarhi, published the same year, was consistent with that picture."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · What This Is Not",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This must be said with complete clarity, because it is the point on which the whole conversation goes wrong. <strong>The evidence is about language and ancestry. It is not evidence of an invasion.</strong>"
+      },
+      {
+       "type": "p",
+       "html": "The \"Aryan invasion\" — chariot-borne warriors sweeping in and destroying the Indus cities — is a nineteenth- and early-twentieth-century construction, and the evidence does not support it. There is no destruction layer at Indus sites attributable to incomers. Mortimer Wheeler's mid-century reading of unburied skeletons at Mohenjo-daro as massacre victims — his phrase was that \"Indra stands accused\" — was reexamined by later specialists, notably by the biological anthropologist Kenneth Kennedy, and does not survive: the skeletons are not from a single event, do not show a pattern of battle trauma, and do not date to the relevant moment. The Indus decline substantially predates the period in question and is now attributed chiefly to environmental and economic causes."
+      },
+      {
+       "type": "p",
+       "html": "The framing also carried nineteenth-century racial theory inside it, and was later put to appalling use in Europe. The word <em>ārya</em> in the Vedic texts is a self-designation meaning something like \"noble\" or \"one of us\" — a cultural and linguistic term, not a racial one, and not a designation of a biological population."
+      },
+      {
+       "type": "p",
+       "html": "What the evidence supports is <strong>migration</strong>: mobile pastoralist populations moving south over generations, in numbers sufficient to leave a genetic trace and to transmit a language, into a region that was already populous and had its own long civilisation. Language shift of this kind — a language spreading without population replacement or material rupture — is one of the best-documented processes in history. Latin, Arabic and Turkish all did it."
+      }
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "The indigenous-origin position, stated fairly"
+    },
+    {
+     "type": "p",
+     "html": "There is a body of work, produced by serious people, arguing that Indo-Aryan speakers were indigenous to South Asia, that the Vedic culture is the Indus civilisation or its direct heir, and in its stronger form that Indo-European languages spread <em>outward</em> from India. It is associated with, among others, the archaeologist B. B. Lal in his later work, and with writers including Shrikant Talageri, Koenraad Elst and Michel Danino. Its principal arguments are these."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>The Sarasvatī argument.</strong> The Rigveda praises the Sarasvatī as a mighty river running from the mountains to the sea — <em>nadītamā</em>, greatest of rivers — and Rigveda 10.75 lists it in a sequence of rivers between the Yamunā and the Sutudrī (Sutlej), which points to the bed of the Ghaggar–Hakra. That river system dried up. If hymns describe it as mighty, the argument runs, they must have been composed while it was mighty — which pushes the Rigveda back before the drying, and therefore into or before the Harappan period, and therefore rules out an arrival in the second millennium.",
+      "<strong>The continuity argument.</strong> Archaeology shows no rupture: pottery traditions, settlement patterns and craft techniques develop continuously through the second millennium in northwest India. Skeletal studies, including Kennedy's, found no evidence of a population discontinuity at the relevant period. If a new population arrived, where is it in the ground?",
+      "<strong>The absence-of-memory argument.</strong> The Rigveda's geography is Indian. It knows the Sapta Sindhu, the Punjab rivers, the Sarasvatī. It contains no narrative of migration from elsewhere, no memory of a homeland left behind, no account of arrival.",
+      "<strong>Astronomical dating.</strong> Readings of astronomical references in Vedic texts as records of precession, yielding dates far earlier than the linguistic consensus.",
+      "<strong>The colonial-provenance argument.</strong> The migration model was formulated by European scholars during colonial rule, in an intellectual climate saturated with racial theory, and served a narrative in which Indian civilisation's achievements were credited to outsiders. This argument is about the origins of a theory rather than its truth, but the historical observation behind it is accurate and should not be waved away."
+     ]
+    },
+    {
+     "type": "h4",
+     "html": "Why most linguists and geneticists do not accept it"
+    },
+    {
+     "type": "p",
+     "html": "Here are the reasons, stated as reasons rather than as dismissals."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>The linguistic problem is the heavy one, and it is structural.</strong> An Indian homeland requires that every other branch of the family — Celtic, Germanic, Italic, Greek, Balto-Slavic, Anatolian, Tocharian and the rest — departed India, while Indo-Aryan alone remained, and that the whole family's diversity accumulated after departure. It also requires explaining why Indo-Aryan shares a specific set of innovations exclusively with Iranian, which is exactly what you expect if the two separated recently and near each other, and hard to arrange from an Indian centre. No proposal has yet accounted for the distribution of the family under an Indian homeland in a way that has persuaded working comparative linguists.",
+      "<strong>The chronological problem.</strong> The reconstructed parent language contains wheeled-vehicle vocabulary shared across the family, which places it after the mid-fourth millennium BCE. An Indian homeland old enough to precede the Indus civilisation is too early for the language the method reconstructs.",
+      "<strong>The substrate problem.</strong> Vedic Sanskrit contains non-Indo-European vocabulary — plant names, agricultural terms, place names — and the proportion increases as the corpus proceeds. That pattern is what a language arriving in an inhabited region looks like. It is difficult to explain in a language that had always been where it was.",
+      "<strong>The Mitanni problem.</strong> Indo-Aryan names, gods and chariot terms appear in Syria around 1380 BCE, in a form already distinct from Iranian. Under the mainstream model this is a branch that separated on the way south and turned west. Under an out-of-India model it requires a separate long-distance migration from India to Syria for which there is no other evidence.",
+      "<strong>The genetic evidence now constrains the question directly.</strong> Steppe-related ancestry appears in South Asia in the second millennium BCE and is absent from the Indus-associated individuals so far sampled. This does not, by itself, prove which language anybody spoke — genetics tracks people, not words, and the distinction genuinely matters. But it establishes that a population movement of the right kind happened at the right time, which removes the objection that no such movement is detectable."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "And the crucial methodological point, which cuts across the whole argument: <strong>the continuity evidence is real and does not establish what it is offered to establish.</strong> The absence of an invasion is not the presence of indigenous origin. Migration accompanied by language shift, without destruction, without population replacement, and without a break in pottery styles, is the normal case rather than the exception. Both sides of this debate have at times argued as though disproving the invasion settles the question. It does not, because the mainstream position stopped claiming an invasion decades ago."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect · On Why This Is Not a Neutral Argument",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "It is worth being honest about why this particular question is so charged, because pretending it is a purely technical dispute helps nobody. For a great many Indians, the migration model arrived attached to a colonial claim that everything valuable in Indian civilisation came from outside, and that claim was made by people with power over them. That memory is real, the grievance behind it has a factual basis, and someone who resists the model for that reason is not being irrational; they are declining to trust a source that earned distrust."
+      },
+      {
+       "type": "p",
+       "html": "The reply is not contempt. It is that the model has changed in exactly the direction the objection demanded — the invasion is gone, the racial framing is gone, the Indus civilisation is understood as a great achievement in its own right and not a prelude to anything — while the linguistic core has been repeatedly tested and has held. And there is a further point that deserves stating plainly: <strong>nothing about the Vedas' value depends on the answer.</strong> The hymns are exactly as old, as beautiful and as extraordinarily preserved either way. A tradition that has been secure for three thousand years does not need this argument to come out one way."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Three Lenses on One Question"
+    },
+    {
+     "type": "lenses",
+     "items": [
+      {
+       "kind": "s",
+       "title": "Scriptural",
+       "html": "The Veda is <em>apauruṣeya</em> — without human author, without beginning. The ṛṣis did not compose the hymns; they <i>saw</i> them. The Mīmāṁsā school argued the Veda's eternity as a philosophical position, holding that the relation between word and meaning is itself beginningless. On this account the question \"when was it written\" is a category error."
+      },
+      {
+       "kind": "y",
+       "title": "Symbolic",
+       "html": "The claim of authorlessness does real work regardless of chronology: it says the truth of the Veda does not rest on anyone's authority, credentials or era. Nothing is true here because a great man said it. What is heard is prior to the hearer. Read that way, <em>apauruṣeya</em> is a statement about the nature of the transmission, not a dating claim in competition with the historians."
+      },
+      {
+       "kind": "h",
+       "title": "Historical",
+       "html": "Composed by identifiable families of poets, in a datable form of an Indo-European language, in a period most specialists place around 1500–1200 BCE for the oldest core, with later material extending several centuries on. The tightest external anchor is a Hittite treaty of about 1380 BCE. Every part of this is revisable if the evidence changes."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "These do not need to be reconciled and should not be. They are answers to different questions, and the discipline of keeping them apart is what makes it possible to hold all three at once — which is, in the end, the only intellectually honest position available to someone who both loves this material and wants to know what is true about it."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "science",
+   "part": "Part Five · The Honest Ending",
+   "label": "Chapter 09 · Evidence",
+   "title": "What Science Actually Says",
+   "subtitle": "The claims made about the Vedas, tested honestly — corroborated, open, and contradicted",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Every course in this library ends here, and if you read one chapter of this one, let it be this. For eight chapters we have been <em>inside</em> the material — what the hymns say, how they were kept, where they came from. Now we step outside and ask a different question in a different voice: <strong>what can actually be shown?</strong> Not what is beautiful. Not what is meaningful. What survives contact with evidence."
+    },
+    {
+     "type": "p",
+     "html": "The Vedas attract more false claims than any other body of ancient literature, and they attract them from both directions. One side inflates: the hymns encode the speed of light, the law of gravitation, the age of the universe, aircraft, nuclear weapons. The other side deflates: it is primitive fire-worship and nothing more, of antiquarian interest only. These look like opposites. They are the same error — both assume that unless a text is a physics paper, it is worthless. Neither camp has read very much of it."
+    },
+    {
+     "type": "h3",
+     "html": "The Rules I Am Working Under"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Name the finding.</strong> \"Scientists have proven\" is a rumour about evidence, not evidence. Where a specific study exists you get the researchers, the venue and roughly when. Where I can only describe the state of a field, I say so, and I invent nothing.",
+      "<strong>\"No evidence for\" is not \"evidence against.\"</strong> Collapsing these is the commonest dishonesty in this territory, and it is committed as often by sceptics as by enthusiasts.",
+      "<strong>A tradition can be extraordinary without being right.</strong> The oral transmission is genuinely one of the great achievements of the human species. That fact has no bearing on whether Indra exists.",
+      "<strong>Nothing here needs to win.</strong> If a claim fails, it fails. The Rigveda is not diminished by the universe being 13.8 billion years old, and the people who feel it is have misunderstood what kind of thing they are defending."
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Verdicts"
+    },
+    {
+     "type": "honesty",
+     "items": [
+      {
+       "verdict": "corroborated",
+       "claim": "The Vedas have been transmitted orally, with extraordinary fidelity, for roughly three thousand years.",
+       "html": "Documented, examinable, and astonishing. The Vedic schools built layered redundancy into the act of recitation: the word-by-word <em>pada</em> text, the overlapping <em>krama</em>, and the permuted <em>jaṭā</em> and <em>ghana</em> formats in which every word is recited many times in forward and reverse order — reversal deliberately removing the crutch of meaning. Strict metre supplies a syllable-count check; the preserved pitch accent supplies another. A corruption must satisfy all of these simultaneously to survive, which is the structure of an error-detecting code. Recitation traditions separated for centuries agree to a degree that textual critics do not encounter elsewhere in antiquity, and the accent has been preserved for two thousand years after it ceased to exist in spoken language — closely enough that it corresponds to the accent independently reconstructed for Proto-Indo-European from ancient Greek. UNESCO proclaimed the tradition of Vedic chanting a Masterpiece of Oral and Intangible Heritage in 2003 and inscribed it on the Representative List in 2008. <strong>And the exact limit must be stated: this establishes that the words are old and nearly unchanged. It establishes nothing whatsoever about whether what the words say is true.</strong> Fidelity is a property of copying, not of content."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "The language of the Rigveda is genuinely archaic — among the oldest substantial texts in any Indo-European language.",
+       "html": "This is not a matter of tradition or assertion; it is established by ordinary historical linguistics. Rigvedic Sanskrit preserves grammatical categories that Classical Sanskrit lost — the subjunctive, a far richer infinitival system, a functioning pitch accent — and its internal strata can be ordered by language alone, with the family books (maṇḍalas 2–7) demonstrably older than books 1, 9 and 10. Its content matches: the text knows the horse and the spoked-wheel chariot, does not know iron, and does not know rice, all of which are datable. The conventional range of roughly 1500–1200 BCE for the oldest core is well supported. What will never be supported is precision: anyone offering you a year is selling something."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "The Vedic and Iranian traditions are two branches of one ancestral religion, and Indo-Aryan gods are attested in Syria by about 1380 BCE.",
+       "html": "The Avestan parallel is exact and systematic rather than impressionistic: a regular sound correspondence converts Vedic <em>s</em> to Avestan <em>h</em>, and applying it yields <em>soma</em>/<em>haoma</em>, <em>yajña</em>/<em>yasna</em>, <em>hotṛ</em>/<em>zaotar</em>, <em>ṛta</em>/<em>aša</em>, <em>asura</em>/<em>ahura</em>, <em>Mitra</em>/<em>Mithra</em>, <em>Yama</em>/<em>Yima</em> — language, pantheon, priesthood, ritual and ethics all corresponding at once. The Anatolian evidence adds an externally dated anchor: a Hittite–Mitanni treaty from the archives at Boğazköy, around 1380 BCE, invokes <strong>Mitra, Varuṇa, Indra and the Nāsatyas</strong> as divine witnesses, and the Mitanni horse-training manual of Kikkuli uses Indo-Aryan numerals, with <em>aika</em> (\"one\") matching Sanskrit <em>eka</em> rather than the Iranian form. This is as solid as anything in the subject."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "Vedic ritual generated real and early achievements in geometry, phonetics and grammar.",
+       "html": "The Śulbasūtras — altar-construction manuals attached to the ritual literature, attributed to Baudhāyana, Āpastamba, Kātyāyana and Mānava and generally dated to somewhere around the eighth to sixth centuries BCE — state the relation between a rectangle's diagonal and its sides that Europe names after Pythagoras, give procedures for transforming one shape into another of equal area, and give a good approximation for the square root of two. They are stated as construction rules rather than as proved theorems, which is a real difference from the Greek tradition and not a defect to be argued away. The phonetic analysis in the Prātiśākhya literature, and Pāṇini's grammar of around the fourth century BCE, are of a technical order that twentieth-century linguists found startling; Leonard Bloomfield called the Aṣṭādhyāyī one of the greatest monuments of human intelligence. <strong>These are the genuine scientific achievements of this tradition, and they are ignored by exactly the people who claim it contains modern physics.</strong>"
+      },
+      {
+       "verdict": "open",
+       "claim": "Soma can be identified with a particular plant.",
+       "html": "Genuinely unresolved, and it is a live research question rather than a dead one. The hymns constrain the answer — pressed <em>stalks</em>, crushed between stones, drunk immediately without fermentation, tawny in colour, from mountains, powerfully stimulating, and notably <em>not</em> described as producing visions. <strong>Ephedra</strong> fits best on most counts, and decisively so on one: the Iranian branch of the same tradition uses ephedra for <em>haoma</em>, the same word and the same rite. <strong>Amanita muscaria</strong>, argued at book length by R. Gordon Wasson in <em>Soma: Divine Mushroom of Immortality</em> (1968), fits the pressed-stalk description badly and the geography worse, and rests partly on a reading of one verse as describing the ritual drinking of urine, which most Vedicists do not accept. <strong>Syrian rue</strong>, argued by David Flattery and Martin Schwartz in <em>Haoma and Harmaline</em> (1989), has the same plant-part problem. Archaeologically, Viktor Sarianidi reported residues he identified as ephedra at Bronze Age ritual sites in Turkmenistan; later analyses by other researchers questioned those identifications. The tradition itself lost the plant: ritual manuals discuss substitutes, and the fire rituals performed today use a creeper with no intoxicating effect at all."
+      },
+      {
+       "verdict": "open",
+       "claim": "The Rigvedic Sarasvatī is the Ghaggar–Hakra, and the hymns describing it as mighty must predate its drying.",
+       "html": "This is contested among specialists and I am not going to pretend otherwise. <strong>For:</strong> the Rigveda calls the Sarasvatī the greatest of rivers, flowing from mountain to sea, and Rigveda 10.75 places it between the Yamunā and the Sutlej, which points squarely at the Ghaggar–Hakra bed; a large number of Harappan-era sites lie along that system. <strong>Against:</strong> palaeohydrological work has complicated the picture considerably — a 2017 study in <em>Nature Communications</em> argued that the Ghaggar–Hakra was not a glacier-fed Himalayan river during the period of Harappan urbanism, the major Himalayan feeder having shifted away millennia earlier, which would mean a monsoon-fed seasonal system rather than a mighty stream at the relevant time. There is also a further complication that cuts both ways: <em>Sarasvatī</em> corresponds to Avestan <em>Haraxvaitī</em>, a river name in the Iranian world, and river names travel with the people who use them. <strong>And the inference is weaker than it looks even if the identification holds:</strong> hymns can praise a river in inherited formulaic language long after it has diminished, and a mighty Sarasvatī would establish a date for particular verses, not for the corpus. Unresolved, and worth watching — this is one of the places where new evidence could genuinely move the field."
+      },
+      {
+       "verdict": "open",
+       "claim": "Astronomical references in Vedic texts can date them precisely — some say to 4500 BCE or earlier.",
+       "html": "The method is real and the results are not reliable, and it is worth understanding exactly why. <strong>B. G. Tilak</strong>, in <em>The Orion</em> (1893) and <em>The Arctic Home in the Vedas</em> (1903), read references to the position of the equinox against the constellations as datable observations, and used the precession of the equinoxes — a genuine 26,000-year cycle — to assign very early dates. Later workers have attempted similar readings, often centring on the statement in the Śatapatha Brāhmaṇa about the Kṛttikās (the Pleiades) rising due east. The difficulty is that the calculation is <strong>extremely sensitive to assumptions that the texts do not supply</strong>: which star or asterism a name denotes, whether a statement is an observation or a schematic convention inherited unchanged, what degree of precision an unaided naked-eye observer could achieve, and whether a phrase is even astronomical rather than ritual. Vary any of these within defensible limits and the resulting date moves by many centuries — sometimes by millennia. This is not a claim that the early dates are false; it is that <strong>the method cannot discriminate between them and the conventional dates</strong>, and a technique that returns whatever you assume is not evidence. Note also that these dates conflict with the linguistic and archaeological evidence, and no astronomical argument has yet been made that specialists in those fields have found compelling."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Vedas record the speed of light.",
+       "html": "This is the most widely circulated of all the claims, and it does not survive contact with the actual text. The claim rests on a line in <strong>Sāyaṇa's commentary</strong> on Rigveda 1.50.4, which quotes a remembered verse: <em>yojanānāṁ sahasre dve dve śate dve ca yojane | ekena nimiṣārdhena kramamāṇa namo'stu te</em> — \"salutations to you who traverse 2,202 yojanas in half a nimeṣa.\" Choose a yojana of about nine miles and a nimeṣa of about 16/75 of a second and the arithmetic gives roughly 186,000 miles per second. <strong>Every step of the argument fails.</strong> (1) It is not in the Vedas. Sāyaṇa wrote in the fourteenth century CE, some two and a half thousand years after the hymn, and he explicitly presents the line as a quotation from elsewhere. (2) The verse is addressed to the <em>sun</em> and describes the sun's own travel — <em>kramamāṇa</em>, \"O you who stride\" — not the propagation of light. (3) The units are not fixed. Indian sources give the yojana wildly varying values, commonly anywhere from about four to about nine miles or more, and the nimeṣa likewise; the match is manufactured by selecting the values that produce it, and other equally defensible values are off by a factor of two or more. (4) The actual verse being commented on says nothing of the sort — Rigveda 1.50.4 reads <em>taraṇir viśvadarśato jyotiṣkṛd asi sūrya</em>, \"swift and all-seen are you, maker of light, O Sun.\" (5) And decisively: there is no accompanying concept. No claim that light travels rather than simply being present, no method of measurement, no derivation, no use made of the figure anywhere by anyone in the following six centuries. A number that can be made to match is not a discovery, and nobody in the tradition read it as one until the twentieth century."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Vedas state the law of gravitation.",
+       "html": "The verse usually offered is Rigveda 10.149.1, which says that Savitṛ fastened the earth with bonds and made the sky firm in unsupported space. What this states is that a god holds the earth and sky in place — an image found in nearly every ancient cosmology from Mesopotamia to the Andes, and a beautiful one. What it does not contain is any of the things that make gravitation a law: no mass, no distance, no inverse-square relation, no universality, no prediction, no quantity. Reading it as Newton requires you to already know Newton and then go looking. <strong>And the irony is that Indian tradition does contain a genuine anticipation, which the people making this claim consistently overlook:</strong> in the <em>Brāhmasphuṭasiddhānta</em> of 628 CE, the astronomer <strong>Brahmagupta</strong> states that the earth attracts heavy bodies toward itself because attraction is the earth's nature — an actual physical proposition, made in an actual astronomical treatise. It is seventh-century mathematical astronomy, not Vedic hymnody, and it is more impressive than the fabrication."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Vedas give the age of the universe, and the yuga figures match modern cosmology.",
+       "html": "It fails at the first step: <strong>the yuga chronology is not in the Vedas.</strong> The Rigveda Samhita contains no scheme of four ages with numerical durations. The developed system — Kṛta, Tretā, Dvāpara and Kali totalling 4,320,000 years to a mahāyuga, a thousand of which make a day of Brahmā — belongs to the epics, the law books, the Purāṇas and the later astronomical <em>siddhāntas</em>, composed one to two thousand years after the hymns. It then fails on the numbers: a day of Brahmā is 4.32 billion years; the universe is about <strong>13.8 billion</strong> years old on Planck-mission microwave background data, and the Earth about <strong>4.54 billion</strong>, the latter figure established by Clair Patterson's lead-isotope work in 1956. The near-agreement of 4.32 with 4.54 billion is regularly presented as a hit; it is a coincidence with no derivation behind it, drawn from a scheme that generates a great many numbers, and it is the wrong quantity in any case — a kalpa is a recurring cosmic day, not the age of a planet. Cyclical time is a magnificent idea and one of India's real contributions to how human beings have imagined the cosmos. It is not a measurement."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Vedas describe aircraft — the vimānas — and ancient Indians flew.",
+       "html": "Three separate failures. <strong>First, the word.</strong> In the Rigveda, the root <em>vi-mā</em> means to measure out or traverse; there is no Vedic passage describing a flying machine. The flying palace called Puṣpaka belongs to the <em>Rāmāyaṇa</em>, and the vimāna as a celestial vehicle belongs to epic and Purāṇic literature — a thousand years and more after the hymns, and in a genre where gods also curse people into stones. <strong>Second, the text everyone actually means.</strong> The <em>Vaimānika Śāstra</em>, which contains the engineering-sounding descriptions and the famous diagrams, is not ancient. It was produced between about 1918 and 1923 by Pandit Subbaraya Shastry, who dictated it in a state he described as psychic reception from the sage Bharadvāja; it was written down by an assistant, surfaced publicly in the 1950s, and was published with an English translation in 1973. <strong>Third, it was checked.</strong> In 1974, five aeronautical engineers at the Indian Institute of Science in Bangalore — H. S. Mukunda, S. M. Deshpande, H. R. Nagendra, A. Prabhu and S. P. Govindaraju — published a critical study of the work. They analysed the described craft as engineering: geometry, dimensions, proposed propulsion, materials. Their conclusion was that the aircraft described are aeronautically hopeless, that none of the configurations could fly, that the drawings show twentieth-century influence, and that the text cannot be dated before the early 1900s. It is the rare pseudo-historical claim that has been given a genuine technical hearing by qualified people, and it failed on the merits."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Pattern"
+    },
+    {
+     "type": "p",
+     "html": "Look back across those verdicts and notice the shape of the thing. Everything in the corroborated column concerns <strong>language, memory, ritual technique and the disciplines built around them</strong> — and in that territory the Vedic tradition's achievements are not merely real but, in the case of the transmission, without parallel anywhere on earth. Everything in the contradicted column concerns <strong>modern physics retrofitted into ancient verses</strong>, and every one of those readings collapses on inspection, usually within a paragraph."
+    },
+    {
+     "type": "p",
+     "html": "That is not an accident, and it is worth saying why. The Vedic tradition was extraordinary at the things it was actually trying to do: preserving sound exactly, analysing speech, laying out altars, keeping a liturgy intact across millennia. It was not trying to do physics, and there is no reason it should have been. The claim that it secretly was is not a compliment to the tradition. It is a statement that the tradition's own priorities were not good enough, and that it needs a modern alibi to be worth respecting."
+    },
+    {
+     "type": "p",
+     "html": "It does not. A civilisation that built a system for carrying ten thousand verses across three thousand years in human memory, and that produced Pāṇini, does not need to have known the speed of light."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · What to Do When You Meet the Claim",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "You will meet these claims. When you do, three questions dissolve nearly all of them, and none of them require you to be rude."
+      },
+      {
+       "type": "list",
+       "ordered": true,
+       "items": [
+        "<strong>Which text, and which layer?</strong> Samhita, Brahmana, Upanishad, or a commentary written two thousand years later? An astonishing proportion of \"Vedic\" claims turn out to rest on Sāyaṇa, or on a Purāṇa, or on a twentieth-century book.",
+        "<strong>What does the verse say without the interpretation?</strong> Ask for the Sanskrit and a literal rendering. The gap between the verse and the claim is usually visible immediately.",
+        "<strong>Who used this knowledge, and when?</strong> If the speed of light was in the text, why did no Indian astronomer for six hundred years after Sāyaṇa ever mention it? Real knowledge in a living tradition gets used. Knowledge that appears only after the modern discovery is not knowledge; it is recognition."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "part": "Part Five · The Honest Ending",
+   "label": "Chapter 10 · Closing",
+   "title": "What Remains",
+   "subtitle": "The end of the course",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "At the beginning I asked you to write one sentence saying what you believed the Vedas contained. Find that page now, and read it before you read the rest of this."
+    },
+    {
+     "type": "p",
+     "html": "I do not know what it says. Perhaps it was about ancient wisdom, or about mantras, or about something a grandparent said, or about a suspicion you did not want to admit to. Whatever it was, read it as though a stranger had written it, because in a small way one did — a person who had not yet met Indra, or the ghana-pāṭha, or a man in the tenth maṇḍala who cannot stop gambling."
+    },
+    {
+     "type": "h3",
+     "html": "What You Actually Have Now"
+    },
+    {
+     "type": "p",
+     "html": "Not very many facts. Facts are the first thing to go, and if in a year you remember that Maṇḍala 9 is about soma and that the Purusha Sukta is late, that is more than most people carry."
+    },
+    {
+     "type": "p",
+     "html": "What may last is smaller and more useful. You now know that the Vedas are a library and not a book, and that the single most clarifying question you can ask about any Vedic claim is <em>which layer</em>. You know that the tradition's greatest achievement is a technique of memory, and you know exactly what that achievement does and does not prove. You know how to hold a text that is simultaneously a religious object, a historical document, and a work of poetry, without letting any one of those crush the others."
+    },
+    {
+     "type": "p",
+     "html": "And you know something about honesty that has nothing to do with India. The habit we have practised here — say what the evidence shows, say clearly where it stops, do not sneer, do not inflate — is not a special method for handling scripture. It is just what it feels like to think carefully about something you care about. Most people never get to practise it on something they care about, which is why so few of them can do it."
+    },
+    {
+     "type": "h3",
+     "html": "The Fire and the Question"
+    },
+    {
+     "type": "p",
+     "html": "Two images to leave you with, and they are the two ends of this library."
+    },
+    {
+     "type": "p",
+     "html": "The first is the first line of the Rigveda: a man before dawn, praising a fire. Not a philosopher. A person with cattle to protect and children who might not survive the winter, kindling a flame and speaking to it. Everything in the Indian religious tradition, all of it, comes out of that courtyard."
+    },
+    {
+     "type": "p",
+     "html": "The second is what the same tradition had made of itself by the time it reached the tenth book — a poet who has walked all the way back to the beginning of things, past the gods, past being and non-being, and arrives at the edge, and stops, and does not lie about what he can see from there."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Last Verse of the Creation Hymn",
+     "sk": "इयं विसृष्टिर्यत आबभूव यदि वा दधे यदि वा न ।<br/>यो अस्याध्यक्षः परमे व्योमन्त्सो अङ्ग वेद यदि वा न वेद ॥",
+     "tr": "iyaṁ visṛṣṭir yata ābabhūva yadi vā dadhe yadi vā na |<br/>yo asyādhyakṣaḥ parame vyoman so aṅga veda yadi vā na veda ||",
+     "mn": "\"Whence this creation came to be, whether it was established or whether it was not — he who watches over it from the highest heaven, he surely knows. Or perhaps he does not know.\"",
+     "src": "— Rigveda 10.129.7"
+    },
+    {
+     "type": "p",
+     "html": "<em>so aṅga veda yadi vā na veda.</em> He knows — or perhaps he does not know."
+    },
+    {
+     "type": "p",
+     "html": "Three thousand years of the most careful preservation in human history were spent, among other things, on keeping that sentence exactly as it was. Not softened. Not completed. Not answered by a later hand. Every reciter who has carried the tenth maṇḍala since has come to the end of this hymn and said, out loud, in the correct pitch, that even the highest seer may not know."
+    },
+    {
+     "type": "p",
+     "html": "That is what remains. Not a body of secret knowledge, and not a set of primitive errors — a very old voice, kept intact by an almost unreasonable effort, saying carefully and without shame that at the place where it stopped being able to see, it stopped."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    },
+    {
+     "type": "p",
+     "html": "The reading ends here. <em>Oṁ śāntiḥ śāntiḥ śāntiḥ.</em>"
+    }
+   ]
+  }
+ ]
+}
