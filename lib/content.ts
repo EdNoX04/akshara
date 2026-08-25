@@ -84,8 +84,18 @@ export const COURSE_META: Record<string, { blurb: string; order: number }> = {
     blurb:
       "The four Samhitas and what they actually contain — fire, dawn, storm and doubt. The recitation system that carried them three thousand years, and an even-handed account of the origins question.",
   },
-  gita: {
+  upanishads: {
     order: 3,
+    blurb:
+      "A boy bargains with Death. A father dissolves salt in water. A sage tells his wife why she has never loved anyone but herself. The dialogues where Indian philosophy begins.",
+  },
+  ramayana: {
+    order: 4,
+    blurb:
+      "Seven books, one exile, and an ending that has troubled readers for two thousand years. Valmiki alongside Kamban, Tulsidas, the Jain and Buddhist retellings — and the questions the story refuses to settle.",
+  },
+  gita: {
+    order: 5,
     blurb:
       "Eighteen chapters, verse by verse, on a battlefield where a man refuses to fight. Two thousand years of argument about what it means — Shankara to Gandhi — laid side by side.",
   },

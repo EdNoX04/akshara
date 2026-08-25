@@ -175,11 +175,23 @@ export default function Home() {
             ))}
 
             <div className="course-card soon">
-              <div className="cd" aria-hidden>रा</div>
-              <h3>The Ramayana</h3>
-              <div className="sub">Seven kandas, and the questions the ending leaves open</div>
+              <div className="cd" aria-hidden>भारत</div>
+              <h3>The Mahabharata</h3>
+              <div className="sub">A family destroys itself, and the poem asks why</div>
               <p style={{ color: "var(--ink-dim)", fontSize: ".92em", marginTop: "1em" }}>
-                Valmiki alongside Kamban, Tulsidas and the regional retellings that disagree with him.
+                Eighteen parvas. Draupadi&apos;s question that the assembly never answers, Karna&apos;s
+                exclusion, and every decisive killing won by deception.
+              </p>
+              <div className="stats"><span>In writing</span></div>
+            </div>
+
+            <div className="course-card soon">
+              <div className="cd" aria-hidden>पुराण</div>
+              <h3>The Eighteen Puranas</h3>
+              <div className="sub">Where the gods got their families and their contradictions</div>
+              <p style={{ color: "var(--ink-dim)", fontSize: ".92em", marginTop: "1em" }}>
+                The Hinduism most Hindus actually practise comes from here — plus the yuga
+                system, and honest arithmetic on what it does and doesn&apos;t match.
               </p>
               <div className="stats"><span>In writing</span></div>
             </div>

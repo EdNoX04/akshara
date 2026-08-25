@@ -1,0 +1,171 @@
+{
+ "slug": "mahabharata",
+ "title": "The Mahabharata",
+ "devanagari": "महाभारत",
+ "invocationMantra": "नारायणं नमस्कृत्य",
+ "subtitle": "The longest poem ever composed, about a family that destroys itself and asks why",
+ "invocation": {
+  "devanagari": "नारायणं नमस्कृत्य नरं चैव नरोत्तमम् ।<br/>देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत् ॥",
+  "translation": "<em>nārāyaṇaṁ namaskṛtya naraṁ caiva narottamam | devīṁ sarasvatīṁ vyāsaṁ tato jayam udīrayet ||</em><br/>\"Having bowed to Nārāyaṇa, and to Nara, best of men, and to the goddess Sarasvatī, and to Vyāsa — then let <em>Jaya</em> be uttered.\" — the verse recited before any reading of the Mahābhārata. Note the last word. The poem's oldest name for itself is not <em>Mahābhārata</em>. It is <em>Jaya</em>: Victory. Hold that against the ending, in which almost nobody wins anything."
+ },
+ "sections": [
+  {
+   "id": "begin",
+   "part": null,
+   "label": "Orientation",
+   "title": "Before We Begin",
+   "subtitle": "The largest poem in the world, and the single fact about it that almost everyone gets backwards",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Here is the sentence you will hear most often about the Mahabharata, and it is the one thing about it that is wrong. <em>It is the story of the victory of dharma over adharma — of righteousness over unrighteousness.</em> People say this in temples, in prefaces, in school assemblies, on the backs of paperbacks. It is a reasonable thing to expect of a religious epic. It is not what this poem does."
+    },
+    {
+     "type": "p",
+     "html": "What this poem does is put eighteen days of slaughter at the centre of itself, kill nearly every named character in the book, arrange for the winning side to win by a sequence of specific deceptions, hand the last long speech to the mother of the losers, and then end with an old king walking into heaven to find his enemy sitting comfortably there and his own brothers screaming somewhere else. The Sanskrit word <em>dharma</em> occurs in it thousands of times. Almost none of those occurrences are triumphant. Most of them are somebody asking, with increasing desperation, what the word is supposed to mean when the situation in front of them has made nonsense of it."
+    },
+    {
+     "type": "p",
+     "html": "That is the course. Not dharma triumphing — <strong>dharma failing</strong>, watched closely and at enormous length by a poem too honest to look away, and too intelligent to pretend it has an answer at the end."
+    },
+    {
+     "type": "h3",
+     "html": "First, the Size"
+    },
+    {
+     "type": "p",
+     "html": "The Mahabharata is the longest poem ever composed, and the margin is not close. In the received North Indian text — the <em>vulgate</em>, the version with commentaries that has circulated in print for two centuries — it runs to roughly <strong>100,000 <em>ślokas</em></strong>, verses of thirty-two syllables each. That is around 1.8 million words, in eighteen books, plus a nineteenth appended book about the lineage of Krishna."
+    },
+    {
+     "type": "p",
+     "html": "Comparisons are the only way to make a number like that mean anything. The Iliad and the Odyssey together come to something under twenty-eight thousand lines. The Mahabharata comes to around two hundred thousand. The figure people usually quote — <em>about ten times the Iliad and Odyssey combined</em> — depends on whether you count lines, syllables or words, and the honest range is somewhere between seven and fifteen times. Which is to say: the comparison has stopped being useful. It is not a longer poem than the Homeric epics. It is a different order of object. You do not read it the way you read a novel; you live in the neighbourhood of it and visit."
+    },
+    {
+     "type": "note",
+     "html": "Nobody reads the whole thing. Almost nobody, including specialists, has read every line of the Shanti Parva. This is not a shameful admission — it is a description of how the text has always functioned. It is an ocean into which people have dipped for three thousand years, coming out with a story, an argument, a verse, a scene. The complete unabridged English translation by Kisari Mohan Ganguli, made in Calcutta between 1883 and 1896, runs to twelve volumes; the modern scholarly translation begun by J. A. B. van Buitenen in 1973 was left unfinished at his death and has been continued by other hands for fifty years and is <em>still</em> not complete."
+    },
+    {
+     "type": "h3",
+     "html": "The Boast"
+    },
+    {
+     "type": "p",
+     "html": "The text is entirely aware of its own scale, and near the start of the first book it makes a claim about itself that has become the most quoted thing in it after the Bhagavad Gita."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Epic Describes Itself",
+     "sk": "धर्मे चार्थे च कामे च मोक्षे च भरतर्षभ ।<br/>यदिहास्ति तदन्यत्र यन्नेहास्ति न तत्क्वचित् ॥",
+     "tr": "dharme cārthe ca kāme ca mokṣe ca bharatarṣabha |<br/>yad ihāsti tad anyatra yan nehāsti na tat kvacit ||",
+     "mn": "\"In the matter of dharma, of gain, of desire and of release, O bull of the Bharatas — what is here is found elsewhere; what is not here is found nowhere.\"",
+     "src": "— Mahābhārata, Ādi Parva 1.56.33"
+    },
+    {
+     "type": "p",
+     "html": "Read carelessly, that is arrogance. Read carefully, it is a description of a compositional method, and it is accurate. The Mahabharata absorbed. Over the centuries in which it grew, it took in law codes, cosmologies, genealogies, folk tales, philosophical dialogues, hymns, a manual of statecraft, a treatise on gift-giving, an entire retelling of the Ramayana, and the Bhagavad Gita. It is not a poem with digressions. It is a poem that made digression its principle of construction — an encyclopaedia in narrative form, held together by one family's quarrel."
+    },
+    {
+     "type": "p",
+     "html": "And the boast contains a quiet warning that is usually missed. <em>Yad ihāsti tad anyatra</em> — what is here is also elsewhere. The Mahabharata does not claim to be unique. It claims to be complete. Those are different, and the second is a much stranger thing to say about oneself."
+    },
+    {
+     "type": "h3",
+     "html": "The Story, in One Paragraph"
+    },
+    {
+     "type": "p",
+     "html": "So that you are never lost: two sets of cousins in the kingdom of the Kurus, north of modern Delhi. The five sons of Pandu — the Pandavas — and the hundred sons of the blind Dhritarashtra — the Kauravas, led by Duryodhana. The throne is disputed because the elder brother was born blind and the younger, who ruled, died young. The Pandavas are cheated of their kingdom in a rigged dice game, in the course of which their shared wife Draupadi is staked, lost and publicly humiliated. They spend twelve years in exile and a thirteenth in disguise. They come back, ask for their kingdom, are refused even five villages, and go to war with their cousins, their teachers and their grandfather. Eighteen days later almost everyone is dead. The survivors rule for a while without pleasure, and then walk into the mountains to die."
+    },
+    {
+     "type": "p",
+     "html": "That is the plot. It is a small fraction of the book, and it is the part that everything else in the book is arguing about."
+    },
+    {
+     "type": "h3",
+     "html": "Four Things That Will Surprise You"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>The heroes cheat.</strong> Not once, in a moment of weakness — systematically, at every decisive killing in the war, on the explicit advice of Krishna. Bhishma is shot from behind a man he will not fight. Drona is disarmed by a lie about his son. Karna is shot while unarmed and lifting a chariot wheel out of the mud. Duryodhana is struck below the belt in a duel with rules. The epic does not hide any of this. Characters inside the epic denounce it while it is happening.",
+      "<strong>The single most famous religious text in Hinduism is an interruption.</strong> The Bhagavad Gita occupies eighteen chapters of the sixth book. It happens between the armies, after the conches have sounded, and it is being reported at second hand by a charioteer to a blind king sitting in a palace many miles away. Everything about its placement is strange, and the strangeness is worth feeling rather than smoothing over.",
+      "<strong>There is no original text and there never was.</strong> This is not scepticism; it is the finding of the largest work of textual scholarship ever undertaken in India, which we will come to. The Mahabharata is layered, demonstrably, over something like eight centuries. Asking what the \"real\" version says is like asking what the real version of a river is.",
+      "<strong>The last word belongs to the losers.</strong> After the war there is a whole book — the Strī Parva, the Book of the Women — in which the mothers and widows of the defeated walk the battlefield identifying bodies, and Gandhari, mother of the hundred dead sons, describes what she sees, and then curses the god who arranged the victory. No epic tradition anywhere does this quite so unflinchingly."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · A Note on Which Text",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Throughout this course, when the two differ, I will distinguish between the <strong>vulgate</strong> — the widely printed Northern text with Nīlakaṇṭha's seventeenth-century commentary, which is what most translations and retellings are based on — and the <strong>Critical Edition</strong> constituted at the Bhandarkar Oriental Research Institute in Pune between 1919 and 1966, which collated more than a thousand manuscripts and produced a reconstructed text about a quarter shorter."
+      },
+      {
+       "type": "p",
+       "html": "This distinction is not pedantry. Several of the most famous scenes in the Mahabharata — including one miracle that everybody in India can describe from memory — sit outside the constituted text. Knowing that changes how you read them. It does not delete them."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Three Lenses"
+    },
+    {
+     "type": "p",
+     "html": "One promise before we start, and it is the method of this whole library. There are three completely different ways of speaking truthfully about a text like this, and I will never let one impersonate another."
+    },
+    {
+     "type": "lenses",
+     "items": [
+      {
+       "kind": "s",
+       "title": "Scriptural",
+       "html": "What the epic actually says, in its own idiom, including the parts that are ugly, the parts that contradict other parts, and the questions it refuses to answer. Not the version from a television serial, not the version a grandparent smoothed over — the scene as the Sanskrit has it."
+      },
+      {
+       "kind": "y",
+       "title": "Symbolic / Philosophical",
+       "html": "What the tradition has made of it — the Vedantic reading of the Gita, the devotional reading of Krishna, the commentators, the regional retellings, the modern novelists and playwrights who have spent a century arguing with this book. A reading is not a forgery. A reading is also not the text."
+      },
+      {
+       "kind": "h",
+       "title": "Historical / Scholarly",
+       "html": "What philology, archaeology and manuscript study can actually establish about when this was composed, by how many hands, and whether anything at all underlies the war. Probabilistic, revisable, and stated with the error bars showing."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The failure mode on one side is to smuggle history into scripture — <em>the Brahmastra was a nuclear weapon, the Kaurava birth was in-vitro fertilisation</em>. The failure mode on the other side is to smuggle contempt into history — <em>it is a tribal skirmish inflated by priests</em>. Both are the same mistake wearing different clothes: both assume that a poem must be either a science paper or a fraud. It is neither. It is one of the four or five most searching works of literature the species has produced, and it does not require our sponsorship."
+    },
+    {
+     "type": "h3",
+     "html": "How This Course Moves"
+    },
+    {
+     "type": "p",
+     "html": "Five movements. First, the <strong>frame</strong> — who Vyasa is, why the poem is narrated at three removes, and how eighteen books grew out of something much shorter. Then <strong>the story</strong>, told properly across eight chapters, because this material is the point and no amount of commentary substitutes for knowing what actually happens. Then the <strong>moral engine</strong>: five hard cases — Draupadi's question, Karna, Yudhishthira's lie, Krishna's methods, and the night massacre — where I will lay out what the text says and decline to resolve what the text leaves open. Then <strong>what comes after</strong> the war, and the enormous didactic books nobody reads. And then the <strong>honest ending</strong>, where the modern claims get tested against evidence, and we finish quietly."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Before you read on, write down which character in this story you think is in the right. If you already know the epic, name them. If you do not, name the side — the five brothers or the hundred. Keep the page."
+      },
+      {
+       "type": "p",
+       "html": "We will come back to it at the end. Almost every serious reader of this poem discovers, somewhere around the middle, that they have changed sides at least once. The text is built to do that to you. It is one of the few things it is unambiguously trying to do."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

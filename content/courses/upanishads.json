@@ -1,0 +1,2369 @@
+{
+ "slug": "upanishads",
+ "title": "The Upanishads",
+ "devanagari": "उपनिषद्",
+ "invocationMantra": "ॐ शान्तिः शान्तिः शान्तिः",
+ "subtitle": "Where the ritual turns inward and the question becomes: what is the self?",
+ "invocation": {
+  "devanagari": "ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते ।<br/>पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥<br/>ॐ शान्तिः शान्तिः शान्तिः ॥",
+  "translation": "<em>oṁ pūrṇam adaḥ pūrṇam idaṁ pūrṇāt pūrṇam udacyate | pūrṇasya pūrṇam ādāya pūrṇam evāvaśiṣyate || oṁ śāntiḥ śāntiḥ śāntiḥ ||</em><br/>\"That is whole. This is whole. From the whole, the whole comes forth. Take the whole from the whole — and the whole still remains.\" — Bṛhadāraṇyaka Upaniṣad 5.1.1, recited as the peace-invocation of the Īśā Upaniṣad."
+ },
+ "sections": [
+  {
+   "id": "begin",
+   "part": null,
+   "label": "Orientation",
+   "title": "Before We Begin",
+   "subtitle": "Sitting down near — what these texts are, why they argue with each other, and why that is the best thing about them",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "The name is a piece of choreography before it is a piece of literature. <em>Upa-ni-ṣad</em> (उपनिषद्): <em>upa</em>, near; <em>ni</em>, down; <em>sad</em>, to sit. <strong>Sitting down near.</strong> Not standing to receive a proclamation, not kneeling in a congregation — sitting, close, in a small group, where a question can be asked twice and a teacher can be interrupted. Whatever else these texts became in the two and a half millennia since, they began as the record of what was said in that posture."
+    },
+    {
+     "type": "viz",
+     "name": "lenses",
+     "caption": "The three lenses overlap but are never merged — that separation is the whole method."
+    },
+    {
+     "type": "p",
+     "html": "The traditional gloss goes further and says that what one sits near is the teacher, and what is transmitted is the <em>rahasya</em> — the secret, the connection not stated in public. Later commentators, Śaṅkara among them, take the word apart differently and derive it from the sense \"to loosen\" or \"to destroy,\" so that an Upaniṣad is the knowledge that loosens the knots of ignorance. That etymology is almost certainly a pious reconstruction rather than a linguistic fact. But it tells you accurately what the tradition thinks these texts are <em>for</em>, which is a different and also useful kind of information."
+    },
+    {
+     "type": "p",
+     "html": "They are also, in the technical sense, the end of the Vedas. Not a metaphor: the Vedic corpus is layered, and the Upaniṣads are the last layer, appended to the Brāhmaṇas and Āraṇyakas of the various schools. The Sanskrit name for the philosophical tradition built on them is <strong>Vedānta</strong> — <em>veda-anta</em>, \"the end of the Veda\" — and the word carries both meanings at once: the last part, and the culmination. If you have read the course on the four Vedas, you left it with a man praising a fire. This is where the fire is moved indoors."
+    },
+    {
+     "type": "h3",
+     "html": "What You Are Actually Holding"
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>It is not a book.</strong> There is no single work called The Upanishads. There are thirteen conventionally called principal, a traditional canon of one hundred and eight listed in the Muktikā, and somewhere over two hundred texts that have at some point carried the name — including quite late ones, composed well into the second millennium CE, on yoga, on renunciation, on particular deities. When someone says \"the Upanishads say,\" the first honest question is: which one, and from which century?",
+      "<strong>They are dialogues, not doctrine.</strong> A boy argues with Death. A father dismantles his son's pride with a fig. A king assembles his court and offers a thousand cows to whoever knows the most about brahman, and a scholar walks up and simply takes them, and is then made to earn them. A woman corners the greatest teacher of the age twice and gets an answer both times. A husband about to leave home forever explains to his wife why she has been wrong about love. Very little of this is delivered from a height.",
+      "<strong>They contradict each other — and themselves.</strong> Is the ultimate reality personal or impersonal? Is the world real, or a name attached to something else? Does the self survive death as an individual, or dissolve like salt? You will find confident and incompatible answers, sometimes in adjacent chapters of the same text. This is not a defect in transmission. It is what happens when you preserve a conversation instead of a conclusion.",
+      "<strong>Almost all subsequent Indian philosophy is a commentary on them.</strong> Advaita, Viśiṣṭādvaita, Dvaita, and half a dozen other schools are not independent systems that happen to quote the Upaniṣads. They are rival readings of these specific sentences, argued line by line, for a thousand years. To read the Upaniṣads is to read the disputed text at the centre of the longest continuous philosophical argument in the world.",
+      "<strong>The ideas you think of as \"Hindu\" mostly surface here first.</strong> Karma as a moral mechanism carried across lives, rebirth, liberation as release from that circuit, the self as identical with the ground of being — none of these are prominent in the older Vedic hymns. They arrive, in the surviving record, in these texts. Something changed, and this is the document of the change."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · A Note on Scale and Date",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The two oldest and longest — the <strong>Bṛhadāraṇyaka</strong> and the <strong>Chāndogya</strong> — are prose works of substantial size, together running to a couple of hundred pages in translation, and are generally dated on linguistic and internal grounds to roughly the seventh to sixth centuries BCE, in all likelihood before the Buddha. The latest of the thirteen principal texts are perhaps six or eight centuries younger. That is a span comparable to the distance between Chaucer and the present. Treating them as a single mind speaking is the most common error made about them, and it is made by admirers far more often than by critics."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Three Lenses"
+    },
+    {
+     "type": "p",
+     "html": "One promise before we start, and it is the method of this entire library. There are three completely different ways of speaking truthfully about a text like this, and I will never let one impersonate another."
+    },
+    {
+     "type": "lenses",
+     "items": [
+      {
+       "kind": "s",
+       "title": "Scriptural",
+       "html": "What the text actually says, in its own idiom, in its own order — including the parts that are strange, repetitive, ritually technical or frankly obscure. Not a modernised paraphrase, and not the famous sentence lifted out of the paragraph that gives it its meaning."
+      },
+      {
+       "kind": "y",
+       "title": "Symbolic / Philosophical",
+       "html": "What the tradition has understood these words to <i>mean</i> — Śaṅkara, Rāmānuja, Madhva, the yogic and tantric readings, the modern teachers. Every one of these is a reading of the text by someone who took it with total seriousness. A reading is not a forgery. A reading is also not the text."
+      },
+      {
+       "kind": "h",
+       "title": "Historical / Scholarly",
+       "html": "What philology, comparative linguistics and textual criticism can establish about when these dialogues were composed, in what dialect, in what social world, and by what route they reached a bookshelf in Frankfurt in 1814. Probabilistic, revisable, and stated with the error bars showing."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The failure mode on one side is to dress history in scripture's clothes — <em>the Upanishads discovered quantum mechanics</em>. The failure mode on the other side is to dress contempt in history's clothes — <em>pre-scientific speculation of purely antiquarian interest</em>. Both are the same mistake wearing different hats: both assume that a text has to be a physics paper to be worth your evening. It does not. These are among the finest philosophical dialogues in any language, and they do not need our sponsorship."
+    },
+    {
+     "type": "h3",
+     "html": "How This Course Moves"
+    },
+    {
+     "type": "p",
+     "html": "Five movements. First, <strong>the turn inward</strong>: how a literature of fire ritual became a literature of interior enquiry, and what the two central words — <em>brahman</em> and <em>ātman</em> — actually mean. Then <strong>the great dialogues</strong>, which are the heart of this course and get the most room: Naciketas and Death, Śvetaketu and the fig, Yājñavalkya at the court of Janaka and at his own doorstep, the discipline of negation, and the four states of consciousness. Then <strong>the thirteen</strong>: which texts, which Veda, which century, and how anyone knows. Then <strong>what was built on them</strong>: three great commentators reading one identical sentence to three opposite conclusions. And then the <strong>honest ending</strong>, where the loud modern claims are tested against evidence, and we finish quietly."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Prayer at the Beginning",
+     "sk": "असतो मा सद्गमय ।<br/>तमसो मा ज्योतिर्गमय ।<br/>मृत्योर्मा अमृतं गमय ॥",
+     "tr": "asato mā sad gamaya | tamaso mā jyotir gamaya | mṛtyor mā amṛtaṁ gamaya ||",
+     "mn": "\"From the unreal lead me to the real. From darkness lead me to light. From death lead me to the deathless.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 1.3.28"
+    },
+    {
+     "type": "p",
+     "html": "It is worth knowing where that famous prayer actually sits. It is not a standalone invocation composed for temple walls. It appears in the middle of a technical passage about the chanting of a ritual melody, spoken by the vital breath on behalf of the sacrificer, in a chapter mostly concerned with how the gods defeated the demons by singing. The most quoted line in the corpus is embedded in exactly the ritual machinery that the corpus is supposedly leaving behind. That tension — the fire ritual and the interior search occupying the same page — is not an accident of editing. It is the subject of the next chapter."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Before you read on, answer one question in a single sentence, and keep the answer. <em>What do you take yourself to be?</em> Not what you do, not who you are related to — what is the thing that is reading this. Be specific enough to be wrong. Every dialogue in Part Two is an attack on some version of that sentence, and the only way to feel the attack land is to have written one down first."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "fromritual",
+   "part": "Part One · The Turn Inward",
+   "label": "Chapter 01 · The Turn",
+   "title": "The Fire Moves Inside",
+   "subtitle": "Saṁhitā, Brāhmaṇa, Āraṇyaka, Upaniṣad — how a literature of sacrifice became a literature of the self without ever quite abandoning the sacrifice",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "There is a sentence at the opening of the Bṛhadāraṇyaka Upaniṣad that tells you almost everything about how this literature works, and most people skip it because it looks like leftover ritual furniture. It is about a horse."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The First Line of the Bṛhadāraṇyaka",
+     "sk": "उषा वा अश्वस्य मेध्यस्य शिरः ।<br/>सूर्यश्चक्षुर्वातः प्राणः ॥",
+     "tr": "uṣā vā aśvasya medhyasya śiraḥ | sūryaś cakṣur vātaḥ prāṇaḥ ||",
+     "mn": "\"The dawn is the head of the sacrificial horse. The sun is its eye, the wind its breath.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 1.1.1"
+    },
+    {
+     "type": "p",
+     "html": "The <em>aśvamedha</em>, the horse sacrifice, was the most expensive and politically loaded rite in the Vedic repertoire — a year-long royal undertaking involving a released stallion, an army following it, and a conclusion that included the killing of the animal and a scandalous mimed act performed by the chief queen. It required a king, an enormous surplus, and a small population of priests. And the greatest of the Upaniṣads opens by saying: <em>the dawn is its head.</em>"
+    },
+    {
+     "type": "h3",
+     "html": "The Four Layers, Briefly"
+    },
+    {
+     "type": "p",
+     "html": "Each of the four Vedas is not a book but a stack. Understanding the stack is the single fact that makes the whole corpus legible, so here it is compactly."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Saṁhitā</strong> — the collection of mantras themselves: hymns, melodies, sacrificial formulas. The oldest layer, the Ṛgveda's core reaching back to roughly the middle of the second millennium BCE.",
+      "<strong>Brāhmaṇa</strong> — prose manuals of ritual: what to do, in what order, with which formula, and above all <em>why</em>. The \"why\" is answered by identification — this pot is that world, this brick is that year, this act is that god. Vast, technical, and to most modern readers close to unreadable.",
+      "<strong>Āraṇyaka</strong> — \"of the forest\": material considered too potent or too dangerous to be recited inside the settlement, taught outside it. Rites like the <em>pravargya</em>, with its heated clay vessel, and increasingly speculative interpretations of ritual acts.",
+      "<strong>Upaniṣad</strong> — the last layer, where the interpretation has all but swallowed the act, and the question has become what the whole apparatus was ever pointing at."
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The boundaries between the last three are soft, and the texts themselves say so by their names and their placement. The <strong>Bṛhadāraṇyaka</strong> — \"the great forest-text\" — is literally the concluding portion of the Śatapatha Brāhmaṇa of the White Yajurveda. It is not a separate book that was later attached; it is the end of a ritual manual. The <strong>Chāndogya</strong> Upaniṣad is the last eight chapters of a ten-chapter Brāhmaṇa belonging to the singers of the Sāmaveda, and its opening chapters are still entirely about how to meditate on the syllable used to begin a chant. The <strong>Īśā</strong>, most compact and most quoted of them all, is chapter forty of the Vājasaneyi Saṁhitā — it sits inside a book of sacrificial formulas."
+    },
+    {
+     "type": "note",
+     "html": "This matters because it disposes of a popular story: that the Upaniṣads were a rebellion by philosophers against a corrupt priesthood. They were not. They were composed by ritualists, preserved by ritual schools, transmitted in ritual lineages, and physically bound to ritual texts. Whatever revolution happened here happened inside the building, in the language of the building, by people who knew the building extremely well."
+    },
+    {
+     "type": "h3",
+     "html": "The Method Was Already There"
+    },
+    {
+     "type": "p",
+     "html": "The Brāhmaṇas run on a single operation, repeated tens of thousands of times: <em>this is that.</em> The technical noun for the link is <strong>bandhu</strong> (बन्धु), a \"connection\" or \"kinship\" — a hidden correspondence between something in the rite, something in the body, and something in the cosmos. Three fires correspond to three worlds. The metre of a verse corresponds to a season. The sacrificer's own body is mapped onto the altar he is building. To a modern reader this looks like free association. To a Vedic ritualist it was the operative principle of the entire system: the rite works <em>because</em> the correspondences are real, and the priest's expertise consists in knowing them."
+    },
+    {
+     "type": "p",
+     "html": "Now notice what the word <em>upaniṣad</em> means inside that system, in its earliest technical usage. It means precisely one of those hidden connections — the secret equivalence, the correspondence you would only be told sitting close. The Upaniṣads are not a rejection of the Brāhmaṇa method. <strong>They are the Brāhmaṇa method pushed until it breaks through.</strong> Keep asking what a thing really is, keep answering with a deeper identification, and eventually you arrive at an identification that cannot be pushed further: the self and the ground of everything."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · Why the Breath Wins",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "One story is told in both of the oldest Upaniṣads, in slightly different forms, and it is the clearest example of the interiorising move. The gods and the demons are at war. The gods take up a chant and assign it in turn to speech, to sight, to hearing, to mind — and the demons pierce each of them with evil, which is why speech says false things, why the eye sees what it should not, why the mind desires wrongly."
+      },
+      {
+       "type": "p",
+       "html": "Then the gods assign the chant to the <strong>breath in the mouth</strong> — <em>prāṇa</em>. The demons rush at it and are shattered, the text says, as a clod of earth is shattered striking a rock. The breath cannot be defiled. Then the breath carries the other faculties across death like a horse pulling free of its tethers."
+      },
+      {
+       "type": "p",
+       "html": "Read as ritual instruction, this tells a chanter which faculty to identify the chant with. Read philosophically, it is the first move of the entire tradition: among everything you can find inside yourself, look for the one thing that does not get contaminated by what happens to it. The Upaniṣads will not stop at the breath. But that is where they start looking. <em>(Bṛhadāraṇyaka 1.3; Chāndogya 1.2.)</em>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "A Man Is a Sacrifice"
+    },
+    {
+     "type": "p",
+     "html": "The interiorisation becomes explicit in a handful of passages that are worth naming precisely, because they are the actual textual evidence for a transition that is usually described far too vaguely."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Sacrifice Becomes a Lifetime",
+     "sk": "पुरुषो वाव यज्ञः ।",
+     "tr": "puruṣo vāva yajñaḥ |",
+     "mn": "\"A man, truly, is the sacrifice.\"",
+     "src": "— Chāndogya Upaniṣad 3.16.1"
+    },
+    {
+     "type": "p",
+     "html": "What follows in that passage is not a slogan but an arithmetic. The soma sacrifice has three pressings — morning, midday, evening — of stated lengths in verses. The text maps them onto the three stages of a human life, allots each a span of years, and totals a hundred and sixteen. Then it tells a story: a sage who knew this lived to a hundred and sixteen, and when he was gravely ill in old age he said to his family, \"I shall not die,\" and did not. The passage is at once a meditation instruction, a piece of longevity folklore, and a claim that a lifetime <em>is</em> a rite with nothing left over. All three registers at once. That is how these texts normally work."
+    },
+    {
+     "type": "p",
+     "html": "Elsewhere the daily fire-offering — the <em>agnihotra</em>, the domestic obligation that structured a householder's morning and evening — is relocated into the act of eating. The Chāndogya's teaching on the <em>vaiśvānara</em>, the universal self as fire, ends by treating food taken into the mouth as an oblation poured into the breaths. The later tradition made this into a formal practice, the <em>prāṇāgnihotra</em>, in which a person eating recites the names of the vital breaths and offers each mouthful into them. Some brahmin households still do it. The fire that was outside in a built altar is now the digestive fire; the priest and the offering and the god are the same person."
+    },
+    {
+     "type": "p",
+     "html": "And in the Muṇḍaka — a later, sharper, more polemical text — the movement finally becomes criticism. The rites are called <em>plavā hy adṛḍhā yajñarūpāḥ</em>, \"unsteady boats, these forms of sacrifice,\" and those who take them as the highest good are said to go round again and again like the blind led by the blind. That is a real change of temperature. But note the date: the Muṇḍaka is centuries younger than the Bṛhadāraṇyaka. The critique is not the origin of the movement. It is a late consequence of it."
+    },
+    {
+     "type": "h3",
+     "html": "What the Anthologies Leave Out"
+    },
+    {
+     "type": "p",
+     "html": "Here is a point of honesty that most popular presentations skip, and skipping it produces a badly distorted picture. The Upaniṣads are not uniformly lofty. Alongside the dialogues on the self, the same texts contain: elaborate rites to obtain a son of a specified complexion and scriptural attainment; a spell to be used against a wife's lover; procedures for a man returning from a journey; charms for wealth, for winning a debate, for curing illness. The sixth chapter of the Bṛhadāraṇyaka in particular is frank domestic and sexual ritual, and anthologies almost universally end at chapter four."
+    },
+    {
+     "type": "p",
+     "html": "This is not a scandal and it is not a reason to think less of the texts. It is evidence about what kind of documents they are. They are the collected teaching material of ritual schools — everything a student of that lineage received in the closed session, from the most abstract metaphysics to the most practical magic, because the ancient category was not \"philosophy\" but <em>secret knowledge</em>, and both qualified. When you read an anthology, you are reading a selection made by modern editors according to modern taste. That selection is defensible. It should just be visible."
+    },
+    {
+     "type": "p",
+     "html": "With that said, we can now go to the two words that the whole later argument turns on."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "brahman",
+   "part": "Part One · The Turn Inward",
+   "label": "Chapter 02 · The Turn",
+   "title": "Brahman and Ātman",
+   "subtitle": "Two words, one equation — and an honest account of where the famous formula sat-cit-ānanda actually comes from",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Everything in this course eventually reduces to a proposed identity between two Sanskrit nouns. Both are old, both had perfectly ordinary meanings before they had extraordinary ones, and the history of how each acquired its second meaning is more interesting than any definition I could give you."
+    },
+    {
+     "type": "viz",
+     "name": "canon",
+     "caption": "Where the Upanishads sit: the end of the Vedas, and the hinge of everything after."
+    },
+    {
+     "type": "h3",
+     "html": "Brahman — From Formula to Ground"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Brahman</strong> (ब्रह्मन्) is a neuter noun from a root usually given as <em>bṛh</em>, \"to grow, to swell, to expand.\" In the Ṛgveda it does not mean God, or the absolute, or anything like it. It means the <strong>sacred formulation</strong> — the charged, crafted utterance a poet-priest composes and speaks, the verbal instrument that makes the rite effective. A hymn is a brahman. The power that swells in a well-made verse and makes it work: that is brahman."
+    },
+    {
+     "type": "p",
+     "html": "A related masculine form with a different accent, <em>brahmán</em>, names the priest who holds that power — specifically the silent supervising priest of the great rites, the one who does not chant but watches the whole procedure and corrects it, and whose Veda is the Atharva. The English word \"brahmin\" descends from here. So the earliest sense of the family of words is: <em>the potency in sacred speech, and the man who commands it.</em>"
+    },
+    {
+     "type": "p",
+     "html": "Now watch the expansion. If the formula is powerful, what is the power? If the rite sustains the cosmos, what is it in the rite that does the sustaining? The Brāhmaṇas begin treating brahman as a cosmic principle — the thing the ritual is manipulating. By the time of the Upaniṣads, that principle has been separated from the ritual entirely and asked about on its own. Brahman becomes the answer to the question: <em>what is it that everything else is a form of?</em>"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · A Definition by Origin",
+     "sk": "यतो वा इमानि भूतानि जायन्ते ।<br/>येन जातानि जीवन्ति ।<br/>यत्प्रयन्त्यभिसंविशन्ति ।<br/>तद्विजिज्ञासस्व । तद्ब्रह्मेति ॥",
+     "tr": "yato vā imāni bhūtāni jāyante | yena jātāni jīvanti | yat prayanty abhisaṁviśanti | tad vijijñāsasva | tad brahmeti ||",
+     "mn": "\"That from which these beings are born; that by which, once born, they live; that into which they pass and enter when they depart — seek to know that. That is brahman.\"",
+     "src": "— Taittirīya Upaniṣad 3.1.1"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Where Words Turn Back",
+     "sk": "यतो वाचो निवर्तन्ते अप्राप्य मनसा सह ।",
+     "tr": "yato vāco nivartante aprāpya manasā saha |",
+     "mn": "\"That from which words turn back, together with the mind, having failed to reach it.\"",
+     "src": "— Taittirīya Upaniṣad 2.4.1"
+    },
+    {
+     "type": "h3",
+     "html": "Ātman — From Reflexive Pronoun to Absolute"
+    },
+    {
+     "type": "p",
+     "html": "<strong>Ātman</strong> (आत्मन्) has an even humbler starting point. In ordinary Vedic and Classical Sanskrit it is simply the reflexive: <em>oneself</em>, <em>myself</em>, <em>himself</em>. \"He saw himself in the water\" uses it. It can also mean the body or trunk as opposed to the limbs, and it carries an old association with breath — the etymology usually offered links it to a root meaning to breathe, and the German <em>Atem</em>, \"breath,\" is frequently cited as a cognate, though the connection is not universally accepted."
+    },
+    {
+     "type": "p",
+     "html": "The method they use for this is subtraction, and its most systematic form is the doctrine of the five <em>kośas</em>, the sheaths, in the second chapter of the Taittirīya. A person, it says, is made of food — and inside that, different from it, is a self made of breath; and inside that, a self made of mind; and inside that, a self made of understanding; and inside that, a self made of bliss. Each is described as having the shape of a person, so that the image is one of nested human figures, each finer than the last. It is a piece of ancient phenomenology, and its structure is exactly the structure of the argument that runs through the rest of the corpus: whatever you have just identified as yourself, there is something further in that was doing the identifying."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · Bhṛgu Goes Back Five Times",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The third chapter of the same Upaniṣad dramatises the subtraction. Bhṛgu comes to his father Varuṇa and asks to be taught brahman. Varuṇa gives him the pointing definition — that from which beings are born, by which they live, into which they go — and then tells him to practise austerity and find out."
+      },
+      {
+       "type": "p",
+       "html": "Bhṛgu goes away, concentrates, and returns: <em>food is brahman.</em> Varuṇa sends him back. He returns: <em>breath is brahman.</em> Back again. <em>Mind is brahman.</em> Back. <em>Understanding is brahman.</em> Back. And finally: <em>ānando brahmeti vyajānāt</em> — \"he understood that bliss is brahman.\""
+      },
+      {
+       "type": "p",
+       "html": "Five journeys, five answers, four of them corrected. Note that the father never says the wrong answers are wrong. He says, each time, only <em>seek to know brahman by austerity; austerity is brahman</em>, and lets the son find the next floor down himself. This is a teaching method, and it is also a claim about the subject: these are not propositions that can be handed over."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Sat-Cit-Ānanda: What the Texts Say and What They Do Not"
+    },
+    {
+     "type": "p",
+     "html": "You will very often see brahman defined as <em>saccidānanda</em> (सच्चिदानन्द) — being, consciousness, bliss. It is a magnificent formula, it is genuinely central to later Vedānta, and it is used constantly in modern teaching. And here is the honest position, which is rarely stated: <strong>the compound as a fixed technical term does not appear in the principal Upaniṣads.</strong> It is a later crystallisation, current in Vedāntic and Tantric literature well after the classical period, assembled out of elements that are genuinely there but never welded together in the early texts."
+    },
+    {
+     "type": "p",
+     "html": "The elements are real, and it is worth seeing them separately, because separated they are more interesting than fused."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Sat</strong> (सत्), being. The Chāndogya's sixth chapter opens with <em>sad eva somyedam agra āsīd ekam evādvitīyam</em> — \"In the beginning, my dear, this was being alone, one only, without a second\" — and immediately argues against the alternative view that being arose from non-being, which the text explicitly names and rejects. That is a philosophical position taken against a named opponent.",
+      "<strong>Jñāna / cit</strong> (ज्ञान / चित्), knowledge or consciousness. The Taittirīya's formula is <em>satyaṁ jñānam anantaṁ brahma</em> — \"brahman is the real, knowledge, the infinite\" (2.1.1). The Aitareya's is blunter still: <em>prajñānaṁ brahma</em>, \"awareness is brahman.\"",
+      "<strong>Ānanda</strong> (आनन्द), bliss. Bhṛgu's final answer, above; and the Taittirīya's astonishing calculation of bliss by orders of magnitude, in which the happiness of a young man who has everything is taken as one unit and multiplied a hundredfold at each rung of a ladder of beings, arriving finally at the bliss of brahman — which, it adds, is also available to the man who has heard this and is free of desire."
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Why insist on this? Because the difference between \"the Upaniṣads describe brahman as being-consciousness-bliss\" and \"later Vedānta condensed several Upaniṣadic passages into the formula being-consciousness-bliss\" is the difference between a claim about a text and a claim about a tradition. Both sentences are true of something. Only one of them is true of the Upaniṣads."
+    },
+    {
+     "type": "h3",
+     "html": "The Equation"
+    },
+    {
+     "type": "p",
+     "html": "Two independent lines of enquiry — one starting from the cosmos and asking what everything is a form of, one starting from the person and asking what is left when everything removable is removed — meet. That meeting is the central proposition of the Upaniṣads, and the tradition later collected four sentences that state it and named them the <strong>mahāvākyas</strong>, the \"great utterances,\" one drawn from each of the four Vedas."
+    },
+    {
+     "type": "table",
+     "head": [
+      "The sentence",
+      "What it says",
+      "Upaniṣad",
+      "Veda"
+     ],
+     "rows": [
+      [
+       "<strong>प्रज्ञानं ब्रह्म</strong><br/><em>prajñānaṁ brahma</em>",
+       "\"Awareness is brahman.\" A definition, in the third person — the flattest and most abstract of the four.",
+       "Aitareya 3.1.3 <em>(chapter numbering varies by edition)</em>",
+       "Ṛgveda"
+      ],
+      [
+       "<strong>अहं ब्रह्मास्मि</strong><br/><em>ahaṁ brahmāsmi</em>",
+       "\"I am brahman.\" First person. In context it is what brahman itself is said to have realised — and thereby became everything.",
+       "Bṛhadāraṇyaka 1.4.10",
+       "Yajurveda"
+      ],
+      [
+       "<strong>तत्त्वमसि</strong><br/><em>tat tvam asi</em>",
+       "\"You are that\" — or, on a serious modern reading, \"that is how you are.\" Second person: spoken by a teacher to a specific student, nine times.",
+       "Chāndogya 6.8.7 and following",
+       "Sāmaveda"
+      ],
+      [
+       "<strong>अयमात्मा ब्रह्म</strong><br/><em>ayam ātmā brahma</em>",
+       "\"This self is brahman.\" Demonstrative — <em>this one, here.</em> The opening move of an analysis of the four states of consciousness.",
+       "Māṇḍūkya 2",
+       "Atharvaveda"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The table is beautiful and the tidiness should make you slightly suspicious, so let me be precise about what is traditional and what is textual. Each of these four sentences genuinely occurs where it is said to occur. The <em>grouping</em> of exactly these four, one per Veda, as the canonical set of great utterances is a later systematisation, associated particularly with the Advaita monastic tradition, where each of the four principal monasteries is linked to one Veda and one mahāvākya. The Upaniṣads themselves do not present a list of four great sayings, and they contain many other sentences that make the same claim with equal force."
+    },
+    {
+     "type": "p",
+     "html": "More importantly, the four are doing different grammatical work, and the differences are not decorative. <em>Prajñānaṁ brahma</em> is a definition you could write on a board. <em>Ahaṁ brahmāsmi</em> is a first-person realisation, and in its actual context it is a statement about what the primordial reality understood about itself, which the text then says any god or sage who understands likewise becomes. <em>Tat tvam asi</em> is second person and situational — it is a diagnosis delivered to one particular arrogant young man about his particular confusion, repeated as a refrain across nine analogies. And <em>ayam ātmā brahma</em> is deictic: it points."
+    },
+    {
+     "type": "p",
+     "html": "That range — definition, realisation, diagnosis, gesture — is the reason no single school has ever managed to settle what the equation means. Which is the subject of Part Four. But first, the dialogues themselves, because you cannot argue about what these sentences mean until you have watched somebody say one."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Try Bhṛgu's exercise honestly, in five minutes rather than five austerities. Say \"I am my body\" and notice what in you evaluates the sentence. Say \"I am my thoughts\" and notice the same thing. The Upaniṣadic claim is not that you will find the answer this way. It is that you will find you can always take one more step back — and that the direction of that regress is the whole question."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "nachiketa",
+   "part": "Part Two · The Great Dialogues",
+   "label": "Chapter 03 · Dialogue",
+   "title": "Naciketas and Death",
+   "subtitle": "A boy is given away in a fit of temper, waits three nights at the door of Death, and refuses everything he is offered — the Kaṭha Upaniṣad",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "A man named Vājaśravasa performs a sacrifice in which he is required to give away everything he owns. His son watches the cattle being led out to the priests. And the son notices something."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · What the Boy Saw",
+     "sk": "पीतोदका जग्धतृणा दुग्धदोहा निरिन्द्रियाः ।<br/>अनन्दा नाम ते लोकास्तान्स गच्छति ता ददत् ॥",
+     "tr": "pītodakā jagdhatṛṇā dugdhadohā nirindriyāḥ | anandā nāma te lokās tān sa gacchati tā dadat ||",
+     "mn": "\"Their water drunk, their grass eaten, their milk milked dry, their strength gone — joyless are the worlds he goes to, who gives away such as these.\"",
+     "src": "— Kaṭha Upaniṣad 1.1.3"
+    },
+    {
+     "type": "p",
+     "html": "This is the opening of the Kaṭha Upaniṣad, and it opens on fraud. The father is performing the rite of total donation and quietly giving away livestock that is finished — old cows, dry, past breeding. The gods, presumably, are not expected to check. His son does check. The text says <em>śraddhā āviveśa</em> — faith entered him; and it is worth noticing that what faith produces in this boy is not devotion but an audit."
+    },
+    {
+     "type": "h3",
+     "html": "\"To Whom Will You Give Me?\""
+    },
+    {
+     "type": "p",
+     "html": "The boy — Naciketas — sees the logic. If the rite requires giving everything, and a son is part of everything, then the son is due. So he asks his father: <em>to whom will you give me?</em> He asks once. He asks twice. He asks a third time. And the father, who has been publicly caught by a child in the middle of his own ceremony, snaps."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Four Words",
+     "sk": "मृत्यवे त्वा ददामीति ।",
+     "tr": "mṛtyave tvā dadāmīti |",
+     "mn": "\"To Death I give you.\"",
+     "src": "— Kaṭha Upaniṣad 1.1.4"
+    },
+    {
+     "type": "p",
+     "html": "What Naciketas does next is stranger than the curse. He takes it seriously. He reflects that among many he goes first, among many he goes in the middle, and asks what business Death can possibly have with him today. And then he says the line that gives the text its moral temperature:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Like Grain",
+     "sk": "अनुपश्य यथा पूर्वे प्रतिपश्य तथापरे ।<br/>सस्यमिव मर्त्यः पच्यते सस्यमिवाजायते पुनः ॥",
+     "tr": "anupaśya yathā pūrve pratipaśya tathāpare | sasyam iva martyaḥ pacyate sasyam ivājāyate punaḥ ||",
+     "mn": "\"Look back at how it was with those who came before; look forward at how it will be with those who come after. Like grain a mortal ripens; like grain he is born again.\"",
+     "src": "— Kaṭha Upaniṣad 1.1.6"
+    },
+    {
+     "type": "h3",
+     "html": "Three Nights at the Door"
+    },
+    {
+     "type": "p",
+     "html": "Yama — Death, the first man to die and therefore the one who found the road, an old figure already in the Ṛgveda — is not at home. Naciketas waits at the threshold. Three nights, without food, without water, without being received."
+    },
+    {
+     "type": "p",
+     "html": "When Yama returns, his household is alarmed, and the reason is entirely conventional: an unfed guest in a house destroys that house's hopes and merits and everything it possesses. Hospitality in this world is not a nicety; it is a rite with consequences. Yama's people tell him to bring water at once and appease the brahmin boy. And Yama, who is Death and answers to no one, apologises — and offers three boons, one for each unfed night."
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · The First Two Boons",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<strong>The first boon</strong> is the one that tells you what kind of child this is. He does not ask for release, or for revenge, or for return. He asks that his father's anxiety be gone, that his anger be gone, and that when he is sent back his father should recognise him and greet him with a settled mind. The boy who was thrown away asks first that the man who threw him should sleep well."
+      },
+      {
+       "type": "p",
+       "html": "<strong>The second boon</strong> is technical and, on the face of it, an anticlimax: he asks to be taught the fire — specifically the construction and knowledge of the fire-altar that leads to the heavenly world, where there is no fear, no old age, no hunger, no sorrow. Yama teaches it: the bricks, their number, their arrangement. Naciketas repeats it back exactly. And Yama, pleased, grants an extra gift: <em>the fire shall be known by your name.</em>"
+      },
+      {
+       "type": "p",
+       "html": "That detail is not literary invention. The <strong>Nāciketa fire</strong> is a real ritual construction, and the story of Naciketas and Yama exists in a considerably older and much plainer form in the Taittirīya Brāhmaṇa, where it functions as the origin myth for that particular altar and contains almost none of the philosophy. The Upaniṣad has taken an existing ritual legend and used it as the frame for something the legend was not about. This is one of the clearest visible instances in the corpus of the turn described in Chapter One — old ritual material carrying a new cargo."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Third Boon, and the Bribes"
+    },
+    {
+     "type": "p",
+     "html": "Then the third."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Question",
+     "sk": "येयं प्रेते विचिकित्सा मनुष्येऽस्तीत्येके नायमस्तीति चैके ।<br/>एतद्विद्यामनुशिष्टस्त्वयाहं वराणामेष वरस्तृतीयः ॥",
+     "tr": "yeyaṁ prete vicikitsā manuṣye 'stīty eke nāyam astīti caike | etad vidyām anuśiṣṭas tvayāhaṁ varāṇām eṣa varas tṛtīyaḥ ||",
+     "mn": "\"There is this doubt about a man who has died: some say he exists, others say he does not exist. I want to know this, taught by you. Of the boons, this is the third.\"",
+     "src": "— Kaṭha Upaniṣad 1.1.20"
+    },
+    {
+     "type": "p",
+     "html": "Yama tries to get out of it. On this, he says, even the gods of old had doubt; it is subtle, not easy to understand; choose another boon, release me from this one, do not press me. And when the boy will not move, Death begins to bargain — and the list of what he offers is the most revealing inventory in the Upaniṣads, because it is a complete catalogue of what a person in that society could want."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "Sons and grandsons who will live a hundred years.",
+      "Cattle, elephants, horses, gold.",
+      "A great estate on earth, and as many years of life as the boy himself wishes to count.",
+      "Wealth and long life together — \"be a king over the wide earth; I will make you an enjoyer of all desires.\"",
+      "Whatever desires are hard to obtain in the mortal world — ask for them all.",
+      "And finally: celestial women, with their chariots and their instruments, such as are not obtainable by men — <em>they are yours; I give them to you; let them serve you</em> — only, do not ask about dying."
+     ]
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Refusal",
+     "sk": "न वित्तेन तर्पणीयो मनुष्यो लप्स्यामहे वित्तमद्राक्ष्म चेत्त्वा ।<br/>जीविष्यामो यावदीशिष्यसि त्वं वरस्तु मे वरणीयः स एव ॥",
+     "tr": "na vittena tarpaṇīyo manuṣyo lapsyāmahe vittam adrākṣma cet tvā | jīviṣyāmo yāvad īśiṣyasi tvaṁ varas tu me varaṇīyaḥ sa eva ||",
+     "mn": "\"A man is not to be satisfied with wealth. Shall we take wealth, now that we have seen you? Shall we live only as long as you rule? The boon I choose is that one, and no other.\"",
+     "src": "— Kaṭha Upaniṣad 1.1.27"
+    },
+    {
+     "type": "p",
+     "html": "And the sentence just before it, which is the finest piece of argument in the passage: <em>these things last only until tomorrow, and they wear out the vigour of all the senses; even the longest life is short.</em> The boy is not being pious. He is pointing out that Death has offered him goods whose value is entirely destroyed by the very fact that Death exists — and that the offer is being made by the one person in the universe who most obviously knows this. Keep your chariots and your dancing girls, he says. You will be taking them back."
+    },
+    {
+     "type": "h3",
+     "html": "The Good and the Pleasant"
+    },
+    {
+     "type": "p",
+     "html": "Yama gives in, and the first thing he teaches is not metaphysics. It is a distinction about how choices actually work."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Two Different Things",
+     "sk": "अन्यच्छ्रेयोऽन्यदुतैव प्रेयस्ते उभे नानार्थे पुरुषं सिनीतः ।<br/>तयोः श्रेय आददानस्य साधु भवति हीयतेऽर्थाद्य उ प्रेयो वृणीते ॥",
+     "tr": "anyac chreyo 'nyad utaiva preyas te ubhe nānārthe puruṣaṁ sinītaḥ | tayoḥ śreya ādadānasya sādhu bhavati hīyate 'rthād ya u preyo vṛṇīte ||",
+     "mn": "\"The good is one thing; the pleasant is quite another. Both, with different ends, bind a man. It goes well for the one who takes hold of the good; he who chooses the pleasant falls short of the goal.\"",
+     "src": "— Kaṭha Upaniṣad 1.2.1"
+    },
+    {
+     "type": "p",
+     "html": "<em>Śreyas</em> and <em>preyas</em>: what is better, and what is more agreeable. The text's claim is that these are two distinct objects, not two positions on one scale, and that they present themselves together in every choice. The wise, it says, examines them and separates them; the dull chooses the pleasant \"for the sake of getting and keeping.\" Then Yama tells Naciketas, with something like relief, that he had offered him the pleasant repeatedly and the boy had turned it down each time — which is the reason the teaching can now proceed at all."
+    },
+    {
+     "type": "h3",
+     "html": "What Cannot Be Killed"
+    },
+    {
+     "type": "p",
+     "html": "Then the answer to the third boon. And the answer is that the question was slightly wrong: not <em>does the person survive</em>, but <em>what in the person was ever the kind of thing that could fail to.</em>"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Neither Slays Nor Is Slain",
+     "sk": "हन्ता चेन्मन्यते हन्तुं हतश्चेन्मन्यते हतम् ।<br/>उभौ तौ न विजानीतो नायं हन्ति न हन्यते ॥",
+     "tr": "hantā cen manyate hantuṁ hataś cen manyate hatam | ubhau tau na vijānīto nāyaṁ hanti na hanyate ||",
+     "mn": "\"If the slayer thinks he slays, if the slain thinks he is slain, neither of them understands. This one neither slays nor is slain.\"",
+     "src": "— Kaṭha Upaniṣad 1.2.19"
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · A Verse With a Long Afterlife",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Readers of the Bhagavad Gītā will recognise that verse immediately, and the one that follows it — <em>na jāyate mriyate vā vipaścit</em>, \"the wise one is not born and does not die\" — because both appear in the Gītā's second chapter in almost identical words. This is one of the clearest cases of direct textual relationship in the corpus. The Gītā belongs to the epic, is later, and is drawing on the Kaṭha or on shared material behind it. When Kṛṣṇa argues Arjuna out of his collapse on the battlefield, he is quoting an argument first put by Death to a child at a doorway."
+      },
+      {
+       "type": "p",
+       "html": "The verse travelled further. Ralph Waldo Emerson's poem <em>Brahma</em>, published in 1857, begins: \"If the red slayer think he slays, / Or if the slain think he is slain, / They know not well the subtle ways / I keep, and pass, and turn again.\" It is a near-transcription. Emerson read Indian material in the English and Latin translations then circulating in New England, and the route by which those translations existed at all is the subject of the honesty chapter at the end of this course."
+      }
+     ]
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Smaller Than the Small",
+     "sk": "अणोरणीयान्महतो महीयानात्मास्य जन्तोर्निहितो गुहायाम् ।",
+     "tr": "aṇor aṇīyān mahato mahīyān ātmāsya jantor nihito guhāyām |",
+     "mn": "\"Smaller than the small, greater than the great, the self is set in the cave of the heart of this creature.\"",
+     "src": "— Kaṭha Upaniṣad 1.2.20"
+    },
+    {
+     "type": "h3",
+     "html": "The Chariot"
+    },
+    {
+     "type": "p",
+     "html": "And then the image that the whole tradition took up and never let go of. It is worth remembering, when you read it, what a chariot was in that world: not transport but the height of engineering, a light spoked-wheel machine that decided battles, the possession of kings, the object the Ṛgvedic poets compare their own hymns to when they want to praise their own craftsmanship."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Chariot of the Self",
+     "sk": "आत्मानं रथिनं विद्धि शरीरं रथमेव तु ।<br/>बुद्धिं तु सारथिं विद्धि मनः प्रग्रहमेव च ॥<br/>इन्द्रियाणि हयानाहुर्विषयांस्तेषु गोचरान् ।<br/>आत्मेन्द्रियमनोयुक्तं भोक्तेत्याहुर्मनीषिणः ॥",
+     "tr": "ātmānaṁ rathinaṁ viddhi śarīraṁ ratham eva tu | buddhiṁ tu sārathiṁ viddhi manaḥ pragraham eva ca || indriyāṇi hayān āhur viṣayāṁs teṣu gocarān | ātmendriyamanoyuktaṁ bhoktety āhur manīṣiṇaḥ ||",
+     "mn": "\"Know the self as the rider in the chariot, and the body as the chariot. Know the intellect as the charioteer, and the mind as the reins. The senses, they say, are the horses; the objects of sense are the roads they range over. The self joined to body, senses and mind — that, the wise call the one who experiences.\"",
+     "src": "— Kaṭha Upaniṣad 1.3.3–4"
+    },
+    {
+     "type": "p",
+     "html": "Take the machine apart, because every part is doing work."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Part of the chariot",
+      "Sanskrit",
+      "What it corresponds to"
+     ],
+     "rows": [
+      [
+       "The rider",
+       "<em>rathin / ātman</em>",
+       "The self. Note what it does not do: it does not drive. It is carried. It is the one for whose sake the journey happens."
+      ],
+      [
+       "The chariot",
+       "<em>ratha / śarīra</em>",
+       "The body — a vehicle, valuable, engineered, and not the traveller."
+      ],
+      [
+       "The charioteer",
+       "<em>sārathi / buddhi</em>",
+       "Intellect, discriminating judgement. The faculty that decides. Everything depends on whether this one is competent."
+      ],
+      [
+       "The reins",
+       "<em>pragraha / manas</em>",
+       "Mind — here specifically the coordinating, wanting, attending faculty. Slack reins and the horses go where they like."
+      ],
+      [
+       "The horses",
+       "<em>haya / indriyāṇi</em>",
+       "The senses. Powerful, fast, not malicious — horses are not the villains of this image."
+      ],
+      [
+       "The roads",
+       "<em>gocara / viṣaya</em>",
+       "Sense-objects: the world of things worth looking at. Literally \"cow-pastures\" — where the horses would graze if left alone."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Notice what the simile does <em>not</em> say. The senses are not sinful. The body is not a prison. The problem is not that there is a chariot; the problem is a chariot with nobody competent holding the reins. This is a picture of misgovernment, not of contamination — and that distinction separates the Upaniṣadic view from a good deal of what later got attached to it."
+    },
+    {
+     "type": "h3",
+     "html": "Arise, Awake"
+    },
+    {
+     "type": "p",
+     "html": "The Kaṭha then climbs a hierarchy — senses, objects, mind, intellect, the great self, the unmanifest, and beyond the unmanifest the <em>puruṣa</em>, beyond which there is nothing, which is the limit and the highest goal. And then, having built the ladder, it stops explaining and simply shouts."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Line Everyone Knows",
+     "sk": "उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत ।<br/>क्षुरस्य धारा निशिता दुरत्यया दुर्गं पथस्तत्कवयो वदन्ति ॥",
+     "tr": "uttiṣṭhata jāgrata prāpya varān nibodhata | kṣurasya dhārā niśitā duratyayā durgaṁ pathas tat kavayo vadanti ||",
+     "mn": "\"Arise! Awake! Having reached the great ones, learn. Sharp as a razor's edge, hard to cross, difficult is that path — so the poets say.\"",
+     "src": "— Kaṭha Upaniṣad 1.3.14"
+    },
+    {
+     "type": "p",
+     "html": "Three imperatives in the plural, addressed suddenly not to Naciketas but to whoever is listening. Vivekananda made this line the motto of an entire movement, usually rendering it \"Arise, awake, and stop not till the goal is reached\" — which is a stirring translation and not quite what the Sanskrit says. <em>Prāpya varān nibodhata</em> is more nearly \"having approached those who are excellent, understand\": go to teachers. The line is less about willpower than about apprenticeship, and the razor's edge that follows is a warning, not a slogan."
+    },
+    {
+     "type": "p",
+     "html": "And then, having urged everyone to arise and awake, the same text takes it all back:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Undoing",
+     "sk": "नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन ।<br/>यमेवैष वृणुते तेन लभ्यस्तस्यैष आत्मा विवृणुते तनूं स्वाम् ॥",
+     "tr": "nāyam ātmā pravacanena labhyo na medhayā na bahunā śrutena | yam evaiṣa vṛṇute tena labhyas tasyaiṣa ātmā vivṛṇute tanūṁ svām ||",
+     "mn": "\"This self is not to be gained by teaching, nor by intelligence, nor by much learning. It is gained by the one whom it chooses; to that one, this self reveals its own form.\"",
+     "src": "— Kaṭha Upaniṣad 1.2.23"
+    },
+    {
+     "type": "p",
+     "html": "Arise, awake, go to the best teachers, cross the razor's edge — and also, the thing cannot be obtained by any amount of effort or study, and comes to whom it comes. The Kaṭha puts both of these in the same short text, twenty verses apart, and makes no attempt to reconcile them. Every later school had to do something with that tension; Rāmānuja and the devotional traditions read the second verse as the seed of grace, Śaṅkara read \"chooses\" as meaning the self reveals itself to one who longs for it alone. Both readings are defensible. Neither removes the contradiction, and the text does not appear to want it removed."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Yama's list of bribes is a catalogue of what a person could want in about the fifth century BCE. Write your own version — six items, specific, honest, things you would actually take. Then apply Naciketas's single argument to each one: <em>how long does it last, and who is offering it?</em> The exercise is not designed to make you renounce anything. It is designed to make you notice which items survive the question, because those are the ones the text is calling <em>śreyas</em>."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "svetaketu",
+   "part": "Part Two · The Great Dialogues",
+   "label": "Chapter 04 · Dialogue",
+   "title": "Śvetaketu and the Fig",
+   "subtitle": "A father takes his educated son apart with a seed, a bowl of salt water and one sentence repeated nine times — Chāndogya Upaniṣad, chapter six",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Śvetaketu Āruṇeya is twelve years old when his father sends him away to study, and twenty-four when he comes home. The text tells us three things about the young man who returns: he has studied all the Vedas, he thinks himself learned, and he is stiff-necked. The Sanskrit word is <em>stabdha</em> — rigid, unbending, puffed up. Any parent who has met a child home from a good university will recognise the scene exactly."
+    },
+    {
+     "type": "p",
+     "html": "His father, Uddālaka Āruṇi, does not challenge him on content. He asks a procedural question, which is much worse."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · The Opening Exchange",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "\"Śvetaketu, since you are now so full of yourself, so pleased with your learning and so stiff — did you ever ask for that teaching by which what has not been heard becomes heard, what has not been thought becomes thought, what has not been understood becomes understood?\""
+      },
+      {
+       "type": "p",
+       "html": "\"How, sir, can there be such a teaching?\""
+      },
+      {
+       "type": "p",
+       "html": "Notice that the son does not bluff. He asks. Twelve years of education have at least left him able to recognise a question he cannot answer, and the rest of the chapter is possible only because of that. <em>(Chāndogya 6.1.2–3, paraphrased.)</em>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "One Lump of Clay"
+    },
+    {
+     "type": "p",
+     "html": "The father's first move is an analogy so compressed that entire schools were later built on the sentence."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Name and Modification",
+     "sk": "वाचारम्भणं विकारो नामधेयं मृत्तिकेत्येव सत्यम् ।",
+     "tr": "vācārambhaṇaṁ vikāro nāmadheyaṁ mṛttikety eva satyam |",
+     "mn": "\"The modification is a verbal handle, a naming; the reality is just this — it is clay.\"",
+     "src": "— Chāndogya Upaniṣad 6.1.4"
+    },
+    {
+     "type": "p",
+     "html": "The setup: by knowing a single lump of clay, everything made of clay becomes known — pot, dish, water jar. The pot is not an additional thing in the world alongside the clay. \"Pot\" is a word we apply to a shape the clay is currently in. The same demonstration is run again with gold, and again with an iron tool. Three substances, one point: <strong>knowing the material gets you the whole class of objects for free, and the objects' individuality is a matter of naming.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "That single phrase — <em>vācārambhaṇaṁ vikāro nāmadheyam</em> — is the textual root of the enormous later doctrine of <em>nāma-rūpa</em>, name-and-form, and of Śaṅkara's argument that the world is not false but is also not a second reality alongside brahman. Note, though, exactly how much and how little the text has said. It has not said the pot is an illusion. You can carry water in it. It has said that the pot's being-a-pot is a fact about words, and that the underlying stuff is where the truth is. Whether that amounts to non-dualism in Śaṅkara's strong sense is a live scholarly question, and we will return to it."
+    },
+    {
+     "type": "h3",
+     "html": "Being, One Only, Without a Second"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Cosmology",
+     "sk": "सदेव सोम्येदमग्र आसीदेकमेवाद्वितीयम् ।",
+     "tr": "sad eva somyedam agra āsīd ekam evādvitīyam |",
+     "mn": "\"In the beginning, my dear, this was being alone — one only, without a second.\"",
+     "src": "— Chāndogya Upaniṣad 6.2.1"
+    },
+    {
+     "type": "p",
+     "html": "And then something that is easy to miss and historically important: the text names a rival position and rejects it. <em>Some say that in the beginning this was non-being alone, one only without a second, and that from non-being being was born.</em> But how, my dear, could that be? How could being be born from non-being? So there were teachers holding that view, and Uddālaka is arguing against them. This is not a revelation being announced. It is a philosophical position being defended against a stated alternative, in a debate whose other side we know only because its opponent quoted it."
+    },
+    {
+     "type": "h3",
+     "html": "Where You Go When You Sleep"
+    },
+    {
+     "type": "p",
+     "html": "Now the teaching proper begins, and it begins with sleep — because sleep is the everyday event that everyone has and nobody can account for."
+    },
+    {
+     "type": "p",
+     "html": "When a man sleeps, says Uddālaka, he has gone to his own. The Sanskrit does this as a pun, and the pun is the argument: <em>svapiti</em>, \"he sleeps,\" is heard as <em>svam apīto bhavati</em> — \"he has become merged into his own.\" A bird tied by a string flies in every direction, finds no other resting place, and settles back on the string that holds it; the mind flies in every direction, finds no resting place, and settles back on the breath. Hunger is explained the same way, by a folk etymology on the word for water; thirst likewise on the word for heat. Then a tree, struck at the root, bleeding but alive; and the observation that when the living principle leaves a branch, the branch withers, but the tree does not die when a branch is cut."
+    },
+    {
+     "type": "p",
+     "html": "And at the end of each of these — nine times, in nine sections — comes the same refrain."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Refrain",
+     "sk": "स य एषोऽणिमैतदात्म्यमिदं सर्वं तत्सत्यं स आत्मा तत्त्वमसि श्वेतकेतो इति ।",
+     "tr": "sa ya eṣo 'ṇimaitad ātmyam idaṁ sarvaṁ tat satyaṁ sa ātmā tat tvam asi śvetaketo iti |",
+     "mn": "\"That which is this finest essence — this whole world has that as its self. That is the real. That is the self. That you are, Śvetaketu.\"",
+     "src": "— Chāndogya Upaniṣad 6.8.7, and repeated at the close of each of the following eight teachings"
+    },
+    {
+     "type": "h3",
+     "html": "The Banyan Seed"
+    },
+    {
+     "type": "p",
+     "html": "Of the nine, two are the ones everyone remembers, and they are remembered because they are demonstrations rather than assertions. The father does not tell the son anything in either of them. He gives him a task and lets the conclusion arrive."
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · Chāndogya 6.12",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "\"Bring me a fruit from that banyan tree.\"<br/>\"Here it is, sir.\"<br/>\"Split it.\"<br/>\"It is split, sir.\"<br/>\"What do you see in it?\"<br/>\"These extremely fine seeds, sir.\"<br/>\"Split one of them.\"<br/>\"It is split, sir.\"<br/>\"What do you see in it?\"<br/>\"Nothing at all, sir.\""
+      },
+      {
+       "type": "p",
+       "html": "Then the father: \"My dear, that finest essence which you do not perceive — from that finest essence this great banyan tree stands. Have faith. That which is the finest essence, this whole world has that as its self. That is the real. That is the self. <strong>That you are, Śvetaketu.</strong>\""
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "The banyan — <em>nyagrodha</em>, the Indian fig — is the most conspicuous tree in the landscape these people lived in. It drops aerial roots that thicken into trunks, so that a single tree can cover an acre and look like a grove; villages hold assemblies under one. Its fruit is small, and the seeds inside are minute, like coarse dust. The father has chosen the most extreme available ratio between the visible result and the invisible cause, and then he has cut the cause open in front of the son and shown him that at the bottom there is nothing to see."
+    },
+    {
+     "type": "h3",
+     "html": "The Salt"
+    },
+    {
+     "type": "p",
+     "html": "The next demonstration is the better one, because it removes even the seed."
+    },
+    {
+     "type": "box",
+     "variant": "story",
+     "tag": "Story · Chāndogya 6.13",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "\"Put this lump of salt in water and come back to me in the morning.\" He did so. In the morning the father said: \"That salt you put in the water last night — bring it here.\" He groped for it and could not find it: it had dissolved completely."
+      },
+      {
+       "type": "p",
+       "html": "\"Take a sip from this end. How is it?\"<br/>\"Salt.\"<br/>\"Take a sip from the middle. How is it?\"<br/>\"Salt.\"<br/>\"Take a sip from that end. How is it?\"<br/>\"Salt.\"<br/>\"Throw it away and come back to me.\" He did so. And the salt was there all along."
+      },
+      {
+       "type": "p",
+       "html": "Then the father: \"You do not perceive being here, my dear — but it is here all the same. That which is the finest essence, this whole world has that as its self. That is the real. That is the self. <strong>That you are, Śvetaketu.</strong>\""
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "This is a better argument than the seed, and it repays slow attention. The salt is not hidden somewhere in the bowl; it is not concentrated at the bottom; there is no place in the water where it is and no place where it is not. It is <em>evenly present and individually untraceable</em>. That is an extremely precise image for what the text wants to say about being — not that it is deep inside things, but that it is uniformly distributed through them and cannot be pointed at, and that the way you detect it is by tasting, which is to say, by a form of contact rather than by looking."
+    },
+    {
+     "type": "h3",
+     "html": "Seven More"
+    },
+    {
+     "type": "p",
+     "html": "The other teachings in the sequence are worth listing, because the cumulative effect is the argument. Uddālaka is not making one point nine times; he is coming at the same claim from nine angles, and each angle answers a different objection."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>The bees and the honey (6.9).</strong> Bees gather nectar from many trees and reduce it to one honey. In that honey, the saps do not retain the knowledge \"I am the sap of that tree,\" \"I am the sap of this one.\" So it is with creatures who have merged into being: they do not know it. <em>Answer to the objection: if I am that, why do I not feel it?</em>",
+      "<strong>The rivers and the sea (6.10).</strong> Rivers flow east and west, become the sea, and there cease to know \"I am this river.\" <em>Same objection, and the addition of a direction: this is a one-way merging, not a mixing.</em>",
+      "<strong>The tree and the axe (6.11).</strong> A tree bleeds when cut but goes on living; when the living principle leaves a branch, that branch dries; when it leaves the tree, the tree dries. Life leaves the body and the body dies — but life does not die. <em>Answer to: what exactly departs?</em>",
+      "<strong>The seed (6.12)</strong> and <strong>the salt (6.13)</strong>, above.",
+      "<strong>The man from Gandhāra (6.14).</strong> A man is seized, blindfolded, carried far from Gandhāra and abandoned in a wilderness. He cries out in every direction until someone unties the blindfold and tells him: Gandhāra is that way. Asking his way from village to village, informed and reflecting, he gets home. \"In the same way, a man who has a teacher knows.\" <em>Answer to: if we are all lost, how does anyone begin? — and note the answer is a person giving directions, not an inner light.</em>",
+      "<strong>The dying man (6.15).</strong> Relatives gather round; his speech merges into mind, mind into breath, breath into heat, heat into the highest deity. <em>Answer to: what happens at the end?</em>",
+      "<strong>The heated axe (6.16).</strong> A man is brought bound, accused of theft, and made to grasp a red-hot axe. If he is guilty he makes himself false, and being false he is burned and killed. If he is truthful, he makes himself true, and is not burned, and is released. <em>Answer to: does any of this have consequences? — and it is the most alien of the nine, because it is an ordeal, a piece of ancient judicial procedure taken at face value.</em>"
+     ]
+    },
+    {
+     "type": "note",
+     "html": "That last one should not be smoothed over. The text is using trial by ordeal as an illustration and clearly assumes it works. This is one of those places where the honest thing is to say: here is a first-millennium-BCE text doing first-millennium-BCE things, and the philosophical brilliance of chapter six does not come with a warranty on its legal anthropology."
+    },
+    {
+     "type": "h3",
+     "html": "What the Sentence Actually Says"
+    },
+    {
+     "type": "p",
+     "html": "<em>Tat tvam asi.</em> Three words: <em>that</em>, <em>you</em>, <em>are</em>. It is the most famous sentence in Indian philosophy and possibly the most consequential three words in any Indian language. And there are two serious disputes about what it means, one ancient and one modern."
+    },
+    {
+     "type": "p",
+     "html": "The ancient dispute is the subject of Part Four: Śaṅkara reads it as strict identity, Rāmānuja as the relation between a soul and the being whose body it is, and Madhva's tradition divides the sandhi differently to read <em>atat tvam asi</em>, \"you are <strong>not</strong> that.\" Three of the greatest commentators in the tradition, one sentence, three incompatible readings, none of them stupid."
+    },
+    {
+     "type": "p",
+     "html": "The modern dispute is philological, and it is less famous but sharper. In an influential 1986 article, the Sanskritist <strong>Joel Brereton</strong> argued that <em>tat</em> here is not a pronoun standing for brahman at all, but functions adverbially, picking up the analogy that has just been given — so that the sentence means something closer to <em>\"in that way are you,\"</em> or, in Patrick Olivelle's translation, <em>\"and that's how you are, Śvetaketu.\"</em> On this reading the refrain is not announcing an identity; it is telling the boy that the thing just demonstrated — the seed, the salt, the rivers — is a picture of his own constitution."
+    },
+    {
+     "type": "p",
+     "html": "I am not going to adjudicate that, and I want to be clear about why. The grammatical case is real and is taken seriously by specialists; the traditional reading is also grammatically possible and is what two and a half thousand years of Indian philosophy has been built on. What is not honest is to quote \"you are that\" as though it were the transparent and undisputed sense of the Sanskrit. It is the received sense. It is not the only available one."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Is Chapter Six Really Advaita?",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "There is a further caution, and it cuts against the way this chapter is usually presented. Uddālaka's <em>sat</em> behaves in several respects like a material cause: it wills, it emits heat and water and food, the three are really combined, and the resulting world is described in physiological detail without any suggestion that it is unreal. A number of scholars have argued that what chapter six teaches is better described as a monism of substance — everything is one stuff — than as Śaṅkara's non-dualism, in which the world's separateness is a superimposition to be removed by knowledge."
+      },
+      {
+       "type": "p",
+       "html": "That does not make Śaṅkara a fraud. He is doing systematic theology on a canon that includes many texts, and he reads each in the light of the whole. But it does mean that \"the Upaniṣads teach Advaita\" states a conclusion of a long argument as if it were an observation about the page. The page is more various than that."
+      }
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Dissolve salt in a glass of water tonight and taste it from three places. The experiment takes two minutes and it is exactly the experiment in the text. The question to hold while you do it is not whether the analogy proves anything — it does not, and was not offered as proof. It is whether you can find, in your own case, anything that is present everywhere in your experience and yet cannot be located anywhere in it."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "yajnavalkya",
+   "part": "Part Two · The Great Dialogues",
+   "label": "Chapter 05 · Dialogue",
+   "title": "Yājñavalkya",
+   "subtitle": "A thousand cows taken before the contest begins, two questions from Gārgī, a head that shatters, and a farewell at a doorway — Bṛhadāraṇyaka Upaniṣad",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "If the Upaniṣads have a protagonist, it is Yājñavalkya, and he is not a comfortable one. He is arrogant, impatient, formidably quick, occasionally cruel, and — in a literature that mostly presents its teachers as serene — visibly enjoying himself. He is also the author, on the tradition's account, of the position that everything else in Vedānta is a commentary on."
+    },
+    {
+     "type": "h3",
+     "html": "The Cows"
+    },
+    {
+     "type": "p",
+     "html": "Janaka, king of Videha, holds a great sacrifice. Learned brahmins from the Kuru and Pañcāla lands come for it, and the king, wanting to know which of them is the most learned in brahman, pens a thousand cows and fastens ten pieces of gold to the horns of each. Whoever is the best knower of brahman, he says, may drive these away."
+    },
+    {
+     "type": "p",
+     "html": "Nobody moves. Then Yājñavalkya says to his pupil: <em>drive them away, Sāmaśravas.</em> And the pupil drives them off."
+    },
+    {
+     "type": "p",
+     "html": "The brahmins are outraged — <em>how does he presume to declare himself the best of us?</em> — and what follows is not a seminar but a contest, with the prize already removed from the field. Nine challengers come at him in sequence. It is the closest thing in ancient literature to a recorded philosophical tournament, and the stakes, as we will see, are not merely reputational."
+    },
+    {
+     "type": "h3",
+     "html": "The Early Rounds"
+    },
+    {
+     "type": "p",
+     "html": "The first challenger, the king's own chief priest, asks ritual questions and gets ritual answers. The second, Ārtabhāga, asks a sequence about what happens to the faculties at death — and then asks the real question: when a man dies, and his speech goes into fire and his breath into wind and his sight into the sun, <em>what then is left of him?</em>"
+    },
+    {
+     "type": "p",
+     "html": "And Yājñavalkya takes him by the hand and says: <strong>not here, Ārtabhāga. We two alone will know this. This is not for us in public.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "They walk away and confer. And the text tells us what they discussed: it was action, <em>karman</em>. What they praised was action. <em>One becomes good by good action, bad by bad action.</em> Then Ārtabhāga falls silent."
+    },
+    {
+     "type": "p",
+     "html": "That moment is worth pausing on. Here is one of the earliest clear statements in the surviving record of karma as a moral mechanism carrying across death — the idea that would organise the religious imagination of half of Asia — and the text presents it as something two men step aside to say quietly. Whatever else it was, it was new enough, or strange enough, to be handled as a secret."
+    },
+    {
+     "type": "p",
+     "html": "Two challengers later, Uṣasta asks him to explain the brahman that is present and obvious, the self that is within all. Yājñavalkya answers: <em>this is your self, that is within all.</em> Uṣasta, reasonably, says: which one? Show me. And he gets the answer that will govern the rest of this course."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · You Cannot Get Behind It",
+     "sk": "न दृष्टेर्द्रष्टारं पश्येर्न श्रुतेः श्रोतारं शृणुयाः ।<br/>न मतेर्मन्तारं मन्वीथा न विज्ञातेर्विज्ञातारं विजानीयाः ॥",
+     "tr": "na dṛṣṭer draṣṭāraṁ paśyer na śruteḥ śrotāraṁ śṛṇuyāḥ | na mater mantāraṁ manvīthā na vijñāter vijñātāraṁ vijānīyāḥ ||",
+     "mn": "\"You cannot see the seer of seeing. You cannot hear the hearer of hearing. You cannot think the thinker of thinking. You cannot know the knower of knowing.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 3.4.2"
+    },
+    {
+     "type": "p",
+     "html": "This is not evasion, and it is not mysticism. It is a structural observation, and it is the reason the whole tradition ends up talking the way it does. The thing being asked about is the one thing that cannot appear in the answer, because it is what any answer would be appearing <em>to</em>. We will give this its own chapter."
+    },
+    {
+     "type": "h3",
+     "html": "Gārgī, First Question"
+    },
+    {
+     "type": "p",
+     "html": "Then Gārgī Vācaknavī stands up. She is introduced without apology or explanation — a woman in a competitive assembly of brahmins, taking her turn like everyone else, and the text does not consider this worth a comment."
+    },
+    {
+     "type": "p",
+     "html": "Her method is a single question asked repeatedly, and it is the most philosophically ruthless technique in the chapter. Everything here, she says, is woven back and forth on water — <em>on what, then, is water woven back and forth?</em> On air. On what is air woven? On the worlds of the intermediate region. And on those? On the worlds of the gandharvas. And on those? On the worlds of the sun. And so upward: the moon, the stars, the gods, Indra, Prajāpati — each answer immediately turned into the next question."
+    },
+    {
+     "type": "p",
+     "html": "She is running a regress, deliberately, to find out whether it terminates. And when she reaches the worlds of brahman and asks on what <em>they</em> are woven, she gets this:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Warning",
+     "sk": "गार्गि मातिप्राक्षीर्मा ते मूर्धा व्यपप्तत् ।",
+     "tr": "gārgi mātiprākṣīr mā te mūrdhā vyapaptat |",
+     "mn": "\"Gārgī, do not ask too much — lest your head shatter apart.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 3.6.1"
+    },
+    {
+     "type": "p",
+     "html": "\"You are asking too many questions about a deity about whom one should not ask too many questions. Gārgī, do not over-question.\" And Gārgī fell silent."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · How to Read the Threat",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "This line is regularly quoted as evidence that Yājñavalkya bullied a woman out of the debate, and it is worth being careful in both directions."
+      },
+      {
+       "type": "p",
+       "html": "Against the bullying reading: the shattering head is not a threat of violence but a rule of this particular game, and it is applied to men too. The same assembly ends with a male challenger, Vidagdha Śākalya, being told he will lose his head if he answers wrongly — and he does, and the text says robbers carried off his bones, mistaking them for something else. In the ancient contest of ritual knowledge, over-questioning a matter beyond one's competence carried a stated penalty, and the warning to Gārgī is arguably a courtesy: she is the only challenger who is stopped <em>before</em> the sanction rather than after it."
+      },
+      {
+       "type": "p",
+       "html": "For the bullying reading: she is nonetheless the one told to stop, at a point where she has visibly cornered him, and one need not be a modern reader to notice that. What is certain is that the text does not treat her silence as the end of her. She comes back."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Gārgī, Second Question"
+    },
+    {
+     "type": "p",
+     "html": "Later in the contest Gārgī rises again, and this time she addresses the assembly rather than Yājñavalkya. With your permission, she says, I will ask this man two questions; if he answers them, none of you is going to defeat him in a debate about brahman. The brahmins tell her to ask."
+    },
+    {
+     "type": "p",
+     "html": "And then she gives one of the great images in the corpus. <em>I rise against you as a warrior from Kāśī or Videha, stringing his slackened bow and taking two piercing arrows in his hand. So I stand, Yājñavalkya, with two questions. Answer me.</em>"
+    },
+    {
+     "type": "p",
+     "html": "The first arrow: that which is above the sky and below the earth, which is between these two, which is called past and present and future — on what is that woven back and forth? He answers: on space, <em>ākāśa</em>."
+    },
+    {
+     "type": "p",
+     "html": "The second arrow, and she has him where she wanted him: <em>on what, then, is space woven back and forth?</em>"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Imperishable",
+     "sk": "एतद्वै तदक्षरं गार्गि ब्राह्मणा अभिवदन्ति ।<br/>अस्थूलमनण्वह्रस्वमदीर्घम् ॥",
+     "tr": "etad vai tad akṣaraṁ gārgi brāhmaṇā abhivadanti | asthūlam anaṇv ahrasvam adīrgham ||",
+     "mn": "\"This, Gārgī, is what the knowers of brahman call the imperishable: not coarse, not fine, not short, not long.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 3.8.8"
+    },
+    {
+     "type": "p",
+     "html": "And the list does not stop there. It goes on relentlessly — without shadow, without darkness, without air, without space, without contact, without taste, without smell, without sight, without hearing, without speech, without mind, without energy, without breath, without mouth, without measure, without inside, without outside. It eats nothing, and nothing eats it. Something like twenty consecutive negations, delivered to a woman who had asked one question, and every single one of them a refusal to hand her a property she could hold on to."
+    },
+    {
+     "type": "p",
+     "html": "Then, having emptied the subject of every attribute, he does the one thing negation permits: he describes what depends on it."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Under Its Command",
+     "sk": "एतस्य वा अक्षरस्य प्रशासने गार्गि सूर्याचन्द्रमसौ विधृतौ तिष्ठतः ।",
+     "tr": "etasya vā akṣarasya praśāsane gārgi sūryācandramasau vidhṛtau tiṣṭhataḥ |",
+     "mn": "\"Under the command of this imperishable, Gārgī, the sun and the moon stand held apart.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 3.8.9"
+    },
+    {
+     "type": "p",
+     "html": "Heaven and earth stand apart under its command; moments and hours and days and nights and fortnights and months and seasons and years stand apart under its command; rivers run from the snowy mountains, some east, some west, each in its own direction, under its command. And whoever departs from this world without knowing this imperishable is a pitiable creature; whoever departs knowing it is a knower of brahman."
+    },
+    {
+     "type": "p",
+     "html": "And then, closing the ring: <em>it is the unseen seer, the unheard hearer, the unthought thinker, the unknown knower. There is no other seer but it, no other hearer, no other thinker, no other knower.</em>"
+    },
+    {
+     "type": "p",
+     "html": "Gārgī turns to the assembly. <strong>Revered brahmins, you may consider yourselves fortunate if you get away from this man with a bow. Not one of you is going to defeat him in a debate about brahman.</strong> And then she fell silent — this time as the person who has conceded the match on everyone's behalf, having personally forced out of him the most complete statement of his position in the entire text."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    },
+    {
+     "type": "h3",
+     "html": "Maitreyī"
+    },
+    {
+     "type": "p",
+     "html": "And then, in a text otherwise full of assemblies and prizes and shattered heads, there is a scene between two people in a house."
+    },
+    {
+     "type": "p",
+     "html": "Yājñavalkya is about to leave the householder's life — to go forth, in the technical sense, abandoning house, property and status. He has two wives: Maitreyī, whom the text calls <em>brahmavādinī</em>, one who discourses on brahman, and Kātyāyanī, who — and this is the same text, so we take it as it stands — \"had only such knowledge as women have.\" He proposes to divide his property between them before he goes."
+    },
+    {
+     "type": "p",
+     "html": "Maitreyī asks one question, and it dismantles the entire premise of the conversation. <em>Sir, if this whole earth filled with wealth were mine, would I become immortal by it?</em>"
+    },
+    {
+     "type": "p",
+     "html": "No, he says. Your life would be like the life of people who have things. There is no hope of immortality through wealth."
+    },
+    {
+     "type": "p",
+     "html": "And she says: <strong>then what should I do with something that will not make me immortal? Tell me instead what you know.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "It is one of the great refusals in literature. She is being offered a settlement — security, standing, half of everything — by a husband who is leaving, and she treats the offer as a category error and asks for the only thing he actually has. And Yājñavalkya, who has spent three chapters humiliating professional philosophers, becomes for a moment somebody else entirely: <em>you have always been dear to me, and now you say what is dear. Come, sit. I will explain it to you. Pay attention to what I say.</em>"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Why Anything Is Dear",
+     "sk": "न वा अरे पत्युः कामाय पतिः प्रियो भवति ।<br/>आत्मनस्तु कामाय पतिः प्रियो भवति ॥",
+     "tr": "na vā are patyuḥ kāmāya patiḥ priyo bhavati | ātmanas tu kāmāya patiḥ priyo bhavati ||",
+     "mn": "\"Not for the sake of the husband, my dear, is the husband dear; but for the sake of the self is the husband dear.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 2.4.5 (repeated at 4.5.6)"
+    },
+    {
+     "type": "p",
+     "html": "And then the same sentence again, and again, and again, through the whole inventory of a life: not for the sake of the wife is the wife dear; not for the sake of the sons are the sons dear; not for the sake of wealth is wealth dear; not for the sake of the priesthood, or the nobility, or the worlds, or the gods, or the Vedas, or living beings, or the whole of everything. In every case: it is dear for the sake of the self."
+    },
+    {
+     "type": "p",
+     "html": "It is very easy to hear this as cynicism — <em>you only love people because of what they do for you</em> — and that reading is available and, I think, wrong. Notice which word he uses. Not <em>for your own benefit</em>, not <em>for your pleasure</em>. For the sake of the <em>ātman</em>, the term he has spent the whole book arguing is not the private ego but the one thing that is not private at all. The claim is not that love is selfishness. It is that what you are reaching for in the person you love is the same thing you are reaching for in yourself, and that this is why it can be reached at all."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Instruction That Became a Method",
+     "sk": "आत्मा वा अरे द्रष्टव्यः श्रोतव्यो मन्तव्यो निदिध्यासितव्यः ।",
+     "tr": "ātmā vā are draṣṭavyaḥ śrotavyo mantavyo nididhyāsitavyaḥ |",
+     "mn": "\"The self, my dear, is what should be seen — heard about, thought about, deeply and continuously contemplated.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 2.4.5"
+    },
+    {
+     "type": "p",
+     "html": "Those three verbs became the standard curriculum of Vedānta: <em>śravaṇa</em>, hearing the teaching from a teacher; <em>manana</em>, reasoning it through until it is not merely received; <em>nididhyāsana</em>, sustained contemplation until it is no longer a conclusion but a way of seeing. Every Advaita manual written since is organised on that sequence, and it comes from one sentence spoken to a woman at a doorway."
+    },
+    {
+     "type": "h3",
+     "html": "The Drum, the Fire, and the Salt Again"
+    },
+    {
+     "type": "p",
+     "html": "What he tells her next is a series of images, and they are among the finest in the book. When a drum is being beaten you cannot catch the sounds by chasing them; you catch them by taking hold of the drum, or of the man beating it. So too with a conch, and with a lute. Then: as from a fire laid with damp fuel clouds of smoke pour out in every direction, so from this great being has been breathed out everything — the Ṛgveda, the Yajurveda, the Sāmaveda, the Atharvan hymns, history, ancient lore, sciences, verses, aphorisms, explanations. All of it exhaled, like smoke, without effort."
+    },
+    {
+     "type": "p",
+     "html": "And then the salt returns — the same image Uddālaka used with Śvetaketu, in a different key. As a lump of salt thrown into water dissolves and cannot be picked out again, but wherever you take up the water it is salty, so this great being is boundless, limitless, a solid mass of awareness. It arises out of these elements, and it disappears back into them. And then the line that stops the conversation dead: <em>after passing on, there is no awareness.</em>"
+    },
+    {
+     "type": "p",
+     "html": "Maitreyī says: <strong>here, sir, you have confused me. You say that after passing on there is no awareness.</strong>"
+    },
+    {
+     "type": "p",
+     "html": "And Yājñavalkya: I am not saying anything confusing. This is quite enough for understanding. Where there is duality, as it were, then one smells another, one sees another, one hears another, one speaks to another, one thinks of another, one knows another. But when everything has become one's own self — then by what and whom would one smell? by what and whom would one see? by what and whom would one hear? by what and whom would one know?"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Last Question",
+     "sk": "विज्ञातारमरे केन विजानीयात् ।",
+     "tr": "vijñātāram are kena vijānīyāt |",
+     "mn": "\"By what, my dear, should one know the knower?\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 2.4.14"
+    },
+    {
+     "type": "p",
+     "html": "The denial of awareness after death is not, on this reading, a denial of survival — it is a denial that survival would take the form of somebody knowing something. Knowing needs two. Whether that is a magnificent resolution or an elegant way of refusing to answer is a question the tradition has been arguing about ever since, and Maitreyī's objection has never been improved on. She was the first person to say it, and she said it to his face."
+    },
+    {
+     "type": "p",
+     "html": "Then, the text says, Yājñavalkya went away."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Two Women, Named",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Gārgī Vācaknavī and Maitreyī are among the earliest named women in any surviving philosophical literature anywhere in the world. That is a strong claim, so let me state it carefully. We cannot demonstrate that either was a historical individual; these are literary texts, and their characters may be composites, types, or inventions. What can be established is the date of the composition, roughly the seventh to sixth centuries BCE, and the way the text handles them — which is without any framing device, apology or explanation. Gārgī simply takes her turn in a competitive assembly; Maitreyī simply asks the question that reorganises the conversation."
+      },
+      {
+       "type": "p",
+       "html": "For comparison: in the Greek tradition, the earliest women named in philosophical contexts are figures like Theano, associated with the Pythagoreans, whose surviving attributed writings are considerably later than she is, and Diotima, who appears in Plato's <em>Symposium</em> as a character in a dialogue and is widely thought to be a literary construction. The Upaniṣadic women are of comparable or greater antiquity and are given more room to argue."
+      },
+      {
+       "type": "p",
+       "html": "And the corrective, which belongs in the same paragraph: the very passage that gives us Maitreyī also dismisses the other wife as having \"only such knowledge as women have,\" and Gārgī is the one participant told to stop asking. These texts are not evidence of an egalitarian society. They are evidence that in this particular intellectual culture, at this particular moment, some women were in the room and were allowed to win."
+      }
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Try Gārgī's method on something you believe. State it, then ask what it rests on; then ask what <em>that</em> rests on; and keep going without allowing yourself to stop at a word that merely sounds final. Most chains give out after four or five steps — not because you have reached bedrock, but because you have reached the point where you were no longer looking. That point is what her second arrow was aimed at."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "neti",
+   "part": "Part Two · The Great Dialogues",
+   "label": "Chapter 06 · Dialogue",
+   "title": "Neti Neti",
+   "subtitle": "Not this, not this — why negation is the only honest instrument when the thing you are after cannot be made into an object",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "There comes a point in every one of these dialogues where the teacher stops describing and starts removing. It is not a rhetorical flourish and it is not humility. It is a technical decision, and the Bṛhadāraṇyaka states the reason for it more plainly than anything written on the subject in the next two thousand years."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Instruction",
+     "sk": "अथात आदेशो नेति नेति ।<br/>न ह्येतस्मादिति नेत्यन्यत्परमस्ति ॥",
+     "tr": "athāta ādeśo neti neti | na hy etasmād iti nety anyat param asti ||",
+     "mn": "\"Now, therefore, the instruction: not so, not so. For there is nothing beyond this — this 'not so'.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 2.3.6"
+    },
+    {
+     "type": "h3",
+     "html": "What the Words Actually Are"
+    },
+    {
+     "type": "p",
+     "html": "<em>Neti</em> is a contraction: <em>na</em> + <em>iti</em>. And <em>iti</em> is not a word with a meaning so much as a piece of punctuation — it is the Sanskrit quotation marker, the particle that closes a quoted phrase, the equivalent of a closing inverted comma. So <em>na iti</em> does not mean \"there is not.\" It means, precisely, <strong>\"not — thus.\"</strong> Not: <em>that way of putting it.</em>"
+    },
+    {
+     "type": "p",
+     "html": "This matters enormously, and most English renderings blur it. \"Not this, not this\" suggests a man pointing at objects and rejecting them one by one — <em>not the chair, not the table.</em> What the Sanskrit is doing is rejecting <em>descriptions</em>. Every time a characterisation is offered, the instruction cancels the characterisation, not the thing. The doubling is emphatic, and it may also be exhaustive: the passage it appears in has just divided brahman into two forms, the formed and the formless, the mortal and the immortal — and then says: <em>not so, not so</em>. One denial for each."
+    },
+    {
+     "type": "p",
+     "html": "And then, having said there is nothing beyond that denial, the very same paragraph turns round and gives a positive name after all: <em>satyasya satyam</em>, \"the real of the real.\" The Upaniṣads do not use negation as a final position. They use it as a filter, and they keep speaking afterwards."
+    },
+    {
+     "type": "h3",
+     "html": "Why Negation Is Forced"
+    },
+    {
+     "type": "p",
+     "html": "The argument for the method is the sentence Yājñavalkya gave Uṣasta, and it deserves to be laid out in steps because it is not obvious and it is not mystical."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>To describe something is to make it an object of knowledge.</strong> A predicate — <em>it is blue, it is vast, it is conscious</em> — presents its subject as a thing that stands in front of a knower, available for inspection.",
+      "<strong>To make something an object is to place it in a class and to draw a boundary.</strong> \"Blue\" is informative only because there are non-blue things. \"Infinite\" is informative only because there are finite ones. Every predicate cuts the world in two and puts its subject on one side.",
+      "<strong>But the ātman is, by the terms of the enquiry, the subject.</strong> It is what any inspection would be an inspection <em>by</em>. It cannot be placed in front of itself any more than a lamp can be carried around to illuminate its own flame, or a fingertip can touch itself, or an eye can be included in what the eye sees.",
+      "<strong>Therefore any affirmative description is not merely inadequate — it is a category error.</strong> It is not that our words are too small. It is that assertion has the wrong shape, because assertion produces objects, and this is not an object.",
+      "<strong>Negation, however, has a different shape.</strong> \"Not so\" does not produce an object. It removes a false one. It leaves the field clear without putting anything in it."
+     ]
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Full Formula",
+     "sk": "स एष नेति नेत्यात्मा ।<br/>अगृह्यो न हि गृह्यते । अशीर्यो न हि शीर्यते ।<br/>असङ्गो न हि सज्यते । असितो न व्यथते न रिष्यति ॥",
+     "tr": "sa eṣa neti nety ātmā | agṛhyo na hi gṛhyate | aśīryo na hi śīryate | asaṅgo na hi sajyate | asito na vyathate na riṣyati ||",
+     "mn": "\"That self is: not so, not so. Ungraspable, for it is not grasped. Indestructible, for it is not destroyed. Unattached, for it does not cling. Unbound — it does not tremble, it is not harmed.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 3.9.26, and repeated at 4.2.4, 4.4.22 and 4.5.15"
+    },
+    {
+     "type": "h3",
+     "html": "What It Is Not: Nothing"
+    },
+    {
+     "type": "p",
+     "html": "The obvious objection is as old as the method: if you deny everything, you have described nothing, and \"the self is indescribable\" is an elaborate way of saying there is no self. Buddhist philosophers pressed exactly this line against the Vedāntins for a thousand years, and they pressed it well."
+    },
+    {
+     "type": "p",
+     "html": "Whether that reply succeeds is one of the genuinely unresolved arguments in Indian philosophy, and it is not my business to settle it here. What is clear is that the Upaniṣads themselves behave as if something remains. They negate, and then immediately they assert — often in the same breath, and often with a paradox, which is what an assertion looks like when it is trying not to become a description."
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<em>\"Smaller than the small, greater than the great\"</em> — Kaṭha 1.2.20. Both predicates at once, cancelling each other's boundary.",
+      "<em>\"It moves, it does not move; it is far, it is near; it is inside all this, it is outside all this\"</em> — the Īśā Upaniṣad, which pairs contradictions for four consecutive verses.",
+      "<em>\"Not coarse, not fine, not short, not long\"</em> — and then, three lines later, <em>\"under its command the sun and the moon stand held apart.\"</em> Twenty denials, followed by a cosmology.",
+      "<em>\"That from which words turn back together with the mind\"</em> — Taittirīya 2.4.1 — in a chapter that then goes on for several more pages."
+     ]
+    },
+    {
+     "type": "note",
+     "html": "The pattern is consistent enough to be a policy: deny the description, keep the pointing. This is why the Upaniṣads are so much harder to summarise than to quote. A summary is made of descriptions."
+    },
+    {
+     "type": "h3",
+     "html": "The Method as Practice"
+    },
+    {
+     "type": "p",
+     "html": "In later Advaita the phrase stops being an editorial policy and becomes an exercise. The manuals call it <em>dṛg-dṛśya-viveka</em> — the discrimination of the seer from the seen — and the instruction is simple to state and unpleasant to carry out: whatever appears, note that it appears, and note that what it appears to is not among the things appearing. The body is seen; therefore not the seer. The emotion is observed; therefore not the observer. The thought \"I am the one thinking\" is itself a thought, and is therefore also seen."
+    },
+    {
+     "type": "p",
+     "html": "Ramaṇa Maharṣi's <em>who am I?</em> — the best-known twentieth-century form of this — is the same operation compressed into a question, with the instruction to reject every answer that arrives in the form of an object. It is worth being precise about what such a practice can and cannot show, because the claims made for it are frequently much larger than its structure supports."
+    },
+    {
+     "type": "box",
+     "variant": "practice",
+     "tag": "Practice · The Exercise, and Its Limit",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "<strong>The exercise.</strong> Sit for ten minutes. Each time something arrives — a sound, an ache, a plan, a memory, a mood — note silently: <em>that is seen; not that.</em> Do not argue with it, do not push it away, do not try to feel anything in particular. Only decline the identification. Then, when it occurs to you that you are the one doing the noting, apply the same treatment to that thought."
+      },
+      {
+       "type": "p",
+       "html": "<strong>What it demonstrates.</strong> Reliably, for most people, one thing: that the set of contents you can observe is larger than you assumed, and includes items you normally treat as constitutive of yourself — your name, your mood, your sense of being a person located behind the eyes. That is a real and repeatable observation about the structure of experience."
+      },
+      {
+       "type": "p",
+       "html": "<strong>What it does not demonstrate.</strong> That there exists a witness which is not itself a content; that the witness is identical with the ground of the universe; or that the sense of being unlocated is veridical rather than merely another state. The exercise cannot establish these, and the honest version of the practice does not pretend that it can. It clears the field. What is standing in the cleared field is precisely the question this course ends with."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Same Move Elsewhere"
+    },
+    {
+     "type": "p",
+     "html": "The via negativa is not an Indian peculiarity, and the convergences are striking enough to be worth naming — carefully."
+    },
+    {
+     "type": "p",
+     "html": "In the Christian tradition, the writer known as Pseudo-Dionysius, working in Greek around the turn of the sixth century, argued that God must be denied every name including the name \"God,\" and that the denials must finally be denied too; his <em>Mystical Theology</em> is a short and startling document. Meister Eckhart, John Scotus Eriugena and the anonymous English author of <em>The Cloud of Unknowing</em> all work in that line. In Jewish philosophy, Maimonides' <em>Guide of the Perplexed</em>, in the twelfth century, holds that no positive attribute can truthfully be predicated of God and that only negations convey anything. In Buddhist philosophy, Nāgārjuna's method of refuting each of four possible positions — is, is not, both, neither — is a formally sharper instrument aimed at a different target."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Convergence Is Not Contact",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "It is tempting, and very common, to treat these parallels as evidence of transmission — a single perennial teaching surfacing in many places. The evidence does not support that, and does not need to."
+      },
+      {
+       "type": "p",
+       "html": "Where actual historical contact is well established, we should say so. The Upaniṣadic and early Buddhist milieus <em>are</em> genuinely in contact: they are the same region, within a couple of centuries, arguing with each other, and the Buddhist doctrine of <em>anattā</em> — no self — is intelligible partly as a direct response to the kind of claim Yājñavalkya makes. That is a real relationship, and it is a relationship of disagreement. Where contact is not established — Dionysius and the Bṛhadāraṇyaka, Maimonides and the Kaṭha — the sober explanation is convergence: several traditions, independently, ran into the same structural problem and found the same structural solution, because there is essentially only one."
+      },
+      {
+       "type": "p",
+       "html": "That is a more interesting result than borrowing would be. Borrowing would tell us about trade routes. Convergence tells us about the problem."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Honest Limit"
+    },
+    {
+     "type": "p",
+     "html": "One last point, and it will matter a great deal in Part Five. Negation is an excellent instrument for preventing false description. It is a very poor instrument for establishing existence."
+    },
+    {
+     "type": "p",
+     "html": "If I tell you that there is something in the next room, and that it is not large, not small, not coloured, not audible, not detectable, and not describable, I have made a claim you cannot refute — and I have also made a claim you have no reason whatever to accept. The apophatic method purchases its immunity from contradiction at the cost of its evidential force. The Upaniṣads are not confused about this: they do not present <em>neti neti</em> as a proof. They present it as a description of what happens to language when a particular kind of enquiry is pushed, and they address it to students who are already engaged in the enquiry."
+    },
+    {
+     "type": "p",
+     "html": "The failure mode is to take a method that was designed to protect a claim from misdescription and to use it instead to protect the claim from examination. That is not what these texts do. It is, quite often, what is done with them."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "mandukya",
+   "part": "Part Two · The Great Dialogues",
+   "label": "Chapter 07 · Dialogue",
+   "title": "The Four States",
+   "subtitle": "Waking, dream, deep sleep, and the fourth — twelve verses that map consciousness onto a single syllable",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "The Māṇḍūkya Upaniṣad is twelve sentences long. You can read the whole of it in ninety seconds and it will take you the rest of your life to finish. It contains no story, no named teacher, no student, no setting — which makes it unique among the texts in this course — and it is arguably the densest philosophical document in the corpus."
+    },
+    {
+     "type": "p",
+     "html": "The traditional estimate of it is not modest. The Muktikā, a late text that lists the canon of one hundred and eight Upaniṣads, says that for one who seeks liberation the Māṇḍūkya alone is enough. That is an extraordinary thing to say about a work of twelve verses in a library of that size, and the reason for it is structural: the Māṇḍūkya is the one text that gives the whole position as a system rather than as an encounter."
+    },
+    {
+     "type": "h3",
+     "html": "The Syllable"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse One",
+     "sk": "ॐ इत्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं भूतं भवद्भविष्यदिति सर्वमोंकार एव ।<br/>यच्चान्यत्त्रिकालातीतं तदप्योंकार एव ॥",
+     "tr": "oṁ ity etad akṣaram idaṁ sarvaṁ tasyopavyākhyānaṁ bhūtaṁ bhavad bhaviṣyad iti sarvam oṁkāra eva | yac cānyat trikālātītaṁ tad apy oṁkāra eva ||",
+     "mn": "\"Om — this syllable is all this. Its explanation is this: what was, what is, what will be, all of it is simply Om. And whatever else there is beyond the three times, that too is simply Om.\"",
+     "src": "— Māṇḍūkya Upaniṣad 1"
+    },
+    {
+     "type": "p",
+     "html": "Before the metaphysics, the phonetics, because the tradition's own reason for choosing this syllable is a real observation about the mouth. Sanskrit grammarians classified sounds by where in the vocal tract they are produced. <strong>A</strong> is the most open vowel, made at the back of the throat with the mouth simply opened — it is what a mouth does when it does nothing. <strong>U</strong> rolls that opening forward, rounding the lips. <strong>M</strong> closes them entirely. So <em>a-u-m</em> traverses the complete articulatory space of human speech, from the throat to the closed lips, in one continuous movement. Every other sound a person can make happens somewhere inside that arc."
+    },
+    {
+     "type": "note",
+     "html": "The spellings <em>om</em> and <em>aum</em> are not two things. In Sanskrit sandhi, <em>a</em> + <em>u</em> combines into <em>o</em>, so ॐ <em>is</em> a-u-m, written as it is pronounced. The analysis into three sounds is not a mystical decomposition; it is ordinary grammar."
+    },
+    {
+     "type": "p",
+     "html": "The syllable was not new. It had been the ritual affirmation of the Vedic chant for centuries — the <em>udgītha</em>, the sound with which a Sāmavedic singer begins, and the subject of the first chapter of the Chāndogya, which is essentially a manual for meditating on it. What the Māṇḍūkya does is take this thoroughly familiar ritual object and use it as a diagram."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse Two",
+     "sk": "सर्वं ह्येतद्ब्रह्म अयमात्मा ब्रह्म सोऽयमात्मा चतुष्पात् ॥",
+     "tr": "sarvaṁ hy etad brahma ayam ātmā brahma so 'yam ātmā catuṣpāt ||",
+     "mn": "\"For all this is brahman. This self is brahman. And this self has four quarters.\"",
+     "src": "— Māṇḍūkya Upaniṣad 2"
+    },
+    {
+     "type": "p",
+     "html": "<em>Catuṣpāt</em> — four-footed, four-quartered. The word carries a faint echo of an animal, and of the Ṛgvedic hymn in which the cosmic person has a quarter in this world and three quarters elsewhere. Here it means something more like four aspects, or four measures. And the four are given in the next four verses, each one described by what it is aware of and what it consumes."
+    },
+    {
+     "type": "h3",
+     "html": "The Four"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Quarter",
+      "Name",
+      "State",
+      "What it is aware of",
+      "Sound"
+     ],
+     "rows": [
+      [
+       "First",
+       "<strong>Vaiśvānara</strong><br/><em>vaiśvānara</em>",
+       "Waking — <em>jāgarita-sthāna</em>",
+       "Outward-turned awareness. It experiences the gross: bodies, objects, the shared public world that other people can also see.",
+       "<strong>A</strong>"
+      ],
+      [
+       "Second",
+       "<strong>Taijasa</strong><br/><em>taijasa</em>, \"the shining one\"",
+       "Dream — <em>svapna-sthāna</em>",
+       "Inward-turned awareness. It experiences the subtle: a world built entirely of impressions, wholly private, and — the text is careful about this — fully convincing while it lasts.",
+       "<strong>U</strong>"
+      ],
+      [
+       "Third",
+       "<strong>Prājña</strong><br/><em>prājña</em>, \"the knowing one\"",
+       "Deep sleep — <em>suṣupta</em>",
+       "No desire is desired, no dream is seen. Awareness has become undivided — \"a single mass of cognition,\" made of bliss, experiencing bliss. Not absent: undifferentiated.",
+       "<strong>M</strong>"
+      ],
+      [
+       "Fourth",
+       "<strong>Turīya</strong><br/><em>caturtha</em>, \"the fourth\"",
+       "Not a state — <em>turīya</em>",
+       "Described only by negation, and then only as that which is present as itself throughout the other three. It is not a further experience to be had after the third.",
+       "The syllable without a measure — <em>amātra</em>"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "html": "Read the first three rows as a sequence and the design becomes clear: with each step, the world gets less public and awareness gets less divided. In waking, there is a world everyone shares and a knower sharply separated from it. In dream, the world is private and made of the same substance as the mind that knows it. In deep sleep, there is no world at all — and here is the crux on which the entire scheme turns."
+    },
+    {
+     "type": "h3",
+     "html": "The Argument From Deep Sleep"
+    },
+    {
+     "type": "p",
+     "html": "Why should dreamless sleep be interesting? Nothing happens in it. That is precisely the point, and the argument runs like this."
+    },
+    {
+     "type": "p",
+     "html": "When you wake from dreamless sleep, you report something. You say: <em>I slept well; I knew nothing.</em> That is a peculiar report. It is not a report of having been absent — an absent person has nothing to say about the interval. It is a positive report about an absence of contents. And you did not infer it from the clock or from someone else's testimony; you seem to be reporting it from the inside. So the Advaitin asks: what registered that? If awareness had genuinely lapsed, there would be a gap in the record, not a memory of unbroken and untroubled nothing."
+    },
+    {
+     "type": "p",
+     "html": "This argument is taken seriously, and it has been attacked for as long as it has been made. The Naiyāyikas replied that the report is a reconstruction after the fact, an inference from the freshness of the body and the absence of remembered content, and that no special witness need be posited to explain it. The Buddhists had their own reasons for denying a persisting knower. Modern philosophers of mind would raise the same objection the Naiyāyikas did, in different vocabulary. It is a good argument with a good rebuttal, which is what a live philosophical question looks like."
+    },
+    {
+     "type": "p",
+     "html": "The Māṇḍūkya's own position is subtler than \"deep sleep is the goal,\" and this is easy to miss. Prājña is <em>not</em> the fourth. The text calls it the lord of all, the knower of all, the inner controller, the source and end of beings — and then moves past it. Deep sleep is undivided, but it is undivided in the way a seed is undivided: everything is still in there, unsprouted. Later Advaita gives this a name, the causal body, the state of the seed of ignorance. Undifferentiated is not the same as free."
+    },
+    {
+     "type": "box",
+     "variant": "scripture",
+     "tag": "Scriptural Lens · The Older Version — Indra's 101 Years",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The four-fold scheme did not appear from nowhere. Its earlier and far more entertaining form is in the eighth chapter of the Chāndogya, where Prajāpati announces that the self which is free from evil, ageless, deathless and sorrowless should be sought out — and the gods send Indra and the demons send Virocana to study with him."
+      },
+      {
+       "type": "p",
+       "html": "After thirty-two years Prajāpati tells them: the person you see reflected in water, or in a mirror — that is the self. Virocana is delighted, goes home, and teaches the demons that the body is the self and should be adorned. Indra, walking back, notices the flaw: a reflection is blind when the body is blind, lame when the body is lame, and perishes when the body perishes. He returns."
+      },
+      {
+       "type": "p",
+       "html": "Another thirty-two years. Prajāpati says: the one who moves about happy in dreams — that is the self. Indra leaves, and again spots the problem: the dreamer is chased, weeps, suffers. He returns. Another thirty-two years. Prajāpati says: the one in deep sleep, serene and dreamless — that is the self. And Indra, on the road again, sees the deepest objection of the three: <em>in that state he does not know himself, and does not know these beings. He has gone to annihilation. I see nothing worthwhile in this.</em>"
+      },
+      {
+       "type": "p",
+       "html": "Five more years — a hundred and one in total — and only then does Prajāpati give the final teaching, in which the self is not any of the three but the serene one that rises out of the body and appears in its own form. Whatever else this passage is, it is the tradition's own testimony that the deep-sleep answer is not the answer, and that the objection to it is the one an intelligent student raises unaided. <em>(Chāndogya 8.7–8.12.)</em>"
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Fourth"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Verse Seven",
+     "sk": "नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम् ।<br/>अदृष्टमव्यवहार्यमग्राह्यमलक्षणमचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं प्रपञ्चोपशमं शान्तं शिवमद्वैतं चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः ॥",
+     "tr": "nāntaḥprajñaṁ na bahiṣprajñaṁ nobhayataḥprajñaṁ na prajñānaghanaṁ na prajñaṁ nāprajñam | adṛṣṭam avyavahāryam agrāhyam alakṣaṇam acintyam avyapadeśyam ekātmapratyayasāraṁ prapañcopaśamaṁ śāntaṁ śivam advaitaṁ caturthaṁ manyante sa ātmā sa vijñeyaḥ ||",
+     "mn": "\"Not aware of what is inside, not aware of what is outside, not aware of both, not a mass of awareness, not aware, not unaware; unseen, beyond dealing with, ungraspable, without distinguishing mark, unthinkable, unnameable; whose essence is the certainty of the one self; in which the spread-out world comes to rest; at peace, benign, without a second — that they consider the fourth. That is the self. That is what is to be known.\"",
+     "src": "— Māṇḍūkya Upaniṣad 7"
+    },
+    {
+     "type": "p",
+     "html": "Count the negations: six in the first line alone, six more in the second, and the six in the first line are constructed with unusual care. They do not merely deny the three states — inside, outside, both — they also deny the two obvious ways of escaping the trilemma. <em>Not a mass of awareness</em> rules out saying it is simply the third state renamed. <em>Not aware, not unaware</em> rules out both remaining options at once. The verse systematically closes every exit before it says anything positive."
+    },
+    {
+     "type": "p",
+     "html": "And what it says positively, when it finally does, is only this: it is the essence of the certainty of the one self; the world comes to rest in it; it is peaceful, benign, non-dual. That is Chapter Six's policy executed perfectly — deny every description, keep the pointing."
+    },
+    {
+     "type": "p",
+     "html": "The decisive claim, which the text makes by placement rather than by argument, is that the fourth is <strong>not a fourth state</strong>. Waking, dream and sleep succeed one another; you are in one at a time. Turīya is not next in that queue. It is what is unchangingly the case in all three — the awareness in which waking appears, in which dreaming appears, and in which even the undivided blank of deep sleep appears. This is why the word is simply the ordinal, <em>caturtha</em>, \"the fourth,\" with no descriptive name at all, while the other three get names. There was nothing to name it after."
+    },
+    {
+     "type": "h3",
+     "html": "And Then the Silence"
+    },
+    {
+     "type": "p",
+     "html": "The last five verses map the four onto the syllable, and the mapping is done by wordplay of a kind that is untranslatable and, in the original, quite beautiful — <em>a</em> is linked to <em>āpti</em>, obtaining, and to being first; <em>u</em> to <em>utkarṣa</em>, elevation, and to being in between; <em>m</em> to <em>miti</em>, measure, and to <em>apīti</em>, merging, because <em>m</em> is the sound in which the other two are absorbed when the mouth closes. One who knows this, each verse adds, obtains the corresponding thing."
+    },
+    {
+     "type": "p",
+     "html": "And then the fourth quarter, which has no letter: <em>amātra</em>, without a measure, without a mora — beyond all dealings, the cessation of the spread-out world, benign, non-dual. The syllable has run out. The one who knows this, the last verse says, enters the self with the self."
+    },
+    {
+     "type": "note",
+     "html": "The tradition reads <em>amātra</em> as the silence that follows the chant — the interval after the <em>m</em> dies away, when the sound has ended and the attention has not. That is a natural and a very fruitful reading, and Gauḍapāda develops it. But it is a reading. The Sanskrit says \"without measure,\" not \"the silence.\" I mention this only to keep the accounting straight: the image belongs to the commentators, and it is a good one."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · Late Text, Early Influence",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "The Māṇḍūkya is probably among the latest of the thirteen principal Upaniṣads — its prose is late, it is unattached to a surviving Brāhmaṇa in the way the older texts are, and it is systematising material that appears in earlier and looser form in the Bṛhadāraṇyaka and Chāndogya. On most scholarly reckonings it belongs to the early centuries of the common era rather than to the pre-Buddhist period."
+      },
+      {
+       "type": "p",
+       "html": "Its influence, however, is out of all proportion to its length, and for a specific historical reason. <strong>Gauḍapāda</strong> — traditionally placed a couple of generations before Śaṅkara, so somewhere around the sixth century — wrote a set of two hundred and fifteen verses on it, the <em>Māṇḍūkya Kārikā</em>, which is the earliest systematic exposition of Advaita that survives. It is a startling document: it argues that waking experience is unreal on the same grounds as dream, that nothing is ever really born (<em>ajātivāda</em>, the doctrine of non-origination), and it does so in terminology so close to Buddhist Madhyamaka that the relationship between the two has been debated by scholars for well over a century without resolution."
+      },
+      {
+       "type": "p",
+       "html": "So the shortest Upaniṣad is also the one on which classical Advaita was first built — and the four-state scheme reached later Vedānta already fitted with a commentary that pushed it much further than the twelve verses themselves do. When you hear \"the Upaniṣads teach that the waking world is as unreal as a dream,\" that specific claim is Gauḍapāda's. It is a magnificent argument. It is not in the Māṇḍūkya."
+      }
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Tonight, as you fall asleep, try to catch the transition — not to stay awake, but to notice the moment the public world is exchanged for a private one. Almost nobody can. Then, in the morning, notice what you actually say about the hours in between, and how confident you are about them. The Māṇḍūkya's whole argument lives in the gap between how little you can observe of those hours and how certain you nonetheless are that they were yours."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "principal",
+   "part": "Part Three · The Thirteen",
+   "label": "Chapter 08 · The Canon",
+   "title": "The Thirteen",
+   "subtitle": "Which texts, which Veda, which century — and the actual methods by which anyone claims to know",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "There is no ancient list of thirteen Upaniṣads. The number is a modern convention, and knowing where it comes from is the quickest way to understand what kind of canon this is."
+    },
+    {
+     "type": "h3",
+     "html": "Where the Number Comes From"
+    },
+    {
+     "type": "p",
+     "html": "The traditional core is <strong>ten</strong> — the ten on which commentaries attributed to Śaṅkara survive, and which the tradition therefore treats as authoritative in a way the others are not. There is a mnemonic verse for them, which students have used for centuries."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Traditional Mnemonic",
+     "sk": "ईशकेनकठप्रश्नमुण्डमाण्डूक्यतित्तिरिः ।<br/>ऐतरेयं च छान्दोग्यं बृहदारण्यकं तथा ॥",
+     "tr": "īśa-kena-kaṭha-praśna-muṇḍa-māṇḍūkya-tittiriḥ | aitareyaṁ ca chāndogyaṁ bṛhadāraṇyakaṁ tathā ||",
+     "mn": "\"Īśā, Kena, Kaṭha, Praśna, Muṇḍaka, Māṇḍūkya, Taittirīya; and Aitareya, and Chāndogya, and Bṛhadāraṇyaka.\"",
+     "src": "— a traditional mnemonic listing the ten most authoritative Upaniṣads"
+    },
+    {
+     "type": "p",
+     "html": "To these ten, three more are conventionally added because they are old enough, substantial enough and influential enough to belong: the <strong>Śvetāśvatara</strong>, the <strong>Kauṣītaki</strong> and the <strong>Maitrī</strong>. Ten plus three is thirteen, and the number was fixed in English by Robert Ernest Hume's translation <em>The Thirteen Principal Upanishads</em>, published by Oxford in 1921 and still in print. That is the whole provenance. It is a sensible grouping; it is not a revelation."
+    },
+    {
+     "type": "note",
+     "html": "The attribution of all ten commentaries to Śaṅkara himself is not entirely secure — scholars have raised doubts about one or two of them, and the commentary on the Māṇḍūkya and Gauḍapāda's verses is among those discussed. This does not affect the grouping, which was established by usage. It is mentioned because the alternative is to state as fact something that specialists treat as an open question."
+    },
+    {
+     "type": "p",
+     "html": "Beyond the thirteen, the numbers expand quickly. The <strong>Muktikā</strong>, itself a late text, lists a canon of <strong>108</strong>, and this is the figure you will most often see quoted. Beyond that again, well over two hundred works have at some point been called Upaniṣads. Many are late and openly sectarian — collections of Yoga Upaniṣads, Sannyāsa Upaniṣads, texts devoted to Śiva, to Viṣṇu, to the Goddess, some composed as recently as the second millennium CE. There is even an <em>Allopaniṣad</em>, a short Mughal-era curiosity, which is a reminder that the label was still being applied long after anything resembling the Vedic period had ended."
+    },
+    {
+     "type": "p",
+     "html": "So \"Upaniṣad\" behaves less like a closed canon and more like a genre marker, roughly equivalent to \"esoteric teaching text.\" The thirteen are the ones that are old, that are attached to living Vedic schools, and that the philosophical tradition actually argues about."
+    },
+    {
+     "type": "h3",
+     "html": "The Thirteen, in Rough Chronological Order"
+    },
+    {
+     "type": "table",
+     "head": [
+      "Upaniṣad",
+      "Veda",
+      "Form",
+      "Rough period",
+      "Central idea"
+     ],
+     "rows": [
+      [
+       "<strong>Bṛhadāraṇyaka</strong>",
+       "Śukla Yajurveda",
+       "Prose",
+       "c. 7th–6th c. BCE",
+       "The largest and, on most reckonings, the oldest. Yājñavalkya; the contest at Janaka's court; Gārgī and Maitreyī; <em>neti neti</em>; the earliest clear statements of karma and rebirth; <em>ahaṁ brahmāsmi</em>."
+      ],
+      [
+       "<strong>Chāndogya</strong>",
+       "Sāmaveda",
+       "Prose",
+       "c. 7th–6th c. BCE",
+       "Almost as old and almost as large. Begins as a manual on the chanted syllable and ends in metaphysics. <em>Tat tvam asi</em>; being one without a second; the five fires and the two paths; Prajāpati, Indra and the four selves."
+      ],
+      [
+       "<strong>Taittirīya</strong>",
+       "Kṛṣṇa Yajurveda",
+       "Prose",
+       "c. 6th–5th c. BCE",
+       "The five sheaths; brahman as \"the real, knowledge, the infinite\"; Bhṛgu's five returns; bliss measured by orders of magnitude; and a famous graduation address to departing students."
+      ],
+      [
+       "<strong>Aitareya</strong>",
+       "Ṛgveda",
+       "Prose",
+       "c. 6th–5th c. BCE",
+       "A compact creation account in which the self creates the worlds and then enters what it has made through the crown of the head. Source of <em>prajñānaṁ brahma</em>."
+      ],
+      [
+       "<strong>Kauṣītaki</strong>",
+       "Ṛgveda",
+       "Prose",
+       "c. 6th–5th c. BCE",
+       "Breath as brahman; a detailed account of the soul's journey after death and its interrogation at the moon; the king Ajātaśatru teaching the over-confident brahmin Bālāki."
+      ],
+      [
+       "<strong>Kena</strong>",
+       "Sāmaveda",
+       "Verse, then prose",
+       "c. 5th c. BCE",
+       "\"By whom impelled does the mind fly out?\" The knower cannot be known. And a superb myth in which the gods, boasting of a victory, are humiliated by a mysterious presence they cannot identify."
+      ],
+      [
+       "<strong>Kaṭha</strong>",
+       "Kṛṣṇa Yajurveda",
+       "Verse",
+       "c. 5th–4th c. BCE",
+       "Naciketas and Death; the good versus the pleasant; the chariot of the self; \"arise, awake\"; the first clear appearance of yoga as a named discipline of restraint."
+      ],
+      [
+       "<strong>Īśā</strong>",
+       "Śukla Yajurveda",
+       "Verse",
+       "c. 5th–4th c. BCE",
+       "Eighteen verses, the shortest but one. Everything is to be pervaded by the Lord; enjoy by letting go; and a sustained refusal to choose between action and renunciation, or between knowledge and ignorance."
+      ],
+      [
+       "<strong>Śvetāśvatara</strong>",
+       "Kṛṣṇa Yajurveda",
+       "Verse",
+       "c. 4th–2nd c. BCE",
+       "The theistic turn. The one reality is addressed as a personal God, identified with Rudra-Śiva; the earliest Upaniṣadic use of <em>māyā</em> in something like its later sense; yoga described as practice; the word <em>bhakti</em> appears in its final verse."
+      ],
+      [
+       "<strong>Muṇḍaka</strong>",
+       "Atharvaveda",
+       "Verse",
+       "c. 3rd–1st c. BCE",
+       "Higher and lower knowledge sharply divided; ritual called \"unsteady boats\"; the two birds on one tree; and <em>satyam eva jayate</em>, \"truth alone triumphs,\" now the motto of the Republic of India."
+      ],
+      [
+       "<strong>Praśna</strong>",
+       "Atharvaveda",
+       "Prose",
+       "c. 1st c. BCE – 1st c. CE",
+       "Six students bring six questions to one teacher, and get six answers — on the origin of creatures, on the powers within the body, on breath, on sleep, on the syllable Om, and on the person of sixteen parts."
+      ],
+      [
+       "<strong>Māṇḍūkya</strong>",
+       "Atharvaveda",
+       "Prose",
+       "c. 1st–3rd c. CE",
+       "Twelve verses. The four states of consciousness mapped onto A-U-M and the silence. The seed of classical Advaita."
+      ],
+      [
+       "<strong>Maitrī</strong> (Maitrāyaṇīya)",
+       "Kṛṣṇa Yajurveda",
+       "Prose",
+       "c. 1st–3rd c. CE, latest of the thirteen",
+       "A king's revulsion at the body and at the transience of everything; a six-limbed yoga with named stages; and heavy use of Sāṁkhya vocabulary — the three <em>guṇas</em>, <em>prakṛti</em>, <em>puruṣa</em> — which is itself the clearest evidence of its late date."
+      ]
+     ]
+    },
+    {
+     "type": "note",
+     "html": "Every date in that column is approximate, contested at the margins, and offered with a wide margin of error. The relative order is far better established than the absolute dates — which is exactly the situation in most of early Indian textual history, and the honest way to present it is to say so rather than to give a false precision."
+    },
+    {
+     "type": "h3",
+     "html": "Prose Then Verse: The Great Divide"
+    },
+    {
+     "type": "p",
+     "html": "Look down the \"form\" column and a pattern appears that is more informative than any single date. The oldest texts are <strong>prose</strong>. The middle group is <strong>verse</strong>. The latest are <strong>prose again</strong> — but a very different prose."
+    },
+    {
+     "type": "p",
+     "html": "The early prose is Vedic prose: dense, elliptical, full of ritual technicality and wordplay, still carrying grammatical forms that Classical Sanskrit had lost. It reads like a transcript of a specialist discussion among people who already know the material. It contains stories, arguments, personalities, jokes and insults."
+    },
+    {
+     "type": "p",
+     "html": "The verse group — Kaṭha, Īśā, Śvetāśvatara, Muṇḍaka — is composed in the metres of the epics, principally the thirty-two-syllable <em>anuṣṭubh</em> that the Rāmāyaṇa and Mahābhārata run on. It reads like something meant to be memorised and quoted. And it is: this is the group that supplies almost all of the famous lines. It is also the group that overlaps most visibly with the Bhagavad Gītā, which belongs to the same literary world."
+    },
+    {
+     "type": "h3",
+     "html": "How Anyone Actually Knows"
+    },
+    {
+     "type": "p",
+     "html": "This is the part that usually gets skipped, and it is the part that determines whether the dates above are knowledge or assertion. There are six independent lines of evidence, and their strength varies."
+    },
+    {
+     "type": "list",
+     "ordered": true,
+     "items": [
+      "<strong>Physical embedding.</strong> The strongest and simplest. The Bṛhadāraṇyaka is the last section of the Śatapatha Brāhmaṇa; the Chāndogya is most of a Brāhmaṇa of the Sāmavedic singers; the Taittirīya, Aitareya and Kauṣītaki all sit inside Āraṇyakas. The later texts are free-standing works with no such home. A text that is structurally part of a Brāhmaṇa is contemporaneous with or older than the completion of that Brāhmaṇa, and that is close to a hard constraint.",
+      "<strong>Language.</strong> Ordinary historical linguistics. The old prose still uses the subjunctive and the injunctive, moods that Classical Sanskrit lost; it uses archaic particles and constructions; some recensions preserve the Vedic pitch accent. The later texts do not. Grammatical categories are lost, not regained, so the direction of the change is not in doubt.",
+      "<strong>Doctrinal novelty.</strong> Where an idea is presented as <em>new</em>, we learn something. In the Bṛhadāraṇyaka, karma is disclosed as a secret between two men who step away from the crowd, and the doctrine of the two paths after death is taught by a king to brahmins who admit they had not heard it. By the time of the verse Upaniṣads, rebirth is simply assumed. Presenting something as startling is a mark of earliness.",
+      "<strong>Imported technical vocabulary.</strong> The three <em>guṇas</em>, <em>prakṛti</em> and <em>puruṣa</em> as a paired system, the enumerated principles of Sāṁkhya, the stages of yoga — none of this is in the Bṛhadāraṇyaka or Chāndogya. It appears in the Kaṭha, more in the Śvetāśvatara, and abundantly in the Maitrī. Since these systems developed later, texts that use their terminology are later.",
+      "<strong>Quotation.</strong> Later texts quote earlier ones. The Śvetāśvatara in particular is heavily composite, incorporating verses found in the Ṛgveda and material shared with the Kaṭha. The direction of borrowing is usually determinable from context and metre.",
+      "<strong>Relation to Buddhism.</strong> The weakest but most discussed. The oldest Upaniṣads show no awareness of Buddhism; early Buddhist texts appear to presuppose an intellectual environment in which Upaniṣadic-style claims about a permanent self are already in circulation, since <em>anattā</em> is framed as a denial. This is the main argument for placing the Bṛhadāraṇyaka and Chāndogya before the Buddha — and it is an argument from silence and from context, not a citation."
+     ]
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · What We Do Not Have",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "It is worth being blunt about the shape of the evidence, because the confident-looking dates in the table rest on a foundation with a specific and unusual weakness."
+      },
+      {
+       "type": "p",
+       "html": "There is <strong>no external anchor</strong>. No inscription mentions an Upaniṣad. No foreign visitor describes one. No archaeological layer contains one. There is no dated manuscript remotely near the period of composition — Indian manuscripts are written on palm leaf and birch bark, which do not survive the climate, and the oldest surviving copies of these texts are more than a thousand years younger than their composition. Everything we have is a relative chronology, pinned at one end to the Buddha, whose own dates are debated by roughly eighty years."
+      },
+      {
+       "type": "p",
+       "html": "What compensates for this is the transmission. These texts were preserved by the same recitation system that carried the Vedic hymns — memorised with metrical and phonetic redundancy, checked against parallel recensions, and passed through lineages that in some cases still exist. Different schools preserve different recensions of the Bṛhadāraṇyaka, and they can be compared against each other. That is a genuinely good textual situation. It is simply a different kind of good than having a dated document."
+      },
+      {
+       "type": "p",
+       "html": "So: high confidence in relative order, moderate confidence in the centuries, no confidence in any specific year. Anyone offering you a date for the composition of the Bṛhadāraṇyaka is going beyond the evidence."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "One Sentence Each"
+    },
+    {
+     "type": "p",
+     "html": "If you are going to read three, read the Bṛhadāraṇyaka for the arguments and the personalities, the Chāndogya for the demonstrations, and the Kaṭha for the poetry. If you are going to read one, read the Kaṭha — it is short, it is complete, and it is beautiful. And if you want the single verse that tells you what the whole verse group is like, it is this one, which is also in the Ṛgveda, and which the Muṇḍaka took over and made famous."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · Two Birds",
+     "sk": "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते ।<br/>तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति ॥",
+     "tr": "dvā suparṇā sayujā sakhāyā samānaṁ vṛkṣaṁ pariṣasvajāte | tayor anyaḥ pippalaṁ svādv atty anaśnann anyo abhicākaśīti ||",
+     "mn": "\"Two birds, companions, always together, cling to the same tree. One of them eats the sweet fruit; the other, not eating, looks on.\"",
+     "src": "— Muṇḍaka Upaniṣad 3.1.1 (the verse also stands at Ṛgveda 1.164.20)"
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "vedanta",
+   "part": "Part Four · What Was Built On Them",
+   "label": "Chapter 09 · Afterlives",
+   "title": "Three Readings of One Sentence",
+   "subtitle": "Śaṅkara, Rāmānuja and Madhva take the same three words to three incompatible conclusions — and all three arguments are good",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Here is a fact about Indian philosophy that ought to be better known outside it. For something over a thousand years, the central activity of the most sophisticated philosophical culture in the world was the interpretation of a small number of ancient sentences — and the interpreters reached conclusions so far apart that they amount to different religions."
+    },
+    {
+     "type": "h3",
+     "html": "The Entrance Examination"
+    },
+    {
+     "type": "p",
+     "html": "To found a school of Vedānta you had to do a specific thing: write commentaries on the <strong>prasthāna-traya</strong>, the \"three points of departure.\" These are the Upaniṣads, which are revealed and therefore authoritative; the <strong>Brahma Sūtras</strong> of Bādarāyaṇa, which are the reasoned systematisation; and the <strong>Bhagavad Gītā</strong>, which is remembered rather than revealed but is universally accepted. Comment on all three coherently and you have a school. Fail on any of them and you have an opinion."
+    },
+    {
+     "type": "p",
+     "html": "The Brahma Sūtras are the strange member of that trio and the reason the whole disagreement was possible. They are 555 aphorisms of extraordinary compression, composed at some point in the first centuries around the turn of the era, and they are compressed to the point of unintelligibility. The first two read in full:"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The First Two Aphorisms",
+     "sk": "अथातो ब्रह्मजिज्ञासा ॥<br/>जन्माद्यस्य यतः ॥",
+     "tr": "athāto brahmajijñāsā || janmādy asya yataḥ ||",
+     "mn": "\"Now, therefore, the enquiry into brahman.\" / \"[That] from which the origin and so forth of this [world proceeds].\"",
+     "src": "— Brahma Sūtra 1.1.1–2"
+    },
+    {
+     "type": "p",
+     "html": "Four words, then three. That is the entire second aphorism: a relative clause with no main clause, a subject that has to be supplied, and an \"and so forth\" doing enormous work. A text this terse is not a book you read; it is a set of pegs on which a commentator hangs a system. Śaṅkara's commentary on those 555 aphorisms runs to a substantial volume. So does Rāmānuja's. So does Madhva's. They agree on almost nothing."
+    },
+    {
+     "type": "note",
+     "html": "This was not accidental. The sūtra genre was designed for memorisation, on the assumption that a teacher would supply the explanation orally. The commentary was always the point. What nobody could have anticipated was that the oral tradition would fracture, and that the same skeleton would end up wearing three entirely different bodies."
+    },
+    {
+     "type": "h3",
+     "html": "Three People"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Śaṅkara</strong>, of Kerala. Traditional dates 788–820 CE; most scholars place him somewhat earlier, around 700–750. He died at thirty-two or so, having written the commentaries that define <strong>Advaita</strong>, non-dualism, and founded a network of monasteries that still exists. The most influential philosopher India has produced, and the one most often mistaken for the whole tradition.",
+      "<strong>Rāmānuja</strong>, of Śrīperumbudūr in Tamil country. Traditional dates 1017–1137 CE — a hundred and twenty years, which no one takes literally. Heir to a devotional movement centred on Viṣṇu and to the Tamil hymns of the Āḻvārs, he built <strong>Viśiṣṭādvaita</strong>, \"qualified non-dualism,\" and he built it explicitly as a refutation of Śaṅkara.",
+      "<strong>Madhva</strong>, of coastal Karnataka, c. 1238–1317 CE. A physically imposing man about whom extraordinary stories are told, and the most radical of the three in the simple sense that he denies what the other two share. His system is <strong>Dvaita</strong>, dualism, and it holds that the difference between God and the soul is real, eternal and unbridgeable."
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Sentence"
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Disputed Text",
+     "sk": "स आत्मा तत्त्वमसि श्वेतकेतो ।",
+     "tr": "sa ātmā tat tvam asi śvetaketo |",
+     "mn": "\"That is the self. That you are, Śvetaketu.\"",
+     "src": "— Chāndogya Upaniṣad 6.8.7"
+    },
+    {
+     "type": "table",
+     "head": [
+      "",
+      "Śaṅkara · Advaita",
+      "Rāmānuja · Viśiṣṭādvaita",
+      "Madhva · Dvaita"
+     ],
+     "rows": [
+      [
+       "<strong>What <em>tat</em> refers to</strong>",
+       "Brahman — but brahman as it is in itself: pure, attributeless consciousness, <em>nirguṇa</em>. The world-creating, omniscient aspect belongs to a lower standpoint.",
+       "Brahman as the supreme person, possessed of infinite auspicious qualities. There is no attributeless brahman; an attributeless anything is nothing.",
+       "Viṣṇu — the independent reality, on whom everything else depends and who depends on nothing. Wholly distinct from every soul."
+      ],
+      [
+       "<strong>What <em>tvam</em> refers to</strong>",
+       "Not Śvetaketu the person, but the innermost witnessing consciousness in him once body, mind and individuality are set aside as adjuncts.",
+       "The individual soul, which is real, eternal, atomic, and is a <em>mode</em> of brahman — related to brahman as a body is related to the self that ensouls it.",
+       "The individual soul, eternally and intrinsically distinct, a dependent reflection of Viṣṇu, never at any time identical with him."
+      ],
+      [
+       "<strong>The relation asserted</strong>",
+       "<strong>Identity.</strong> Two words with different connotations pointing at one thing. Strip each of what contradicts the other and what remains in both is one consciousness.",
+       "<strong>Co-reference, not identity of essence.</strong> Both words denote one reality — brahman together with souls and matter as its body — but the soul remains really distinct within that whole.",
+       "<strong>Difference.</strong> The sandhi is divided differently: <em>sa ātmā <strong>atat</strong> tvam asi</em> — \"that is the self; <strong>you are not that.</strong>\""
+      ],
+      [
+       "<strong>The interpretive tool</strong>",
+       "<em>Bhāga-tyāga-lakṣaṇa</em> — partial discard. As in \"this is that Devadatta,\" where past place and present place contradict each other and are dropped, leaving one man.",
+       "<em>Śarīra-śarīri-bhāva</em> — the body-and-embodied relation, drawn from the \"inner controller\" passage at Bṛhadāraṇyaka 3.7, where brahman dwells within all things as their self while they do not know it.",
+       "The rules of sandhi, plus a general principle that the great sayings teach the soul's likeness to and dependence on God, never its identity with him."
+      ],
+      [
+       "<strong>The world</strong>",
+       "<em>Mithyā</em> — empirically real, ultimately sublated, like a rope taken for a snake. Not non-existent; not finally real either.",
+       "Fully real. It is brahman's body, and a real transformation of brahman. Nothing is cancelled by knowledge.",
+       "Fully real, eternally distinct from God and from souls. Difference is not appearance; difference is the fabric of things."
+      ],
+      [
+       "<strong>Therefore liberation is</strong>",
+       "Knowledge alone — and available in this life. One who knows is already free; the body simply continues. There is nowhere to go, because there was never anywhere else.",
+       "The soul, freed of karma by devotion and self-surrender, attaining its own true nature and unmediated intimacy with God. The soul persists, and so does the joy of being other than him.",
+       "Release into eternal, graded bliss in God's presence — graded because souls are intrinsically unequal, and remain themselves forever."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "How Each Deals With the Inconvenient Verses"
+    },
+    {
+     "type": "p",
+     "html": "The test of any of these systems is not how it reads its favourite passage but how it survives its opponent's. All three had to account for the entire corpus, and watching them do it is the most instructive part of the whole argument."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Śaṅkara and the theistic texts.</strong> The Śvetāśvatara addresses a personal God with attributes and asks for his grace. The Gītā's Kṛṣṇa says devotees are dear to him. Śaṅkara's device is the two standpoints: from within the world of transactions, brahman is rightly worshipped as the Lord, and such worship purifies the mind and is a real good; from the standpoint of the highest truth, that Lord is brahman appearing under the conditions of ignorance. The theistic verses are not false. They are true at a level that knowledge eventually leaves behind. Rāmānuja's response is that this is not interpretation but demotion, and that a scripture which teaches something and then has that teaching cancelled by the same scripture has been made to contradict itself."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Rāmānuja and <em>neti neti</em>.</strong> The Bṛhadāraṇyaka denies every attribute of the imperishable, twenty times over, and Śaṅkara takes this as the plain teaching of attributelessness. Rāmānuja replies that a negation must have a target, and that the target here is limitation, not quality — the passage denies that brahman is coarse or fine or short or long, which are the properties of finite bodies, and it concludes not with silence but with a cosmology in which sun and moon stand apart under brahman's command. A thing under whose command the sun stands is not a thing without properties. This is a strong argument and it is not usually given its due."
+    },
+    {
+     "type": "p",
+     "html": "<strong>Madhva and \"one only, without a second.\"</strong> The hardest verse for a dualist is the one that opens Chāndogya 6: <em>ekam evādvitīyam</em>. Madhva's reading is that <em>advitīya</em> means \"without a second\" in the sense of <em>without a rival, without an equal, without another of its own kind</em> — as one might say a king is without a second in his kingdom while the kingdom is full of other people. Grammatically this is available. Whether it is the natural sense of the passage, in a chapter that goes on to derive everything from that one being, is precisely the question — and it is the question his opponents pressed hardest."
+    },
+    {
+     "type": "box",
+     "variant": "symbolic",
+     "tag": "Symbolic Lens · The Rules They Were Playing By",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "None of this was freestyle. Vedāntic exegesis inherited a formal hermeneutics from Mīmāṁsā, the school that had spent centuries working out how to determine the purport of a ritual injunction, and the commentators cite its rules against each other constantly."
+      },
+      {
+       "type": "p",
+       "html": "The best known is the set of six marks by which the main subject of a passage is identified: what it begins and ends with; what it repeats; what it says that nothing else could have told you; what result it promises; what it praises; and what reasoning it offers. Apply these to Chāndogya 6 and you get an argument — the chapter begins and ends with being, repeats the refrain nine times, promises knowledge of the unknown, and reasons throughout — which is why Śaṅkara regarded his reading as demonstrable rather than merely preferred. Rāmānuja applies the same six marks and reaches a different result, because what a passage \"begins and ends with\" is itself a judgement."
+      },
+      {
+       "type": "p",
+       "html": "The point is not that the rules failed. It is that no set of interpretive rules can be so tight that a sufficiently ingenious reader cannot satisfy them in more than one way — which is a discovery about interpretation in general, made in Sanskrit, several centuries early."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "Why I Am Not Going to Pick One"
+    },
+    {
+     "type": "p",
+     "html": "Each of the three systems is internally coherent. Each accounts for the whole corpus. Each has produced centuries of first-rate technical philosophy, generations of scholars who spent their lives on the objections, and living communities that organise their lives around the conclusions. There is no neutral standpoint from which one of them is visibly correct — and the tradition itself never found one, which is why all three are still here."
+    },
+    {
+     "type": "p",
+     "html": "What can be said, and is worth saying plainly, is what the disagreement itself tells us about the texts."
+    },
+    {
+     "type": "box",
+     "variant": "historical",
+     "tag": "Historical Lens · What the Disagreement Proves",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Three of the most careful readers in the history of philosophy, working in the language the texts were composed in, with access to the full commentarial tradition, taking the material with total seriousness, and each willing to spend a lifetime on it — reached opposite conclusions from the same sentences. That is not a fact about their competence. It is a fact about the sentences."
+      },
+      {
+       "type": "p",
+       "html": "<strong>The Upaniṣads are not systematic treatises.</strong> A systematic treatise defines its terms, states its theses, marks its arguments, and does not contradict itself between chapters. These texts do none of that. They are collections of dialogues, images, meditations, ritual instructions and disputes, assembled by schools over centuries, preserving positions that were never reconciled because reconciling them was not what anyone was doing. When Uddālaka says being is one without a second and Yājñavalkya says the self is only \"not so, not so\" and the Śvetāśvatara says the Lord should be sought with devotion, we are not hearing one doctrine imperfectly expressed. We are hearing several people."
+      },
+      {
+       "type": "p",
+       "html": "Śaṅkara, Rāmānuja and Madhva all had to assume the opposite — that śruti is a single self-consistent revelation — because their theology required it. That assumption is what forced them into such ingenious readings, and it is also what makes their commentaries such astonishing intellectual performances. But it is their premise. It is not a property of the page."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "And there is one further possibility that all three would have rejected and that a modern reader has to hold open: that none of them was reading Uddālaka the way Uddālaka meant. If the philologists are right that <em>tat tvam asi</em> means something closer to \"that is how you are\" — a comparison rather than an identification — then the thousand-year argument was conducted over a translation. That would not make the argument worthless. Some of the best philosophy ever done has been done in commentaries on misunderstood texts. But it would relocate it: from an exegesis of what a father told his son, to a body of original philosophy that used a father and a son as its occasion."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Take the table above and cover the first column. Read the three positions on liberation as three answers to a single question: <em>if you got what you most want, would you still be there to have it?</em> Śaṅkara says the question dissolves. Rāmānuja says yes, and that this is the whole point. Madhva says yes, permanently, and that anything else would be annihilation dressed up as bliss. Notice which answer you flinch from. That flinch is doing more work in your reading of these texts than any argument."
+      }
+     ]
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "science",
+   "part": "Part Five · The Honest Ending",
+   "label": "Chapter 10 · Evidence",
+   "title": "What Science Actually Says",
+   "subtitle": "The claims made about the Upaniṣads, tested honestly — corroborated, open, and contradicted",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "Every course in this library ends here, and if you read one chapter of this one, let it be this. For nine chapters we have been <em>inside</em> the material — what these dialogues say, who said it, how the sentences were fought over. Now we step outside and ask a different question in a different voice: <strong>what can actually be shown?</strong> Not what is beautiful. Not what is meaningful. What survives contact with evidence."
+    },
+    {
+     "type": "p",
+     "html": "The Upaniṣads attract a very particular kind of false claim, different from the ones that attach to the Vedas. Nobody says the Upaniṣads contain aircraft. What they are said to contain is <strong>modern physics</strong> — the observer effect, wave-particle duality, the participatory universe — and the claim is usually made with a photograph of a Nobel laureate attached. It is a more sophisticated error than the aircraft, and it is more damaging, because it is made by people who admire the texts and it is believed by people who would otherwise never have heard of them."
+    },
+    {
+     "type": "h3",
+     "html": "The Rules I Am Working Under"
+    },
+    {
+     "type": "list",
+     "ordered": false,
+     "items": [
+      "<strong>Name the finding.</strong> \"Scientists have shown\" is a rumour about evidence, not evidence. Where a specific study, book or document exists, you get the author, the title and roughly when. Where I can only describe the state of a field, I say so, and I invent nothing.",
+      "<strong>\"Unfalsifiable\" is not an insult and it is not a synonym for false.</strong> It means a claim lies outside the reach of a particular instrument. That is a statement about the instrument's jurisdiction, not a verdict on the claim.",
+      "<strong>Admiration by a scientist is not a scientific result.</strong> A physicist's metaphysics is that physicist's metaphysics. If Schrödinger's enthusiasm counts as evidence for Vedānta, then Newton's alchemical manuscripts count as evidence for alchemy — and they do not.",
+      "<strong>Nothing here needs to win.</strong> If a claim fails, it fails. The Bṛhadāraṇyaka is not diminished by quantum mechanics being about something else entirely, and anyone who feels that it is has misunderstood what they are defending."
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Chain That Is Actually Real"
+    },
+    {
+     "type": "p",
+     "html": "Before the verdicts, one story deserves to be told properly, because it is the best-documented and least-known thing in this chapter — and because it is a genuine case of these texts changing the course of thought outside India, with every link in the chain traceable."
+    },
+    {
+     "type": "timeline",
+     "items": [
+      {
+       "when": "1656–1657",
+       "what": "Dārā Shukoh translates fifty Upaniṣads into Persian",
+       "html": "The eldest son of the emperor Shāh Jahān, heir apparent to the Mughal throne, and a serious student of comparative religion, assembles a team of pandits at Benares and Delhi and produces a Persian version of some fifty Upaniṣads. He titles it <em>Sirr-i-Akbar</em>, \"The Greatest Secret,\" and argues in his preface that these texts are the \"hidden book\" the Qur'ān refers to — that the monotheism of Islam and the teaching of the Upaniṣads are the same teaching."
+      },
+      {
+       "when": "1659",
+       "what": "Dārā Shukoh is executed",
+       "html": "He loses the war of succession to his brother Aurangzeb, is captured, tried on a charge of apostasy, and killed. The empire takes a different direction. His translation survives."
+      },
+      {
+       "when": "1775",
+       "what": "A manuscript reaches France",
+       "html": "A copy of the <em>Sirr-i-Akbar</em> is sent from India to <strong>Abraham Hyacinthe Anquetil-Duperron</strong>, the French orientalist who had earlier gone to India, learned enough to obtain Avestan texts, and produced the first European translation of the Zend-Avesta. He works on the Persian for a quarter of a century."
+      },
+      {
+       "when": "1801–1802",
+       "what": "The <em>Oupnek'hat</em> is published",
+       "html": "Anquetil-Duperron issues his Latin translation in two volumes at Strasbourg. It is a translation of a translation, and the Latin is notorious: it follows Persian word order, coins terms, and leaves much untranslated, producing a text that even sympathetic readers have described as almost impenetrable. It is nonetheless the first substantial Upaniṣadic material available in Europe."
+      },
+      {
+       "when": "1814",
+       "what": "Schopenhauer is handed a copy",
+       "html": "In Weimar, the orientalist Friedrich Majer introduces the young Arthur Schopenhauer to the <em>Oupnek'hat</em>. Schopenhauer would keep the book by him for the rest of his life."
+      },
+      {
+       "when": "1818–1819",
+       "what": "<em>The World as Will and Representation</em>",
+       "html": "In its preface Schopenhauer names three influences on his thought: Kant, Plato, and the Upaniṣads. He calls European access to the Vedas, through the <em>Oupnek'hat</em>, the greatest advantage the young century enjoys over those before it."
+      },
+      {
+       "when": "1851",
+       "what": "\"The solace of my life\"",
+       "html": "In <em>Parerga and Paralipomena</em> he writes of the <em>Oupnek'hat</em> that it has been the solace of his life and will be the solace of his death. He was aware that he was reading a Latin version of a Persian version of a Sanskrit original, and said that even so, it came through."
+      },
+      {
+       "when": "1856 onward",
+       "what": "New England",
+       "html": "Emerson and Thoreau read Indian material in the translations then circulating. Emerson's poem <em>Brahma</em> appears in 1857 and opens with a near-transcription of a verse from the Kaṭha Upaniṣad."
+      },
+      {
+       "when": "1922",
+       "what": "<em>The Waste Land</em>",
+       "html": "T. S. Eliot ends his poem with \"Datta. Dayadhvam. Damyata. / Shantih shantih shantih\" — the three commands of Prajāpati in Bṛhadāraṇyaka 5.2, where gods, humans and demons each hear the syllable <em>da</em> and each understand it differently. Eliot names the source in his own notes."
+      },
+      {
+       "when": "1944",
+       "what": "<em>What Is Life?</em>",
+       "html": "Erwin Schrödinger closes his short book on the physical basis of life with an epilogue on determinism and free will that ends on the Upaniṣadic identity of ātman and brahman. What he was and was not claiming is the subject of the last verdict below."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "The Verdicts"
+    },
+    {
+     "type": "honesty",
+     "items": [
+      {
+       "verdict": "corroborated",
+       "claim": "The oldest Upaniṣads were composed roughly in the seventh to sixth centuries BCE, and are older than Buddhism.",
+       "html": "This is established on linguistic and internal grounds, and the reasoning is available for inspection rather than asserted. <strong>Physical embedding:</strong> the Bṛhadāraṇyaka is the concluding portion of the Śatapatha Brāhmaṇa; the Chāndogya is most of a Sāmavedic Brāhmaṇa; the Taittirīya, Aitareya and Kauṣītaki sit inside Āraṇyakas. A text structurally welded to a ritual manual cannot be later than that manual's completion. <strong>Language:</strong> the old prose retains the subjunctive and injunctive moods, archaic particles and, in some recensions, the Vedic pitch accent — categories that Classical Sanskrit lost and never recovered. <strong>Doctrinal novelty:</strong> karma is disclosed in the Bṛhadāraṇyaka as a secret two men step aside to discuss, and the doctrine of the two paths after death is taught by a king to brahmins who concede they had not heard it; by the verse Upaniṣads, both are simply assumed. <strong>Relation to Buddhism:</strong> the oldest texts show no awareness of Buddhism, while early Buddhist material appears to presuppose an environment in which claims about a permanent self are already current. Patrick Olivelle's <em>The Early Upaniṣads</em> (1998) sets out the standard chronology and its reasoning in detail. <strong>And the limit must be stated: there is no external anchor.</strong> No inscription, no dated manuscript from anywhere near the period, no foreign witness. Every date is a relative chronology pinned loosely to the Buddha, whose own dates are themselves debated across several decades. High confidence in the order; moderate confidence in the centuries; no confidence in any year."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "The Upaniṣads are physically and textually continuous with the Vedic ritual literature — they are not a separate spiritual tradition that was later attached.",
+       "html": "This is not an interpretation; it is a fact about where the words sit on the page, and anyone can check it. The Īśā Upaniṣad <em>is</em> chapter forty of the Vājasaneyi Saṁhitā, a book of sacrificial formulas. The Bṛhadāraṇyaka <em>is</em> the last part of a Brāhmaṇa. The Chāndogya opens with several chapters on how to meditate on the syllable that begins a chant, and the Bṛhadāraṇyaka opens by mapping the parts of a sacrificial horse onto the cosmos. The same texts that contain <em>tat tvam asi</em> and <em>neti neti</em> also contain rites for begetting a son of a chosen complexion and charms for use against a wife's lover. This matters because it disposes of a widely repeated story — that the Upaniṣads represent a philosophical revolt against a corrupt priesthood. They were composed, preserved and transmitted by ritualists, in ritual schools, bound to ritual books. Whatever happened here happened inside the institution."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "The Upaniṣads entered Western philosophy through a specific, documented chain running from a Mughal prince to Schopenhauer.",
+       "html": "Every link is traceable and the documents survive, which makes this one of the best-evidenced transmissions of an idea across civilisations that we have. Dārā Shukoh's Persian <em>Sirr-i-Akbar</em> was completed in 1657; a manuscript reached Anquetil-Duperron in France in 1775; his Latin <em>Oupnek'hat</em> appeared in two volumes in 1801–02; Friedrich Majer put it into Schopenhauer's hands in Weimar in 1814; and Schopenhauer named the Upaniṣads, alongside Kant and Plato, as a formative influence in the preface to <em>The World as Will and Representation</em> in 1818, and later called the book the solace of his life and of his coming death. Through Schopenhauer the material reached Nietzsche, Wagner, Deussen — who went on to become a Sanskritist and produce his own translations — and a great deal of nineteenth-century European thought. <strong>Note what this does and does not establish.</strong> It establishes influence, and influence of a strange and roundabout kind: Schopenhauer was reading Latin made from Persian made from Sanskrit, by a translator working with pandits under a prince with a theological thesis of his own. It establishes nothing whatever about whether the Upaniṣadic claims are true. A text can change the history of philosophy without being correct; most of them have."
+      },
+      {
+       "verdict": "corroborated",
+       "claim": "The ordinary sense of being a bounded, located self is a construction, and it can be measurably altered or suspended.",
+       "html": "This is solid experimental psychology and neuroscience, and it is relevant here — but its relevance is narrower than it is usually made to sound. Body ownership can be reassigned in minutes: the rubber-hand illusion, first reported by Botvinick and Cohen in 1998, gets subjects to feel a false hand as their own through synchronous touch, and later full-body versions using head-mounted displays relocate the felt self outside the body entirely. Clinical depersonalisation produces persistent, distressing loss of the sense of self. Psilocybin and related compounds reliably produce \"ego dissolution\" at higher doses, with neuroimaging showing altered activity and connectivity in the default mode network — work associated with Robin Carhart-Harris and colleagues. Long-term meditators show related changes, reported by Judson Brewer and others. So the claim that the felt self is assembled rather than given is well supported. <strong>The limit, stated plainly: none of this corroborates the Upaniṣadic thesis.</strong> Showing that the sense of a separate self is constructed shows that a construction can be dismantled. It does not show that what remains when it is dismantled is the ground of the universe, or that the state is veridical rather than simply another state produced by a brain under unusual conditions. To claim otherwise is to make exactly the move this chapter exists to refuse."
+      },
+      {
+       "verdict": "open",
+       "claim": "The identity of ātman and brahman is true.",
+       "html": "This is the central claim of the entire literature, and I want to state its status as plainly and as respectfully as I can. <strong>It is unfalsifiable in principle, and therefore science has no verdict on it — not a negative one, and not a positive one.</strong> There is no observation that could count for it and none that could count against it, because it is not a claim about the furniture of the world; it is a claim about the relation between the one who observes and everything observed. Any experiment you could design would be an observation, and the thing at issue is what is doing the observing. That is not a loophole the tradition invented under pressure; it is the point Yājñavalkya made when he said you cannot know the knower, several thousand years before anyone proposed falsifiability as a criterion. <strong>Three things follow, and all three matter.</strong> First, unfalsifiable does not mean false. The claim may be true; nothing here argues otherwise. Second, unfalsifiable does not mean meaningless — the strong verificationist position that held otherwise was abandoned by philosophers of science, partly because it could not survive being applied to itself. Third, and this is the one that costs something: unfalsifiable means <em>you have no evidential warrant to assert it either.</em> Whatever grounds a person has for holding it — argument, experience, trust in a teacher, the shape of their own life — those grounds are not scientific ones, and dressing them in scientific clothing does not strengthen them. It only makes them easier to knock down."
+      },
+      {
+       "verdict": "open",
+       "claim": "Research on consciousness bears on the Upaniṣadic claim.",
+       "html": "Genuinely open, in the sense that reasonable people disagree and the field is moving. Here is the actual state of it. Empirical consciousness science is largely occupied with the <em>neural correlates</em> problem — which brain processes accompany which reports of experience — and it has made real progress there. The main theoretical contenders include global workspace theory, integrated information theory, higher-order theories and predictive-processing accounts; large adversarial collaborations designed to pit the leading theories against each other have produced results that fit none of them cleanly, which is roughly what a young field looks like. <strong>What none of this touches is the hard problem</strong> — David Chalmers's 1995 formulation of the question why any physical process should be accompanied by experience at all, as distinct from the \"easy\" problems of explaining discrimination, integration and report. That question remains where the Upaniṣadic issue stays live: if experience is not obviously derivable from physical description, then what its relation to physical description <em>is</em> remains open, and one of the positions on the table is that awareness is fundamental rather than produced. <strong>Two cautions.</strong> Some serious philosophers, Daniel Dennett foremost, deny that there is a hard problem at all and regard the intuition behind it as an artefact. And the contemporary view that comes closest to the Upaniṣads — the revival of panpsychism associated with Galen Strawson and Philip Goff — is <em>not</em> Advaita and should not be conflated with it: panpsychism distributes consciousness across many things, while the Upaniṣadic claim is that there is exactly one. The overlap is that both take consciousness to be basic. The disagreement is about the number, which is the whole question."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "The Upaniṣads anticipate quantum mechanics, and the \"observer effect\" confirms that consciousness creates reality.",
+       "html": "This fails, and it is worth being exact about why, because the error is a specific one and it can be pointed at. <strong>The equivocation is on the word \"observer.\"</strong> In quantum mechanics, a measurement is a physical interaction between a quantum system and a system with many degrees of freedom — a detector, a photographic plate, a molecule of air. What ends interference is <em>decoherence</em>: the entanglement of the system with its environment, which spreads the phase relations into degrees of freedom nobody can track. This is a well-understood, calculable, thoroughly experimental piece of physics, and awareness appears nowhere in it. A cloud chamber left running in an empty locked laboratory records tracks. Nothing in the formalism, and nothing in any experiment ever performed, distinguishes a detector that is watched from one that is not. <strong>No mainstream interpretation requires a conscious observer.</strong> Many-worlds does not. Bohmian mechanics does not. Objective-collapse models do not. Consistent histories does not. The one historical proposal that did — the von Neumann–Wigner idea that consciousness causes collapse — has always been a minority view, was substantially abandoned by Wigner himself in later life, and is not required to make the theory work. Even QBism, which is explicitly agent-centred, is a thesis about the epistemic status of the quantum state, not a claim that minds collapse physical systems. <strong>The specific popular sources are identifiable:</strong> Fritjof Capra's <em>The Tao of Physics</em> (1975) and Gary Zukav's <em>The Dancing Wu Li Masters</em> (1979), both widely read and both criticised in detail by physicists at the time and since. The delayed-choice quantum eraser, the experiment most often cited, involves no retrocausation and no minds — its results only appear when the data are sorted by coincidence counting afterwards. And the 2022 Nobel Prize to Clauser, Aspect and Zeilinger was awarded for experiments ruling out local hidden variables, which is a claim about locality, not about consciousness. <strong>One last point, and it is the one that should settle it for anyone who has read this course.</strong> The analogy fails on the Upaniṣadic side too. The ātman is described precisely as that which never acts, never interacts, and is never affected — the second bird, not eating, looking on. An observer that collapses wavefunctions would be an observer that does something. That is exactly what these texts spend twenty consecutive negations denying."
+      },
+      {
+       "verdict": "contradicted",
+       "claim": "Schrödinger's admiration for the Upaniṣads is scientific endorsement of them.",
+       "html": "The admiration is real and should not be minimised; the inference from it is invalid, and the conflation of the two is precisely the error this library exists to avoid. <strong>What is true:</strong> Erwin Schrödinger, one of the founders of quantum mechanics, held Vedāntic ideas in high regard throughout his life and said so in print. The epilogue to <em>What Is Life?</em> (1944), titled \"On Determinism and Free Will,\" argues its way to what he called the arithmetical paradox — that there appear to be very many conscious selves but only one world — and offers the Upaniṣadic identity of ātman and brahman as the resolution the West had largely refused. He returned to the theme in later essays. He was not being decorative; this was a position he actually held. <strong>What is false:</strong> that any of this is a physical result, or that he ever claimed it was. He did not derive wave mechanics from the Upaniṣads, did not claim they contained it, and did not present the epilogue as physics — he marked it as philosophical reflection standing outside the scientific argument of the book, which is what an honest scientist does when leaving his jurisdiction. To cite him as though a Nobel Prize in physics conferred authority on a metaphysical thesis is a straightforward appeal to authority across a boundary the authority himself was careful to mark. <strong>The same treatment applies to the related claims.</strong> Niels Bohr's coat of arms, designed when he was admitted to the Order of the Elephant in 1947, does carry the <em>taijitu</em> and the motto <em>contraria sunt complementa</em>; that documents an affinity of temperament, not a derivation of complementarity from Chinese thought, and Bohr's own remarks on the subject are more guarded than the story requires. Quotations attributed to Heisenberg about Indian philosophy circulate widely and rest on second-hand reports. <strong>The general principle is worth stating for its own sake:</strong> what a physicist believes about ultimate reality is not physics, and the fact that a great scientist finds a text profound tells you something about the text's power and nothing about its truth. If it did, we would have to count Newton's alchemy, Kepler's astrology and Pauli's dream journals as evidence too. The Upaniṣads are strong enough to be read without a borrowed lab coat."
+      }
+     ]
+    },
+    {
+     "type": "h3",
+     "html": "What Is Left When the False Claims Are Removed"
+    },
+    {
+     "type": "p",
+     "html": "Strip out the quantum mechanics, the Nobel laureates, the neuroscience that does not say what it is quoted as saying, and take away the assumption that any of this needs to be validated by a laboratory. What remains?"
+    },
+    {
+     "type": "p",
+     "html": "A set of dialogues, composed somewhere in the Gangetic plain around two and a half thousand years ago, in which people argued about the hardest question there is, argued well, disagreed with each other, recorded the disagreements, and declined to close them. A method — negation — that was rediscovered independently in Greece, in Baghdad, in medieval Germany, because it is what happens when you push. A boy who refused the entire inventory of what a person can want on the grounds that the seller was Death. A woman who took two arrows to a debate and used them. A man who told his wife on the day he left her that everything she loved, she loved for the sake of the self, and then asked her by what one could possibly know the knower."
+    },
+    {
+     "type": "p",
+     "html": "That is what is actually there. It has needed no help for two and a half millennia, and it does not need any now."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "part": "Part Five · The Honest Ending",
+   "label": "Chapter 11 · Closing",
+   "title": "What Remains",
+   "subtitle": "Why a text that refuses to answer is more use than one that does",
+   "blocks": [
+    {
+     "type": "p",
+     "lead": true,
+     "html": "At the start of this course I asked you to write one sentence: <em>what do you take yourself to be?</em> If you kept it, read it now."
+    },
+    {
+     "type": "p",
+     "html": "I have no idea what it says. But I can tell you what the Upaniṣads would do with it, because they do the same thing to every such sentence they are given. They would not tell you it is wrong. They would ask what is looking at it."
+    },
+    {
+     "type": "h3",
+     "html": "The Refusal"
+    },
+    {
+     "type": "p",
+     "html": "It is worth noticing, at the end, how consistently these texts decline to finish. Yama gives Naciketas the teaching he demanded and then says the self is not obtained by teaching. Uddālaka runs nine demonstrations and never once asserts the conclusion as a proposition; he says <em>that is how you are</em> and moves to the next analogy. Yājñavalkya answers Maitreyī's objection with a question. Gārgī gets twenty negations and one cosmology. The Māṇḍūkya's fourth quarter has no name and no letter. The instruction at the centre of the whole corpus is <em>not so, not so</em>."
+    },
+    {
+     "type": "p",
+     "html": "This is easy to read as evasion, and for a long time European readers did read it that way — as Eastern vagueness, a refusal of the definiteness that serious thought requires. I think that is exactly backwards, and I think the reason matters more than anything else in this course."
+    },
+    {
+     "type": "p",
+     "html": "A text that answers gives you something to carry. You put it in your pocket, you take it out when asked, and the question closes. The answer becomes a possession, and possessions are the one thing these texts are unanimous about: they do not do what you wanted them to do. Naciketas turns down horses, gold and long life on precisely this ground, and there is no reason to think a doctrine would have fared better on his test. <em>How long does it last, and who is offering it?</em>"
+    },
+    {
+     "type": "p",
+     "html": "A text that refuses to answer leaves the question open, and an open question is not a possession. It is a piece of work. You cannot finish it, you cannot lose it, and it does not go stale — which is why people are still arguing about three words spoken by a father to his son about a fig, and why Śaṅkara and Rāmānuja and Madhva could each spend a life inside the same sentence and find different rooms."
+    },
+    {
+     "type": "h3",
+     "html": "What Was Actually Given"
+    },
+    {
+     "type": "p",
+     "html": "Set aside the metaphysics for a moment — the part no evidence can reach, as the last chapter said plainly — and look at what these dialogues hand over regardless of whether their central claim is true."
+    },
+    {
+     "type": "p",
+     "html": "A method for finding the limits of your own descriptions. A distinction between what is better and what is more agreeable, sharp enough to use in an ordinary week. The observation that the things you are most certain of about yourself are the things you have examined least. A model of enquiry in which a student's objection can defeat a teacher's answer, and the objection is written down and preserved rather than tidied away — which is not a small thing, and is rarer in the history of religious literature than it ought to be. And the demonstration, repeated in nearly every chapter, that it is possible to be entirely serious about a question without pretending to have closed it."
+    },
+    {
+     "type": "p",
+     "html": "None of that requires you to believe anything. All of it survives the honesty chapter intact."
+    },
+    {
+     "type": "h3",
+     "html": "Three Times"
+    },
+    {
+     "type": "p",
+     "html": "The Upaniṣads end, over and over, not with a conclusion but with a peace. And the peace is always said three times, which is not a stylistic flourish. The traditional explanation is that there are three sources of disturbance and each gets its own <em>śānti</em>: what comes from within oneself, body and mind; what comes from the world around — weather, accident, the impersonal order of things; and what comes from other beings. The formula is a request that each in turn be quieted, in the order in which they are hardest to quiet."
+    },
+    {
+     "type": "verse",
+     "tag": "Sanskrit · The Peace at the End",
+     "sk": "ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते ।<br/>पूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥<br/>ॐ शान्तिः शान्तिः शान्तिः ॥",
+     "tr": "oṁ pūrṇam adaḥ pūrṇam idaṁ pūrṇāt pūrṇam udacyate | pūrṇasya pūrṇam ādāya pūrṇam evāvaśiṣyate || oṁ śāntiḥ śāntiḥ śāntiḥ ||",
+     "mn": "\"That is whole. This is whole. From the whole, the whole comes forth. Take the whole from the whole — and the whole still remains.\"",
+     "src": "— Bṛhadāraṇyaka Upaniṣad 5.1.1"
+    },
+    {
+     "type": "p",
+     "html": "Look at what that verse actually does. It states an arithmetic that is false of every object you have ever handled — take part of a thing and less of it remains — and asserts it anyway, calmly, as a description of something. It is the same move as <em>smaller than the small, greater than the great</em>: a sentence built to fail as a description so that it cannot be mistaken for one. You are not meant to solve it. You are meant to notice what kind of thing would have to be true for it not to be nonsense."
+    },
+    {
+     "type": "p",
+     "html": "And then the three peaces, and then nothing. The oldest philosophical dialogues in the world do not end on their strongest argument. They end by asking for quiet."
+    },
+    {
+     "type": "box",
+     "variant": "reflect",
+     "tag": "Reflect · The Last One",
+     "blocks": [
+      {
+       "type": "p",
+       "html": "Read your first sentence one more time, and this time do not try to improve it. Write a second sentence underneath: <em>what would have to be true for that to be wrong?</em> If you can answer, you have a claim, and you can go and test it. If you cannot answer, you have found the place where the Upaniṣads start — and you have found it the way Naciketas and Gārgī and Maitreyī found it, which is by asking one more time than was comfortable."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "html": "That is the end of the course. The books are short, they are cheap, most of them are freely available in good translations, and nothing in these eleven chapters is a substitute for four hours with the Kaṭha. Go and sit down near it."
+    },
+    {
+     "type": "divider",
+     "html": "॥ ॐ ॥"
+    }
+   ]
+  }
+ ]
+}

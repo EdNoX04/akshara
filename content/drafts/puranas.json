@@ -1,0 +1,139 @@
+{
+ "slug": "puranas",
+ "title": "The Eighteen Puranas",
+ "devanagari": "पुराण",
+ "invocationMantra": "ॐ नमो भगवते वासुदेवाय",
+ "subtitle": "Where the gods got their families, their stories, and their contradictions",
+ "invocation": {
+  "devanagari": "नारायणं नमस्कृत्य नरं चैव नरोत्तमम् ।<br/>देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत् ॥",
+  "translation": "<em>nārāyaṇaṁ namaskṛtya naraṁ caiva narottamam | devīṁ sarasvatīṁ vyāsaṁ tato jayam udīrayet ||</em><br/>\"Having bowed to Nārāyaṇa, and to Nara the best of men, and to the goddess Sarasvatī, and to Vyāsa — then let one speak forth the Victory.\" — the verse with which a reciter traditionally opens a Purāṇa or an epic before a listening audience."
+ },
+ "sections": [
+  {
+   "id": "begin",
+   "part": null,
+   "label": "Orientation",
+   "title": "Before We Begin",
+   "subtitle": "Almost everything you think of as Hinduism is in here — and almost none of it is in the Vedas",
+   "blocks": [
+{"type": "p", "lead": true, "html": "Think of the last piece of Hindu religion you actually encountered. A clay lamp on a windowsill in October. A boy with an elephant's head, painted on the side of a truck. Nine nights of a goddess with a lion, in a hall smelling of camphor and marigold. A grandmother saying that Shiva's throat is blue because he drank poison so the world would not have to. A queue at Tirupati that takes eleven hours. A red-and-gold picture of a blue child stealing butter, on a calendar in a shop, curling at the corner."}
+,
+{"type": "p", "html": "Every single one of those is Puranic. Not one of them is Vedic."}
+,
+{"type": "p", "html": "This is the fact that reorganises everything, and it is why this course exists. The Vedas are the oldest and most revered layer of the tradition, and we have a whole course on them; they are extraordinary, and they are almost entirely absent from ordinary Hindu life. Ganesha is not in the Rigveda. Durga killing the buffalo demon is not in the Rigveda. Neither is Rama, nor Krishna's childhood, nor the ten avatars, nor Diwali, nor the churning of the ocean, nor the twelve jyotirlingas, nor Kailash, nor Vaishno Devi, nor the Ganga descending through Shiva's hair, nor Ganesh Chaturthi, nor the Kumbh Mela, nor the four yugas, nor the idea that we are living in a degenerate age called Kali. Not one."
+}
+,
+{"type": "p", "html": "All of it comes from a body of texts called the <em>Purāṇas</em> — literally \"the old ones,\" or \"belonging to ancient times.\" Eighteen of them are counted as great, eighteen more as secondary, and beyond that there are hundreds attached to particular temples and hills and rivers. They are the largest body of narrative literature any civilisation has produced, and the least read by the people whose religion they built."
+}
+,
+{"type": "h3", "html": "Three Things To Understand Before Anything Else"}
+,
+{"type": "list", "ordered": true, "items": [
+"<strong>They are open texts, not sealed revelations.</strong> A Veda was fixed — syllable, accent and order guarded by a transmission system built specifically to prevent change. A Purana was the opposite: it grew. Chapters were added, whole books were inserted, local shrines wrote themselves into famous scriptures to borrow their authority. There is a real sense in which the \"original\" Skanda Purana and the printed Skanda Purana are two different books, and we will look at the manuscript that proves it.",
+"<strong>They contradict each other, cheerfully and constantly.</strong> Not in trivia — in fundamentals. Who created the universe? Vishnu, says one. Shiva, says another, and Vishnu is his devotee. The Goddess, says a third, and both of them are her employees. Was Shiva's linga a punishment or a revelation? Is Brahma cursed or merely retired? How many avatars, and is the Buddha one of them? The texts argue, and they know they are arguing, and some of them are extremely rude about it.",
+"<strong>They are how Hinduism became a religion of stories, temples and devotion.</strong> The Vedic centre of gravity was ritual fire, performed by specialists on behalf of patrons. The Puranic centre of gravity is a personal god with a biography, a family, a temple, a festival calendar and a devotee who can approach directly — no fire, no priest necessarily, sometimes no Sanskrit. That shift is the single largest event in Indian religious history, and the Puranas are both its record and its instrument."
+]}
+,
+{"type": "p", "html": "So when someone says \"it is written in our scriptures\" and then tells you a story, the odds are overwhelming that they mean a Purana, and better than even that they could not name which one."}
+,
+{"type": "box", "variant": "scripture", "tag": "Scriptural Lens · The Fifth Veda", "blocks": [
+{"type": "p", "html": "The tradition never hid this. The Purāṇas are classed as <em>smṛti</em> — \"what is remembered\" — as against the Vedas, which are <em>śruti</em>, \"what is heard.\" But the tradition also promoted them, insistently, and it did so early. The Chāndogya Upaniṣad, long before any surviving Purana existed, already lists <em>itihāsa-purāṇa</em> — epic-and-ancient-lore — among the branches of learning, and calls it <em>the fifth Veda</em>. Later Puranas quote that phrase constantly, and add a claim of their own that no Veda ever made: that unlike the Vedas, they are for everyone. Anyone may hear a Purana. That is not a small sentence in a society organised the way this one was."}
+]}
+,
+{"type": "h3", "html": "What Changes When You Learn This"}
+,
+{"type": "p", "html": "Two opposite reactions are common at this point, and both are mistakes."}
+,
+{"type": "p", "html": "The first is deflation: <em>so the gods I grew up with are late inventions.</em> That does not follow, and it is bad history. \"Late in Sanskrit\" is not the same as \"late in India.\" Much of what appears for the first time in a fifth-century Purana had almost certainly been alive for centuries or millennia in village worship, in regional cult, in languages nobody was writing down, among people no Vedic ritualist would have taken seriously. What the Puranas often record is not the invention of a god but the moment a god became too large to ignore — the moment the Sanskrit tradition sat down and negotiated with something older than itself. The goddess who kills the buffalo demon is probably far older than the sixth-century text that made her famous. The Purana is where she got her Sanskrit, not where she got her life."}
+,
+{"type": "p", "html": "The second mistake is inflation: pretending the Puranas are Vedic, or that they are secretly a physics textbook, or that their chronology is history. We will spend an entire chapter on that at the end, and I will not soften it. The Puranas can survive being described accurately. Very little else in this territory can."}
+,
+{"type": "h3", "html": "The Three Lenses"}
+,
+{"type": "p", "html": "One promise before we start, and it is the method of this whole library. There are three completely different ways to speak truthfully about a text like this, and I will never let one wear another's clothes."}
+,
+{"type": "lenses", "items": [
+{"kind": "s", "title": "Scriptural", "html": "What a given Purana actually says, in its own voice, with its own agenda intact — including when that agenda is to insist that a rival god is subordinate. I will not smooth the texts into agreement they never reached, and I will tell you <em>which</em> Purana is speaking, because it almost always matters."},
+{"kind": "y", "title": "Symbolic / Philosophical", "html": "What the tradition has understood these stories to <i>mean</i> — the commentators, the theologians, the singers, the grandmothers. The rāsa dance read as the soul's union with God; the yuga cycle read as a diagnosis of the present; the churned ocean read as the labour of practice. A reading is not a forgery. A reading is also not the text."},
+{"kind": "h", "title": "Historical / Scholarly", "html": "What philology, manuscript evidence, epigraphy and archaeology can establish about when these books were composed, by whom, in what order, and how much they changed on the way to us. Probabilistic, revisable, stated with its error bars showing — and, in the case of the Puranas, unusually well evidenced, because the texts left fingerprints all over themselves."}
+]}
+,
+{"type": "p", "html": "The failure on one side is to read a Purana as a chronicle: <em>the Mahabharata war happened in 3102 BCE and here is the proof.</em> The failure on the other side is to read it as mere superstition: <em>a pile of fairy tales for the credulous.</em> Both mistakes assume the same thing — that a text is only worth something if it is either a history book or a science paper. Neither assumption survives ten minutes with the actual literature, which is doing something else entirely, and doing it at a scale nobody has matched."}
+,
+{"type": "h3", "html": "How This Course Moves"}
+,
+{"type": "p", "html": "Five movements. First, <strong>what a Purana is</strong> — the traditional definition, the honest observation that almost nothing obeys it, and the map of the eighteen. Then <strong>the great ones</strong>, one chapter each: the Bhagavata and its blue child, the Vishnu Purana and its tidy avatars, the Shaiva Puranas and their pillar of fire, the Goddess texts and their genuinely radical claim, and the Garuda Purana, whose reputation is almost entirely wrong. Then <strong>the cosmology</strong>, which is the most spectacular thing in the corpus and deserves its own two chapters — time first, then space. Then <strong>how they were actually made</strong>, which is a real detective story with real evidence. And then the <strong>honest ending</strong>, where we test the loud modern claims and finish quietly."}
+,
+{"type": "verse", "tag": "Sanskrit · What the Purāṇas Say About Themselves", "sk": "इतिहासपुराणं पञ्चमं वेदानां वेदम् ॥", "tr": "itihāsapurāṇaṁ pañcamaṁ vedānāṁ vedam", "mn": "\"…epic-and-ancient-lore, the fifth, the Veda of the Vedas.\"", "src": "— Chāndogya Upaniṣad 7.1.2, in Nārada's list of what he has already learned"}
+,
+{"type": "p", "html": "Nārada says that line while listing everything he has mastered, immediately before admitting that none of it has made him happy. It is a good epigraph for a body of literature that contains, somewhere in its four hundred thousand verses, almost every idea Hinduism has ever had — and several it has since disowned."}
+,
+{"type": "box", "variant": "reflect", "tag": "Reflect", "blocks": [
+{"type": "p", "html": "Before you go on, write down the three Hindu stories you know best — whichever ones surface first. Just the names. Keep the page. At the end of this course you will be able to say, for each one, which text it comes from, roughly when that text was written, and what it was arguing for. That is a strange and rather satisfying thing to be able to do about the stories you were raised on."}
+]}
+,
+{"type": "divider", "html": "॥ ॐ ॥"}
+   ]
+  },
+  {
+   "id": "panchalakshana",
+   "part": "Part One · What a Purana Is",
+   "label": "Chapter 01 · Definition",
+   "title": "The Five Marks",
+   "subtitle": "The classical definition of a Purana — and the awkward fact that almost no Purana obeys it",
+   "blocks": [
+{"type": "p", "lead": true, "html": "There is an old Sanskrit verse, quoted so often that it functions as the tradition's own dictionary entry, which defines a Purana by five subjects. It is neat, it is memorable, it has been repeated for well over a thousand years — and if you take it to the shelf and open any actual Purana, it will mislead you within about four pages."}
+,
+{"type": "verse", "tag": "Sanskrit · The Classical Definition", "sk": "सर्गश्च प्रतिसर्गश्च वंशो मन्वन्तराणि च ।<br/>वंशानुचरितं चेति पुराणं पञ्चलक्षणम् ॥", "tr": "sargaś ca pratisargaś ca vaṁśo manvantarāṇi ca | vaṁśānucaritaṁ ceti purāṇaṁ pañcalakṣaṇam ||", "mn": "\"Creation, and re-creation, and the lineages, and the ages of the Manus, and the deeds of the lineages: a Purāṇa is that which has these five marks.\"", "src": "— the pañcalakṣaṇa verse, given in the Amarakośa and repeated with small variations across several Purāṇas"}
+,
+{"type": "p", "html": "<em>Pañcalakṣaṇa</em> means \"five-marked.\" Here is what each mark is."}
+,
+{"type": "table", "head": ["The mark", "What it covers", "What it looks like on the page"], "rows": [
+["<strong>Sarga</strong> <span class=\"dev\">सर्ग</span><br/><em>primary creation</em>", "How the cosmos came into being this time: the unmanifest, the disturbance of the three <em>guṇas</em>, the cosmic egg, the emergence of the elements and of the first being.", "Highly technical, often lifted almost verbatim from Sāṁkhya philosophy, and frequently the driest thing in the book. Many readers skip it. The Purāṇas do not seem to mind."],
+["<strong>Pratisarga</strong> <span class=\"dev\">प्रतिसर्ग</span><br/><em>dissolution and re-creation</em>", "The world does not get made once. It is made, dissolved and remade endlessly, at several nested scales. This mark covers the destruction and the next beginning.", "Where the enormous time-numbers live — the yugas, the kalpas, the flood in which everything returns to water and one boat survives. Chapter 08 is entirely about this material."],
+["<strong>Vaṁśa</strong> <span class=\"dev\">वंश</span><br/><em>genealogy</em>", "The family trees: gods, sages, the founding ancestors, and above all the two great royal lines — the Solar (<em>sūryavaṁśa</em>) and the Lunar (<em>candravaṁśa</em>).", "Page after page of names in descent. Tedious to read, and historically the single most valuable material in the corpus — this is what lets scholars date the texts."],
+["<strong>Manvantara</strong> <span class=\"dev\">मन्वन्तर</span><br/><em>the reigns of the Manus</em>", "A cosmic day is divided into fourteen enormous periods, each presided over by a Manu — a progenitor of humanity — with his own set of gods, his own Indra, his own seven sages.", "The structural spine of Puranic time. We are in the seventh, presided over by Vaivasvata Manu, who is also the man in the flood story."],
+["<strong>Vaṁśānucarita</strong> <span class=\"dev\">वंशानुचरित</span><br/><em>the deeds of the lineages</em>", "What the members of those dynasties actually did — the narrative history of kings, from the mythic founders down through, in several Purāṇas, dynasties we can independently identify.", "Where legend shades into something history can work with. The Purāṇas narrate the Mauryas and the Guptas in the <em>future tense</em>, which is the crack through which the whole dating problem gets solved."]
+]}
+,
+{"type": "h3", "html": "Now the Awkward Part"}
+,
+{"type": "p", "html": "Take that five-part scheme to the actual shelf and it collapses almost immediately."}
+,
+{"type": "p", "html": "The Vishnu Purana obeys it reasonably well, which is one reason it was the first to be translated into English and why nineteenth-century scholars treated it as the model. Some of the older ones — the Vayu, the Brahmanda, the Matsya — carry substantial amounts of all five. After that, the definition falls apart. Whole Puranas contain scarcely any genealogy at all. The Bhagavata, the most influential of the lot, devotes its longest and most famous book to the childhood of one god in one village, which is not any of the five marks. The Agni Purana contains chapters on grammar, prosody, medicine, archery, law, elephant care and the correct construction of a temple. The Garuda Purana discusses gemstones. The Skanda Purana, the largest, is essentially a vast anthology of place-legends: this hill, that ford, this particular tank behind that particular shrine, and precisely what merit you accrue by bathing in it."}
+,
+{"type": "p", "html": "So the five marks are not a description of the genre. They are a description of an <em>older, thinner</em> genre — probably a real one — that the surviving texts grew out of and then buried. Almost every scholar who has worked on this literature has said some version of that. Ludo Rocher, in the standard survey of the field, put it bluntly: the pañcalakṣaṇa definition fits the material so poorly that using it as a test of authenticity has done real damage, encouraging generations of editors to treat the enormous non-conforming majority of the corpus as \"interpolation\" — as though nine-tenths of a body of literature could be a footnote to the other tenth."}
+,
+{"type": "box", "variant": "historical", "tag": "Historical Lens · What Is Actually In There", "blocks": [
+{"type": "p", "html": "If you weighed the surviving Purāṇas by page count rather than by prestige, the largest categories would be roughly these: <strong>māhātmyas</strong> — glorifications of specific temples, rivers, mountains, images and towns, with the exact merit obtained by visiting each; <strong>vratas</strong> — vows and observances tied to particular days, with instructions; <strong>dāna</strong> — the theory and practice of religious giving, in extraordinary detail; <strong>tīrthas</strong> — pilgrimage; <strong>śrāddha</strong> — rites for the dead; devotional hymns; theology; and long stretches of straightforward <em>dharmaśāstra</em>, law and custom. P. V. Kane's monumental <em>History of Dharmaśāstra</em> had to treat the Purāṇas as a primary legal source, because for the medieval period they simply are one. None of this is in the five marks. All of it is what the texts largely consist of."}
+]}
+,
+{"type": "h3", "html": "The Definition That Actually Fits"}
+,
+{"type": "p", "html": "One Purana noticed the problem and fixed it. The Bhagavata, in its second book, announces that a Purana has not five marks but <strong>ten</strong> — and the extra five are precisely the ones it cares about. It keeps creation, secondary creation and the Manu-ages, but it adds <em>sthāna</em> (the maintenance of the world by God), <em>poṣaṇa</em> (God's grace toward his devotees), <em>ūti</em> (the impulse behind action), <em>īśānukathā</em> (the stories of the Lord and of those who love him), <em>nirodha</em> (the withdrawal into sleep), <em>mukti</em> (liberation), and finally <em>āśraya</em> — the ground, the one reality on which all of it rests, which is the Purana's actual subject."}
+,
+{"type": "p", "html": "Read that list again and notice what has happened. The five marks describe a chronicle of the cosmos. The ten marks describe a theology of devotion with a chronicle attached. Between those two definitions lies most of the history of Hinduism."}
+,
+{"type": "box", "variant": "symbolic", "tag": "Symbolic Lens · Why the Genealogies Matter", "blocks": [
+{"type": "p", "html": "It is easy to dismiss the endless name-lists as filler. They are not filler; they are the point. A genealogy is a claim about continuity — it says that the present is attached to the origin by an unbroken chain of fathers and sons, and that a king sitting in a hall in the sixth century is on the same line as a man who spoke to the gods. The two great dynasties are named for the sun and the moon, which is to say the cosmos itself is the root of the family tree. To a listener, a vaṁśa is not a list. It is a rope thrown backwards through time, and the whole social order is hanging from it."}
+]}
+,
+{"type": "h3", "html": "Who Is Speaking, and To Whom"}
+,
+{"type": "p", "html": "One more structural feature, and it is easy to miss because it is the frame rather than the picture. A Purana is almost never narrated in a neutral voice. It is a <em>conversation being overheard</em>, usually several layers deep."}
+,
+{"type": "p", "html": "The standard arrangement: a bard named Ugraśravas, called Sūta or Sauti, arrives at the Naimiṣa forest, where a great many sages are performing a very long sacrifice. In the intervals they ask him to tell them things. He replies that he heard this from Vaiśampāyana, who heard it from Vyāsa, who composed it — and inside that account there will be another conversation, perhaps between a god and a sage, and inside that another. The Bhagavata is narrated by Śuka to King Parīkṣit, who has seven days left to live; the Devī Māhātmya is told by the sage Medhas to a deposed king and a betrayed merchant sitting in the forest; the Garuda Purana is Vishnu answering Garuda's questions."}
+,
+{"type": "p", "html": "This is not decoration. It does three things at once. It supplies a chain of authority — the words are traced back to Vyāsa and beyond him to the divine. It supplies a reason for the vast digressions, since a listener can always ask a further question and be answered at length. And it models the correct relationship to the material: you are not meant to <em>read</em> a Purana. You are meant to be in a room where someone is telling it, and to be the person who asks."}
+,
+{"type": "note", "html": "That framing survives intact today. In much of India the standard mode of encountering these texts is still the <em>kathā</em> or <em>pravacana</em> — a pauranika seated on a platform, working through a book over seven or nine or thirty days, expounding, singing, digressing, taking questions. The Bhāgavata Saptāha, the seven-day recitation of the Bhagavata Purana, is the exact ritual form the text describes inside itself. The frame story is also the user manual."}
+,
+{"type": "p", "html": "So: a Purana is an open, expandable, orally-framed anthology, notionally about the shape of the cosmos and the descent of kings, in practice about whatever its community needed a scripture to be about — with theology, law, pilgrimage, festival, medicine and an enormous quantity of story poured in over centuries by people who saw no reason to stop."}
+,
+{"type": "p", "html": "Which raises the obvious question. How many of them are there, and what is in each?"}
+,
+{"type": "divider", "html": "॥ ॐ ॥"}
+   ]
+  }
+ ]
+}
