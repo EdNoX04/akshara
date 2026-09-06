@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: dark)", color: "#0e0d12" },
-    { media: "(prefers-color-scheme: light)", color: "#faf7f0" },
+    { media: "(prefers-color-scheme: dark)", color: "#17110a" },
+    { media: "(prefers-color-scheme: light)", color: "#efe3c6" },
   ],
 };
 
 /* Applied before paint so there is no theme/size flash. */
 const boot = `(function(){try{
-  var t=localStorage.getItem('ak-theme')||'dark';
+  var t=localStorage.getItem('ak-theme')||'light';
   var s=localStorage.getItem('ak-step')||'1';
   document.documentElement.setAttribute('data-theme',t);
   document.documentElement.style.setProperty('--step',s);
@@ -39,13 +39,13 @@ const boot = `(function(){try{
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" data-theme="dark" suppressHydrationWarning>
+    <html lang="en" data-theme="light" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: boot }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Devanagari:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Sans+Devanagari:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
           rel="stylesheet"
         />
       </head>

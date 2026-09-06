@@ -11,13 +11,13 @@ const STEPS = [
 ];
 
 export default function TopBar() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
   const [step, setStep] = useState("1");
   const [pct, setPct] = useState(0);
 
   useEffect(() => {
     try {
-      setTheme(localStorage.getItem("ak-theme") || "dark");
+      setTheme(localStorage.getItem("ak-theme") || "light");
       setStep(localStorage.getItem("ak-step") || "1");
     } catch {}
   }, []);
@@ -57,8 +57,9 @@ export default function TopBar() {
 
           <nav className="topnav" aria-label="Main">
             <Link href="/#courses">Courses</Link>
-            <Link href="/#canon">The Canon</Link>
-            <Link href="/#truth">How we tell the truth</Link>
+            <Link href="/#map">The Map</Link>
+            <Link href="/#stories">Stories</Link>
+            <Link href="/#sruta">Śruta</Link>
 
             <div className="ctrl" role="group" aria-label="Text size">
               <span className="lbl" aria-hidden>Size</span>
