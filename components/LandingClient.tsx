@@ -4,6 +4,7 @@ import { CANON } from "@/content/canon";
 import { useT } from "@/components/LangProvider";
 import Reveal from "@/components/Reveal";
 import Waitlist from "@/components/Waitlist";
+import { Torana, Mandala, LotusRule, Corners, Medallion } from "@/components/Ornaments";
 import { SITE } from "@/lib/site";
 
 const COURSES = [
@@ -23,8 +24,13 @@ export default function LandingClient() {
       <Reveal />
 
       {/* ---------- HERO ---------- */}
-      <section className="hero">
-        <div className="hero-bg" aria-hidden><div className="hero-glow" /></div>
+      <section className="hero title-page">
+        <div className="hero-bg" aria-hidden>
+          <div className="hero-glow" />
+          <Mandala />
+          <Torana />
+        </div>
+        <div className="frame-rule" aria-hidden><Corners /></div>
         <div className="hero-inner">
           <div className="om" lang="sa">ॐ</div>
           <p className="sutra-line" lang="sa">अथातो ब्रह्मजिज्ञासा</p>
@@ -33,6 +39,7 @@ export default function LandingClient() {
           <div className="deva" lang="sa">अक्षर</div>
           <h1>AKSHARA</h1>
           <p className="tagline">{t.hero.tagline}</p>
+          <LotusRule width={420} />
 
           <p className="hero-claim">
             Everyone quotes it.<br />
@@ -56,6 +63,7 @@ export default function LandingClient() {
       <section className="band" id="inside">
         <div className="container">
           <div className="band-head reveal">
+            <LotusRule width={300} />
             <span className="eyebrow">What is inside</span>
             <h2>The whole architecture, in one place</h2>
             <p>
@@ -67,7 +75,7 @@ export default function LandingClient() {
           <div className="topic-grid reveal">
             {CANON.map((d) => (
               <article className="topic" key={d.id}>
-                <div className="t-num" aria-hidden>{d.numeral}</div>
+                <Medallion n={d.numeral} />
                 <div className="t-dv" lang="sa">{d.dv}</div>
                 <h3>{d.rm}</h3>
                 <p className="t-count">{d.count}</p>
@@ -82,6 +90,7 @@ export default function LandingClient() {
       <section className="band" id="truth">
         <div className="container">
           <div className="band-head reveal">
+            <LotusRule width={300} />
             <span className="eyebrow">Why trust it</span>
             <h2>Three kinds of true, never mixed</h2>
             <p>
@@ -104,6 +113,7 @@ export default function LandingClient() {
       <section className="band" id="courses">
         <div className="container">
           <div className="band-head reveal">
+            <LotusRule width={300} />
             <span className="eyebrow">Opening {SITE.launch}</span>
             <h2>The first courses</h2>
             <p>
@@ -130,6 +140,7 @@ export default function LandingClient() {
       <section className="band" id="sruta">
         <div className="container">
           <div className="band-head reveal">
+            <LotusRule width={300} />
             <span className="eyebrow">{t.sruta.eyebrow}</span>
             <h2>{t.sruta.title}</h2>
           </div>
@@ -145,6 +156,7 @@ export default function LandingClient() {
       {/* ---------- WAITLIST ---------- */}
       <section className="band band-close" id="waitlist">
         <div className="container">
+          <LotusRule width={300} />
           <Waitlist />
         </div>
       </section>

@@ -575,3 +575,75 @@ footer.site{padding:0 0 40px;border-top:1px solid var(--border);margin-top:0;
 .wl-done span{margin-right:6px}
 .wl-err{color:var(--red);font-size:.94em;margin-top:1em}
 .wl-fine{font-size:.84em;color:var(--ink-faint);margin:1.5em auto 0;max-width:44ch}
+
+/* ============ ORNAMENT ============ */
+.lotus-rule{display:block;margin:0 auto 22px;max-width:100%}
+.band-head .lotus-rule{margin-bottom:26px}
+#waitlist .lotus-rule{margin-bottom:40px}
+
+.corner-orn{position:absolute;width:74px;height:74px;pointer-events:none}
+.corner-orn.tl{top:10px;left:10px}
+.corner-orn.tr{top:10px;right:10px;transform:scaleX(-1)}
+.corner-orn.bl{bottom:10px;left:10px;transform:scaleY(-1)}
+.corner-orn.br{bottom:10px;right:10px;transform:scale(-1,-1)}
+
+/* the title page */
+.title-page{min-height:min(100vh,980px);padding:96px 20px 90px}
+.frame-rule{position:absolute;inset:clamp(14px,2.4vw,34px);pointer-events:none;
+  border:1px solid var(--border);
+  box-shadow:inset 0 0 0 6px var(--bg), inset 0 0 0 7px color-mix(in srgb,var(--gold) 45%,transparent)}
+.title-page .hero-inner{padding:0 clamp(16px,4vw,60px)}
+
+.mandala{position:absolute;width:min(112vw,880px);opacity:.5}
+.mandala-spin{animation:orn-spin 300s linear infinite;transform-origin:center}
+.mandala-spin-r{animation:orn-spin-r 420s linear infinite;transform-origin:center}
+@keyframes orn-spin{to{transform:rotate(360deg)}}
+@keyframes orn-spin-r{to{transform:rotate(-360deg)}}
+
+.torana{position:absolute;width:min(116vw,940px);top:50%;left:50%;
+  transform:translate(-50%,-49%);opacity:.7}
+@media(max-width:720px){.torana{display:none}}
+
+/* warm light behind each band, so the parchment is not flat */
+section.band{position:relative}
+section.band::before{content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(ellipse at 50% 0%,color-mix(in srgb,var(--gold) 9%,transparent),transparent 62%)}
+section.band > *{position:relative;z-index:1}
+
+/* medallion numerals */
+.medallion{position:absolute;top:20px;right:20px;width:44px;height:44px;
+  display:grid;place-items:center}
+.medallion svg{position:absolute;inset:0;width:44px;height:44px}
+.medallion i{font-family:var(--dev);font-style:normal;font-size:1.05em;color:var(--gold);line-height:1}
+
+/* topic cards as manuscript folios */
+.topic{padding-top:30px;background:
+  linear-gradient(var(--panel),var(--panel)) padding-box,
+  linear-gradient(160deg,color-mix(in srgb,var(--gold) 34%,transparent),var(--border)) border-box;
+  border:1px solid transparent}
+.topic::after{content:'';position:absolute;inset:8px;border:1px solid color-mix(in srgb,var(--gold) 16%,transparent);
+  border-radius:6px;pointer-events:none}
+.topic h3{padding-right:52px}
+
+/* course list as a ruled manuscript column */
+.cstrip{position:relative}
+.cstrip::before{content:'';position:absolute;left:0;right:0;top:0;height:1px;
+  background:linear-gradient(90deg,color-mix(in srgb,var(--gold) 45%,transparent),transparent)}
+.cstrip:first-child::before{display:none}
+.cs-dv{text-align:right;padding-right:16px;border-right:1px solid color-mix(in srgb,var(--gold) 30%,transparent)}
+
+/* section headings get a little more presence */
+.band-head h2{letter-spacing:.005em}
+.band-head .eyebrow{display:inline-block;padding:0 14px;position:relative}
+.band-head .eyebrow::before,.band-head .eyebrow::after{content:'';position:absolute;top:50%;
+  width:9px;height:1px;background:var(--gold);opacity:.7}
+.band-head .eyebrow::before{left:-2px} .band-head .eyebrow::after{right:-2px}
+
+/* lens cards and sruta panel pick up the inner hairline too */
+.lens-mini,.sruta,.waitlist{position:relative}
+.lens-mini::after{content:'';position:absolute;inset:7px;border:1px solid color-mix(in srgb,var(--gold) 14%,transparent);
+  border-radius:6px;pointer-events:none}
+
+@media (prefers-reduced-motion:reduce){
+  .mandala-spin,.mandala-spin-r{animation:none}
+}
