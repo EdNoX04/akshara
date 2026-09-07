@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { courseSlugs, getCourse, courseStats, readingMinutes } from "@/lib/content";
 import Blocks from "@/components/Blocks";
 import CourseNav from "@/components/CourseNav";
+import SiteFooter from "@/components/SiteFooter";
 
 export function generateStaticParams() {
   return courseSlugs().map((slug) => ({ slug }));
@@ -31,6 +32,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   }));
 
   return (
+    <>
     <div className="reader">
       <CourseNav items={navItems} devanagari={course.devanagari} title={course.title} />
 
@@ -94,5 +96,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         </footer>
       </main>
     </div>
+    <SiteFooter />
+    </>
   );
 }

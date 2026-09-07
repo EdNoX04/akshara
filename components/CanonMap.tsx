@@ -35,10 +35,10 @@ function NodeRow({ node, depth = 0 }: { node: Node; depth?: number }) {
   );
 }
 
-export default function CanonMap() {
+export default function CanonMap({ note }: { note?: string }) {
   return (
     <div className="canon">
-      <p className="canon-note">{CANON_NOTE}</p>
+      <p className="canon-note">{note ?? CANON_NOTE}</p>
 
       {CANON.map((div) => (
         <section className="division" id={div.id} key={div.id}>

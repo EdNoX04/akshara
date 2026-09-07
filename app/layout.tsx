@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import TopBar from "@/components/TopBar";
+import { LangProvider } from "@/components/LangProvider";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://akshara.vercel.app"),
@@ -33,8 +34,10 @@ export const viewport: Viewport = {
 const boot = `(function(){try{
   var t=localStorage.getItem('ak-theme')||'light';
   var s=localStorage.getItem('ak-step')||'1';
+  var l=localStorage.getItem('ak-lang')||'en';
   document.documentElement.setAttribute('data-theme',t);
   document.documentElement.style.setProperty('--step',s);
+  document.documentElement.lang=l;
 }catch(e){}})();`;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -45,14 +48,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
-          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Sans+Devanagari:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Noto+Sans+Devanagari:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
           rel="stylesheet"
         />
       </head>
       <body>
-        <a className="skip" href="#main">Skip to content</a>
-        <TopBar />
-        {children}
+        <LangProvider>
+          <a className="skip" href="#main">Skip to content</a>
+          <TopBar />
+          {children}
+        </LangProvider>
       </body>
     </html>
   );

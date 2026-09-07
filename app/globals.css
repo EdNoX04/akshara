@@ -434,3 +434,72 @@ details[open] > summary .marker::after{opacity:0}
 
 .katha-foot{max-width:60ch;margin:34px auto 0;text-align:center;font-style:italic;
   color:var(--ink-dim);font-size:1.06em}
+
+/* ============ LANGUAGE ============ */
+.ctrl.lang button{font-size:12.5px;min-width:30px;font-family:var(--sans)}
+.ctrl.lang button[lang="hi"],.ctrl.lang button[lang="ta"]{font-family:var(--dev),var(--sans);font-size:14px}
+html[lang="ta"] body{font-family:'Noto Serif Tamil','EB Garamond',Georgia,serif}
+html[lang="hi"] body{font-family:'Noto Sans Devanagari','EB Garamond',Georgia,serif}
+html[lang="hi"] .wordmark,html[lang="ta"] .wordmark{font-family:var(--serif)}
+
+.partial-notice{max-width:70ch;margin:0 auto 34px;padding:14px 20px;text-align:center;
+  border:1px dashed var(--border);border-radius:var(--radius);
+  background:color-mix(in srgb,var(--gold) 8%,transparent);
+  color:var(--ink-dim);font-size:.92em}
+.partial-notice span{color:var(--gold);margin-right:6px}
+
+/* ============ STATIC PAGES ============ */
+.doc-page{padding:clamp(56px,8vw,96px) 0 clamp(48px,6vw,80px)}
+.doc-page .container{max-width:820px}
+.page-head{margin-bottom:clamp(34px,4vw,52px);padding-bottom:26px;border-bottom:1px solid var(--border)}
+.page-head h1{font-size:clamp(34px,5.4vw,54px);margin:.18em 0 .3em}
+.prose h2{font-size:clamp(21px,2.8vw,28px);color:var(--saffron);margin:1.9em 0 .5em}
+.prose p,.prose li{color:var(--ink-dim)}
+.prose code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
+  background:var(--panel2);border:1px solid var(--border);border-radius:5px;padding:1px 6px;color:var(--ink)}
+.prose .updated{margin-top:2.4em;padding-top:18px;border-top:1px solid var(--border-soft);
+  font-size:.86em;color:var(--ink-faint);font-style:italic}
+.log-empty{margin-top:2.4em;border:1px solid var(--border);border-left:4px solid var(--gold);
+  border-radius:var(--radius);background:var(--panel);padding:22px 26px}
+.log-empty .k{display:block;font-size:.68em;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:8px;font-weight:600}
+.log-empty p{margin:0;color:var(--ink-dim)}
+
+/* ============ FOOTER ============ */
+footer.site{padding:0 0 40px;border-top:1px solid var(--border);margin-top:0;
+  background:var(--bg2);text-align:left;color:var(--ink-dim);font-size:1em}
+.foot-orn{display:block;margin:-16px auto 40px;background:var(--bg2);padding:0 18px}
+.foot-grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:clamp(24px,4vw,52px);
+  padding-bottom:38px}
+@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.foot-grid{grid-template-columns:1fr}}
+
+.fb-mark{font-family:var(--dev);font-size:2.4em;color:var(--saffron);line-height:1.1}
+.fb-name{font-size:1.05em;letter-spacing:.3em;color:var(--ink);margin-top:.1em}
+.fb-say{font-size:.94em;color:var(--ink-dim);margin:1em 0 .9em;max-width:42ch}
+.fb-parent{font-size:.88em;color:var(--ink-faint);max-width:42ch;margin:0}
+.fb-parent strong{color:var(--ink-dim)}
+
+.foot-col h2{font-size:.72em;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+  font-family:var(--sans);font-weight:600;margin-bottom:14px}
+.foot-col ul{list-style:none;margin:0}
+.foot-col li{margin-bottom:2px}
+.foot-col a{display:block;padding:8px 0;text-decoration:none;color:var(--ink-dim);
+  font-size:.96em;transition:color .15s;min-height:38px;line-height:1.4}
+.foot-col a:hover{color:var(--saffron)}
+
+.foot-help{border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft);
+  padding:20px 0;display:flex;gap:22px;align-items:baseline;flex-wrap:wrap}
+.foot-help .fh-k{font-size:.68em;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+  font-family:var(--sans);font-weight:600;flex:none}
+.foot-help p{margin:0;font-size:.92em;color:var(--ink-dim);max-width:62ch}
+
+.foot-bar{display:flex;justify-content:space-between;gap:22px;flex-wrap:wrap;padding-top:24px}
+.fbar-left{display:flex;flex-direction:column;gap:5px;font-size:.86em;color:var(--ink-faint)}
+.fbar-note{max-width:52ch}
+.fbar-right{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:.86em}
+.fbar-right a{text-decoration:none;color:var(--ink-dim);padding:6px 0}
+.fbar-right a:hover{color:var(--saffron)}
+.fbar-right span{color:var(--border)}
+
+@media(max-width:1320px){.brand small{display:none}}

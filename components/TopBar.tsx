@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+import { LangSwitch, useT } from "./LangProvider";
 
 const STEPS = [
   { v: "0.92", label: "A", title: "Smaller text" },
@@ -11,6 +12,7 @@ const STEPS = [
 ];
 
 export default function TopBar() {
+  const t = useT();
   const [theme, setTheme] = useState("light");
   const [step, setStep] = useState("1");
   const [pct, setPct] = useState(0);
@@ -56,13 +58,15 @@ export default function TopBar() {
           </Link>
 
           <nav className="topnav" aria-label="Main">
-            <Link href="/#courses">Courses</Link>
-            <Link href="/#map">The Map</Link>
-            <Link href="/#stories">Stories</Link>
-            <Link href="/#sruta">Śruta</Link>
+            <Link href="/#courses">{t.nav.courses}</Link>
+            <Link href="/#map">{t.nav.map}</Link>
+            <Link href="/#stories">{t.nav.stories}</Link>
+            <Link href="/#sruta">{t.nav.sruta}</Link>
+
+            <LangSwitch />
 
             <div className="ctrl" role="group" aria-label="Text size">
-              <span className="lbl" aria-hidden>Size</span>
+              <span className="lbl" aria-hidden>{t.ctrl.size}</span>
               {STEPS.map((s, i) => (
                 <button
                   key={s.v}
@@ -83,14 +87,14 @@ export default function TopBar() {
                 onClick={() => applyTheme("dark")}
                 title="Dark — easier at night"
               >
-                Dark
+                {t.ctrl.dark}
               </button>
               <button
                 aria-pressed={theme === "light"}
                 onClick={() => applyTheme("light")}
                 title="Light — easier in daylight and for tired eyes"
               >
-                Light
+                {t.ctrl.light}
               </button>
             </div>
           </nav>
