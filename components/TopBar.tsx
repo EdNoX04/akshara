@@ -58,10 +58,10 @@ export default function TopBar() {
           </Link>
 
           <nav className="topnav" aria-label="Main">
+            <Link href="/#inside">Inside</Link>
             <Link href="/#courses">{t.nav.courses}</Link>
-            <Link href="/#map">{t.nav.map}</Link>
-            <Link href="/#stories">{t.nav.stories}</Link>
             <Link href="/#sruta">{t.nav.sruta}</Link>
+            <Link className="nav-cta" href="/#waitlist">Waitlist</Link>
 
             <LangSwitch />
 

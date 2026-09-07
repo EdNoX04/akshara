@@ -34,13 +34,22 @@ export default function Privacy() {
               data removes it. That is the entire list.
             </p>
 
+            <h2>If you join the waitlist</h2>
+            <p>
+              The waitlist form asks for one thing: an email address. It is stored
+              for one purpose — to tell you when Akshara opens — and it is used
+              once, for that. We do not sell it, share it, or add you to anything
+              else. Every message carries an unsubscribe link, and you can ask us
+              to delete your address at any time and we will.
+            </p>
+
             <h2>What we do not do</h2>
             <ul>
               <li>No accounts, logins or profiles.</li>
               <li>No analytics or behavioural tracking of any kind.</li>
               <li>No advertising, and no advertising networks.</li>
               <li>No selling, renting or sharing of personal information — there is none to sell.</li>
-              <li>No newsletters unless you one day choose to ask for one.</li>
+              <li>No newsletter beyond the single launch email you asked for.</li>
             </ul>
 
             <h2>What other companies see</h2>

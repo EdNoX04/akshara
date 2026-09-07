@@ -14,6 +14,7 @@ export type Node = {
 
 export type Division = {
   id: string;
+  brief?: string;
   numeral: string;
   dv: string;
   rm: string;
@@ -25,6 +26,8 @@ export type Division = {
 export const CANON: Division[] = [
   {
     id: "veda",
+    brief:
+      "The revealed core — four Samhitas, each carrying an applied science of its own.",
     numeral: "१",
     dv: "वेद",
     rm: "The Four Vedas",
@@ -101,6 +104,8 @@ export const CANON: Division[] = [
 
   {
     id: "vedanga",
+    brief:
+      "Six disciplines built to carry the text across three thousand years without drift.",
     numeral: "२",
     dv: "वेदाङ्ग",
     rm: "The Six Vedangas",
@@ -155,6 +160,8 @@ export const CANON: Division[] = [
 
   {
     id: "upanga",
+    brief:
+      "Law, story, interpretation and logic — where the tradition meets ordinary life.",
     numeral: "३",
     dv: "उपाङ्ग",
     rm: "The Four Upangas",
@@ -211,6 +218,8 @@ export const CANON: Division[] = [
 
   {
     id: "darshana",
+    brief:
+      "Six orthodox schools that share one commitment and disagree about everything else.",
     numeral: "४",
     dv: "षड्दर्शन",
     rm: "The Six Astika Darshanas",
@@ -273,6 +282,8 @@ export const CANON: Division[] = [
 
   {
     id: "nastika",
+    brief:
+      "Three schools that reject the Veda and shaped the argument anyway.",
     numeral: "५",
     dv: "नास्तिक दर्शन",
     rm: "The Three Non-Vedic Darshanas",
@@ -304,8 +315,31 @@ export const CANON: Division[] = [
     ],
   },
 
+
+  {
+    id: "agama",
+    brief:
+      "Temple, mantra and image — how worship is actually done, in six streams.",
+    numeral: "६",
+    dv: "आगम",
+    rm: "The Six Agamas",
+    count: "Temple, mantra and image",
+    lead:
+      "How worship is actually done. Where the Vedas govern the fire altar, the Agamas govern the temple: how it is built, how the image is consecrated, how a mantra is transmitted, what the body does. Six streams, by the deity at the centre.",
+    nodes: [
+      { dv: "शाक्त", rm: "Shakta", gloss: "The Goddess as ultimate reality — Devi, Shakti, the power that is not secondary to anyone." },
+      { dv: "शैव", rm: "Shaiva", gloss: "Shiva — from Kashmir's non-dual recognition to the Shaiva Siddhanta of the Tamil south." },
+      { dv: "वैष्णव", rm: "Vaishnava", gloss: "Vishnu and his avatars — Pancharatra and Vaikhanasa temple practice." },
+      { dv: "गाणपत्य", rm: "Ganapatya", gloss: "Ganesha as the supreme, not merely as the remover of obstacles at the threshold." },
+      { dv: "कौमार", rm: "Kaumara", gloss: "Kartikeya, Skanda, Murugan — vast in Tamil Nadu, quieter elsewhere." },
+      { dv: "सौर", rm: "Saura", gloss: "Surya, the sun — once major, now the most diminished of the six." },
+    ],
+  },
+
   {
     id: "katha",
+    brief:
+      "The stories you actually grew up with, each traced to its real source.",
     numeral: "७",
     dv: "कथा",
     rm: "Katha · The Stories",
@@ -341,24 +375,6 @@ export const CANON: Division[] = [
         body:
           "Chandrabati's Bengali Ramayana, Telugu and Maithili song traditions, and the countless tellings that centre the characters the Sanskrit texts leave at the edge.",
       },
-    ],
-  },
-
-  {
-    id: "agama",
-    numeral: "६",
-    dv: "आगम",
-    rm: "The Six Agamas",
-    count: "Temple, mantra and image",
-    lead:
-      "How worship is actually done. Where the Vedas govern the fire altar, the Agamas govern the temple: how it is built, how the image is consecrated, how a mantra is transmitted, what the body does. Six streams, by the deity at the centre.",
-    nodes: [
-      { dv: "शाक्त", rm: "Shakta", gloss: "The Goddess as ultimate reality — Devi, Shakti, the power that is not secondary to anyone." },
-      { dv: "शैव", rm: "Shaiva", gloss: "Shiva — from Kashmir's non-dual recognition to the Shaiva Siddhanta of the Tamil south." },
-      { dv: "वैष्णव", rm: "Vaishnava", gloss: "Vishnu and his avatars — Pancharatra and Vaikhanasa temple practice." },
-      { dv: "गाणपत्य", rm: "Ganapatya", gloss: "Ganesha as the supreme, not merely as the remover of obstacles at the threshold." },
-      { dv: "कौमार", rm: "Kaumara", gloss: "Kartikeya, Skanda, Murugan — vast in Tamil Nadu, quieter elsewhere." },
-      { dv: "सौर", rm: "Saura", gloss: "Surya, the sun — once major, now the most diminished of the six." },
     ],
   },
 ];

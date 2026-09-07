@@ -3,9 +3,7 @@
 import Link from "next/link";
 import { useT } from "./LangProvider";
 
-type C = { slug: string; title: string };
-
-export default function FooterView({ courses }: { courses: C[] }) {
+export default function FooterView() {
   const t = useT();
   const year = new Date().getFullYear();
 
@@ -52,21 +50,10 @@ export default function FooterView({ courses }: { courses: C[] }) {
           <nav className="foot-col" aria-labelledby="f-lib">
             <h2 id="f-lib">{t.footer.library}</h2>
             <ul>
-              <li><Link href="/#map">{t.footer.mapL}</Link></li>
-              <li><Link href="/#stories">{t.footer.storiesL}</Link></li>
+              <li><Link href="/#inside">What is inside</Link></li>
               <li><Link href="/#truth">{t.footer.lensesL}</Link></li>
+              <li><Link href="/#courses">{t.footer.courses}</Link></li>
               <li><Link href="/#sruta">{t.footer.srutaL}</Link></li>
-            </ul>
-          </nav>
-
-          <nav className="foot-col" aria-labelledby="f-courses">
-            <h2 id="f-courses">{t.footer.courses}</h2>
-            <ul>
-              {courses.map((c) => (
-                <li key={c.slug}>
-                  <Link href={`/courses/${c.slug}`}>{c.title}</Link>
-                </li>
-              ))}
             </ul>
           </nav>
 
