@@ -5,3 +5,6 @@ out
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+
+# stale duplicate of app/_courses — sandbox could not delete it locally
+app/courses/
