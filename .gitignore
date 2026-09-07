@@ -5,3 +5,6 @@ out
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+
+# leftover duplicate of app/_courses on one machine (undeletable by the sandbox)
+app/courses/
