@@ -5,6 +5,7 @@ import { useT } from "@/components/LangProvider";
 import Reveal from "@/components/Reveal";
 import Waitlist from "@/components/Waitlist";
 import { Torana, Mandala, LotusRule, Corners } from "@/components/Ornaments";
+import ScrollScene from "@/components/ScrollScene";
 import { SITE } from "@/lib/site";
 
 const DOORS = [
@@ -37,6 +38,7 @@ export default function LandingClient() {
   return (
     <main id="main">
       <Reveal />
+      <ScrollScene />
 
       {/* ---------- TITLE PAGE ---------- */}
       <section className="hero title-page">
@@ -93,6 +95,55 @@ export default function LandingClient() {
                 <span className="door-cta">{d.cta} →</span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- THE THREE MOVEMENTS ---------- */}
+      <section className="band" id="movements">
+        <div className="container">
+          <div className="band-head reveal">
+            <LotusRule width={300} />
+            <span className="eyebrow">त्रिमूर्ति · Trimūrti</span>
+            <h2>Three movements, one motion</h2>
+            <p>
+              The tradition does not describe a world that was made once and left
+              alone. It describes a motion in three beats, turning without end —
+              and the library is arranged to be read the same way.
+            </p>
+          </div>
+
+          <div className="movements reveal">
+            <article className="movement">
+              <div className="mv-dv" lang="sa">ब्रह्मा</div>
+              <h3>Brahmā</h3>
+              <div className="mv-act">सर्ग · Creation</div>
+              <p>
+                Seated on the lotus that opens from Viṣṇu&apos;s navel. He speaks the
+                Vedas and the world begins — and then, almost uniquely among the
+                great gods, he is barely worshipped.
+              </p>
+            </article>
+            <article className="movement">
+              <div className="mv-dv" lang="sa">विष्णु</div>
+              <h3>Viṣṇu</h3>
+              <div className="mv-act">स्थिति · Preservation</div>
+              <p>
+                The one who holds it together, and descends whenever it slips —
+                the avataras. The Sudarshana chakra spins on his finger: order,
+                turning, never still.
+              </p>
+            </article>
+            <article className="movement">
+              <div className="mv-dv" lang="sa">शिव</div>
+              <h3>Śiva</h3>
+              <div className="mv-act">संहार · Dissolution</div>
+              <p>
+                Not destruction for its own sake — the clearing that lets the next
+                cycle begin. The triśūla, the ḍamaru that beats time, and Nandi
+                waiting outside every one of his temples.
+              </p>
+            </article>
           </div>
         </div>
       </section>

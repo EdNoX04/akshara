@@ -719,3 +719,97 @@ section.band > *{position:relative;z-index:1}
 .soon-badge .k{font-size:.62em;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);
   font-family:var(--sans);font-weight:600}
 .soon-badge .d{font-family:var(--serif);font-size:2em;color:var(--saffron);line-height:1.25}
+
+/* ============ THE TRIMURTI SCENE ============ */
+.scene{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden;
+  perspective:1200px;perspective-origin:50% 42%;
+  --brahma:0; --vishnu:0; --shiva:0;
+  --brahma-p:0; --vishnu-p:0; --shiva-p:0; --scroll:0}
+.scene-inner{position:absolute;inset:0;transform-style:preserve-3d}
+.obj{position:absolute;top:50%;left:50%;transform-style:preserve-3d;will-change:transform,opacity}
+
+/* — Brahmā · the lotus that opens ——————————————————————————
+   Wider than the reading column, laid almost flat and tilting up
+   toward the reader, so its petal tips clear the text on both sides. */
+.obj-lotus{--p:var(--brahma-p);
+  width:min(1280px,124vw);aspect-ratio:1;
+  top:40%;left:50%;margin:0;translate:-50% -50%;
+  opacity:calc(var(--brahma) * .55);
+  transform:translate3d(0, calc(var(--brahma-p) * -90px), calc(-420px + var(--brahma-p) * 300px))
+            rotateX(calc(74deg - var(--brahma-p) * 26deg))
+            scale(calc(.72 + var(--brahma-p) * .34))}
+.lotus-spin{position:absolute;inset:0;transform-style:preserve-3d;
+  transform:rotateZ(calc(var(--brahma-p) * 54deg))}
+.petal{position:absolute;left:50%;top:50%;width:340px;height:420px;margin:-420px 0 0 -170px;
+  transform-origin:50% 100%;transform-style:preserve-3d}
+.petal svg{width:100%;height:100%;display:block;overflow:visible}
+.lotus-core{position:absolute;left:50%;top:50%;width:190px;height:190px;margin:-95px 0 0 -95px;
+  transform:translateZ(54px)}
+
+/* — Viṣṇu · the Sudarshana chakra ——————————————————————————
+   Set off to the right and half out of frame: a wheel too big for
+   the window, turning as you pass it. */
+.obj-chakra{--p:var(--vishnu-p);
+  width:min(1020px,88vw);aspect-ratio:1;
+  top:56%;left:calc(50% + 42vw);margin:0;translate:-50% -50%;
+  opacity:calc(var(--vishnu) * .5);
+  transform:translate3d(calc(var(--vishnu-p) * -70px), calc(var(--vishnu-p) * -70px),
+                        calc(-380px + var(--vishnu-p) * 300px))
+            rotateY(calc(30deg - var(--vishnu-p) * 26deg))
+            rotateX(calc(46deg - var(--vishnu-p) * 44deg))
+            scale(calc(.76 + var(--vishnu-p) * .3))}
+.chakra-spin{position:absolute;inset:0;transform-style:preserve-3d;
+  transform:rotateZ(calc(var(--vishnu-p) * 540deg))}
+.disc{position:absolute;inset:0}
+.disc svg{width:100%;height:100%;display:block;overflow:visible}
+
+/* — Śiva · triśūla and Nandi ————————————————————————————————
+   The trident stands tall down the left margin; Nandi sits far
+   behind it on the other side, so scrolling pulls them apart. */
+.obj-shiva{--p:var(--shiva-p);
+  width:min(1560px,130vw);height:min(860px,92vh);
+  top:50%;left:50%;margin:0;translate:-50% -50%;
+  opacity:calc(var(--shiva) * .6);
+  transform:translate3d(0, calc(var(--shiva-p) * -46px), calc(-300px + var(--shiva-p) * 240px))
+            rotateY(calc(-22deg + var(--shiva-p) * 40deg))}
+.shiva-turn{position:absolute;inset:0;transform-style:preserve-3d}
+.trishul{position:absolute;left:5%;top:2%;width:min(250px,18vw);height:96%;
+  transform:translateZ(130px) translateY(calc(var(--shiva-p) * -40px))
+            rotateY(calc(var(--shiva-p) * 14deg))}
+.nandi{position:absolute;right:9%;bottom:13%;width:min(540px,38vw);
+  transform:translateZ(-150px) translateX(calc(var(--shiva-p) * 70px))
+            rotateY(calc(-10deg + var(--shiva-p) * 18deg))}
+.trishul svg,.nandi svg{width:100%;height:100%;display:block;overflow:visible}
+.nandi svg{height:auto}
+
+/* — the movement rail — */
+.trimurti-rail{position:fixed;right:clamp(14px,2.4vw,34px);top:50%;transform:translateY(-50%);
+  z-index:40;display:flex;flex-direction:column;gap:26px;pointer-events:none}
+.tm{display:flex;flex-direction:column;align-items:flex-end;text-align:right;
+  opacity:.3;transition:opacity .5s ease,transform .5s ease;transform:translateX(6px)}
+.tm.is-on{opacity:1;transform:none}
+.tm-dv{font-family:var(--dev);font-size:1.24em;color:var(--saffron);line-height:1.2}
+.tm-name{font-family:var(--serif);font-size:.82em;color:var(--ink-dim)}
+.tm-act{font-size:.6em;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);
+  font-family:var(--sans);margin-top:2px;max-height:0;overflow:hidden;transition:max-height .5s ease}
+.tm.is-on .tm-act{max-height:2em}
+@media(max-width:1180px){.trimurti-rail{display:none}}
+
+/* content sits above the scene */
+.hero,section.band,footer.site,.topbar,.page-hero{position:relative;z-index:2}
+
+/* the trimurti band on the home page */
+.movements{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.movement{position:relative;padding:30px 26px 32px;border-radius:var(--radius);
+  border:1px solid transparent;
+  background:linear-gradient(color-mix(in srgb,var(--panel) 96%,transparent),
+                             color-mix(in srgb,var(--panel) 96%,transparent)) padding-box,
+             linear-gradient(160deg,color-mix(in srgb,var(--gold) 40%,transparent),var(--border)) border-box;
+  backdrop-filter:blur(3px)}
+.movement .mv-dv{font-family:var(--dev);font-size:2em;color:var(--saffron);line-height:1.2}
+.movement h3{font-size:1.34em;margin:.28em 0 .1em}
+.movement .mv-act{font-size:.68em;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);font-family:var(--sans);font-weight:600}
+.movement p{font-size:.94em;color:var(--ink-dim);margin:.9em 0 0}
+
+@media (prefers-reduced-motion:reduce){ .scene,.trimurti-rail{display:none} }

@@ -6,5 +6,6 @@ out
 *.tsbuildinfo
 next-env.d.ts
 
-# leftover duplicate of app/_courses on one machine (undeletable by the sandbox)
-app/courses/
+
+# undeletable leftover on one machine; the live route is app/courses
+app/_courses/
