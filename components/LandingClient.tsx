@@ -1,19 +1,34 @@
 "use client";
 
-import { CANON } from "@/content/canon";
+import Link from "next/link";
 import { useT } from "@/components/LangProvider";
 import Reveal from "@/components/Reveal";
 import Waitlist from "@/components/Waitlist";
-import { Torana, Mandala, LotusRule, Corners, Medallion } from "@/components/Ornaments";
+import { Torana, Mandala, LotusRule, Corners } from "@/components/Ornaments";
 import { SITE } from "@/lib/site";
 
-const COURSES = [
-  { dv: "शिव", title: "The Shiva Journey", brief: "Who Shiva is, what every symbol means, and an honest look at the evidence." },
-  { dv: "वेद", title: "The Four Vedas", brief: "Fire, dawn, storm and doubt — and the recitation system that carried them." },
-  { dv: "उपनिषद्", title: "The Upanishads", brief: "A boy bargains with Death. A father dissolves salt in water." },
-  { dv: "रामायण", title: "The Ramayana", brief: "Seven books, one exile, and the questions the ending refuses to settle." },
-  { dv: "गीता", title: "The Gita", brief: "Eighteen chapters on a battlefield where a man refuses to fight." },
-  { dv: "भारत", title: "The Mahabharata", brief: "A family destroys itself, and the poem asks why." },
+const DOORS = [
+  {
+    href: "/map",
+    dv: "सनातन",
+    title: "The Map",
+    line: "Seven divisions, in the order the tradition itself puts them — Veda at the root, the schools still arguing at the edges.",
+    cta: "Open the map",
+  },
+  {
+    href: "/stories",
+    dv: "कथा",
+    title: "The Stories",
+    line: "Every story you grew up with, traced to its actual source — including the famous ones that are not in the text at all.",
+    cta: "Read the stories",
+  },
+  {
+    href: "/courses",
+    dv: "पाठ",
+    title: "The Courses",
+    line: "Long journeys through one deity, one text, one tradition — arranged the way a teacher would move.",
+    cta: "See the courses",
+  },
 ];
 
 export default function LandingClient() {
@@ -23,7 +38,7 @@ export default function LandingClient() {
     <main id="main">
       <Reveal />
 
-      {/* ---------- HERO ---------- */}
+      {/* ---------- TITLE PAGE ---------- */}
       <section className="hero title-page">
         <div className="hero-bg" aria-hidden>
           <div className="hero-glow" />
@@ -31,6 +46,7 @@ export default function LandingClient() {
           <Torana />
         </div>
         <div className="frame-rule" aria-hidden><Corners /></div>
+
         <div className="hero-inner">
           <div className="om" lang="sa">ॐ</div>
           <p className="sutra-line" lang="sa">अथातो ब्रह्मजिज्ञासा</p>
@@ -59,46 +75,36 @@ export default function LandingClient() {
         </div>
       </section>
 
-      {/* ---------- WHAT IS INSIDE ---------- */}
-      <section className="band" id="inside">
+      {/* ---------- THREE DOORS ---------- */}
+      <section className="band" id="doors">
         <div className="container">
           <div className="band-head reveal">
             <LotusRule width={300} />
-            <span className="eyebrow">What is inside</span>
-            <h2>The whole architecture, in one place</h2>
-            <p>
-              Not a pile of loose pieces. The tradition has been organised the
-              same way for a very long time, and the library follows that shape.
-            </p>
+            <span className="eyebrow">Three ways in</span>
+            <h2>Start wherever you already are</h2>
           </div>
 
-          <div className="topic-grid reveal">
-            {CANON.map((d) => (
-              <article className="topic" key={d.id}>
-                <Medallion n={d.numeral} />
-                <div className="t-dv" lang="sa">{d.dv}</div>
-                <h3>{d.rm}</h3>
-                <p className="t-count">{d.count}</p>
-                <p className="t-brief">{d.brief}</p>
-              </article>
+          <div className="door-grid reveal">
+            {DOORS.map((d) => (
+              <Link className="door" key={d.href} href={d.href}>
+                <div className="door-dv" lang="sa" aria-hidden>{d.dv}</div>
+                <h3>{d.title}</h3>
+                <p>{d.line}</p>
+                <span className="door-cta">{d.cta} →</span>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ---------- THREE LENSES ---------- */}
+      {/* ---------- WHY TRUST IT ---------- */}
       <section className="band" id="truth">
         <div className="container">
           <div className="band-head reveal">
             <LotusRule width={300} />
             <span className="eyebrow">Why trust it</span>
-            <h2>Three kinds of true, never mixed</h2>
-            <p>
-              Most writing about religion reads myth as literal history, or
-              dismisses symbol as falsehood. Every claim here is marked with the
-              lens it is being read through — and every course ends with what the
-              evidence actually supports, including where it says we are wrong.
-            </p>
+            <h2>{t.lenses.title}</h2>
+            <p>{t.lenses.lead}</p>
           </div>
 
           <div className="lens-row reveal">
@@ -109,34 +115,7 @@ export default function LandingClient() {
         </div>
       </section>
 
-      {/* ---------- COURSES ---------- */}
-      <section className="band" id="courses">
-        <div className="container">
-          <div className="band-head reveal">
-            <LotusRule width={300} />
-            <span className="eyebrow">Opening {SITE.launch}</span>
-            <h2>The first courses</h2>
-            <p>
-              Long-form journeys through one deity, one text, one tradition —
-              arranged the way a teacher would move.
-            </p>
-          </div>
-
-          <div className="course-strip reveal">
-            {COURSES.map((c) => (
-              <article className="cstrip" key={c.title}>
-                <div className="cs-dv" lang="sa">{c.dv}</div>
-                <div>
-                  <h3>{c.title}</h3>
-                  <p>{c.brief}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- ŚRUTA ---------- */}
+      {/* ---------- ŚRUTA TEASER ---------- */}
       <section className="band" id="sruta">
         <div className="container">
           <div className="band-head reveal">
@@ -148,7 +127,7 @@ export default function LandingClient() {
             <div className="dv" lang="sa">श्रुत</div>
             <h3>ŚRUTA</h3>
             <p className="say">{t.sruta.say}</p>
-            <p className="say" style={{ marginBottom: 0 }}>{t.sruta.say2}</p>
+            <Link className="btn" href="/sruta" style={{ marginTop: 8 }}>What Śruta will and will not do →</Link>
           </div>
         </div>
       </section>

@@ -50,10 +50,10 @@ export default function FooterView() {
           <nav className="foot-col" aria-labelledby="f-lib">
             <h2 id="f-lib">{t.footer.library}</h2>
             <ul>
-              <li><Link href="/#inside">What is inside</Link></li>
-              <li><Link href="/#truth">{t.footer.lensesL}</Link></li>
-              <li><Link href="/#courses">{t.footer.courses}</Link></li>
-              <li><Link href="/#sruta">{t.footer.srutaL}</Link></li>
+              <li><Link href="/map">{t.footer.mapL}</Link></li>
+              <li><Link href="/stories">{t.footer.storiesL}</Link></li>
+              <li><Link href="/courses">{t.footer.courses}</Link></li>
+              <li><Link href="/sruta">{t.footer.srutaL}</Link></li>
             </ul>
           </nav>
 
