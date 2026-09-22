@@ -507,6 +507,30 @@ footer.site{padding:0 0 40px;border-top:1px solid var(--border);margin-top:0;
 
 @media(max-width:1320px){.brand small{display:none}}
 
+/* The header holds a lot: nav, language, text size, theme. Below the
+   desktop width it becomes one horizontally scrollable rail rather than
+   overflowing the viewport. */
+@media(max-width:1180px){
+  .topbar-in{gap:12px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+  .topbar-in::-webkit-scrollbar{display:none}
+  .topbar-in > *{flex:none}
+  /* a soft edge so the rail reads as scrollable, not as clipped */
+  .topbar{-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent 100%);
+          mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 26px),transparent 100%)}
+  .topnav{margin-left:auto;gap:2px}
+  .topnav a{padding:7px 9px;font-size:.78em}
+}
+@media(max-width:860px){
+  .brand{font-size:1em}
+  .ctrl .lbl{display:none}
+  .ctrl.size{display:none}
+}
+@media(max-width:560px){
+  .topbar-in{padding-right:14px}
+  .topnav a{padding:7px 8px;font-size:.76em}
+}
+
 /* ============ PRODUCT LANDING ============ */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
   clip:rect(0,0,0,0);white-space:nowrap;border:0}

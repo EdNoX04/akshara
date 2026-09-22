@@ -66,7 +66,7 @@ export default function TopBar() {
 
             <LangSwitch />
 
-            <div className="ctrl" role="group" aria-label="Text size">
+            <div className="ctrl size" role="group" aria-label="Text size">
               <span className="lbl" aria-hidden>{t.ctrl.size}</span>
               {STEPS.map((s, i) => (
                 <button
