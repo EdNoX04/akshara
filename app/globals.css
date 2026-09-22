@@ -796,17 +796,14 @@ section.band > *{position:relative;z-index:1}
 .obj-shiva{--p:var(--shiva-p);
   width:min(1560px,130vw);height:min(860px,92vh);
   top:50%;left:50%;margin:0;translate:-50% -50%;
-  opacity:calc(var(--shiva) * .78);
+  opacity:calc(var(--shiva) * .8);
   transform:translate3d(0, calc(var(--shiva-p) * -46px), calc(-300px + var(--shiva-p) * 240px))
             rotateY(calc(-22deg + var(--shiva-p) * 40deg))}
 .shiva-turn{position:absolute;inset:0;transform-style:preserve-3d}
-.trishul{position:absolute;left:5%;top:1%;width:min(200px,14.5vw);height:auto;
-  transform:translateZ(130px) translateY(calc(var(--shiva-p) * -40px))
-            rotateY(calc(var(--shiva-p) * 14deg))}
-.nandi{position:absolute;right:21%;bottom:15%;width:min(520px,35vw);
-  transform:translateZ(-150px) translateX(calc(var(--shiva-p) * 70px))
-            rotateY(calc(-10deg + var(--shiva-p) * 18deg))}
-.trishul svg,.nandi svg{width:100%;height:auto;display:block;overflow:visible}
+.trishul{position:absolute;left:3%;top:50%;width:min(310px,22vw);height:auto;
+  transform:translate(0,-50%) translateZ(130px) translateY(calc(var(--shiva-p) * -46px))
+            rotateY(calc(var(--shiva-p) * 16deg))}
+.trishul svg{width:100%;height:auto;display:block;overflow:visible}
 
 /* — the movement rail — */
 .trimurti-rail{position:fixed;right:clamp(14px,2.4vw,34px);top:50%;transform:translateY(-50%);
