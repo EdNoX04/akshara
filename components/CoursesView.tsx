@@ -49,6 +49,7 @@ export default function CoursesView({ courses }: { courses: CourseCard[] }) {
             <div><b>{Math.round(totalWords / 1000)}k</b><span>{t.courses.words}</span></div>
           </div>
 
+          <h2 className="vh">The courses</h2>
           <div className="course-grid reveal" style={{ marginTop: 46 }}>
             {courses.map((c) => (
               <Link className="course-card" key={c.slug} href={`/courses/${c.slug}`}>

@@ -36,7 +36,10 @@ export default function CourseNav({
       if (e.key !== "j" && e.key !== "k") return;
       const idx = items.findIndex((i) => i.id === active);
       const next = items[e.key === "j" ? idx + 1 : idx - 1];
-      if (next) document.getElementById(next.id)?.scrollIntoView({ behavior: "smooth" });
+      if (next) {
+        const smooth = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        document.getElementById(next.id)?.scrollIntoView({ behavior: smooth ? "smooth" : "auto" });
+      }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -50,6 +53,7 @@ export default function CourseNav({
         className="btn toc-toggle"
         onClick={() => setOpen((o) => !o)}
         aria-expanded={open}
+        aria-controls="course-toc"
         style={{
           position: "fixed", bottom: 22, left: 18, zIndex: 58,
           background: "var(--panel)", padding: "11px 18px", fontSize: 13,
@@ -58,10 +62,10 @@ export default function CourseNav({
         {open ? "✕ Close" : "☰ Stages"}
       </button>
 
-      <nav className="toc" data-open={open} aria-label="Course contents">
+      <nav id="course-toc" className="toc" data-open={open} aria-label="Course contents" inert={!open || undefined}>
         <div className="toc-head">
           <div className="cd" aria-hidden>{devanagari}</div>
-          <h2>{title}</h2>
+          <p className="toc-title">{title}</p>
           <p>{items.length} stages</p>
         </div>
         {items.map((i) => {

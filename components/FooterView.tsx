@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { SITE } from "@/lib/site";
 import { useT } from "./LangProvider";
 
 export default function FooterView() {
   const t = useT();
-  const year = new Date().getFullYear();
 
   return (
     <footer className="site">
@@ -63,7 +63,7 @@ export default function FooterView() {
               <li><Link href="/corrections">{t.footer.report}</Link></li>
               <li><Link href="/privacy">{t.footer.privacy}</Link></li>
               <li><Link href="/terms">{t.footer.terms}</Link></li>
-              <li><a href="mailto:hello@akshara.study">{t.footer.contact}</a></li>
+              <li><a href={`mailto:${SITE.contactEmail}`}>{t.footer.contact}</a></li>
             </ul>
           </nav>
         </div>
@@ -75,7 +75,7 @@ export default function FooterView() {
 
         <div className="foot-bar">
           <div className="fbar-left">
-            <span>&copy; {year} Akshara. {t.footer.rights}</span>
+            <span>&copy; {SITE.copyrightYear} Akshara. {t.footer.rights}</span>
             <span className="fbar-note">
 {t.footer.note}
             </span>

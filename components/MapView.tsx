@@ -20,6 +20,7 @@ export default function MapView() {
       <section className="band band-first">
         <div className="container">
           <PartialNotice />
+          <h2 className="vh">The seven divisions</h2>
           <CanonMap note={t.map.note} />
         </div>
       </section>

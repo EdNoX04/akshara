@@ -2,9 +2,10 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import TopBar from "@/components/TopBar";
 import { LangProvider } from "@/components/LangProvider";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akshara.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Akshara — The Imperishable Library",
     template: "%s · Akshara",
@@ -20,7 +21,16 @@ export const metadata: Metadata = {
     description:
       "The Hindu canon, told truthfully. Scriptural, symbolic and historical kept honestly separate.",
     type: "website",
+    siteName: "Akshara",
+    locale: "en",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Akshara — The Imperishable Library",
+    description:
+      "The Hindu canon, told truthfully. Scriptural, symbolic and historical kept honestly separate.",
+  },
+  alternates: { canonical: "/" },
 };
 
 export const viewport: Viewport = {
@@ -32,7 +42,7 @@ export const viewport: Viewport = {
 
 /* Applied before paint so there is no theme/size flash. */
 const boot = `(function(){try{
-  var t=localStorage.getItem('ak-theme')||'light';
+  var t=localStorage.getItem('ak-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
   var s=localStorage.getItem('ak-step')||'1';
   var l=localStorage.getItem('ak-lang')||'en';
   document.documentElement.setAttribute('data-theme',t);

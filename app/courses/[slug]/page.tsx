@@ -92,7 +92,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             You have reached the end of {course.title}. Nothing here is the last word —
             corrections and better sources are how a library gets built.
           </p>
-          <Link className="btn" href="/">← All courses</Link>
+          <Link className="btn" href="/courses">← All courses</Link>
         </footer>
       </main>
     </div>
