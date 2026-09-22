@@ -4,7 +4,7 @@
  * domain is attached; the fallback only matters for local builds.
  */
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://akshara-gold.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://projectakshara.com";
 
 export const SITE = {
   name: "Akshara",

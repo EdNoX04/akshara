@@ -847,3 +847,10 @@ section.band > *{position:relative;z-index:1}
 .nf h1{font-size:clamp(30px,5vw,50px);margin:.1em 0 .5em}
 .nf p{color:var(--ink-dim);margin:0 auto 2em;max-width:52ch}
 .nf-links{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+
+/* A written course that has not opened yet: shown, not readable. */
+.course-card.sealed{cursor:default}
+.course-card.sealed:hover{transform:none;border-color:var(--border)}
+.course-card .seal{margin-top:16px;padding-top:14px;border-top:1px solid var(--border-soft);
+  font-family:var(--sans);font-size:.62em;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--gold-ink);font-weight:600}

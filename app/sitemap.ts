@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
-import { courseSlugs } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
@@ -10,10 +9,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     priority: r === "" ? 1 : 0.7,
   }));
-  const courses = courseSlugs().map((slug) => ({
-    url: `${SITE_URL}/courses/${slug}`,
-    lastModified: now,
-    priority: 0.6,
-  }));
-  return [...pages, ...courses];
+  return pages;
 }

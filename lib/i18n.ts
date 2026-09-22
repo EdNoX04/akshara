@@ -90,7 +90,7 @@ const en: Dict = {
       "Most writing about religion falls into one of two traps: it reads myth as literal history, or it dismisses symbol as falsehood. Both are lazy. Every claim here is marked with the lens it is being read through.",
   },
   courses: {
-    eyebrow: "Live now",
+    eyebrow: "Written · opening January 2027",
     title: "The courses",
     lead:
       "Long-form journeys through one deity, one text, one tradition — arranged the way a teacher would move: the person, the image, the stories, the philosophy, the living tradition, and then the evidence.",
@@ -157,7 +157,7 @@ const hi: Dict = {
       "धर्म पर लिखा अधिकांश लेखन दो में से एक भूल करता है: या तो मिथक को अक्षरशः इतिहास मान लेता है, या प्रतीक को असत्य कहकर त्याग देता है। दोनों आलस्य हैं। यहाँ प्रत्येक कथन पर अंकित है कि वह किस दृष्टि से पढ़ा जा रहा है।",
   },
   courses: {
-    eyebrow: "अभी उपलब्ध",
+    eyebrow: "लिखे जा चुके · जनवरी 2027",
     title: "पाठ्यक्रम",
     lead:
       "एक देवता, एक ग्रन्थ, एक परम्परा — उसी क्रम में जिस क्रम में गुरु चलते: पहले व्यक्ति, फिर प्रतिमा, फिर कथाएँ, फिर दर्शन, फिर जीवित परम्परा, और अन्त में प्रमाण।",
@@ -225,7 +225,7 @@ const ta: Dict = {
       "மதம் குறித்த பெரும்பாலான எழுத்து இரண்டில் ஒரு பொறியில் விழுகிறது: புராணத்தை நேரடி வரலாறாகப் படிக்கிறது, அல்லது குறியீட்டைப் பொய் என ஒதுக்குகிறது. இரண்டும் சோம்பல். இங்கே ஒவ்வொரு கூற்றும் எந்தப் பார்வையில் படிக்கப்படுகிறது என்பது குறிக்கப்பட்டுள்ளது.",
   },
   courses: {
-    eyebrow: "இப்போது கிடைக்கிறது",
+    eyebrow: "எழுதப்பட்டவை · ஜனவரி 2027",
     title: "பாடங்கள்",
     lead:
       "ஒரு தெய்வம், ஒரு நூல், ஒரு மரபு — ஆசிரியர் நகரும் அதே வரிசையில்: முதலில் ஆள், பின் உருவம், பின் கதைகள், பின் தத்துவம், பின் வாழும் மரபு, இறுதியில் சான்று.",

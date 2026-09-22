@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import PageHead from "@/components/PageHead";
+import { SITE } from "@/lib/site";
 import Reveal from "@/components/Reveal";
 import { useT } from "@/components/LangProvider";
 
@@ -52,7 +52,7 @@ export default function CoursesView({ courses }: { courses: CourseCard[] }) {
           <h2 className="vh">The courses</h2>
           <div className="course-grid reveal" style={{ marginTop: 46 }}>
             {courses.map((c) => (
-              <Link className="course-card" key={c.slug} href={`/courses/${c.slug}`}>
+              <div className="course-card sealed" key={c.slug}>
                 <div className="cd" aria-hidden>{c.devanagari}</div>
                 <h3>{c.title}</h3>
                 <div className="sub">{c.subtitle}</div>
@@ -63,7 +63,8 @@ export default function CoursesView({ courses }: { courses: CourseCard[] }) {
                   <span><b>{Math.round(c.words / 1000)}k</b> {t.courses.words}</span>
                   <span><b>{Math.round(c.minutes / 6) / 10}</b> hrs</span>
                 </div>
-              </Link>
+                <div className="seal">Written · opens {SITE.launch}</div>
+              </div>
             ))}
 
             {SOON.map((s) => (
