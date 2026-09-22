@@ -80,7 +80,8 @@ export default function ScrollScene() {
       el.style.setProperty("--vishnu", vVis.toFixed(4));
       el.style.setProperty("--vishnu-p", vishnu.p.toFixed(4));
       el.style.setProperty("--shiva", "0");
-      el.style.setProperty("--shiva-p", shiva.p.toFixed(4));
+      /* The Śiva section draws its own triśūla, so it reads this from the root. */
+      document.documentElement.style.setProperty("--shiva-p", shiva.p.toFixed(4));
 
       const next = shiva.vis > 0.4 ? 2 : vVis > 0.4 ? 1 : 0;
       setPhase((cur) => (cur === next ? cur : next));

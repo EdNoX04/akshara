@@ -842,18 +842,59 @@ section.band > *{position:relative;z-index:1}
   gap:clamp(28px,5vw,80px);align-items:center}
 
 .shiva-emblem{position:relative;display:grid;place-items:center}
-.tri-mark{width:min(340px,100%);height:auto;display:block;position:relative;z-index:2;
-  filter:drop-shadow(0 10px 26px color-mix(in srgb,var(--saffron) 22%,transparent))}
-.tri-halo{position:absolute;width:min(420px,120%);aspect-ratio:1;border-radius:50%;
-  background:radial-gradient(circle,color-mix(in srgb,var(--gold) 16%,transparent) 0%,transparent 66%)}
+
+/* The trident rises and unfolds as the section arrives, then keeps a slow
+   breath of its own. `--shiva-p` is written by ScrollScene and falls back to
+   0, so this is inert when that scene does not run. */
+.tri-float{position:relative;z-index:2;width:min(340px,100%);
+  transform:translateY(calc(var(--shiva-p,0) * -26px))
+            rotateZ(calc((var(--shiva-p,0) - .5) * 3deg));
+  transition:transform .25s linear;
+  animation:tri-breathe 7s ease-in-out infinite}
+.tri-mark{width:100%;height:auto;display:block;
+  filter:drop-shadow(0 10px 26px color-mix(in srgb,var(--saffron) 22%,transparent));
+  transform-origin:50% 88%;
+  opacity:0;transform:translateY(26px) scale(.9)}
+.reveal.in .tri-mark{animation:tri-rise 1.15s cubic-bezier(.16,.84,.32,1) forwards}
+
+.tri-halo{position:absolute;width:min(430px,122%);aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,color-mix(in srgb,var(--gold) 18%,transparent) 0%,transparent 66%);
+  opacity:0;animation:none}
+.reveal.in .tri-halo{animation:halo-in 1.4s ease-out .2s forwards, halo-pulse 7s ease-in-out 1.6s infinite}
+
+@keyframes tri-rise{
+  0%{opacity:0;transform:translateY(26px) scale(.9)}
+  60%{opacity:1}
+  100%{opacity:1;transform:translateY(0) scale(1)}
+}
+@keyframes tri-breathe{
+  0%,100%{translate:0 0}
+  50%{translate:0 -9px}
+}
+@keyframes halo-in{from{opacity:0;scale:.82}to{opacity:1;scale:1}}
+@keyframes halo-pulse{
+  0%,100%{opacity:.85;scale:1}
+  50%{opacity:1;scale:1.07}
+}
+
+@media (prefers-reduced-motion:reduce){
+  /* these have to out-specify `.reveal.in .tri-mark`, or they never apply */
+  .shiva-emblem .tri-float{animation:none;transform:none;transition:none}
+  .tri-mark,.reveal.in .tri-mark{opacity:1;transform:none;animation:none}
+  .tri-halo,.reveal.in .tri-halo{opacity:1;animation:none}
+}
 
 .shiva-copy .eyebrow{display:block}
 .sv-dv{font-family:var(--dev);font-size:clamp(46px,7vw,86px);color:var(--saffron);line-height:1.18;margin-top:.12em}
 .shiva-copy h2{font-size:clamp(28px,4vw,46px);letter-spacing:.06em;margin:.05em 0 .4em}
 .shiva-copy .lead{max-width:56ch}
-.sv-hist{max-width:62ch;color:var(--ink-dim);font-size:.96em;
+.sv-quiet{max-width:56ch;color:var(--ink-dim);font-size:.98em;
   border-left:2px solid color-mix(in srgb,var(--gold) 55%,transparent);padding-left:16px}
-.sv-hist b{color:var(--gold-ink)}
+.sv-when{margin-top:30px;display:inline-flex;flex-direction:column;
+  border-top:2px solid var(--saffron);border-bottom:2px solid var(--saffron);padding:11px 34px}
+.sv-when .k{font-family:var(--sans);font-size:.6em;letter-spacing:.32em;text-transform:uppercase;
+  color:var(--gold-ink);font-weight:600}
+.sv-when .d{font-family:var(--serif);font-size:1.7em;color:var(--saffron);line-height:1.3}
 
 .sv-forms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:30px 0 0}
 .sv-form{border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px 18px;
@@ -876,6 +917,29 @@ section.band > *{position:relative;z-index:1}
 @media(max-width:860px){
   .shiva-in{grid-template-columns:1fr}
   .shiva-emblem{order:-1}
-  .tri-mark{width:min(210px,62%)}
-  .sv-forms{grid-template-columns:1fr}
+  .tri-float{width:min(210px,62%)}
+}
+
+/* ---------- App Store notice ---------- */
+.appstore{margin:44px auto 0;display:flex;width:max-content;max-width:100%;align-items:center;gap:16px;
+  border:1px solid var(--border);border-radius:16px;padding:14px 26px 14px 16px;
+  background:color-mix(in srgb,var(--panel) 80%,transparent);
+  transition:border-color .3s ease,transform .3s ease}
+.appstore:hover{border-color:color-mix(in srgb,var(--saffron) 45%,transparent);transform:translateY(-2px)}
+.as-tile{flex:none;width:54px;height:54px;border-radius:13px;display:grid;place-items:center;
+  background:linear-gradient(155deg,var(--saffron),color-mix(in srgb,var(--saffron) 62%,#000));
+  box-shadow:0 6px 18px color-mix(in srgb,var(--saffron) 30%,transparent)}
+.as-tile span{font-family:var(--dev);font-size:30px;line-height:1;color:#fbf3df;
+  transform:translateY(-1px)}
+.as-copy{display:flex;flex-direction:column;text-align:left}
+.as-k{font-family:var(--sans);font-size:.6em;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink-faint);font-weight:600}
+.as-store{font-family:var(--serif);font-size:1.5em;line-height:1.2;color:var(--ink);font-weight:600;
+  letter-spacing:.01em;margin:.08em 0 .1em}
+.as-sub{font-family:var(--sans);font-size:.66em;letter-spacing:.1em;color:var(--ink-dim)}
+@media(max-width:520px){
+  .appstore{padding:12px 18px 12px 12px;gap:12px}
+  .as-tile{width:46px;height:46px;border-radius:11px}
+  .as-tile span{font-size:25px}
+  .as-store{font-size:1.25em}
 }
