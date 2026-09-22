@@ -331,7 +331,6 @@ figure.viz figcaption{margin-top:16px;padding-top:14px;border-top:1px dashed var
   main.doc{max-width:100%}
 }
 
-
 /* ============ THE MAP ============ */
 .canon{max-width:1000px;margin:0 auto}
 .canon-note{color:var(--ink-dim);font-style:italic;max-width:70ch;margin:0 auto 54px;text-align:center}
@@ -405,7 +404,6 @@ details[open] > summary .marker::after{opacity:0}
   padding:12px 34px;margin-top:6px}
 .sruta .soon .k{font-size:.68em;letter-spacing:.34em;text-transform:uppercase;color:var(--gold)}
 .sruta .soon .d{font-size:1.9em;color:var(--saffron);line-height:1.2}
-
 
 /* ============ KATHA — the stories, sourced ============ */
 .katha{max-width:1000px;margin:0 auto;border:1px solid var(--border);border-radius:var(--radius);
@@ -790,21 +788,6 @@ section.band > *{position:relative;z-index:1}
 .disc{position:absolute;inset:0}
 .disc svg{width:100%;height:100%;display:block;overflow:visible}
 
-/* — Śiva · triśūla and Nandi ————————————————————————————————
-   The trident stands tall down the left margin; Nandi sits far
-   behind it on the other side, so scrolling pulls them apart. */
-.obj-shiva{--p:var(--shiva-p);
-  width:min(1560px,130vw);height:min(860px,92vh);
-  top:50%;left:50%;margin:0;translate:-50% -50%;
-  opacity:calc(var(--shiva) * .8);
-  transform:translate3d(0, calc(var(--shiva-p) * -46px), calc(-300px + var(--shiva-p) * 240px))
-            rotateY(calc(-22deg + var(--shiva-p) * 40deg))}
-.shiva-turn{position:absolute;inset:0;transform-style:preserve-3d}
-.trishul{position:absolute;left:3%;top:50%;width:min(310px,22vw);height:auto;
-  transform:translate(0,-50%) translateZ(130px) translateY(calc(var(--shiva-p) * -46px))
-            rotateY(calc(var(--shiva-p) * 16deg))}
-.trishul svg{width:100%;height:auto;display:block;overflow:visible}
-
 /* — the movement rail — */
 .trimurti-rail{position:fixed;right:clamp(14px,2.4vw,34px);top:50%;transform:translateY(-50%);
   z-index:40;display:flex;flex-direction:column;gap:26px;pointer-events:none}
@@ -851,3 +834,48 @@ section.band > *{position:relative;z-index:1}
 .course-card .seal{margin-top:16px;padding-top:14px;border-top:1px solid var(--border-soft);
   font-family:var(--sans);font-size:.62em;letter-spacing:.18em;text-transform:uppercase;
   color:var(--gold-ink);font-weight:600}
+
+/* ============ THE ŚIVA BAND ============ */
+.shiva-band{position:relative;overflow:hidden;
+  background:linear-gradient(180deg,transparent,color-mix(in srgb,var(--saffron) 5%,transparent) 42%,transparent)}
+.shiva-in{display:grid;grid-template-columns:minmax(220px,.62fr) minmax(0,1.38fr);
+  gap:clamp(28px,5vw,80px);align-items:center}
+
+.shiva-emblem{position:relative;display:grid;place-items:center}
+.tri-mark{width:min(340px,100%);height:auto;display:block;position:relative;z-index:2;
+  filter:drop-shadow(0 10px 26px color-mix(in srgb,var(--saffron) 22%,transparent))}
+.tri-halo{position:absolute;width:min(420px,120%);aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,color-mix(in srgb,var(--gold) 16%,transparent) 0%,transparent 66%)}
+
+.shiva-copy .eyebrow{display:block}
+.sv-dv{font-family:var(--dev);font-size:clamp(46px,7vw,86px);color:var(--saffron);line-height:1.18;margin-top:.12em}
+.shiva-copy h2{font-size:clamp(28px,4vw,46px);letter-spacing:.06em;margin:.05em 0 .4em}
+.shiva-copy .lead{max-width:56ch}
+.sv-hist{max-width:62ch;color:var(--ink-dim);font-size:.96em;
+  border-left:2px solid color-mix(in srgb,var(--gold) 55%,transparent);padding-left:16px}
+.sv-hist b{color:var(--gold-ink)}
+
+.sv-forms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:30px 0 0}
+.sv-form{border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px 18px;
+  background:color-mix(in srgb,var(--panel) 72%,transparent)}
+.sv-form .d{display:block;font-family:var(--dev);font-size:1.28em;color:var(--saffron);line-height:1.25}
+.sv-form b{display:block;font-family:var(--serif);font-size:1.02em;margin:.15em 0 .3em}
+.sv-form span:last-child{display:block;font-size:.86em;color:var(--ink-dim);line-height:1.5}
+
+.sv-strip{display:flex;flex-wrap:wrap;gap:clamp(20px,4vw,52px);margin:30px 0 0;
+  border-top:1px solid var(--border-soft);border-bottom:1px solid var(--border-soft);padding:18px 0}
+.sv-strip div{display:flex;flex-direction:column}
+.sv-strip b{font-family:var(--serif);font-size:1.9em;color:var(--saffron);line-height:1.1;font-weight:500}
+.sv-strip span{font-family:var(--sans);font-size:.62em;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--ink-faint);margin-top:.5em}
+
+.sv-seal{margin:22px 0 0;font-size:.92em;color:var(--ink-dim);max-width:54ch}
+
+/* keep the copy clear of the fixed movement rail */
+@media(min-width:1181px){ .shiva-copy{padding-right:56px} }
+@media(max-width:860px){
+  .shiva-in{grid-template-columns:1fr}
+  .shiva-emblem{order:-1}
+  .tri-mark{width:min(210px,62%)}
+  .sv-forms{grid-template-columns:1fr}
+}

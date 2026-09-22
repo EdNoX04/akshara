@@ -1,30 +1,39 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Lotus3D, Chakra3D, Trishul3D } from "@/components/Deities";
+import { Lotus3D, Chakra3D } from "@/components/Deities";
 
 /**
  * A fixed 3D stage behind the page. One rAF-throttled scroll listener writes
  * CSS custom properties; everything else is pure CSS transform.
  *
- * The page is divided into three movements — Brahmā, Viṣṇu, Śiva — and each
- * object is live only inside its own band, cross-fading at the seams.
+ * Each object is anchored to the section it belongs to rather than to a fixed
+ * fraction of the page, so adding or removing content can never leave a deity
+ * floating over the wrong band. Śiva has no object here — the Śiva section
+ * carries the triśūla itself, at full size.
  */
 
 const PHASES = [
-  { key: "brahma", dv: "ब्रह्मा", name: "Brahmā", act: "सर्ग · Creation" },
-  { key: "vishnu", dv: "विष्णु", name: "Viṣṇu", act: "स्थिति · Preservation" },
-  { key: "shiva", dv: "शिव", name: "Śiva", act: "संहार · Dissolution" },
+  { key: "brahma", dv: "ब्रह्मा", name: "Brahmā", act: "सर्ग · Creation", anchor: "#doors" },
+  { key: "vishnu", dv: "विष्णु", name: "Viṣṇu", act: "स्थिति · Preservation", anchor: "#movements" },
+  { key: "shiva", dv: "शिव", name: "Śiva", act: "संहार · Dissolution", anchor: "#shiva" },
 ];
 
-/** 0 outside [a,b], ramping 0→1→0 with soft shoulders inside it. */
-function band(p: number, a: number, b: number, feather = 0.09) {
-  if (p <= a - feather || p >= b + feather) return 0;
-  if (p < a) return (p - (a - feather)) / feather;
-  if (p > b) return ((b + feather) - p) / feather;
-  return 1;
-}
 const clamp01 = (n: number) => (n < 0 ? 0 : n > 1 ? 1 : n);
+
+/**
+ * How far the viewport has travelled through an element, 0 just before it
+ * enters to 1 once it has left, plus a visibility that fades at both edges.
+ */
+function track(el: Element | null, vh: number) {
+  if (!el) return { p: 0, vis: 0 };
+  const r = el.getBoundingClientRect();
+  const p = clamp01((vh - r.top) / (r.height + vh || 1));
+  /* Live in proportion to how much of the screen the section actually fills,
+     so an object never appears merely because its section has peeked in. */
+  const overlap = Math.max(0, Math.min(r.bottom, vh) - Math.max(r.top, 0));
+  return { p, vis: clamp01(overlap / (vh * 0.55)) };
+}
 
 export default function ScrollScene() {
   const stage = useRef<HTMLDivElement>(null);
@@ -54,25 +63,26 @@ export default function ScrollScene() {
     let frame = 0;
     const read = () => {
       frame = 0;
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      const p = max > 0 ? clamp01(window.scrollY / max) : 0;
+      const vh = window.innerHeight;
 
-      // each deity owns a third of the page
-      const b = band(p, 0.0, 0.3);
-      const v = band(p, 0.34, 0.63);
-      const s = band(p, 0.67, 1.0);
+      const hero = track(document.querySelector("#hero"), vh);
+      const brahma = track(document.querySelector("#doors"), vh);
+      const vishnu = track(document.querySelector("#movements"), vh);
+      const shiva = track(document.querySelector("#shiva"), vh);
 
-      el.style.setProperty("--brahma", b.toFixed(4));
-      el.style.setProperty("--vishnu", v.toFixed(4));
-      el.style.setProperty("--shiva", s.toFixed(4));
+      /* Each movement yields to the next, so only one object is ever at full.
+         Brahmā also covers the title page, where the lotus sits closed. */
+      const vVis = vishnu.vis * (1 - clamp01(shiva.vis * 1.4));
+      const bVis = Math.max(hero.vis, brahma.vis) * (1 - clamp01(vVis * 1.4));
 
-      // local 0→1 inside each band drives bloom, spin and tilt
-      el.style.setProperty("--brahma-p", clamp01(p / 0.3).toFixed(4));
-      el.style.setProperty("--vishnu-p", clamp01((p - 0.34) / 0.29).toFixed(4));
-      el.style.setProperty("--shiva-p", clamp01((p - 0.67) / 0.33).toFixed(4));
-      el.style.setProperty("--scroll", p.toFixed(4));
+      el.style.setProperty("--brahma", bVis.toFixed(4));
+      el.style.setProperty("--brahma-p", brahma.p.toFixed(4));
+      el.style.setProperty("--vishnu", vVis.toFixed(4));
+      el.style.setProperty("--vishnu-p", vishnu.p.toFixed(4));
+      el.style.setProperty("--shiva", "0");
+      el.style.setProperty("--shiva-p", shiva.p.toFixed(4));
 
-      const next = s > 0.3 ? 2 : v > 0.3 ? 1 : 0;
+      const next = shiva.vis > 0.4 ? 2 : vVis > 0.4 ? 1 : 0;
       setPhase((cur) => (cur === next ? cur : next));
     };
 
@@ -95,7 +105,6 @@ export default function ScrollScene() {
         <div className="scene-inner">
           <Lotus3D />
           <Chakra3D />
-          <Trishul3D />
         </div>
       </div>
 

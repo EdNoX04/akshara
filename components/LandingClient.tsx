@@ -5,6 +5,7 @@ import { useT } from "@/components/LangProvider";
 import Reveal from "@/components/Reveal";
 import Waitlist from "@/components/Waitlist";
 import { Torana, Mandala, LotusRule, Corners } from "@/components/Ornaments";
+import { TrishulaMark } from "@/components/Deities";
 import ScrollScene from "@/components/ScrollScene";
 import { SITE } from "@/lib/site";
 
@@ -41,7 +42,7 @@ export default function LandingClient() {
       <ScrollScene />
 
       {/* ---------- TITLE PAGE ---------- */}
-      <section className="hero title-page">
+      <section className="hero title-page" id="hero">
         <div className="hero-bg" aria-hidden>
           <div className="hero-glow" />
           <Mandala />
@@ -144,6 +145,67 @@ export default function LandingClient() {
                 waiting outside every one of his temples.
               </p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- ŚIVA ---------- */}
+      <section className="band shiva-band" id="shiva">
+        <div className="container shiva-in">
+          <div className="shiva-emblem reveal" aria-hidden>
+            <TrishulaMark className="tri-mark" />
+            <div className="tri-halo" />
+          </div>
+
+          <div className="shiva-copy reveal">
+            <span className="eyebrow"><span lang="sa">संहार</span> · Dissolution</span>
+            <div className="sv-dv" lang="sa">शिव</div>
+            <h2>Śiva</h2>
+            <p className="lead">
+              Not destruction for its own sake — the clearing that lets the next
+              cycle begin. The triśūla stands for the three it cuts through:
+              the three guṇas, the three worlds, the three times.
+            </p>
+            <p className="sv-hist">
+              <b>And the honest part.</b> In the Ṛgveda he is <em>Rudra</em>, and
+              <span lang="sa"> शिव </span>— <em>śiva</em>, &ldquo;auspicious&rdquo; — is an
+              adjective used to calm him, long before it is ever his name. The god
+              most of India worships today is the result of that adjective winning.
+            </p>
+
+            <div className="sv-forms">
+              <div className="sv-form">
+                <span className="d" lang="sa">नटराज</span>
+                <b>Naṭarāja</b>
+                <span>Five acts in one figure — creation, preservation, dissolution, concealment, grace.</span>
+              </div>
+              <div className="sv-form">
+                <span className="d" lang="sa">लिङ्ग</span>
+                <b>Liṅga</b>
+                <span>The aniconic form. The most worshipped, and the most misread.</span>
+              </div>
+              <div className="sv-form">
+                <span className="d" lang="sa">अर्धनारीश्वर</span>
+                <b>Ardhanārīśvara</b>
+                <span>Half Śiva, half Pārvatī, divided down the vertical axis.</span>
+              </div>
+              <div className="sv-form">
+                <span className="d" lang="sa">दक्षिणामूर्ति</span>
+                <b>Dakṣiṇāmūrti</b>
+                <span>The teacher facing south, who teaches in silence.</span>
+              </div>
+            </div>
+
+            <div className="sv-strip">
+              <div><b>32</b><span>stages written</span></div>
+              <div><b>12</b><span>Jyotirliṅgas</span></div>
+              <div><b>5</b><span>acts · pañcakṛtya</span></div>
+            </div>
+
+            <p className="sv-seal">
+              The Śiva course is written — every claim marked scriptural, symbolic
+              or historical. It opens {SITE.launch}.
+            </p>
           </div>
         </div>
       </section>
