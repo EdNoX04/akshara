@@ -8,6 +8,8 @@ type State = "idle" | "sending" | "done" | "error";
 export default function Waitlist() {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<State>("idle");
+  /* Honeypot: a real person never fills this in, bots fill everything. */
+  const [trap, setTrap] = useState("");
 
   /* No endpoint configured yet — offer a real mailto rather than a form
      that silently does nothing. */
@@ -29,12 +31,18 @@ export default function Waitlist() {
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
+    if (trap) { setState("done"); return; }          // silently drop bots
+    const value = email.trim();
+    if (value.length < 5 || value.length > 254 || !value.includes("@")) {
+      setState("error");
+      return;
+    }
     setState("sending");
     try {
       const res = await fetch(SITE.waitlistEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify({ email: value }),
       });
       setState(res.ok ? "done" : "error");
     } catch {
@@ -56,11 +64,22 @@ export default function Waitlist() {
         </p>
       ) : (
         <form className="wl-form" onSubmit={submit}>
-          <label className="sr-only" htmlFor="wl-email">Email address</label>
+          <label className="vh" htmlFor="wl-email">Email address</label>
+          <input
+            className="vh"
+            type="text"
+            name="company"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            value={trap}
+            onChange={(e) => setTrap(e.target.value)}
+          />
           <input
             id="wl-email"
             type="email"
             required
+            maxLength={254}
             autoComplete="email"
             placeholder="your@email.com"
             value={email}

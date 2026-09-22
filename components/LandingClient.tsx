@@ -104,7 +104,7 @@ export default function LandingClient() {
         <div className="container">
           <div className="band-head reveal">
             <LotusRule width={300} />
-            <span className="eyebrow">त्रिमूर्ति · Trimūrti</span>
+            <span className="eyebrow"><span lang="sa">त्रिमूर्ति</span> · Trimūrti</span>
             <h2>Three movements, one motion</h2>
             <p>
               The tradition does not describe a world that was made once and left

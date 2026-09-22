@@ -37,12 +37,12 @@ export default function ScrollScene() {
     const small = window.matchMedia("(max-width: 820px)");
     const sync = () => setOn(!reduced.matches && !small.matches);
     sync();
-    reduced.addEventListener("change", sync);
-    small.addEventListener("change", sync);
-    return () => {
-      reduced.removeEventListener("change", sync);
-      small.removeEventListener("change", sync);
-    };
+    const on = (m: MediaQueryList) =>
+      m.addEventListener ? m.addEventListener("change", sync) : (m as MediaQueryList).addListener?.(sync);
+    const off = (m: MediaQueryList) =>
+      m.removeEventListener ? m.removeEventListener("change", sync) : (m as MediaQueryList).removeListener?.(sync);
+    on(reduced); on(small);
+    return () => { off(reduced); off(small); };
   }, []);
 
   /* only once the stage is actually in the DOM */
