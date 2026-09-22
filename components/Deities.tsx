@@ -132,137 +132,54 @@ export function Trishul3D() {
   return (
     <div className="obj obj-shiva" aria-hidden>
       <div className="shiva-turn">
-        {/* Nandi, set back */}
+        {/* Nandi, set back — cut as one seal, with the detail incised out of it */}
         <div className="nandi">
           <svg viewBox="0 0 540 340" fill="none">
-            {/* far horn, on the skull */}
-            <g fill={G} fillOpacity=".22" stroke={G} strokeWidth="2.3" strokeLinejoin="round">
-              <path d="M410 114 C 396 106, 382 94, 374 78 C 391 80, 406 92, 416 106 C 421 113, 417 120, 411 120 Z" />
+            <g fill={G} fillOpacity=".62">
+              <path d="M 352 302 C 370 302, 377 293, 373 281 C 368 258, 378 236, 393 225 C 393 211, 397 200, 406 195 C 414 191, 422 193, 430 197 C 442 203, 456 208, 470 206 C 485 204, 496 195, 499 183 C 502 170, 499 158, 491 150 C 479 138, 463 130, 451 120 C 439 109, 422 97, 402 100 C 393 98, 384 99, 377 105 C 367 94, 347 72, 319 64 C 289 53, 263 66, 253 96 C 247 118, 237 146, 217 162 C 189 176, 155 160, 131 166 C 109 172, 95 194, 91 224 C 87 254, 95 282, 111 294 C 119 300, 127 302, 139 302 Z" />
+              <path d="M 411 115 C 397 107, 383 95, 375 79 C 392 81, 407 93, 417 107 C 422 114, 418 121, 412 121 Z" />
+              <path d="M 437 117 C 453 95, 481 79, 509 81 C 497 96, 473 111, 459 133 C 452 143, 441 141, 436 130 Z" />
+              <path d="M 99 195 C 83 215, 77 245, 85 269 L 94 266 C 88 244, 93 217, 107 200 Z" />
+              <path d="M 85 267 C 77 279, 76 294, 84 304 C 93 295, 97 281, 94 265 Z" />
             </g>
-            {/* the couched body: hump forward over the shoulders, rounded rump */}
-            <path
-              fill={G}
-              fillOpacity=".13"
-              stroke={G}
-              strokeWidth="2.6"
-              strokeLinejoin="round"
-              d="M138 302 L 352 302
-                 C 370 302, 377 293, 373 281
-                 C 366 261, 372 238, 384 226
-                 C 378 212, 383 200, 395 193
-                 C 404 188, 414 189, 424 194
-                 C 436 200, 452 206, 468 204
-                 C 484 202, 495 194, 498 182
-                 C 501 170, 498 158, 490 150
-                 C 478 138, 462 130, 450 120
-                 C 438 109, 421 97, 401 100
-                 C 392 98, 383 99, 376 105
-                 C 366 94, 346 72, 318 64
-                 C 288 53, 262 66, 252 96
-                 C 246 118, 236 146, 216 162
-                 C 188 176, 154 160, 130 166
-                 C 108 172, 94 194, 90 224
-                 C 86 254, 94 282, 110 294
-                 C 118 300, 126 302, 138 302 Z"
-            />
-            {/* near foreleg, knee forward and hoof tucked back */}
-            <path
-              fill={G} fillOpacity=".2" stroke={G} strokeWidth="2.4" strokeLinejoin="round"
-              d="M372 232 C 384 252, 393 272, 391 288 C 376 297, 354 301, 336 301
-                 C 340 295, 349 291, 359 290 C 371 289, 378 286, 381 281
-                 C 379 266, 371 248, 361 234 Z"
-            />
-            {/* hind shank, folded forward */}
-            <path
-              fill={G} fillOpacity=".2" stroke={G} strokeWidth="2.4" strokeLinejoin="round"
-              d="M118 258 C 134 276, 158 286, 186 291 C 204 294, 218 297, 226 302 L 206 302
-                 C 192 298, 176 296, 158 293 C 136 289, 120 278, 110 262 Z"
-            />
-            {/* modelling: hump creases, shoulder, haunch */}
-            <g stroke={G} strokeWidth="2" strokeOpacity=".5" fill="none" strokeLinecap="round">
-              <path d="M262 118 C 272 92, 292 74, 314 78" />
-              <path d="M276 138 C 286 112, 302 98, 320 100" strokeOpacity=".3" />
-              <path d="M358 150 C 348 178, 346 210, 353 242" />
-              <path d="M132 188 C 116 214, 114 252, 128 284" />
-            </g>
-            {/* near horn, sweeping up and forward */}
-            <g fill={G} fillOpacity=".26" stroke={G} strokeWidth="2.4" strokeLinejoin="round">
-              <path d="M436 116 C 452 94, 480 78, 508 80 C 496 95, 472 110, 458 132 C 451 142, 440 140, 435 129 Z" />
-              <path d="M446 110 C 462 96, 480 88, 496 86" fill="none" strokeWidth="1.5" strokeOpacity=".4" />
-            </g>
-            {/* eye and muzzle */}
-            <path fill="none" stroke={G} strokeWidth="2.2" d="M430 147 C 436 140, 449 140, 455 147 C 449 156, 436 156, 430 147 Z" />
-            <circle cx="442" cy="148" r="2.9" fill={G} />
-            <g stroke={G} strokeWidth="2" strokeOpacity=".7" fill="none" strokeLinecap="round">
-              <path d="M496 190 C 486 197, 470 201, 454 199" />
-              <path d="M484 170 c 7 0 9 7 4 11 c -5 3 -10 -2 -8 -7" />
-            </g>
-            {/* beaded collar and temple bell */}
-            <g stroke={G} strokeWidth="2.2" strokeOpacity=".8" fill="none">
-              <path d="M366 158 C 357 180, 352 203, 356 228" />
-              <path d="M386 166 C 377 186, 372 206, 376 230" />
-            </g>
-            <g fill={G} fillOpacity=".55">
-              <circle cx="363" cy="172" r="2.8" /><circle cx="359" cy="189" r="2.8" />
-              <circle cx="356" cy="206" r="2.8" /><circle cx="356" cy="222" r="2.8" />
-            </g>
-            <path
-              fill={G} fillOpacity=".24" stroke={G} strokeWidth="2.2" strokeLinejoin="round"
-              d="M362 233 C 352 242, 347 255, 348 265 C 355 269, 377 269, 384 265 C 385 255, 380 242, 370 233 Z"
-            />
-            <circle cx="366" cy="272" r="3.4" fill={G} fillOpacity=".7" />
-            {/* ear, drooping in front of the collar */}
-            <path
-              fill={G} fillOpacity=".24" stroke={G} strokeWidth="2.3" strokeLinejoin="round"
-              d="M406 148 C 386 150, 366 163, 356 182 C 372 193, 398 187, 409 170 C 415 161, 413 150, 406 148 Z"
-            />
-            <path fill="none" stroke={G} strokeWidth="1.5" strokeOpacity=".4" d="M401 158 C 387 161, 373 169, 365 179" />
-            {/* tail along the flank */}
-            <g fill={G} fillOpacity=".22" stroke={G} strokeWidth="2.4" strokeLinejoin="round">
-              <path d="M98 196 C 82 216, 76 246, 82 272 L 93 269 C 88 246, 92 220, 106 204 Z" />
-              <path d="M82 270 C 75 282, 75 296, 83 305 C 92 296, 96 282, 93 268 Z" />
+            {/* incised: ear, eye, the two hump creases, foreleg and hind shank */}
+            <g fill={BG} fillOpacity=".85">
+              <path d="M 400 152 C 389 157, 379 167, 374 178 C 383 183, 396 178, 402 168 C 405 162, 404 154, 400 152 Z" />
+              <path d="M 433 143 C 439 137, 450 137, 456 144 C 450 152, 438 152, 433 143 Z" />
+              <path d="M 262 165 C 273 138, 292 120, 314 118 L 315 126 C 296 129, 280 145, 270 168 Z" />
+              <path d="M 281 178 C 290 156, 305 142, 322 140 L 323 147 C 308 150, 296 162, 288 181 Z" />
+              <path d="M 368 244 C 380 262, 388 278, 388 292 L 379 293 C 379 279, 372 263, 360 246 Z" />
+              <path d="M 124 260 C 140 278, 162 288, 189 293 L 188 300 C 158 295, 134 284, 116 265 Z" />
             </g>
           </svg>
         </div>
 
-        {/* Triśūla, in front */}
+        {/* Triśūla, in front — three blades on a collared socket, ḍamaru bound to the shaft */}
         <div className="trishul">
-          <svg viewBox="0 0 240 560" fill="none">
-            {/* the two outer arms and the three blades */}
-            <g fill={S} fillOpacity=".2" stroke={S} strokeWidth="2.4" strokeLinejoin="round">
-              <path d="M102 206 C 80 198, 60 178, 54 148 C 50 126, 52 106, 58 88 L 78 94 C 72 112, 71 130, 76 150 C 82 172, 94 188, 112 196 Z" />
-              <path d="M138 206 C 160 198, 180 178, 186 148 C 190 126, 188 106, 182 88 L 162 94 C 168 112, 169 130, 164 150 C 158 172, 146 188, 128 196 Z" />
-              <path d="M120 22 C 130 58, 138 96, 138 128 C 138 156, 131 178, 128 194 L 112 194 C 109 178, 102 156, 102 128 C 102 96, 110 58, 120 22 Z" />
-              <path d="M68 16 C 79 52, 84 78, 82 100 L 56 96 C 55 72, 59 48, 68 16 Z" />
-              <path d="M172 16 C 161 52, 156 78, 158 100 L 184 96 C 185 72, 181 48, 172 16 Z" />
+          <svg viewBox="0 0 240 570" fill="none">
+            <g fill={S} fillOpacity=".62">
+              <path d="M 120 18 C 132 56, 140 98, 140 130 C 140 158, 133 180, 130 196 L 110 196 C 107 180, 100 158, 100 130 C 100 98, 108 56, 120 18 Z" />
+              <path d="M 66 12 C 79 50, 85 78, 83 102 L 53 98 C 52 72, 57 46, 66 12 Z" />
+              <path d="M 174 12 C 161 50, 155 78, 157 102 L 187 98 C 188 72, 183 46, 174 12 Z" />
+              <path d="M 100 200 C 78 192, 57 172, 51 142 C 47 120, 49 100, 55 82 L 79 90 C 73 108, 72 128, 77 148 C 83 170, 95 186, 113 194 Z" />
+              <path d="M 140 200 C 162 192, 183 172, 189 142 C 193 120, 191 100, 185 82 L 161 90 C 167 108, 168 128, 163 148 C 157 170, 145 186, 127 194 Z" />
+              <path d="M 94 192 C 106 186, 134 186, 146 192 L 150 212 C 136 220, 104 220, 90 212 Z" />
+              <path d="M 92 216 C 106 224, 134 224, 148 216 L 143 240 C 130 248, 110 248, 97 240 Z" />
+              <path d="M 108 242 L 110 344 L 130 344 L 132 242 Z" />
+              <path d="M 111 404 L 114 552 L 126 552 L 129 404 Z" />
+              <path d="M 103 252 L 137 252 L 136 272 L 104 272 Z" />
+              <path d="M 107 466 L 133 466 L 132 486 L 108 486 Z" />
+              <path d="M 84 340 C 96 331, 144 331, 156 340 L 131 370 L 109 370 Z" />
+              <path d="M 84 406 C 96 415, 144 415, 156 406 L 131 376 L 109 376 Z" />
+              <path d="M 105 366 L 135 366 L 135 380 L 105 380 Z" />
+              <path d="M 135 373 C 154 368, 167 377, 169 391 L 162 393 C 160 382, 150 376, 135 379 Z" />
+              <path d="M 105 373 C 86 368, 73 377, 71 391 L 78 393 C 80 382, 90 376, 105 379 Z" />
             </g>
-            {/* blade ribs */}
-            <g stroke={G} strokeWidth="1.6" strokeOpacity=".65" fill="none">
-              <path d="M120 42 V 186" />
-              <path d="M68 32 C 73 56, 75 80, 74 96" />
-              <path d="M172 32 C 167 56, 165 80, 166 96" />
-            </g>
-            {/* socket, shaft and bindings */}
-            <g fill={S} fillOpacity=".28" stroke={S} strokeWidth="2.4" strokeLinejoin="round">
-              <path d="M96 196 C 106 190, 134 190, 144 196 L 148 212 C 136 219, 104 219, 92 212 Z" />
-              <path d="M94 216 C 106 223, 134 223, 146 216 L 141 236 C 130 243, 110 243, 99 236 Z" />
-              <path d="M110 238 L 112 340 L 128 340 L 130 238 Z" />
-              <path d="M113 406 L 116 548 L 124 548 L 127 406 Z" />
-              <path d="M105 252 L 135 252 L 134 269 L 106 269 Z" />
-              <path d="M109 468 L 131 468 L 130 485 L 110 485 Z" />
-            </g>
-            {/* ḍamaru bound to the shaft */}
-            <g fill={BG} stroke={G} strokeWidth="2.3" strokeLinejoin="round">
-              <path d="M86 342 C 97 334, 143 334, 154 342 L 130 371 L 110 371 Z" />
-              <path d="M86 404 C 97 412, 143 412, 154 404 L 130 375 L 110 375 Z" />
-              <path d="M107 368 L 133 368 L 133 378 L 107 378 Z" />
-            </g>
-            <g stroke={G} strokeWidth="1.9" fill="none">
-              <path d="M133 373 C 152 368, 164 376, 166 389" />
-              <path d="M107 373 C 88 368, 76 376, 74 389" />
-            </g>
-            <g fill={G} fillOpacity=".85">
-              <circle cx="167" cy="393" r="5" /><circle cx="73" cy="393" r="5" />
+            {/* blade fullers */}
+            <g fill={BG} fillOpacity=".85">
+              <path d="M 120 40 C 126 70, 130 100, 130 128 C 130 152, 126 172, 124 188 L 116 188 C 114 172, 110 152, 110 128 C 110 100, 114 70, 120 40 Z" />
+              <path d="M 66 34 C 73 60, 77 82, 76 96 L 60 94 C 60 74, 62 54, 66 34 Z" />
+              <path d="M 174 34 C 167 60, 163 82, 164 96 L 180 94 C 180 74, 178 54, 174 34 Z" />
             </g>
           </svg>
         </div>
